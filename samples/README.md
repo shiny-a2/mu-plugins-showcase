@@ -1,8 +1,8 @@
 # Sample Code
 
-This directory is reserved for Phase 3 public-safe snippets. The samples will demonstrate MU-plugin engineering patterns without mirroring production source code.
+This directory contains Phase 3 public-safe snippets. The samples demonstrate MU-plugin engineering patterns without mirroring production source code.
 
-## Planned Samples
+## Published Samples
 
 - `php/request-classifier.php` — generic request classification for applying different behavior to cart, checkout, REST, AJAX, admin, and asset traffic.
 - `php/bounded-cleanup-loop.php` — capped maintenance loop that processes small batches instead of running an unbounded cleanup.
@@ -18,4 +18,4 @@ This directory is reserved for Phase 3 public-safe snippets. The samples will de
 
 ## Status
 
-Phase 3 is planned. These samples will be intentionally simplified and should be read as review samples, not as production MU-plugin code.
+Phase 3 is active with three short PHP snippets. These files are intentionally simplified and should be read as review samples, not as production MU-plugin code.
