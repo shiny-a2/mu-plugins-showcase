@@ -87,13 +87,13 @@ Read the full boundary in `docs/privacy-boundary.md`.
 - `docs/privacy-boundary.md` — what is public versus private.
 - `docs/update-notes.md` — public update log.
 - `samples/README.md` — sanitized sample-code overview.
-- `samples/php/` — planned short public-safe PHP snippets for request classification, bounded cleanup, and admin action policy.
+- `samples/php/` — short public-safe PHP snippets for request classification, bounded cleanup, and admin action policy.
 
 ## Phase Status
 
 - **Phase 1:** showcase skeleton, privacy boundary, and reviewer path.
 - **Phase 2:** employer-friendly module taxonomy, architecture notes, and risk boundaries.
-- **Phase 3:** planned sanitized snippets for request classification, bounded maintenance, and admin action safety.
+- **Phase 3:** sanitized snippets for request classification, bounded maintenance, and admin action safety.
 
 ## Links
 

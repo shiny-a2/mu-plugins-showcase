@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-06-11 — Phase 3
+
+- Added sanitized PHP samples for request classification, bounded cleanup loops, and admin action policy checks.
+- Kept samples fictional and omitted live route rules, defensive internals, file paths, customer/order data, payment workflow details, and deployment procedures.
+- Updated the sample-code overview to clarify what the snippets demonstrate and what is intentionally excluded.
+
 ## 2026-06-11 — Phase 2
 
 - Expanded the umbrella showcase from a skeleton into an employer-friendly infrastructure case study.
