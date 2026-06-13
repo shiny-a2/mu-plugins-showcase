@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-06-14 — MU Operations, SEO, and Asset Safety Expansion
+
+- Documented a private MU-plugin expansion covering scoped asset cleanup, SEO/schema repair, microcache operations, checkout scroll recovery, and payment-message UX safeguards.
+- Updated the public architecture notes to show the larger operating model without publishing production source, exact live rules, SEO rule tables, route logic, payment workflow details, logs, or customer/order data.
+- Aligned the public showcase with the private umbrella index now tracking 84 PHP modules while preserving the repository as portfolio proof rather than a source mirror.
+
 ## 2026-06-14 — Cart Asset Delivery Optimization
 
 - Documented a frontend performance update that moves a repeated cart drawer stylesheet out of page HTML and into a cacheable asset.

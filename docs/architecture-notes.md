@@ -8,12 +8,14 @@ The private MU-plugin collection is a production infrastructure layer. Each modu
 
 ## Module Taxonomy
 
-1. **Performance guards:** cache boundaries, archive safeguards, REST pressure reduction, queue tuning, transient cleanup, and heavy-query containment.
+1. **Performance guards:** cache boundaries, archive safeguards, scoped asset cleanup, REST pressure reduction, queue tuning, transient cleanup, and heavy-query containment.
 2. **Request controls:** classification for cart, checkout, search, AJAX, REST, crawler, admin, and asset requests.
 3. **Commerce operations:** export tools, order repair helpers, stock/status workflows, and admin-only payment handling.
-4. **Diagnostics:** slow-request logging, storage audits, runtime checks, and admin investigation tools.
-5. **Frontend workflow:** search overlays, offcanvas cart, product finder flows, mobile headers, sticky buy bars, and product-card UI modules.
-6. **Maintenance safety:** bounded cleanup loops, feature flags, rollback notes, and small-batch processing.
+4. **SEO/schema safety:** product/category metadata repair, public structured-data consistency, ItemList patterns, favicon control, and LCP hints.
+5. **Microcache operations:** admin controls, batch rebuild patterns, warm-worker boundaries, and checkout/cart bypass safety.
+6. **Diagnostics:** slow-request logging, storage audits, runtime checks, and admin investigation tools.
+7. **Frontend workflow:** search overlays, offcanvas cart, checkout scroll recovery, payment-message safeguards, product finder flows, mobile headers, sticky buy bars, and product-card UI modules.
+8. **Maintenance safety:** bounded cleanup loops, feature flags, rollback notes, and small-batch processing.
 
 ## Workflow
 
@@ -29,8 +31,9 @@ The private MU-plugin collection is a production infrastructure layer. Each modu
 - Modules remain small and independently reversible.
 - Admin operations are capability-gated and nonce-protected.
 - Maintenance tasks use caps, batches, and early exits.
-- Public checkout behavior is separated from admin-only workflows.
+- Public checkout behavior is separated from admin-only workflows and cacheable frontend pages.
 - REST/AJAX controls are route-aware rather than globally destructive.
+- SEO/schema repairs are documented as output-quality safeguards, not as a publication of live ranking or merchandising rules.
 - Logs and operational evidence are never published in showcase repositories.
 - Security-related implementation details are documented only at a pattern level.
 
@@ -40,4 +43,4 @@ This showcase demonstrates production engineering judgment: the ability to stabi
 
 ## Privacy Notes
 
-This showcase intentionally avoids exact filenames-to-rule mappings, live request rules, payment workflow details, customer/order records, log excerpts, file paths, store-specific IDs, scanner internals, provider details, and deployment procedures. Phase 3 samples are simplified review snippets only.
+This showcase intentionally avoids exact filenames-to-rule mappings, live request rules, SEO rule tables, payment workflow details, customer/order records, log excerpts, file paths, store-specific IDs, scanner internals, provider details, and deployment procedures. Phase 3 samples are simplified review snippets only.
