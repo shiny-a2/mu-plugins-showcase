@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-06-14 — Cart Asset Delivery Optimization
+
+- Documented a frontend performance update that moves a repeated cart drawer stylesheet out of page HTML and into a cacheable asset.
+- Preserved the public behavior pattern: cart toggle, drawer open/close, mini-cart refresh, and add-to-cart updates remain part of the private implementation.
+- Kept production source, selectors, URLs, cache paths, and site-specific measurements private.
+
 ## 2026-06-14 — Archive Filter Payload Optimization
 
 - Documented a performance update that moves heavy product-archive filter option data out of initial HTML and into cached lazy loading.
