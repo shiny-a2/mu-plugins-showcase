@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-06-14 — Archive Filter Payload Optimization
+
+- Documented a performance update that moves heavy product-archive filter option data out of initial HTML and into cached lazy loading.
+- Preserved the public filter behavior pattern: modal filters, selected-state handling, sorting, pagination, and AJAX result updates remain part of the private implementation.
+- Kept production source, URLs, taxonomy details, cache keys, and site-specific measurements private.
+
 ## 2026-06-11 — Phase 3
 
 - Added sanitized PHP samples for request classification, bounded cleanup loops, and admin action policy checks.
