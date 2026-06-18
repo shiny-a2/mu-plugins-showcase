@@ -8,7 +8,7 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 - **Problem:** production WooCommerce systems often need urgent fixes and long-term safeguards across performance, checkout, admin operations, REST traffic, storage, and diagnostic tooling without introducing large plugin dependencies.
 - **Solution:** a private MU-plugin collection of small, reversible, source-controlled modules that can be deployed independently and grouped by operational risk.
-- **Engineering focus:** request classification, cache boundaries, bounded cleanup, admin-only workflows, API pressure control, SEO/schema safety, checkout UX safeguards, rollback-aware operations, and low-overhead diagnostics.
+- **Engineering focus:** request classification, cache boundaries, bounded cleanup, admin-only workflows, API pressure control, SEO/schema safety, archive pagination stability, checkout/payment boundaries, rollback-aware operations, and low-overhead diagnostics.
 - **Public scope:** architecture, module taxonomy, operational boundaries, update notes, and sanitized snippets.
 
 ## Business Context
@@ -24,14 +24,15 @@ The work is organized around several production concerns:
 5. Add diagnostic tools that help identify slow requests, storage growth, and runtime issues.
 6. Improve frontend commerce workflows through isolated UI modules.
 7. Repair public metadata/schema output without exposing production SEO rules or store data.
-8. Keep each module small enough to disable, rollback, or split into a dedicated private repo.
+8. Keep archive pagination, infinite-scroll behavior, and externalized frontend assets safe under real catalog browsing.
+9. Keep each module small enough to disable, rollback, or split into a dedicated private repo.
 
 ## What This Demonstrates
 
 - Small reversible modules for production WordPress/WooCommerce systems.
 - Performance and operations work around cache boundaries, REST pressure, query safety, queues, transients, and admin workflows.
 - API and request-boundary thinking without publishing live guard rules.
-- SEO/schema repair and asset-cleanup patterns that improve public surfaces while keeping implementation private.
+- SEO/schema repair, asset-delivery, and archive-pagination patterns that improve public surfaces while keeping implementation private.
 - Operational tooling for exports, admin-only order workflows, storage audits, and diagnostics.
 - Frontend UX improvements delivered as isolated MU modules where boot-time availability matters.
 - Public-safe grouping of many private MU-plugin modules into one reviewer-friendly showcase.
@@ -41,12 +42,12 @@ The work is organized around several production concerns:
 
 The private source is managed as a production MU-plugin umbrella with split private repos for selected modules:
 
-- **Performance guards:** reduce load from expensive archives, REST endpoints, frontend assets, background queues, and transient storms.
+- **Performance guards:** reduce load from expensive archives, REST endpoints, frontend assets, background queues, pagination edges, and transient storms.
 - **API/request controls:** classify request types and apply different behavior to REST, AJAX, checkout, cart, crawler, and admin traffic.
 - **Admin operations:** support export, order repair, status recovery, payment back-office workflows, and controlled maintenance actions.
 - **SEO/schema safety:** keep product/category metadata, JSON-LD output, ItemList structures, favicon behavior, and LCP hints consistent without exposing live SEO rules.
 - **Diagnostics:** capture low-overhead performance/storage/runtime signals for investigation while keeping logs private.
-- **Frontend modules:** improve search overlays, offcanvas cart, product discovery, watch finder flows, mobile UI, and product cards.
+- **Frontend modules:** improve search overlays, offcanvas cart, product discovery, infinite-scroll behavior, watch finder flows, mobile UI, and product cards.
 - **Safety wrappers:** use capability checks, nonces, small batches, and feature flags so changes can be rolled out or disabled with limited blast radius.
 
 See `docs/architecture-notes.md` for the detailed reviewer walkthrough.
