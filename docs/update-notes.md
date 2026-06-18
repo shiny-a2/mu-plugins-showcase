@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-06-18 — Admin Safe Mode Payment Boundary
+
+- Documented a production safety update that keeps admin performance protection from suppressing business-critical payment HTTP calls.
+- Clarified the rollout boundary: the private fix applies to new live administrative payment-status actions only and does not replay historical gateway operations or convert background attempts into newly allowed calls.
+- Kept provider names, live route rules, order data, gateway payloads, logs, and production source private.
+
 ## 2026-06-14 — MU Operations, SEO, and Asset Safety Expansion
 
 - Documented a private MU-plugin expansion covering scoped asset cleanup, SEO/schema repair, microcache operations, checkout scroll recovery, and payment-message UX safeguards.
