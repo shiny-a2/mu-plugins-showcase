@@ -6,6 +6,12 @@
 - Clarified the rollout boundary: the private fix applies to new live administrative payment-status actions only and does not replay historical gateway operations or convert background attempts into newly allowed calls.
 - Kept provider names, live route rules, order data, gateway payloads, logs, and production source private.
 
+## 2026-06-18 — Archive UX and Schema Stability
+
+- Documented private updates for archive infinite-scroll stability, cacheable frontend asset delivery, deterministic archive pagination, and safer Product/Offer JSON-LD fallbacks.
+- Clarified that public proof covers the engineering pattern only: externalized assets, bounded pagination behavior, structured-data repair, and diagnostic boundaries.
+- Kept production selectors, exact URLs, product references, shipping rules, provider payloads, logs, customer/order data, and source implementation private.
+
 ## 2026-06-14 — MU Operations, SEO, and Asset Safety Expansion
 
 - Documented a private MU-plugin expansion covering scoped asset cleanup, SEO/schema repair, microcache operations, checkout scroll recovery, and payment-message UX safeguards.
