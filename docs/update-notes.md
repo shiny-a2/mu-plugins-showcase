@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-07-08 — Archive Filter Count Query Optimization
+
+- Documented a private performance fix for product-archive filter counts where scoped term-count collection was made more index-friendly and expensive database-side sorting was moved out of the hot query path.
+- Preserved the public behavior pattern: archive filter options still show scoped counts, lazy-loaded groups, selected-state handling, pagination, and AJAX result updates.
+- Kept production source, exact taxonomy names, SQL text, file paths, cache keys, catalog size, live measurements, and operational logs private.
+
 ## 2026-06-18 — Admin Safe Mode Payment Boundary
 
 - Documented a production safety update that keeps admin performance protection from suppressing business-critical payment HTTP calls.
