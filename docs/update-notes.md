@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-07-14 — Archive Filter Visibility and Pagination Consistency
+
+- Fixed a production archive-filter mismatch where unavailable catalog items occupied query slots and were removed only during card rendering, causing short pages and hiding valid products on later pages.
+- Unified option counts, live counts, full-page archive queries, AJAX results, and pagination around the same WooCommerce catalog-visibility contract.
+- Added an indexed stock-state check for resilience when imported product visibility relationships lag behind authoritative inventory data, and removed a low result-set ceiling that could truncate large filtered collections.
+- Kept production source, store identity, exact catalog figures, taxonomy values, cache keys, URLs, database details, and operational logs private.
+
 ## 2026-07-08 — Archive Filter Count Query Optimization
 
 - Documented a private performance fix for product-archive filter counts where scoped term-count collection was made more index-friendly and expensive database-side sorting was moved out of the hot query path.
