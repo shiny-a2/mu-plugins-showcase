@@ -37,6 +37,7 @@ The work is organized around several production concerns:
 - Frontend UX improvements delivered as isolated MU modules where boot-time availability matters.
 - Public-safe grouping of many private MU-plugin modules into one reviewer-friendly showcase.
 - Clear distinction between portfolio proof and production code.
+- Byte-verifiable source provenance for customer-facing authentication and account-panel modules before security refactoring begins.
 
 ## Architecture Overview
 

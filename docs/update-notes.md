@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-07-19 — Authentication and Account-Panel Source Provenance
+
+- Captured the current customer authentication and account-panel runtime as a byte-verifiable baseline in private source control before beginning identity security changes.
+- Added private provenance documentation so future refactors can be reviewed against the exact deployed starting point and rolled back without reconstructing live files.
+- Validated the captured PHP source and screened it for credentials and customer records before publication to the private repository.
+- Kept source code, hashes, versions, filenames, site identity, provider configuration, security findings, and operational paths out of this public showcase.
+
 ## 2026-07-14 — Archive Filter Visibility and Pagination Consistency
 
 - Fixed a production archive-filter mismatch where unavailable catalog items occupied query slots and were removed only during card rendering, causing short pages and hiding valid products on later pages.

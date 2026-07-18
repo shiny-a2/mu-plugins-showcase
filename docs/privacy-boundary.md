@@ -11,7 +11,7 @@ This public repository is designed for employer review and portfolio proof only.
 
 ## Private
 
-- Production MU-plugin source code.
+- Production MU-plugin source code, byte hashes, and capture manifests.
 - Logs, defensive internals, customer/order data, site-specific paths, allowlists, and operational access material.
 - Exact live performance guard rules, route rules, SEO rule sets, archive selectors, pagination URL rules, scanner details, payment workflow details, provider configuration, and deployment procedures.
 - Store identifiers, file paths, order IDs, user IDs, payment method IDs, export files, storage scan results, and diagnostic evidence.
