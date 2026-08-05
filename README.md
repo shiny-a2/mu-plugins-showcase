@@ -52,6 +52,7 @@ The private source is managed as a production MU-plugin umbrella with split priv
 - **Safety wrappers:** use capability checks, nonces, small batches, and feature flags so changes can be rolled out or disabled with limited blast radius.
 
 See `docs/architecture-notes.md` for the detailed reviewer walkthrough.
+- [Cache boundary](docs/cache-boundary.md) — keeping account pages out of a full-page cache, and why the dangerous failure was an outage rather than a leak
 
 ## Key Engineering Decisions
 
