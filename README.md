@@ -53,6 +53,7 @@ The private source is managed as a production MU-plugin umbrella with split priv
 
 See `docs/architecture-notes.md` for the detailed reviewer walkthrough.
 - [Cache boundary](docs/cache-boundary.md) — keeping account pages out of a full-page cache, and why the dangerous failure was an outage rather than a leak
+- [Loyalty storefront](docs/loyalty-storefront.md) — putting a points and wallet programme on a shop that is already selling, and the failures that only appear once real money is involved
 
 ## Key Engineering Decisions
 

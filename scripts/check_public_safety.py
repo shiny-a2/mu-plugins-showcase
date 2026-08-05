@@ -27,6 +27,7 @@ APPROVED_PATHS = frozenset(
         "README.md",
         "docs/architecture-notes.md",
         "docs/cache-boundary.md",
+        "docs/loyalty-storefront.md",
         "docs/privacy-boundary.md",
         "docs/update-notes.md",
         "samples/README.md",
