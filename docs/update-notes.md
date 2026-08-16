@@ -1,5 +1,13 @@
 # Public Update Notes
 
+## 2026-08-16 — In-Person Sales Operations, Joint-Attribution Tagging, and Catalog Onboarding API
+
+- Documented a private operations expansion that bulk-imports historical and periodic in-person point-of-sale records from an accounting export into the CRM operations layer: it groups multi-line receipts into orders, normalizes calendar dates, maps collection channels and stock locations, requires a valid contact number (screening placeholder and invalid numbers into a skip report), and stays idempotent so re-runs never duplicate.
+- Added a private order-tagging module that lets an operator mark an online order as jointly attributed to a physical retail location from both the order screen and the orders list, capturing an optional reference note plus the actor and timestamp, to support later split-commission reconciliation against in-person records.
+- Documented a private, authenticated server-side catalog-onboarding endpoint that creates products natively from an external ETL export where direct REST body creation is blocked by the host: idempotent by product reference, sets brand and reference vocabulary, matches only existing attribute terms (unknown values are reported rather than silently created), defaults to an unpublished review state, and supports an optional batch form.
+- Extended the passwordless phone-code sign-in so privileged staff accounts can use it for their own test purchases while normal password sign-in stays intact, with a unified single-step send/verify flow.
+- Kept production source, store identity, retail-location names, provider and gateway names, taxonomy values, endpoint authentication, exact figures, customer/order data, and operational logs private.
+
 ## 2026-07-19 — Authentication and Account-Panel Source Provenance
 
 - Captured the current customer authentication and account-panel runtime as a byte-verifiable baseline in private source control before beginning identity security changes.
