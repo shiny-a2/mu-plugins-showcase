@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-08-18 — Deterministic Infinite-Scroll End Detection
+
+- Documented a private fix for archive infinite scroll that could keep spinning past the last product on listings without standard pagination markup (for example builder-driven product grids): the lightweight fragment endpoint now emits an authoritative "has next page" flag derived from a peek-ahead of one extra item, so the client stops exactly at the final product instead of inferring the boundary from pagination links or empty/not-found responses.
+- Noted the flag is essentially free (the peek-ahead row already existed to trim the page) and backward-safe: when the flag is absent, such as an older cached fragment, the client falls back to its previous boundary detection, so nothing regresses while caches roll over.
+- Kept production source, store identity, exact catalog figures, taxonomy values, cache keys, and URLs private.
+
 ## 2026-08-16 — In-Person Sales Operations, Joint-Attribution Tagging, and Catalog Onboarding API
 
 - Documented a private operations expansion that bulk-imports historical and periodic in-person point-of-sale records from an accounting export into the CRM operations layer: it groups multi-line receipts into orders, normalizes calendar dates, maps collection channels and stock locations, requires a valid contact number (screening placeholder and invalid numbers into a skip report), and stays idempotent so re-runs never duplicate.
