@@ -1,5 +1,16 @@
 # Public Update Notes
 
+## 2026-08-31 — After-Sales Service Operations Module
+
+- Documented a private multi-file MU-plugin module that puts an entire after-sales service desk on one record: an intake file per serviced item with a dictatable tracking reference, an append-only history of every state change, and a single-writer custody model so an item's physical location is never derivable two different ways.
+- Separated over-the-counter service from items left on deposit, so the fast path collects only what a two-minute job needs while the deposit path enforces condition evidence, storage location and a handover credential before the record can advance.
+- Recorded the pattern for lending an item to an external specialist and for moving work between locations: one movement ledger, plural round trips, a de-duplicated counterparty directory, and a lock that prevents an item that is not on the premises from being announced as ready or marked handed over.
+- Established a single currency rule across storage, transport and presentation with one conversion boundary, an append-only event log as the source of truth for reporting, and a totals lock at handover so a reported period cannot change after the fact.
+- Documented an installable field application for staff devices carrying its own shell and the site's existing typeface, with client-side image resizing and timestamping so large photographs never reach the server for decoding.
+- Documented a customer-facing status and estimate-approval surface whose ownership predicate uses only an identifier the customer's own session cannot edit, and which renders nothing personal for an unauthenticated visitor because the full-page cache keys on path alone.
+- Added filesystem containment for evidential images using a rewrite rule rather than an interpreter flag that has no effect under the deployed process manager, plus exclusion from the nightly integrity walk.
+- Kept production source, provider names, message template bodies, location names, site identity, capability names, table and column names, file paths, contact numbers, and customer or order data private.
+
 ## 2026-08-18 — Deterministic Infinite-Scroll End Detection
 
 - Documented a private fix for archive infinite scroll that could keep spinning past the last product on listings without standard pagination markup (for example builder-driven product grids): the lightweight fragment endpoint now emits an authoritative "has next page" flag derived from a peek-ahead of one extra item, so the client stops exactly at the final product instead of inferring the boundary from pagination links or empty/not-found responses.
