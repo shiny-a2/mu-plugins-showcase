@@ -1,5 +1,17 @@
 # Public Update Notes
 
+## 2026-09-06 — Loyalty Earning Beyond the Web Order
+
+- Documented a loyalty programme that could only be earned from one channel — the web order handler — while the business took money at three counters, so a customer who paid for a substantial service saw their standing stay where it was.
+- Recorded the decision not to reuse the order handler for the other two channels: a service and a consignment sale carry different margins and different reasons for rewarding, so each channel earns on its own rate rather than inheriting a decision nobody made.
+- Put every rate on one screen, on the grounds that the operator's real question is never what one channel earns but what it earns relative to another, and an answer split across three settings pages cannot be read. The screen shows the existing web rate alongside for comparison and reports what each rate has actually cost, read from the ledger rather than recomputed.
+- Wrote nothing to the ledger directly. Grants go through the programme's own reward service, which holds the maturity window and checks for a repeated source inside a per-customer lock, so an event replayed by a correction or a double-fired hook credits once — a guarantee that belongs to the ledger rather than to the caller.
+- Documented the currency hazard that motivated two separate conversion helpers: one subsystem stores minor units, another stores major units, and the programme counts major units. Two of the three agree and the disagreement is silent, so an unconverted amount would over-credit by an order of magnitude and surface only at redemption. Each amount converts through a function named after the subsystem it was read from.
+- Added a single completion event fired from both of the service module's completion paths, since an over-the-counter transaction and a two-week custody job are the same event to anything outside that module.
+- Flagged rather than resolved an operator choice: two of the four marketplace rules reward the same seller for the same item at two different moments, and the screen says so in place of silently overriding the choice.
+- Verified against the live ledger with every grant rolled back afterwards: rate arithmetic including rounding and zero-unit guards, correct crediting to seller and buyer at their separate rates, settlement crediting on net rather than gross, replay safety, and no credit where there is no linked account, no charge, or no matching record.
+- Kept production source, provider names, message template bodies, location names, site identity, capability names, table and column names, file paths, contact numbers, and customer or order data private.
+
 ## 2026-09-06 — Per-Location Contact Routing in Outbound Messages
 
 - Documented a correction to templated outbound messages that ended every pattern with a single organisation-wide telephone number: a message naming one location and printing another location's number sends the recipient to a counter that cannot help them.
