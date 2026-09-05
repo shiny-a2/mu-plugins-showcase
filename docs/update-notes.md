@@ -1,5 +1,15 @@
 # Public Update Notes
 
+## 2026-09-06 — Per-Location Contact Routing in Outbound Messages
+
+- Documented a correction to templated outbound messages that ended every pattern with a single organisation-wide telephone number: a message naming one location and printing another location's number sends the recipient to a counter that cannot help them.
+- Recorded the rule that the number travels with the location rather than with the template — arrival messages use the location the customer attended, collection and follow-up messages use the location they are being directed to, and those are not always the same one.
+- Kept the numbers in module settings rather than inside the template bodies, because a provider-approved pattern cannot be edited without re-approval and a telephone number is the field most likely to change.
+- Documented two token slots the templates required and the sender was not filling, noting that an empty slot is a provider parameter error and therefore silently no message rather than a partial one, and that one slot legitimately carries different content depending on which of two patterns was selected.
+- Added a state check to the collection message. It was unreachable — all three call sites already verified the state — but the equivalent reminder message had always checked, and consistency here is cheaper than depending on the discipline of callers.
+- Verified that the module's patterns share no name with the three unrelated senders on the same provider account, that the separate marketplace subsystem sends no messages of its own, and that outbound calls were intercepted during testing so nothing reached a real recipient.
+- Kept production source, provider names, message template bodies, location names, site identity, capability names, table and column names, file paths, contact numbers, and customer or order data private.
+
 ## 2026-09-06 — After-Sales Module: Integration and Acceptance
 
 - Documented the correspondence layer that joins the service desk to the existing customer-facing message threads: one link table rather than a parallel inbox, media accepted in both directions, and a close action that asks twice because closing is the one transition a customer cannot undo from their side.
