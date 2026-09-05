@@ -1,5 +1,16 @@
 # Public Update Notes
 
+## 2026-09-06 — After-Sales Module: Integration and Acceptance
+
+- Documented the correspondence layer that joins the service desk to the existing customer-facing message threads: one link table rather than a parallel inbox, media accepted in both directions, and a close action that asks twice because closing is the one transition a customer cannot undo from their side.
+- Recorded the routing rule that sends marketplace listing rejections to a named operator's queue as an ordinary thread, so a seller reads the reason in the same place they read everything else and no second notification channel exists to fall out of date.
+- Documented a satisfaction record that spans three unrelated order sources under one schema, with a separate outbound path for public product reviews so private service feedback and public reviews are never the same submission.
+- Established consumables as their own line of business across both the counter ledger and the service desk, classified by line kind rather than by a free-text description, with the honest limitation that records imported before the classification was preserved cannot be reclassified.
+- Corrected a reporting window that bounded a period at both ends: an item sold and then immediately looked for was excluded because its row and the query carried the same timestamp. A period ending "now" needs no upper bound, and the bound excluded only the most recent record, which is the one most likely to be checked.
+- Made two private routes decline the full-page cache explicitly rather than relying on the cache writer's allowlist happening not to include them, on the grounds that a guarantee worth having should not depend on an unrelated file keeping its present shape.
+- Verified before handover: every module file parses; no undefined internal call; no unprepared parameterised query; no unescaped output; unauthenticated requests refused on every route but the deliberately public one; the full operator lifecycle from intake to handover including credential refusal, the post-handover totals lock, and a complete event timeline; spreadsheet figures reconciled to the source rows at the presentation currency; dashboard figures reconciled to direct queries; and no warning attributable to any module file in the server log.
+- Kept production source, provider names, message template bodies, location names, site identity, capability names, table and column names, file paths, contact numbers, and customer or order data private.
+
 ## 2026-08-31 — After-Sales Service Operations Module
 
 - Documented a private multi-file MU-plugin module that puts an entire after-sales service desk on one record: an intake file per serviced item with a dictatable tracking reference, an append-only history of every state change, and a single-writer custody model so an item's physical location is never derivable two different ways.
