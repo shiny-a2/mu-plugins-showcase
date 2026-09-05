@@ -1,5 +1,16 @@
 # Public Update Notes
 
+## 2026-09-06 — A Second Ladder, and Partial Credit on the First
+
+- Documented why a single earning rate cannot span channels whose transaction sizes differ by two orders of magnitude: one channel's typical transaction, at another channel's rate, would issue more of the currency in one event than the whole programme has issued since launch.
+- Recorded the same failure applied to the standing ladder. Its rungs describe a range that one high-value transaction exceeds several times over, so counting such a transaction whole would park that customer at the top rung permanently and leave the rungs beneath it describing nobody — a ladder disabled by a large number rather than extended by a new source. The operator now sets a percentage, so a genuinely large transaction reaches the top rung without flattening the ladder for everyone else.
+- Documented a second ladder for participants who receive money rather than spend it. Placing them on the spending ladder would rank someone who has never purchased as the best customer, and would let anyone reach the top rung's discount by consigning an item; the two ladders now stand side by side in the participant's own panel because they are two true things about one person.
+- Based the second ladder on settled net amounts — not asking prices, not transactions that have not been paid out, and not the operator's own commission — so it ranks people for outcomes rather than for uploading photographs.
+- Drew nothing at all for a participant with no activity on the second ladder, on the grounds that a ladder somebody is not on is an advertisement in the middle of their account page.
+- Made out-of-order thresholds a refusal rather than a silent sort: a higher rung set below a lower one misclassifies everyone above it with no visible cause, and sorting would persist numbers in an order the operator did not type.
+- Verified with synthetic records rolled back afterwards: each rate at its new value, the percentage contribution measured in isolation from the other contributors to the same filter chain, the receiving side confirmed absent from the spending ladder, rung boundaries and remaining-to-next figures, and no markup emitted for an inactive participant.
+- Kept production source, provider names, message template bodies, location names, site identity, capability names, table and column names, file paths, contact numbers, and customer or order data private.
+
 ## 2026-09-06 — Loyalty Earning Beyond the Web Order
 
 - Documented a loyalty programme that could only be earned from one channel — the web order handler — while the business took money at three counters, so a customer who paid for a substantial service saw their standing stay where it was.
