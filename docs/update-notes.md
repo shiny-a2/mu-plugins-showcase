@@ -1,5 +1,17 @@
 # Public Update Notes
 
+## 2026-09-06 — Per-Location Record Isolation
+
+- Documented a reversal of an early access decision: staff at each location previously read every record from both locations, and now read only their own location's work.
+- Recorded why the obvious scope — match the record's originating location — is the wrong one. An item is received at one counter, worked on at the second, held there overnight and collected at the first; scoping on origin alone hides a record from the person physically holding the item, which is not a stricter rule but a broken workflow. A record belongs to a location if that location appears in any of the roles it can play, including the one it is in transit to, so the boundary follows the item rather than the paperwork.
+- Applied the check at the shared permission callback rather than inside each handler. A filtered list beside an unfiltered detail view is not an access rule, it is a list of identifiers to request back one at a time; one callback covers twenty-two identifier-bearing routes and no route added later can omit it.
+- Distinguished identifiers by route rather than by name, because the same parameter names three different kinds of record in that namespace and treating them alike would refuse someone their own correspondence thread.
+- Answered out-of-scope records as missing rather than forbidden: a forbidden response confirms the record exists and belongs to the other location, which is the fact being withheld.
+- Carried the scope into the cache key for the shared counters view. A single shared entry would have let whichever location asked first determine what the other's counters read for the following minute — the boundary holding in the query and leaking through the cache, which is the variant that reading the query does not reveal. Invalidation still clears every location's copy, since the boundary governs who may look and never who is allowed to be current.
+- Took the scope for the reporting dashboard and the spreadsheet export from the boundary rather than from the request, so neither becomes the one screen where it can be typed around.
+- Verified as each of the five real staff accounts: unrestricted accounts see everything, each restricted account sees only its own location, both locations see the transferred item, search is filtered as well as detail, counters differ per location, and an export requested for the other location returns none of its records.
+- Kept production source, provider names, message template bodies, location names, site identity, capability names, table and column names, file paths, contact numbers, and customer or order data private.
+
 ## 2026-09-06 — A Second Ladder, and Partial Credit on the First
 
 - Documented why a single earning rate cannot span channels whose transaction sizes differ by two orders of magnitude: one channel's typical transaction, at another channel's rate, would issue more of the currency in one event than the whole programme has issued since launch.
