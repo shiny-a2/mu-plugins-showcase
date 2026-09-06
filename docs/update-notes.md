@@ -1,5 +1,15 @@
 # Public Update Notes
 
+## 2026-09-06 — Making a Silent Messaging Failure Visible and Self-Serviceable
+
+- Documented the failure mode that motivated this work: an unregistered or unapproved message template is refused by the provider inside an otherwise successful HTTP response, so the sending path records the refusal and continues. The record is correct and nobody reads it, which is how an operator can spend two weeks telling customers their items are ready and reach none of them.
+- Added an operator screen that asks the provider about every message the module can send and reports the answer as live, awaiting approval, or refused. The provider offers no listing endpoint and this account's outbound history is access-denied, so the check has to be an actual send; it is addressed to the account of whoever pressed the button and accepts no recipient parameter, because a health check that took one would be a way to send an approved template to anyone from a screen that looks harmless.
+- Made each template name repointable from that screen. Provider templates cannot be renamed — a corrected body returns as a new registration under a new name — so a name written into source is a standing assumption about someone else's console that goes stale without a signal, and requiring a deployment to change a short identifier is how the stale one survives. The remap costs one filter call on a path already making a network request, and its stored value is read only when something is actually being sent.
+- Added a notice on the module's own screens when messages have genuinely been failing, counted from the event timeline the sender already writes rather than from a second log nobody would maintain. Scoped to those screens and to a real count, since a warning on every administrative page is one people stop seeing.
+- Rejected names that do not look like provider identifiers. The mistakes that actually occur are a pasted URL, a localized label, or the token list itself, and any of those stored would repoint a live message at a name that cannot exist.
+- Verified: all ten slots resolve, an untouched name passes through unchanged, a typed name repoints exactly one message and leaves the rest alone with the original still recoverable, malformed pastes are refused, an approved template reads as live and one awaiting approval reads as waiting rather than broken, a probe with no recipient sends nothing, and the remap holds on the real send path in a request that did not configure it.
+- Kept production source, provider names, message template bodies, location names, site identity, capability names, table and column names, file paths, contact numbers, and customer or order data private.
+
 ## 2026-09-06 — Outbound Messaging Enabled After Pattern Verification
 
 - Documented why templated outbound messaging stayed disabled through the whole build: the provider rejects an unregistered or unapproved template with a code that the sending path cannot distinguish from a delivered message without inspecting the response body, so enabling it before every template was proven live would have meant messages disappearing silently.
