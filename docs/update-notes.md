@@ -1,5 +1,17 @@
 # Public Update Notes
 
+## 2026-09-06 — Outbound Messaging Enabled After Pattern Verification
+
+- Documented why templated outbound messaging stayed disabled through the whole build: the provider rejects an unregistered or unapproved template with a code that the sending path cannot distinguish from a delivered message without inspecting the response body, so enabling it before every template was proven live would have meant messages disappearing silently.
+- Recorded the verification: each template sent once against the live account, with the returned message identifier as evidence rather than the absence of an error.
+- Documented two templates reported as missing that were not. One had been registered with the token list accidentally pasted into its name field — the body is correct and approved, the provider answers only to that name, and provider templates cannot be renamed, so the sender now asks for the name that exists and replacing it is a one-line change whenever someone registers a tidier one. The other was being requested under a spelling that differed from the panel's by separators alone.
+- Corrected an earlier report of this investigation that concluded no template was registered. That conclusion came from testing one spelling of one template — the single template that genuinely did not exist under any tried spelling — and generalising from it.
+- Measured the blast radius before enabling rather than after: the pending queue was empty, nothing was awaiting a customer answer, and both scheduled reminder intervals matched no records, so enabling sent nobody anything on its own.
+- Ran a complete record through the routes the client application actually calls afterwards, confirming each message fired exactly once and was recorded once in the idempotency ledger.
+- Noted three approved templates whose bodies omit the per-location contact token, so that message shows no telephone number regardless of what the sender supplies; extra tokens are ignored by the provider rather than rejected, so this is a content gap for the operator to re-register, not a failure.
+- Flagged eleven unrelated templates in the same account whose token syntax is malformed — the marker appears doubled or trailing — so they would render the literal marker to a recipient instead of a value. None is currently sent by any code path.
+- Kept production source, provider names, message template bodies, location names, site identity, capability names, table and column names, file paths, contact numbers, and customer or order data private.
+
 ## 2026-09-06 — Per-Location Record Isolation
 
 - Documented a reversal of an early access decision: staff at each location previously read every record from both locations, and now read only their own location's work.
