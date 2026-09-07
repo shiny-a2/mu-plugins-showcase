@@ -1,5 +1,16 @@
 # Public Update Notes
 
+## 2026-09-07 — Two Missing Notifications in the Service Workflow
+
+- Documented two messages the workflow assumed existed and never had: the collection credential a customer must present at handover, and the confirmation that an item was actually handed over. The credential was printed on the operator's receipt and rendered in the customer's own panel, but sent nowhere; the handover was recorded in the record and announced to nobody.
+- Gave the credential its own message rather than appending it to the ready-for-collection notice. The variant of that notice carrying an outstanding balance already spends every token slot the provider allows, so there was nowhere to add one without removing something, and a credential on the fourth line of a longer message is one the recipient scrolls past while standing at the counter.
+- Sequenced it deliberately: the credential follows the announcement and never precedes it, because one sent at intake is lost over the weeks the item is held, and one sent while work is still in progress invites someone to arrive early. Dispatch-by-post records get none — there is no counter to present it at and the courier releases the parcel, so the credential would open nothing.
+- Justified the handover note as evidence rather than courtesy: it is the only message sent after a record closes, and every dispute about a collection begins with two parties recalling different days. It reports what was actually paid rather than the total, since a record can close with a balance outstanding and telling someone they paid a figure they did not is worse than silence.
+- Required one exception in the shared refusal gate. Every other message is blocked once a record reaches its terminal state; without an exception the handover note would have been refused by the very status it exists to report.
+- Attached both to domain events rather than to call sites. The ready notice is sent from three places and completion is reached by two distinct paths, so hooking the events means neither message can be forgotten at a fourth site added later.
+- Verified end to end with outbound calls intercepted: the credential carries the record's real code and its collection location, the completion note carries the amount actually paid, neither is sent twice on replay, the completion note passes the terminal-status gate while the ready notice is still correctly refused by it, and no token is ever transmitted empty.
+- Kept production source, provider names, message template bodies, location names, site identity, capability names, table and column names, file paths, contact numbers, and customer or order data private.
+
 ## 2026-09-06 — Making a Silent Messaging Failure Visible and Self-Serviceable
 
 - Documented the failure mode that motivated this work: an unregistered or unapproved message template is refused by the provider inside an otherwise successful HTTP response, so the sending path records the refusal and continues. The record is correct and nobody reads it, which is how an operator can spend two weeks telling customers their items are ready and reach none of them.
