@@ -1,5 +1,17 @@
 # Public Update Notes
 
+## 2026-09-09 — Refusals That Arrive Before the Tap
+
+- Documented a completion form that asked for a credential and hid the way past it inside a collapsed disclosure. The summary read like a control that completes the action without a credential, rather than a section wanting a written justification — so an operator who could not produce the credential opened it, found a text area, wrote a five-character phrase, and received the identical refusal. The minimum was eight, and nothing on screen said so. Three attempts on one record in one evening produced three identical timeline rows.
+- Documented a second gate behind the first: answering it only purchased a different refusal, for a final figure exceeding the approved estimate — on a record mis-keyed at a hundredth of its real value — with its own field, equally unannounced until the response came back.
+- Replaced both disclosures with visible choices carrying their fields: has-credential versus no-credential, and pay-now versus hand-over-unpaid. Each written justification reports how many characters are still required while it is typed, since a minimum nobody can see is a refusal waiting to happen.
+- Blocked submission until every gate on the screen is satisfied, so a request is never returned refused for a field the operator was looking at.
+- Added the lengths of the submitted credential and justification to the refusal event. Three identical timeline rows could not distinguish a too-short justification from an absent one, and answering that had meant reconstructing the request by hand. Lengths only — never the sentence, which is the customer's business.
+- Confirmed the reported failure was not a logic fault: the deployed rule already accepted a valid justification, and the served client already transmitted the field. The fault was that the form asked the wrong question and offered no way to see why the answer was rejected.
+- Verified the whole matrix through the real routes: no credential plus both justifications completes; omitting the second justification is refused for the estimate rather than the credential; a five-character justification is still refused and the timeline now records its length; a correct credential needs nothing else; handing over with money owed requires and accepts a written reason; and a record whose customer never received the credential completes without one.
+- Corrected a test harness that had silently done nothing, because variables declared at the top level of an evaluated script are not in the global scope a function body reaches — every fixture stayed in its unfinished state and the run reported failures that were the harness's own.
+- Kept production source, provider names, message template bodies, location names, site identity, capability names, table and column names, file paths, contact numbers, and customer or order data private.
+
 ## 2026-09-09 — Operator Console: Speed, Ledger Timeline, Sentiment Hint
 
 - Documented an operator-console update that renders the app as soon as core functions are loaded instead of after the full storefront stack, cutting page time-to-first-byte by roughly two thirds, and caches the slowest per-customer lookups for a few minutes with explicit invalidation when a counter action changes the figures.
