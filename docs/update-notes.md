@@ -1,5 +1,13 @@
 # Public Update Notes
 
+## 2026-09-09 — Operator Console: Speed, Ledger Timeline, Sentiment Hint
+
+- Documented an operator-console update that renders the app as soon as core functions are loaded instead of after the full storefront stack, cutting page time-to-first-byte by roughly two thirds, and caches the slowest per-customer lookups for a few minutes with explicit invalidation when a counter action changes the figures.
+- Added a points-and-credit timeline opened from the customer card: every grant and every wallet movement labelled with its origin, status and expiry, and for order-based grants the amount, gateway, earning percentage and effective rate behind the figure, so a "why this many points" question has an answer.
+- Added a rule-based sentiment hint — five faces from content to angry — derived from operator notes and order history, always shown with its reasons so staff can disagree with it; a schedule block showing file age, last contact, next follow-up and the SLA deadline; a tab bar with readable counts; titled labels on every status chip; and voice-to-text notes through the browser's own recogniser with no audio leaving the device.
+- Fixed a silent suppression of outbound HTTP that dropped scheduled messages while a protective safe mode was active, a client bug that shared only the first of several chosen products, and blank purchase photos for product variations without their own image.
+- Kept production source, table names, customer data, provider names, and site-specific measurements private.
+
 ## 2026-09-08 — A Desk Layout for a Phone-First Field App
 
 - Documented the difference between the two ways the same application is used. On a handset it is one column and one thing at a time, which suits a hand holding an item. At a desk the dominant motion is read the list, open a record, read the next — and each of those cost a full-screen swap, a back control and a scroll to where the reader had been.
