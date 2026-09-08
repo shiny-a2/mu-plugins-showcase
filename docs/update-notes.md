@@ -1,5 +1,16 @@
 # Public Update Notes
 
+## 2026-09-08 — A Desk Layout for a Phone-First Field App
+
+- Documented the difference between the two ways the same application is used. On a handset it is one column and one thing at a time, which suits a hand holding an item. At a desk the dominant motion is read the list, open a record, read the next — and each of those cost a full-screen swap, a back control and a scroll to where the reader had been.
+- From a width threshold the navigation becomes a rail, the list keeps its column, and a record opens in a column beside it. The primary action bar docks to the record's own column rather than to the bottom of the window, and modal sheets slide in from the side rather than up from the bottom, so the list is never covered by what is being done to one row of it. The open row is marked in the list so the eye has a way back.
+- Added the two keys a desk expects and a handset never sends: Escape closes the topmost sheet, and slash focuses search.
+- Changed no colour, size or control. The handset layout was designed first and is kept intact; the wide layout only decides where the next element is drawn, so every touch-target, contrast and input-size decision carries over unchanged.
+- Corrected the installable-app manifest, which had declared a portrait-only orientation — a signal that quietly discouraged desktop browsers from offering installation. It now accepts any orientation and declares a window-controls overlay.
+- Bumped the asset version so installed copies fetch the new stylesheet and script rather than serving the cached ones.
+- Verified with a headless render at handset and desk widths that the shell builds both columns, the served stylesheet carries the wide-screen block and the served script carries the side-column renderer.
+- Kept production source, provider names, message template bodies, location names, site identity, capability names, table and column names, file paths, contact numbers, and customer or order data private.
+
 ## 2026-09-08 — Idempotent Money at the Counter
 
 - Documented two records that closed with large negative balances. The event trail read payment, wrong credential, payment, wrong credential — six times in forty seconds. The handover sheet collected money first and asked for the credential second; when the credential was refused the sheet stayed open and the next tap paid again. The client also retries any request whose response the shop's wireless dropped, and a payment had no way to be recognised as already written.
