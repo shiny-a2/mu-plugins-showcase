@@ -1,5 +1,17 @@
 # Public Update Notes
 
+## 2026-09-08 — Idempotent Money at the Counter
+
+- Documented two records that closed with large negative balances. The event trail read payment, wrong credential, payment, wrong credential — six times in forty seconds. The handover sheet collected money first and asked for the credential second; when the credential was refused the sheet stayed open and the next tap paid again. The client also retries any request whose response the shop's wireless dropped, and a payment had no way to be recognised as already written.
+- Gave payments a key minted once per open sheet and carried by every attempt from it, so a retry or a re-tap gets back the row it already wrote. Independently of the key, a settlement is refused when nothing is owed and when it exceeds the balance, because a client that forgot its key must not be able to overpay either. The sheet remembers that it paid and does not ask twice, and the settle control is not offered on a settled record.
+- Made re-delivery of a delivered record a replay rather than a second handover: writing it again had stamped a new time, added a duplicate completion entry to the timeline, and re-announced the event to every listener.
+- Demanded the collection credential only from a customer who was actually given it. Until the credential message went live every record carried a code nobody had seen, so every handover needed a written override — or several guesses. The gate now closes the moment that message is recorded as sent, and the sheet says so rather than showing a field that cannot be filled.
+- Let any operator write the reason for exceeding an approved estimate. The guard had been manager-only, which stopped the counter when the manager was at the other location: one record was quoted at a hundredth of its real figure by a slip of the thumb and could not be handed over at all. The sheet now shows the excess before the tap, with the field that answers it, instead of a refusal after.
+- Corrected the two damaged ledgers by removing the duplicate rows, keeping the first settlement that fit each record's own total, and writing an explanatory entry on each record's timeline with the removed rows preserved inside it — no money had moved, so no refund was the truthful correction.
+- Fixed a monitoring query that named a column the events table does not have; it had been silently counting nothing.
+- Verified through the real routes with outbound calls intercepted: the pay-then-wrong-credential loop records one payment; the same key replays without writing; a fresh settlement on a settled record is refused; an operator can answer the over-estimate refusal with a reason; a second delivery leaves the timestamp and timeline untouched; a record whose customer never received the credential delivers without one and says why.
+- Kept production source, provider names, message template bodies, location names, site identity, capability names, table and column names, file paths, contact numbers, and customer or order data private.
+
 ## 2026-09-07 — Two Missing Notifications in the Service Workflow
 
 - Documented two messages the workflow assumed existed and never had: the collection credential a customer must present at handover, and the confirmation that an item was actually handed over. The credential was printed on the operator's receipt and rendered in the customer's own panel, but sent nowhere; the handover was recorded in the record and announced to nobody.
