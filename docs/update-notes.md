@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-09-09 — Operator Console: Phone Bridge and In-Console Replies
+
+- Added the server side of a shop-phone integration: a dedicated handset pairs with a one-time code, reports every incoming, outgoing and missed call with duration, and long-polls for dial commands issued from an operator's desk. Calls attach to the customer's record by number, an unknown caller becomes a new record automatically, and a ringing call raises a banner in the console with the file one click away before anyone picks up. A companion-app specification accompanies it; audio is never recorded.
+- Added replies to site chats and support tickets from inside the console: attachments, quoted replies, a row of canned lines, transfer to a colleague with a note on the file, ticket close and reopen, and tabs that blink when a new chat or ticket arrives. Replies are written into the existing chat and ticket stores so the customer-facing widget and panel show them unchanged.
+- Widened the search to any clue: part of a number, name words in any order, city, e-mail, order number, note text, and site accounts with no CRM record yet, each result saying why it matched.
+- Kept production source, table names, customer data, provider names, and site-specific measurements private.
+
 ## 2026-09-09 — Refusals That Arrive Before the Tap
 
 - Documented a completion form that asked for a credential and hid the way past it inside a collapsed disclosure. The summary read like a control that completes the action without a credential, rather than a section wanting a written justification — so an operator who could not produce the credential opened it, found a text area, wrote a five-character phrase, and received the identical refusal. The minimum was eight, and nothing on screen said so. Three attempts on one record in one evening produced three identical timeline rows.
