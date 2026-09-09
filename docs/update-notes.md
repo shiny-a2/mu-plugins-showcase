@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-09-09 — Customer Records: Identity Sync and a Real Status History
+
+- Closed a reporting gap where a buyer's own name never reached their CRM record. The list had been reading the name off the invoice, so a file could show a name in the list and "no name" once opened. Opening a file now fills whatever is empty — name, city, province — from the customer's account or their most recent order, never overwriting anything a person typed, and records where each value came from. An audit across the customer base found the same gap in the city field on roughly 2,900 buyer records and a few dozen buyers with no record at all.
+- Status changes were previously stored only as a destination, which made questions about an operator's month unanswerable: how many files they moved, from what to what, and how long a file waited at each stage. Both the outcome buttons and the close-file action now read the prior state before writing and record the transition, in the CRM's own status log and in the audit log with both ends of the move.
+- Verified the surrounding data trail rather than assuming it: the admin activity log, the status history table and the per-operator note attribution were each queried directly and confirmed healthy; an apparent gap in one of them turned out to be a mistake in the checking query, not in the system.
+- Kept production source, table names, customer data, provider names, and site-specific measurements private.
+
 ## 2026-09-09 — Operator Console: Phone Bridge and In-Console Replies
 
 - Added the server side of a shop-phone integration: a dedicated handset pairs with a one-time code, reports every incoming, outgoing and missed call with duration, and long-polls for dial commands issued from an operator's desk. Calls attach to the customer's record by number, an unknown caller becomes a new record automatically, and a ringing call raises a banner in the console with the file one click away before anyone picks up. A companion-app specification accompanies it; audio is never recorded.
