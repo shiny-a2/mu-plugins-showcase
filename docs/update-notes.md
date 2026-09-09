@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-09-10 — Catalog Image Batching: Reject Failed Cutouts Before Export
+
+- Repaired a desktop workflow that swallowed background-removal errors and exported unprocessed source backgrounds as finished catalog images.
+- Added validated cutouts reused across layouts, isolated template copies, bounded retries, document cleanup, resumable output handling, progress, and per-file error reporting.
+- Checked regression behavior with a mocked host and a queue of thousands of inputs. Real Windows image-editor execution and visual acceptance remain outstanding; this update does not claim a production photo-batch benchmark.
+- Documented the workflow and limits in [Reliable catalog image batching](catalog-image-batching.md). Source code, exact composition rules, photos, templates, and logs remain private.
+
 ## 2026-09-09 — Customer Records: Identity Sync and a Real Status History
 
 - Closed a reporting gap where a buyer's own name never reached their CRM record. The list had been reading the name off the invoice, so a file could show a name in the list and "no name" once opened. Opening a file now fills whatever is empty — name, city, province — from the customer's account or their most recent order, never overwriting anything a person typed, and records where each value came from. An audit across the customer base found the same gap in the city field on roughly 2,900 buyer records and a few dozen buyers with no record at all.
