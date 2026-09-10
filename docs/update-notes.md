@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-09-10 — Operator Console: A Screen for Choosing, and Two Named Sales
+
+- Moved the product picker out of the customer record and onto an overlay of its own. Search, the facet rows, the results and the send actions together had become the tallest section on the record and pushed the outcome of the call itself out of view on a phone. The record now carries one button, which also reports how many items are marked, and the overlay closes back to the record when the choice is made.
+- Split the sale outcome in two. A single "purchased" button had covered both channels and then asked a follow-up question offering counters it had already ruled out. Online and in-person are now separate outcomes: the online one records its channel without a second question, and the in-person one asks only which branch. Both status names now say where the sale happened, so reporting can separate the channels on the record itself rather than on a note.
+- Kept production source, branch names, customer data, and site-specific measurements private.
+
 ## 2026-09-10 — Operator Console: Catalogue Search by Description
 
 - Reworked the product picker an operator uses while a customer is on the line. It had accepted only a name or a code, which assumes the operator already knows which item is wanted; a caller instead describes one. The picker now takes the same facets the storefront's own finder offers — who the item is for, its style, a material and a price band — as chips beside the search box, each narrowing on tap and clearing on a second tap, with an in-stock-only switch.
