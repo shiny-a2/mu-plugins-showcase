@@ -5,6 +5,13 @@
 - Reworked the product picker an operator uses while a customer is on the line. It had accepted only a name or a code, which assumes the operator already knows which item is wanted; a caller instead describes one. The picker now takes the same facets the storefront's own finder offers — who the item is for, its style, a material and a price band — as chips beside the search box, each narrowing on tap and clearing on a second tap, with an in-stock-only switch.
 - Fixed the price band at the source. The catalogue library's product query silently discards a metadata condition, so a band alone had been returning either items well outside it or nothing at all, depending on which rows the untargeted query happened to fetch. Price is now resolved from the platform's own price lookup table and the matching identifiers are handed to the query, so the narrowing happens before the fetch rather than after it. Verified against five live cases, including a band with no search text at all.
 - Kept production source, taxonomy details, catalogue data, and site-specific measurements private.
+
+## 2026-09-10 — Catalog Batch 22.0.1: Duplicate Sources No Longer Stop Preflight
+
+- Fixed an operator-reported Windows startup failure when multiple image formats shared the same product filename. Duplicate candidates now select one source consistently, while unrelated images remain queued.
+- Record each skipped source and its selected replacement, show duplicate counts, and resolve equivalent numbered-image aliases without reusing an output filename.
+- Verified queue and processing-control behavior with 68 automated tests, including the existing mocked long batch. Real Windows cutout quality and throughput remain outside these tests. Source files, product references, images, templates, and logs remain private.
+
 ## 2026-09-10 — Catalog Image Batching: Reject Failed Cutouts Before Export
 
 - Repaired a desktop workflow that swallowed background-removal errors and exported unprocessed source backgrounds as finished catalog images.

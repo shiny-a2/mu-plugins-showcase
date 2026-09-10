@@ -6,6 +6,8 @@ The repaired workflow checks the cutout before composition, retries in a fresh s
 
 This changes a failed image from a misleading finished asset into a visible, recoverable failure. Completed files remain available when processing resumes, temporary saves do not acquire final names until the write completes, and repeated processing or write failures stop the run. A progress window and incremental local log help the operator see what happened without inspecting every document tab.
 
+An operator's first Windows run exposed an overly strict filename check: two source formats sharing a basename stopped the whole batch before segmentation. The follow-up selects a source deterministically, logs both the selected and skipped inputs, and continues unrelated images. Equivalent numbered-image aliases also resolve to one output. Raw files remain available; genuinely different photos need distinct source names if every image should be exported.
+
 The validation includes failure injection into segmentation, mask application, transparency checks, save operations, cancellation, and cleanup, plus a queue simulation of thousands of inputs. These are tests against a mocked image-editor host. They establish control-flow behavior, not real image-editor throughput or visual segmentation quality. Acceptance on representative photos in the target Windows application remains outstanding.
 
 The source script, composition measurements, filenames, photos, templates, and runtime logs remain private. The public update describes the engineering outcome and its verification limits.
