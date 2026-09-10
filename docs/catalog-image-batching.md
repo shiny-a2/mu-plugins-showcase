@@ -8,6 +8,8 @@ This changes a failed image from a misleading finished asset into a visible, rec
 
 An operator's first Windows run exposed an overly strict filename check: two source formats sharing a basename stopped the whole batch before segmentation. The follow-up selects a source deterministically, logs both the selected and skipped inputs, and continues unrelated images. Equivalent numbered-image aliases also resolve to one output. Raw files remain available; genuinely different photos need distinct source names if every image should be exported.
 
+The next runtime report showed that cutouts succeeded while JPEG verification failed. The file reader had used the wrong convention for seeking backward from the end, and the test double shared the error. Correcting the test double made previously passing export tests reproduce the failure. The repair reads the trailer at an absolute byte position, preserving valid exports while continuing to reject incomplete files. This distinguishes evidence from a real application log, a reproduced test failure, and target-machine confirmation still to come.
+
 The validation includes failure injection into segmentation, mask application, transparency checks, save operations, cancellation, and cleanup, plus a queue simulation of thousands of inputs. These are tests against a mocked image-editor host. They establish control-flow behavior, not real image-editor throughput or visual segmentation quality. Acceptance on representative photos in the target Windows application remains outstanding.
 
 The source script, composition measurements, filenames, photos, templates, and runtime logs remain private. The public update describes the engineering outcome and its verification limits.

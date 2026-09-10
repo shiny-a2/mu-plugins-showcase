@@ -13,6 +13,12 @@
 - Split the sale outcome in two. A single "purchased" button had covered both channels and then asked a follow-up question offering counters it had already ruled out. Online and in-person are now separate outcomes: the online one records its channel without a second question, and the in-person one asks only which branch. Both status names now say where the sale happened, so reporting can separate the channels on the record itself rather than on a note.
 - Kept production source, branch names, customer data, and site-specific measurements private.
 
+## 2026-09-10 — Catalog Batch 22.0.2: Correct JPEG Trailer Verification
+
+- An operator's runtime report separated successful background removal from a failing output-verification step. A file-position check used the wrong offset convention, rejected completed exports, and removed their temporary files.
+- Corrected the byte position and the host mock that had copied the same mistaken convention. Reproduced the old failure before applying the fix, and retained checks that reject incomplete outputs.
+- Kept the proven processing path stable and added clearer file-verification errors. Target-machine confirmation of the revised export path remains outstanding; runtime logs, source code, images, and templates remain private.
+
 ## 2026-09-10 — Operator Console: Catalogue Search by Description
 
 - Reworked the product picker an operator uses while a customer is on the line. It had accepted only a name or a code, which assumes the operator already knows which item is wanted; a caller instead describes one. The picker now takes the same facets the storefront's own finder offers — who the item is for, its style, a material and a price band — as chips beside the search box, each narrowing on tap and clearing on a second tap, with an in-stock-only switch.
