@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-09-10 — Operator Console: Dictation, Call Banners and a Message Composer
+
+- Fixed dictated notes repeating themselves. The mobile browser's speech recogniser does not extend the result it is building; it returns a fresh result for each phrase, each carrying the utterance from its beginning, so walking the list and joining it wrote the sentence once per recognised word. One note had grown to two thousand characters of the same greeting. Results are now tracked per index, and a phrase that repeats the previous one with more words on the end replaces it rather than following it. Verified against the three recogniser behaviours — the mobile one, the desktop one that extends a single result, and a pause followed by a genuinely new sentence. The one damaged note on file was reconstructed, with the original kept.
+- Tied the incoming-call banner to the call. It had stood for a fixed ninety seconds regardless of what the handset did, so a call that rang once and was cut left a "open the record" prompt for a call already over. The banner now follows the live call feed and clears as soon as the call is no longer on it, with the timer kept only as a backstop for a tab that was hidden while the call ended.
+- Replaced the bare messaging link with a composer. It had handed the number to the phone's messaging app with an empty body and left no trace on the record. Messages are now written in a dedicated panel — dictated, or picked from the shop's own saved lines — with a live character and part count for the non-Latin encoding, and what was sent is written onto the record before the messaging app opens.
+- Kept production source, customer data, note contents, and site-specific measurements private.
+
 ## 2026-09-10 — Operator Console: A Screen for Choosing, and Two Named Sales
 
 - Moved the product picker out of the customer record and onto an overlay of its own. Search, the facet rows, the results and the send actions together had become the tallest section on the record and pushed the outcome of the call itself out of view on a phone. The record now carries one button, which also reports how many items are marked, and the overlay closes back to the record when the choice is made.
