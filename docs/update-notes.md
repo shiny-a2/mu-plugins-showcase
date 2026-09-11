@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-09-11 — Storefront: An Out-of-Stock Item Stopped Looking Purchasable
+
+- Closed a gap where a sold-out product still carried two purchase incentives that only make sense for something a customer can actually buy: an installment-financing line under its price, and a loyalty-points figure. Both had checked that the item had a price, but neither checked that it was in stock, so a listing card and the item's own page could show financing terms and a rewards figure for something nobody could order.
+- Traced the loyalty-points figure to a single shared function that both the listing card and the product page read from, so one fix corrected both surfaces at once. The installment line was already excluded on the product page through its own eligibility check; the listing-card version had never carried that check and now does.
+- Verified against a real out-of-stock item (both figures now render nothing) and a real in-stock one (unchanged).
+- Kept production source, product data, and site-specific measurements private.
+
 ## 2026-09-10 — Operator Console: Dictation, Call Banners and a Message Composer
 
 - Fixed dictated notes repeating themselves. The mobile browser's speech recogniser does not extend the result it is building; it returns a fresh result for each phrase, each carrying the utterance from its beginning, so walking the list and joining it wrote the sentence once per recognised word. One note had grown to two thousand characters of the same greeting. Results are now tracked per index, and a phrase that repeats the previous one with more words on the end replaces it rather than following it. Verified against the three recogniser behaviours — the mobile one, the desktop one that extends a single result, and a pause followed by a genuinely new sentence. The one damaged note on file was reconstructed, with the original kept.
