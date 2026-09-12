@@ -1,5 +1,15 @@
 # Public Update Notes
 
+## 2026-09-12 — A Picker That Filters, and Asking in the Order the Work Happens
+
+- Replaced two different brand inputs — a bare text box on one intake screen and a text box backed by a native datalist on another — with one filtered picker drawn by the application itself. A native datalist is the browser's own interpretation of a combo box and it differs per engine: one squeezes it into a strip above the on-screen keyboard, another ignores typed characters and offers the entire list of a hundred and twenty-nine, and none match the local script the way staff actually write it.
+- Made matching fold the two Unicode variants of the same two letters, so a brand typed on an Arabic-layout keyboard finds the entry stored with Persian characters, and made it match anywhere in the name rather than only the beginning, since staff reach a two-word brand by its second word.
+- Kept free text authoritative: an item arriving at the counter need not be a brand the business stocks, so whatever is typed is retained whether or not it was ever offered.
+- Moved the storage-location choice to the top of the intake form. It is the one answer the operator already holds before the form begins — the item is in their hand and going into a drawer — and asking it last meant scrolling back for it while the submit control stayed disabled with nothing indicating which field was outstanding.
+- Fixed the form jumping to the top whenever that choice was made. Selecting a location re-rendered the whole screen, and a re-render resets scroll position, so the page moved out from under the finger that had just tapped it. The control already paints its own selected state; the re-render was doing nothing else.
+- Verified the filter against the real list: second-word matches resolve correctly, cross-variant keyboard input resolves to the stored spelling, an unmatched query yields nothing rather than everything, and an empty query shows a bounded page rather than the whole list.
+- Kept production source, provider names, message template bodies, location names, site identity, capability names, table and column names, file paths, contact numbers, and customer or order data private.
+
 ## 2026-09-12 — One Price on Screen, and a Closed List of Locations
 
 - Documented two figures pricing the same job with only one of them visible. The line items produce the operator panel's total; the estimate is entered separately and is what the customer receives by message. Nothing held them together, so a mis-keyed estimate — or a line added after the customer approved — left the business quoting one figure and reading another, with the panel showing only its own.
