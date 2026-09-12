@@ -1,5 +1,16 @@
 # Public Update Notes
 
+## 2026-09-12 — One Price on Screen, and a Closed List of Locations
+
+- Documented two figures pricing the same job with only one of them visible. The line items produce the operator panel's total; the estimate is entered separately and is what the customer receives by message. Nothing held them together, so a mis-keyed estimate — or a line added after the customer approved — left the business quoting one figure and reading another, with the panel showing only its own.
+- Put the estimate beside the total wherever money is read, and made a record whose two figures disagree announce it the moment it is opened, with the re-estimate control in the same notice. Previously the gap first surfaced at completion, as a refusal.
+- Added the line total to the estimate form with a one-tap control to adopt it, so the two figures stop drifting through transcription rather than through decision.
+- Replaced a free-text storage-location field, whose suggestion row was built per-operator from whatever that person had previously typed. One bench had accumulated seven entries for two or three real locations — the same places spelled several ways across two numeral systems — so a search by location matched only the spelling its author happened to use.
+- Made the locations a closed list of two, enforced on every writer rather than only in the interface, and removed the typed-history row from the payload the client receives.
+- Migrated existing records onto the two, each with an entry on its own timeline recording where it came from, and discarded the per-operator histories. An unset location stays unset: inventing one for an item nobody stored is worse than the blank that the required-location check already refuses aloud.
+- Verified through the real routes: the list is exactly two and reaches the client; an out-of-list location is refused at intake and cannot be patched in; a lowercase entry is accepted and normalised; the estimate, the total and the reported gap agree; re-estimating to the line total closes the gap; and the customer's message then carries the same figure the panel shows.
+- Kept production source, provider names, message template bodies, location names, site identity, capability names, table and column names, file paths, contact numbers, and customer or order data private.
+
 ## 2026-09-11 — Storefront: An Out-of-Stock Item Stopped Looking Purchasable
 
 - Closed a gap where a sold-out product still carried two purchase incentives that only make sense for something a customer can actually buy: an installment-financing line under its price, and a loyalty-points figure. Both had checked that the item had a price, but neither checked that it was in stock, so a listing card and the item's own page could show financing terms and a rewards figure for something nobody could order.
