@@ -1,5 +1,13 @@
 # Public Update Notes
 
+## 2026-09-12 — Operator Console: Blocking a Number from the Inbox It's Read In
+
+- Added a block action directly in the site-chat inbox an operator already works from, writing to the same blocklist the backend admin screen and the messaging layer both read. Blocking previously meant leaving the conversation to find a separate admin page — a detour nobody takes mid-conversation, so an abusive sender kept talking. The blocked conversation clears from the waiting queue the moment it happens.
+- Traced and closed a gap in the blocklist enforcement itself: it was checked only when a brand-new conversation opened, never on a message sent into one already in progress. Blocking a number stopped it from starting a fresh conversation but had no effect on one already open — the same sender kept landing messages regardless.
+- The phone a block action targets is resolved server-side from the conversation's own record rather than trusted from the browser, so a stale tab cannot block the wrong number.
+- Verified end to end against a synthetic conversation: blocking clears the inbox row, a further message into the now-open conversation is refused, and a brand-new conversation from the same number is refused at the door too.
+- Kept production source, customer data, and site-specific measurements private.
+
 ## 2026-09-12 — A Picker That Filters, and Asking in the Order the Work Happens
 
 - Replaced two different brand inputs — a bare text box on one intake screen and a text box backed by a native datalist on another — with one filtered picker drawn by the application itself. A native datalist is the browser's own interpretation of a combo box and it differs per engine: one squeezes it into a strip above the on-screen keyboard, another ignores typed characters and offers the entire list of a hundred and twenty-nine, and none match the local script the way staff actually write it.
