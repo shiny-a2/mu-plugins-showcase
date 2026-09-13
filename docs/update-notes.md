@@ -1,5 +1,13 @@
 # Public Update Notes
 
+## 2026-09-13 — Order Admin: A Trade-In Can Take Two Items, Not Only One
+
+- The order-correction tool's exchange feature let staff swap one purchased item for a replacement, adjusting stock and the order total automatically. The item being traded in was a single choice, so a customer bringing in two items for one replacement had no second slot — the second item stayed on the order and staff worked around it with a manual note instead. It is a multi-select now, matching the replacement side, which already allowed several new items.
+- The total being traded in, the removal of each old line, and the stock return are now computed across every item marked rather than assuming exactly one, with the stock return grouped per underlying product so two old lines of the same item don't return double the quantity.
+- Accepted the field in any of the three shapes the tool's two different front-end code paths produce, so neither one needed a matching rewrite to keep working.
+- Verified against two real orders: a two-items-for-one trade, and the original one-item case sent the older way, to confirm nothing already relying on a single selection broke.
+- Kept production source, order data, and site-specific measurements private.
+
 ## 2026-09-13 — Catalog Batch 22.0.3: Recover Interrupted AI Commands and Report Stop Origins
 
 - A follow-up Windows run confirmed successful exports but ended as cancelled without an explanation; the operator reported no manual stop. The previous cancellation handler could discard native command errors before recording them, so that log could not establish the triggering command.
