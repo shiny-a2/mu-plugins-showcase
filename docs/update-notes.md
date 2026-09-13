@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-09-13 — Catalog Batch 22.0.3: Recover Interrupted AI Commands and Report Stop Origins
+
+- A follow-up Windows run confirmed successful exports but ended as cancelled without an explanation; the operator reported no manual stop. The previous cancellation handler could discard native command errors before recording them, so that log could not establish the triggering command.
+- Limited automatic recovery of native AI cancellation to the background-removal commands and retained bounded retries in fresh documents. Explicit batch stops take priority. Inputs that exhaust cutout retries are reported and the folder continues; export, logging, and document-cleanup protections remain.
+- Added source/attempt/command diagnostics, the first failed-image summary, and explicit cancellation origins. Verified 90 automated cases against a limited host model, including repeated bad inputs and user stops queued during AI processing. Target-machine acceptance and visual edge quality remain separate from these tests.
+- Source code, composition rules, product identifiers, photos, templates, and runtime reports remain private.
+
 ## 2026-09-12 — Operator Console: Blocking a Number from the Inbox It's Read In
 
 - Added a block action directly in the site-chat inbox an operator already works from, writing to the same blocklist the backend admin screen and the messaging layer both read. Blocking previously meant leaving the conversation to find a separate admin page — a detour nobody takes mid-conversation, so an abusive sender kept talking. The blocked conversation clears from the waiting queue the moment it happens.
