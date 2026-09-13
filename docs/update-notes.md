@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-09-13 — Storefront: Android's Half of OTP Autofill
+
+- Every one-time-code screen on the site already gave an iPhone the "code appears above the keyboard" experience, which needs nothing beyond a standard HTML attribute — Safari reads the incoming text message itself. Android's browser answers to a different, explicit web API for the same behavior, and none of the five separate OTP screens (login, checkout, a direct account-login flow, order payment, and a marketplace's own auth form) were calling it.
+- Added one shared helper that makes that call once and hands each screen the code the same way it already handles a pasted one, so five screens wire one line to it instead of five copies of the same request-lifecycle logic.
+- Documented plainly, rather than left implicit, that this alone does not complete the behavior on Android: the underlying API stays inactive until the text message itself carries a line binding it to the site's exact address, and that line lives inside a compliance-approved SMS template that cannot be edited without going back through review — a scheduling decision for the party who owns that account, not a code change. Shipped ready and inert until then, changing nothing already working on iOS.
+- Kept production source, the site's address, and site-specific measurements private.
+
 ## 2026-09-13 — Order Admin: A Trade-In Can Take Two Items, Not Only One
 
 - The order-correction tool's exchange feature let staff swap one purchased item for a replacement, adjusting stock and the order total automatically. The item being traded in was a single choice, so a customer bringing in two items for one replacement had no second slot — the second item stayed on the order and staff worked around it with a manual note instead. It is a multi-select now, matching the replacement side, which already allowed several new items.
