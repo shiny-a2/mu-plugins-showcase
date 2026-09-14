@@ -1,5 +1,13 @@
 # Public Update Notes
 
+## 2026-09-14 — Loyalty: A Review Reward That a Person Signs Off
+
+- Added a loyalty mission that rewards a customer for reviewing a branch on the major maps platform. The customer's panel opens the review box directly; that tap files a claim rather than paying one, because the platform publishes no way to ask whether a particular customer left a review — reviews carry a display name and no link to a site account. Claims queue on a new admin screen beside a link to that branch's reviews, and only a human confirmation pays.
+- Denominated the reward in currency, as the shop thinks of it, but paid it in loyalty points, which is what the ledger moves. One point on this store is worth a fixed amount of credit, so a reward below that rounds to zero — instead of saving a figure that silently pays nothing, the admin screen states the conversion, warns when the entered figure is unpayable, and the mission stays hidden until it is worth at least one point.
+- Surfaced the platform-policy exposure rather than burying it: paying for reviews is against that platform's rules, and conditioning a reward on a particular star rating is the part most likely to get a business's reviews removed. The implementation pays for leaving a review, never reads or requires a rating, and the reward is identical regardless of what is written — with the reasoning recorded on the admin screen itself, where someone might otherwise reword it.
+- Verified end to end against a real account: disabled state offers nothing, an unpayable reward stays silent, a repeated tap does not create a second queue entry, no points exist before confirmation, confirmation pays exactly once, and a second confirmation or a repeat claim is refused.
+- Kept production source, branch identities, customer data, and site-specific figures private.
+
 ## 2026-09-13 — Storefront: Android's Half of OTP Autofill
 
 - Every one-time-code screen on the site already gave an iPhone the "code appears above the keyboard" experience, which needs nothing beyond a standard HTML attribute — Safari reads the incoming text message itself. Android's browser answers to a different, explicit web API for the same behavior, and none of the five separate OTP screens (login, checkout, a direct account-login flow, order payment, and a marketplace's own auth form) were calling it.
