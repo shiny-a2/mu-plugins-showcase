@@ -1,5 +1,13 @@
 # Public Update Notes
 
+## 2026-09-14 — Loyalty: Counter Sales Earn Per Invoice
+
+- Replaced the way counter sales were credited. They had been paid by re-running the club's one-time opening grant, which pays a lifetime sum per customer and then refuses that customer for good — so a first-time counter customer got every historical purchase credited while a returning one got nothing for last week's. 27 invoices were in that position.
+- Each invoice is now credited once under its own identifier, at the club's flat rate on the invoice's real total. An invoice already inside a customer's opening sum is skipped, and the opening grant no longer counts an invoice credited here, so whichever runs first the other yields and no sale is inside both.
+- Applied the shop's existing rule for a sale recorded in two places — a counter invoice paid through the website — in the one direction it had never run: the site order's points, paid the moment it settled, are withdrawn once the pair is found. Withdrawal voids only unspent points. 11 such orders were corrected.
+- Verified every owed invoice was unique against the rest of the table and every pair was a same-day amount match before moving anything; confirmed a second run moves nothing.
+- Kept production source, customer identities and figures private.
+
 ## 2026-09-14 — Counter Import: A Customer Code Is Not a Name
 
 - Audited a fresh batch of counter-sales imports line by line after the operator console began showing numbers where customer names belong. The accounting export had changed format: the customer cell now carries the accounting customer code, with a name after it only sometimes. The importer split on the first space, so the code became the first name; the contact-upsert routine then replaced the existing contact's fields with what it was handed — including blanks — and a sync pushed the code onto the customer's site account. 132 contacts and 117 accounts were affected.
