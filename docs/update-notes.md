@@ -1,5 +1,13 @@
 # Public Update Notes
 
+## 2026-09-14 — Counter Import: A Customer Code Is Not a Name
+
+- Audited a fresh batch of counter-sales imports line by line after the operator console began showing numbers where customer names belong. The accounting export had changed format: the customer cell now carries the accounting customer code, with a name after it only sometimes. The importer split on the first space, so the code became the first name; the contact-upsert routine then replaced the existing contact's fields with what it was handed — including blanks — and a sync pushed the code onto the customer's site account. 132 contacts and 117 accounts were affected.
+- Rewrote the name parser to peel the code off first and keep it on the invoice, the contact and the lead's notes, to recognise courtesy words before or after a name and normalise them to the CRM's own prefix values, and never to return digits as a name. Made contact upsert merge field by field instead of replacing, so a caller that knows only a phone can no longer erase a name, email or city.
+- Repaired the damaged records from other records on the site where any existed (40 of 132) and blanked the rest rather than leave a number standing; the codes with no name anywhere were exported for the shop to fill from its accounting system. Backed up every affected row before touching it.
+- Checked the batch for duplicates (none by invoice; one same-day pair confirmed as two distinct items) and found two points errors in how new counter sales were being credited — reported with exact figures for a decision rather than moved silently.
+- Kept production source, customer data, and site-specific figures private.
+
 ## 2026-09-14 — Loyalty: A Review Reward That a Person Signs Off
 
 - Added a loyalty mission that rewards a customer for reviewing a branch on the major maps platform. The customer's panel opens the review box directly; that tap files a claim rather than paying one, because the platform publishes no way to ask whether a particular customer left a review — reviews carry a display name and no link to a site account. Claims queue on a new admin screen beside a link to that branch's reviews, and only a human confirmation pays.
