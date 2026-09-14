@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-09-14 — CRM: A Counter Sale Closes the File
+
+- The counter-sales import created or updated a customer record but left its status on "new", so a person who had just bought over the counter sat in the call queue and outside every won-sale figure. 65 open files were in that state.
+- The import now moves an open file to the CRM's own "bought in store" status, writes the status-log row, and adds the history line in exactly the wording the operator console uses when a person records the same thing by hand — including which branch — so a sale recorded by the import and one recorded by a tap are indistinguishable everywhere they are counted. Files already closed keep their status; returns close nothing.
+- Backfilled the existing open files the same way and verified the operator card, the note and the status log on a converted record.
+- Kept production source, customer data and branch figures private.
+
 ## 2026-09-14 — Loyalty: Counter Sales Earn Per Invoice
 
 - Replaced the way counter sales were credited. They had been paid by re-running the club's one-time opening grant, which pays a lifetime sum per customer and then refuses that customer for good — so a first-time counter customer got every historical purchase credited while a returning one got nothing for last week's. 27 invoices were in that position.
