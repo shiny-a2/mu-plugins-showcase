@@ -1,5 +1,26 @@
 # Public Update Notes
 
+## 2026-09-15 — Market Watch: Reading Four Retailer Catalogues Honestly
+
+- Built a monitoring module for an internal assistant that compares a reference catalogue against public retailer catalogues and reports where a shared item is priced differently or shows a different stock state. Each site runs a different platform, so each gets its own adapter behind one comparison and one report format.
+- Made a large catalogue affordable to scan. Matching the reference from the listing URL costs nothing, so only products that are actually shared get their page opened — a twenty-thousand-product site drops from hours to minutes. Where one site's URLs carry a truncated model number, the adapter reads the model from the page title instead.
+- Three parsing faults were caught by verification before any figure was reported, not after. Taking the smallest price on a page picked up an unrelated sidebar item on listing URLs that return no product, inventing discounts that did not exist; a price is now read only where the page declares one, and pages without a declared price are counted separately so coverage is visible. One site publishes in a different currency unit, which read as a tenfold markup until the unit was detected from the median ratio across matches and normalised. Matching by URL slug produced false positives that exact-identifier matching does not.
+- Verified each correction against the live page rather than trusting the totals.
+- Kept the retailer identities, the reference catalogue, pricing figures and production source private.
+
+## 2026-09-15 — Brand Landing: Country of Origin, and Three Pages That Match
+
+- Added a country-of-origin filter to the brand landing pages, reading the same origin map the navigation menu uses so the two cannot disagree. Each brand card carries its country; the chips filter the grid, and a section whose cards are all filtered out hides its heading too.
+- Unified navigation across the three landing pages. Only the combined page had a switcher, leaving the two narrower pages as dead ends; all three now carry the same bar with the current page marked. The existing movement-based grouping was left untouched.
+- Kept production source, taxonomy details and catalogue figures private.
+
+## 2026-09-15 — Operations: Scheduled Tasks Failing in Silence
+
+- Found a twice-daily monitoring job that had never once run. Its batch runner called the interpreter by bare name, and scheduled tasks run as a service account whose PATH has no interpreter — so every run died instantly with a shell-level error and a generic failure code, leaving nothing in the application log.
+- The fault hid because the same file works when a person double-clicks it: an interactive account does have the interpreter on PATH. Fixed by calling the project's own interpreter by full path, then swept every other task runner for the same shape.
+- Documented the check that catches it: read the task's last result code after any runner change, rather than trusting a manual run.
+- Kept host names, task names and production source private.
+
 ## 2026-09-14 — CRM: A Counter Sale Closes the File
 
 - The counter-sales import created or updated a customer record but left its status on "new", so a person who had just bought over the counter sat in the call queue and outside every won-sale figure. 65 open files were in that state.
