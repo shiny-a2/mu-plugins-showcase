@@ -1,5 +1,27 @@
 # Public Update Notes
 
+## 2026-09-15 — Regional Access Control, and a Country Lookup That Does Not Lie
+
+- Built a module that restricts selected paths to visitors inside one country and returns a not-found page to everyone else. Two enforcement points were required: cached responses are sent by an early drop-in before the CMS loads, so a gate implemented only as a plugin is bypassed on every cached page. The same file is loaded from both places and guards itself against deciding twice.
+- Country is resolved from a static table built ahead of deployment, after three live-lookup routes were ruled out: no geolocation extension, no reader library for the binary database, and shell execution disabled under the FPM pool even though the configuration file shows no disabled functions and it works from the command line. That last failure was silent, so the check was being lost without any error.
+- One registry source was not enough. The regional registry records the country a range holder is registered in, not where the space is used; measured against a day of real traffic it missed one visitor in twelve. The table is now the union of the registry and ranges walked out of the binary database, deliberately generous — admitting a foreign visitor costs nothing, turning away a real customer does. Verified at zero misses across the full sample.
+- Kept the tiering deliberate: the strict scope admits no crawler at all, including search engines, because the intent is that those pages do not exist outside the region. A broader scope that admits verified search and AI crawlers is written and tested but stays off.
+- Configuration lives in a data file rather than constants, because the constants file is itself a plugin and does not exist yet when the early layer must decide.
+
+## 2026-09-15 — Error Page Rebuild, and a Filter That Never Wins
+
+- Replaced a theme error page that rendered an English placeholder inside the full site layout with a self-contained page in the site's own typeface and palette, offering search and the main shelves instead of an apology. Roughly a hundredfold smaller and four times faster.
+- The documented template filter was tried first and silently lost: the child theme and the page builder both hook the template include, and the last one registered wins. The page is now printed at the redirect stage and the request ends there, which nothing later can override. Its priority sits deliberately below the existing redirects so genuine relocations still take precedence.
+- The template depends on no CMS function, so the early cache layer can serve it before the CMS loads.
+- Error responses are marked uncacheable: the full-page cache keys on host and path and ignores status, so a temporarily missing URL would otherwise be served as missing for the life of the entry.
+
+## 2026-09-15 — Cache Warmer: Stop Reheating What Is Already Warm
+
+- Measured the warm queue against the cache before changing anything: every URL in the run was already cached. The whole budget was being spent reheating warm pages while freshly purged ones stayed cold, which is why raising the batch size in an earlier round had helped only briefly.
+- The warmer now derives the same cache key the serving layer derives and skips entries that already exist and are newer than the deploy marker. Skips do not consume the fetch quota, so every fetch fills a real gap.
+- Because detecting a warm page is nearly free, the scan window was widened tenfold at unchanged fetch cost. Measured after the change: a full quota of genuine misses per run and a clear net gain, against roughly zero before.
+- Kept production paths, cache keys, catalogue figures and site measurements private.
+
 ## 2026-09-15 — Market Watch: Reading Four Retailer Catalogues Honestly
 
 - Built a monitoring module for an internal assistant that compares a reference catalogue against public retailer catalogues and reports where a shared item is priced differently or shows a different stock state. Each site runs a different platform, so each gets its own adapter behind one comparison and one report format.
