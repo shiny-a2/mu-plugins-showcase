@@ -1,5 +1,13 @@
 # Public Update Notes
 
+## 2026-09-15 — Closing the Shop to Direct Foreign Traffic, and Telling the Right People Why
+
+- Widened the regional gate from one brand to the whole catalogue, so a future complaint does not have to be handled one brand at a time. Verified search engines, AI crawlers, the regional shopping crawler and the SEO auditing tools are all admitted, so organic search and the client's own reporting are untouched; what is turned away is direct traffic and unknown scrapers.
+- Measured the cost on a full day of real traffic before enabling rather than after: nine browser visits from outside the region against several hundred from inside, and the bulk of the "foreign visitors" resolved to datacentre addresses presenting browser user-agents. The client's own integration server reads as in-region and its API routes were already exempt.
+- Made the blocked page useful to the one visitor it can genuinely mislead: someone inside the region browsing through a VPN. Their address cannot say so — it is the reason they were blocked — so the page reads the device clock and time zone instead, and shows them their own local time as the evidence. A speaker of the local language whose clock sits elsewhere gets only a gentle reminder, because they may actually live abroad.
+- A cookie set on any in-region visit lets the server reach the same conclusion without waiting for scripting, and the notice renders only on a gate block, never on a genuine missing page.
+- Verified the full matrix against the live site with forged addresses and agents — real and forged search crawlers, AI crawlers, SEO tools, unknown scrapers, in-region and out-of-region browsers — then removed the test hook and confirmed it was gone.
+
 ## 2026-09-15 — Regional Access Control, and a Country Lookup That Does Not Lie
 
 - Built a module that restricts selected paths to visitors inside one country and returns a not-found page to everyone else. Two enforcement points were required: cached responses are sent by an early drop-in before the CMS loads, so a gate implemented only as a plugin is bypassed on every cached page. The same file is loaded from both places and guards itself against deciding twice.
