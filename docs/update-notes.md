@@ -1,5 +1,13 @@
 # Public Update Notes
 
+## 2026-09-25 — Accurate Set Categories and Compact Recommendation Badges
+
+- Corrected a category rule that treated shared suitability as evidence of a multi-item set. Set categories now require an explicit set word in the product title, with language-aware word boundaries.
+- Added a focused cleanup workflow that previews affected products, saves a private backup and durable mutation journal, checks for concurrent edits, and verifies that unrelated memberships survive. Restoration adds back only the recorded set memberships.
+- Sized animated shipping badges to fit compact recommendation cards on phones and desktops, preserving the image aspect ratio and keeping each badge within its own card.
+- Validated the classification and cleanup with 50 regression checks. The live cleanup completed with no skipped or failed products, and a repeat scan found no remaining invalid memberships. Live browser checks confirmed badge containment at five mobile and desktop widths.
+- Kept production source, catalog records, backup files, and client details private.
+
 ## 2026-09-15 — Closing the Shop to Direct Foreign Traffic, and Telling the Right People Why
 
 - Widened the regional gate from one brand to the whole catalogue, so a future complaint does not have to be handled one brand at a time. Verified search engines, AI crawlers, the regional shopping crawler and the SEO auditing tools are all admitted, so organic search and the client's own reporting are untouched; what is turned away is direct traffic and unknown scrapers.
