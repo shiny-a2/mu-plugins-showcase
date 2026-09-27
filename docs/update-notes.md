@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-09-28 — Easier Budget Shopping
+
+- Redesigned price-range cards around large, easy-to-scan figures, available-model counts and a restrained step indicator. Kept the live price filters and range ordering intact.
+- Showed all five choices together on the homepage, with responsive layouts on phones, tablets and desktops; retained the native carousel on the product directory.
+- Corrected right-to-left rendering for numeric intervals and gave the last phone-sized card a complete row. Used subtle shadows and clear keyboard focus.
+- Checked real filter URLs, model counts, layout, navigation and page health on the live storefront. Kept production source and client data private.
+
 ## 2026-09-28 — Authentic Brand Logo Carousel
 
 - Replaced the homepage brand rail’s generic icon-circle cards with a dedicated logo-first layout using the shop’s existing brand artwork.
