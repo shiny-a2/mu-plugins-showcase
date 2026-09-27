@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-09-27 — Borderless Category Cards and Visible Store Information
+
+- Removed the thin rim around the four primary photographic category cards and used clean external shadows for separation. Preserved visible keyboard focus.
+- Replaced the classic and sport category vectors with supplied optimized photography and legible overlaid captions, retaining the other category artwork while further images are prepared.
+- Made homepage store information always visible by removing the outer disclosure and the inherited height limit, fade mask and read-more controls. Preserved the original editorial content.
+- Checked responsive category borders, shadows, images and links, plus complete editorial visibility. Kept production source, supplied media and deployment details private.
+
 ## 2026-09-27 — Category Photography and Storefront Control Refinements
 
 - Published four supplied category photographs as optimized WebP assets, preserving the composition and keeping original optimized assets in private source control. Category links remain easy to access on phones and desktops.
