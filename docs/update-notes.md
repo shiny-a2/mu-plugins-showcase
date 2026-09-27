@@ -1,5 +1,13 @@
 # Public Update Notes
 
+## 2026-09-28 — Expanded Category Photography and Responsive Banner Fit
+
+- Published thirteen additional supplied category photographs as optimized WebP assets with descriptive filenames, matching each image to the existing shopping category.
+- Added descriptive image alternative text to the new and previously published category photographs and verified media titles, WebP formats and dimensions across nineteen assets.
+- Replaced the banner frame’s assumed aspect ratio with the actual paired image dimensions, covering initial rendering, manual slide changes, viewport changes and single-slide operation. Images display completely without cropping or unused frame space.
+- Updated admin upload guidance and explained how consistent image ratios within each device group keep the banner frame height stable.
+- Checked category image sources and text, live banner fit on phone, tablet and desktop layouts, responsive source changes and syntax. Kept source, media and client details private.
+
 ## 2026-09-27 — Borderless Category Cards and Visible Store Information
 
 - Removed the thin rim around the four primary photographic category cards and used clean external shadows for separation. Preserved visible keyboard focus.
