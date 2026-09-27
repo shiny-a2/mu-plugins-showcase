@@ -1,5 +1,14 @@
 # Public Update Notes
 
+## 2026-09-27 — Clear Storefront Discovery and Light Product Carousels
+
+- Rebuilt the homepage around a unified white-and-gold search and guided-selection panel, photographic audience categories, budget paths, product carousels, style and feature navigation, brand access, and searchable active categories.
+- Made the guided finder easier to discover and use with explicit start copy, a clear journey, keyboard-accessible selection buttons, visible selection states, and compact mobile choices. Verified the complete eight-step route into the results page.
+- Redesigned shared product cards with red Sale badges, visible original and discounted prices, restrained motion, native carousel controls, and reduced-motion support.
+- Replaced overly translucent and patterned storefront header/footer backgrounds with consistent opaque surfaces. Corrected archive-cache invalidation after taxonomy removals so catalog corrections appear promptly.
+- Preserved original builder content for rollback, prepared reference-photography instructions, and kept source, catalog records and deployment details private.
+- Checked live layouts at four phone, tablet and desktop widths, paired sale prices, carousel navigation, category search, product-page health, and deployed-source consistency.
+
 ## 2026-09-25 — Accurate Set Categories and Compact Recommendation Badges
 
 - Corrected a category rule that treated shared suitability as evidence of a multi-item set. Set categories now require an explicit set word in the product title, with language-aware word boundaries.
