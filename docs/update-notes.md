@@ -1,5 +1,13 @@
 # Public Update Notes
 
+## 2026-09-27 — Category Photography and Storefront Control Refinements
+
+- Published four supplied category photographs as optimized WebP assets, preserving the composition and keeping original optimized assets in private source control. Category links remain easy to access on phones and desktops.
+- Raised desktop dropdown navigation above the header announcement within its stacking context, including the sticky header.
+- Increased banner playback speed and replaced font-based control symbols with centered SVG icons, soft square buttons and a compact active indicator. Preserved manual navigation, pause and reduced-motion behavior.
+- Shaped red sale badges as ribbons with a triangular tail cutout and protected the discount text with additional padding.
+- Checked syntax, live image loading, responsive geometry and storefront interactions. Kept production source, media and client details private.
+
 ## 2026-09-27 — Managed Banners, Editable Announcements and Refined Interactions
 
 - Added a responsive banner manager with separate mobile and desktop uploads, destination links, ordering, enabled states, image-size guidance and configurable autoplay. Migrated paired existing assets and retired the replaced builder sliders after a private rollback backup.
