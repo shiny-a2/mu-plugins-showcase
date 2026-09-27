@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-09-28 — Authentic Brand Logo Carousel
+
+- Replaced the homepage brand rail’s generic icon-circle cards with a dedicated logo-first layout using the shop’s existing brand artwork.
+- Prioritized popular brands, kept all category destinations, and paired each logo with a clear brand name and quiet product link.
+- Fixed initial and scroll-time logo loading without requesting every brand asset up front. Preserved swipe, arrow navigation, keyboard focus and reduced-motion behavior.
+- Verified real logo display, destination links and carousel movement across phone, tablet and desktop widths. Kept production source and client details private.
+
 ## 2026-09-28 — Clearer Homepage Search and Guided Shopping
 
 - Redesigned the below-banner entry panel around a clear primary search action, descriptive label, query clearing, whitespace validation and direct popular-brand search links.
