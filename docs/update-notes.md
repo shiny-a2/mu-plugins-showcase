@@ -1,5 +1,15 @@
 # Public Update Notes
 
+## 2026-09-27 — Managed Banners, Editable Announcements and Refined Interactions
+
+- Added a responsive banner manager with separate mobile and desktop uploads, destination links, ordering, enabled states, image-size guidance and configurable autoplay. Migrated paired existing assets and retired the replaced builder sliders after a private rollback backup.
+- Built native banner transitions and navigation with hover/focus/visibility pause, swipe controls and reduced-motion behavior. Verified the deployed image sources, navigation and autoplay on phone, tablet and desktop layouts.
+- Added editable header announcements with a display toggle, text editor, destination link and color pickers. Aligned announcement corners and edges with the parent header while preserving the payment brand color.
+- Removed inherited theme/plugin pink hover states, clarified customer-facing copy, and distinguished sale prices with a red crossed-out original price and a green current price. Kept English Sale percentages through the site's digit-localization layer.
+- Reserved space for lifted cards and external shadows inside scrolling rails so their top edges remain visible. Softened unnecessary card borders.
+- Fixed stale missing-option cache entries after settings writes and refreshed cached builder replacement documents through the current renderer. Passed 26 server-side form, permission and sanitization checks and the live interaction checks.
+- Prepared complete reference-photography prompts for the category assets. Kept all production source, login information, client records and rollback snapshots private.
+
 ## 2026-09-27 — Clear Storefront Discovery and Light Product Carousels
 
 - Rebuilt the homepage around a unified white-and-gold search and guided-selection panel, photographic audience categories, budget paths, product carousels, style and feature navigation, brand access, and searchable active categories.
