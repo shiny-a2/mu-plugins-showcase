@@ -1,5 +1,13 @@
 # Public Update Notes
 
+## 2026-09-28 — Clearer Homepage Search and Guided Shopping
+
+- Redesigned the below-banner entry panel around a clear primary search action, descriptive label, query clearing, whitespace validation and direct popular-brand search links.
+- Integrated seven icon-labelled shopping shortcuts into the same panel, with a two-column desktop composition and compact stacked layouts on smaller screens.
+- Styled the existing guided finder as a distinct secondary path while preserving its question flow, selection states, progress and results behavior. Removed nested card borders and retained the white/gold palette and keyboard focus.
+- Published the supplied diving-category photograph as optimized WebP with descriptive image text, completing the style imagery.
+- Checked responsive layout, search controls, shortcut destinations, guided selection and image loading. Kept production source, supplied assets and client details private.
+
 ## 2026-09-28 — Expanded Category Photography and Responsive Banner Fit
 
 - Published thirteen additional supplied category photographs as optimized WebP assets with descriptive filenames, matching each image to the existing shopping category.
