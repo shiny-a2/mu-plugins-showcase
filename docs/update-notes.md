@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-09-28 — Ascending Budget Coin Illustrations
+
+- Added lightweight gold coin illustrations that grow from one to five across the budget choices.
+- Aligned all mobile price labels consistently, including the highest range, while keeping price text clear of the floating support control.
+- Preserved live counts and filter destinations; checked phone, tablet and desktop layouts. Kept production source and client data private.
+
 ## 2026-09-28 — Staff-Owned Note and Chat Controls
 
 - Added inline editing and confirmed deletion for staff members' own customer notes and site-chat replies.
