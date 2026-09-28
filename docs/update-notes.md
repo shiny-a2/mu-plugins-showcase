@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-09-28 — Clearer Discovery and Shared Theme Controls
+
+- Made homepage search and guided shopping easier to notice with clearer copy, stronger typography, a restrained gold background and a one-time motion accent with reduced-motion support.
+- Reused account day/night controls and colors across the homepage, retaining light as the default and remembering explicit customer choices. Adapted navigation, price cards and editorial content for dark-theme contrast.
+- Fixed an early-loading mobile navigation error and verified responsive layouts and shopping-guide interactions. Production code and client data remain private.
+
 ## 2026-09-28 — Ascending Budget Coin Illustrations
 
 - Added lightweight gold coin illustrations that grow from one to five across the budget choices.
