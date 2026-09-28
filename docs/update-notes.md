@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-09-28 — Staff-Owned Note and Chat Controls
+
+- Added inline editing and confirmed deletion for staff members' own customer notes and site-chat replies.
+- Enforced ownership and record scope on the server, rejected stale writes, preserved drafts on failures and background refreshes, and logged successful changes without message content.
+- Kept the customer's open chat synchronized with edited text and deletion markers using the existing conversation authorization.
+- Passed isolated database checks, mobile/desktop interaction checks and live access-denial checks. Kept production source and customer data private.
+
 ## 2026-09-28 — Refined Budget Selector
 
 - Replaced separate budget cards with one connected price selector, using equal desktop choices and clear full-width rows on smaller screens.
