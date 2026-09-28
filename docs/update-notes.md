@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-09-29 — Commerce Authorization and Privacy Hardening
+
+- Strengthened authorization boundaries across a WordPress commerce extension suite, a B2B customer portal and shared brand storefronts. Kept authenticated data separate from shared caches and scoped customer actions to their owners.
+- Improved session revocation, browser-cache privacy, subscription capabilities and payment callback handling. Added isolated regression checks with synthetic data and verified live storefront health without creating payments or customer orders.
+- Preserved private rollback releases and documented follow-up work. This is a targeted remediation release, not a claim that a comprehensive penetration test or incident investigation is complete.
+- Detailed findings, infrastructure settings and operational evidence remain private; no credentials or customer data are included in this showcase.
+
 ## 2026-09-29 — Remove Legacy Category-Chip Injection
 
 - Disabled an old automatic archive navigation module that displayed unrelated sibling categories and inventory counts above product grids. Removed its rendering work at the source rather than concealing it with CSS.
