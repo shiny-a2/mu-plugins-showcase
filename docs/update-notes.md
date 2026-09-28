@@ -1,5 +1,9 @@
 # Public Update Notes
 
+## 2026-09-28 — Opaque Mobile Header in Dark Mode
+
+- Corrected a transparent fixed mobile header by giving it its own dark surface and safe-area fill, keeping navigation readable over scrolling content. Preserved the light appearance.
+
 ## 2026-09-28 — Clearer Discovery and Shared Theme Controls
 
 - Made homepage search and guided shopping easier to notice with clearer copy, stronger typography, a restrained gold background and a one-time motion accent with reduced-motion support.
