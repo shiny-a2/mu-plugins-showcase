@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-29 — Remove Legacy Category-Chip Injection
+
+- Disabled an old automatic archive navigation module that displayed unrelated sibling categories and inventory counts above product grids. Removed its rendering work at the source rather than concealing it with CSS.
+- Refreshed cached pages and checked initial and repeated category loads, retaining normal headings and products.
+
 ## 2026-09-28 — Consistent Floating Storefront Actions
 
 - Redesigned support and offer launchers with matching line icons, compact mobile and desktop sizes, restrained shadows and coordinated light/dark surfaces. Removed the extra support caption and continuous pulse.
