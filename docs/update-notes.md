@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-28 — Consistent Floating Storefront Actions
+
+- Redesigned support and offer launchers with matching line icons, compact mobile and desktop sizes, restrained shadows and coordinated light/dark surfaces. Removed the extra support caption and continuous pulse.
+- Preserved existing actions and unread indicators, added keyboard access to the offer launcher, and checked both themes without submitting customer data.
+
 ## 2026-09-28 — Opaque Mobile Header in Dark Mode
 
 - Corrected a transparent fixed mobile header by giving it its own dark surface and safe-area fill, keeping navigation readable over scrolling content. Preserved the light appearance.
