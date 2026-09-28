@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-09-29 — Reliable Marketplace Synchronization
+
+- Corrected a mismatch between operator-facing send controls and backend permissions; approved operators now have an explicit, protected submission flow.
+- Removed silent catalogue truncation and distinguished queued requests from verified completion, with durable tracking, duplicate protection and clear partial-failure feedback.
+- Preserved merchant price controls and validated behavior through isolated integration tests, a browser fixture and read-only production checks. External catalogue changes were not used as test transactions.
+
 ## 2026-09-29 — Commerce Authorization and Privacy Hardening
 
 - Strengthened authorization boundaries across a WordPress commerce extension suite, a B2B customer portal and shared brand storefronts. Kept authenticated data separate from shared caches and scoped customer actions to their owners.
