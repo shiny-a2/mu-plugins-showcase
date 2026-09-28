@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-09-28 — Refined Budget Selector
+
+- Replaced separate budget cards with one connected price selector, using equal desktop choices and clear full-width rows on smaller screens.
+- Improved Persian range labels, available-model counts and the visual hierarchy while keeping the same live price-filter destinations.
+- Adjusted the final mobile choice to remain legible beside the floating support control. Checked phone, tablet and desktop layouts, links and keyboard focus.
+- Kept production source and client data private.
+
 ## 2026-09-28 — Easier Budget Shopping
 
 - Redesigned price-range cards around large, easy-to-scan figures, available-model counts and a restrained step indicator. Kept the live price filters and range ordering intact.
