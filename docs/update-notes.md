@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-29 — Account access and dedicated gifts
+
+- Add account access to the mobile storefront menu and use a clear customer-facing page title.
+- Move vouchers and gifts from the dashboard into a dedicated account-menu section with authenticated on-demand loading, empty states and retry. Record gift views only when the section is opened.
+
 ## 2026-09-29 — Clear marketplace seller onboarding
 
 - Rebuild shared onboarding progress with a current-stage summary, next-step guidance and persistent compact stages across mobile and desktop. Enable direct return to earlier form sections while preserving field validation and drafts.
