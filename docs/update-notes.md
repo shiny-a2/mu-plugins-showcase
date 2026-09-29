@@ -1,5 +1,9 @@
 # Public Update Notes
 
+## 2026-09-29 — Consistent dark banner controls
+
+- Coordinate banner letterboxing, control surfaces and gold navigation indicators with the storefront dark palette. Verify theme switching on desktop and mobile.
+
 ## 2026-09-29 — Stable responsive banner layout
 
 - Reserve a consistent banner frame for mobile and desktop so changing images no longer shifts the page. Preserve full image visibility and clarify upload dimensions in the administration guide.
