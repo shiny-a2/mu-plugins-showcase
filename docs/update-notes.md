@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-29 — Smoother guided watch selection
+
+- Advance automatically after selecting an option while preserving back/continue controls and manual budget entry.
+- Keep the guide layout stable between steps, remove hover movement and align selection colors with both themes. Validate navigation and results handoff on mobile and desktop.
+
 ## 2026-09-29 — Consistent borderless storefront chrome
 
 - Unify header and sticky mobile bars with restrained glass surfaces, removing visible frame seams while preserving readable light/dark colors.
