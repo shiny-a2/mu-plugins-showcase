@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-29 — Consistent borderless storefront chrome
+
+- Unify header and sticky mobile bars with restrained glass surfaces, removing visible frame seams while preserving readable light/dark colors.
+- Verify scrolled desktop/mobile states and provide opaque accessibility/browser fallbacks.
+
 ## 2026-09-29 — Cleaner product controls in dark mode
 
 - Simplify the sticky purchase bar to one surface and improve price, reward-link and secondary-action readability using the shared storefront palette.
