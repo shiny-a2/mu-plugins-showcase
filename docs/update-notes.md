@@ -1,5 +1,9 @@
 # Public Update Notes
 
+## 2026-09-29 — Aligned desktop header controls
+
+- Remove mismatched phone and Instagram widget margins so all six desktop controls share a vertical center. Verify normal/sticky headers in both themes across four desktop widths.
+
 ## 2026-09-29 — Category-specific archive headings
 
 - Replace a copied brand heading in 34 bound archive templates with each category’s own label and retain a rollback snapshot. Update the template builder and add a query-aware heading guard to prevent recurrence.
