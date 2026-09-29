@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-09-29 — Support directory and club onboarding
+
+- Turn the support launcher into a clear channel chooser and redesign chat with readable labels, consistent spacing, keyboard controls and matching light/dark surfaces.
+- Explain current loyalty points and their shopping-credit value before and after voucher delivery, using live settings rather than promotional estimates. Keep the phone action prominent and clarify verified membership.
+- Validate responsive states and a mocked voucher flow; unconfigured messenger identities use an explicit contact fallback instead of guessed account links.
+
 ## 2026-09-29 — Product dark theme, stage two
 
 - Extend the shared light-first preference to product details, with coordinated specifications, installment panels, rewards, related items and mobile purchase controls.
