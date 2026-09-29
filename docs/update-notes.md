@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-29 — Banner frames matched to current uploads
+
+- Match mobile and desktop homepage slider proportions to the existing uploaded banners, removing excessive empty space while keeping slide height stable. Update the admin upload guidance.
+- Verify seven slides, manual and automatic transitions, and light/dark layouts on mobile and desktop.
+
 ## 2026-09-29 — Validated catalog reference connectors
 
 - Separate configured image references from specification references and respect administrator priority. Correct sitemap traversal and Windows cache naming.
