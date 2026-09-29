@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-29 — Consistent storefront light and dark themes
+
+- Apply one saved, light-first theme across storefront routes and synchronize switches between tabs and browser-history restoration. Extend shared header, footer and cart surfaces to account, cart and checkout pages.
+- Improve category copy and product card contrast, installment announcements, cart amounts, payment guidance and OTP/login surfaces. Preserve checkout behavior and validation; test presentation without sending an order or SMS.
+
 ## 2026-09-29 — Banner frames matched to current uploads
 
 - Match mobile and desktop homepage slider proportions to the existing uploaded banners, removing excessive empty space while keeping slide height stable. Update the admin upload guidance.
