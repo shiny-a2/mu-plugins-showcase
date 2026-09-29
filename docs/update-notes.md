@@ -1,5 +1,9 @@
 # Public Update Notes
 
+## 2026-09-29 — Expandable homepage editorial
+
+- Show a readable introduction and gradual fade with a clear expand/collapse action. Preserve the full editorial copy in the page and support keyboard access, responsive layouts and both themes.
+
 ## 2026-09-29 — Flexible operational report intake
 
 - Accept staff narratives independently of attendance formatting and preserve original text for contextual analysis. Recognize common numeral/time variations without inventing missing work hours.
