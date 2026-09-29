@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-09-29 — Validated catalog reference connectors
+
+- Separate configured image references from specification references and respect administrator priority. Correct sitemap traversal and Windows cache naming.
+- Require exact product evidence, reject redirects and sibling variants, and map specifications to the storefront vocabulary with explicit review for unknown values.
+- Deliver per-source operator glossaries and a read-only reference packet. Validate 13 connector regressions, the existing image pipeline, and a server-side sample. Document blocked sources and the remaining image-agent/specification handoff separately; no publication batch was executed.
+
 ## 2026-09-29 — Live storefront search suggestions
 
 - Share product, brand and category suggestions between homepage search and the header search. Support partial brand names, Persian text variants, keyboard navigation and direct full-results access.
