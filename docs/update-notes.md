@@ -2,6 +2,8 @@
 
 ## 2026-09-29 — Consistent storefront light and dark themes
 
+- Complete the visual audit with checkout login/coupon wrappers, birthday fields, loading overlays and stronger OTP button contrast. Verify seven deployed routes at mobile and desktop widths; no order or SMS was submitted.
+
 - Apply one saved, light-first theme across storefront routes and synchronize switches between tabs and browser-history restoration. Extend shared header, footer and cart surfaces to account, cart and checkout pages.
 - Improve category copy and product card contrast, installment announcements, cart amounts, payment guidance and OTP/login surfaces. Preserve checkout behavior and validation; test presentation without sending an order or SMS.
 
