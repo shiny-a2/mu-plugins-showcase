@@ -659,3 +659,12 @@ Simplified the initial club popup to a concise introduction and discount request
 ## 2026-09-29 — Visible chat handoffs and clearer support contacts
 
 The operator inbox now retains automated chat replies for human follow-up, identifies automated responses and refreshes while open. Resolved conversations return when customers send a new message. Isolated database regression checks cover these states. The storefront contact menu now uses a simple list with website chat first and the official Instagram account last; verified across mobile/desktop and both themes.
+
+
+## 2026-09-29 — Auditable manager reports
+
+Separate invoice matching from sales attribution. Managers can search invoice details, review contact timestamps, inspect unclaimed related invoices and record evidence-backed decisions. A sale cannot be approved solely because an operator entered its number. Financial views distinguish independent payment records, manual receipts and invoice-only amounts needing settlement reconciliation. Added Persian display dates and regression checks for authorization, stale evidence and duplicate attribution.
+
+## 2026-09-29 — Hanowa official trust seal
+
+Added the supplied official eNamad seal to the Hanowa footer with its verification link, accessible labels and reserved image dimensions. Verified live image loading and responsive layout on desktop and mobile.
