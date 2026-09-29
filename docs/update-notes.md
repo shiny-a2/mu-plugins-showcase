@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-09-29 — Consistent desktop navigation icons
+
+- Unify header actions with matching outline artwork, accessible hit areas and restrained light/dark styling.
+- Preserve navigation and shopping interactions while improving spacing and keyboard focus.
+
+
 ## 2026-09-29 — Safer branch imports and loyalty accounting
 
 - Validate different accounting-export formats and distinguish new records from repeated uploads.
