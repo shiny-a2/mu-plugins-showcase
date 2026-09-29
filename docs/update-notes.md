@@ -2,7 +2,7 @@
 
 ## 2026-09-29 — Account access and dedicated gifts
 
-- Add account access to the mobile storefront menu and use a clear customer-facing page title.
+- Add account access to the mobile storefront menu and use a clear customer-facing page title. Include the new link in cached guest menus.
 - Move vouchers and gifts from the dashboard into a dedicated account-menu section with authenticated on-demand loading, empty states and retry. Record gift views only when the section is opened.
 
 ## 2026-09-29 — Clear marketplace seller onboarding
