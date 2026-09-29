@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-29 — Category-specific archive headings
+
+- Replace a copied brand heading in 34 bound archive templates with each category’s own label and retain a rollback snapshot. Update the template builder and add a query-aware heading guard to prevent recurrence.
+- Preserve authored SEO titles and repair only missing or incorrectly copied brand titles, including social titles and pagination. Keep jewelry labels distinct from watch labels.
+
 ## 2026-09-29 — Consistent storefront light and dark themes
 
 - Complete the visual audit with checkout login/coupon wrappers, birthday fields, loading overlays and stronger OTP button contrast. Verify seven deployed routes at mobile and desktop widths; no order or SMS was submitted.
