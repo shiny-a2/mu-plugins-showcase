@@ -1,5 +1,13 @@
 # Public Update Notes
 
+## 2026-09-29 — Safer branch imports and loyalty accounting
+
+- Validate different accounting-export formats and distinguish new records from repeated uploads.
+- Protect customer ownership, serialize competing imports, and cap rewards when older invoices arrive later.
+- Surface ambiguous historical records for accounting review without silently changing customer balances.
+- Add synthetic regressions and read-only reconciliation checks; no customer data or private operational details are published.
+
+
 ## 2026-09-29 — Reliable Marketplace Synchronization
 
 - Corrected a mismatch between operator-facing send controls and backend permissions; approved operators now have an explicit, protected submission flow.
