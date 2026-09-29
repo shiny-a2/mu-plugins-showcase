@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-09-30 — Repair workflow notifications
+
+- Add an authenticated activity centre and optional device notifications so repair staff can follow marketplace intake, repair progress, publication and support activity.
+- Provide clear mobile activation instructions, per-device controls and a delivery self-test; keep lock-screen messages generic.
+- Validate duplicate prevention, retries, permission boundaries, service-worker isolation and responsive inbox interactions. Physical handset delivery remains dependent on user consent and device settings.
+
 ## 2026-09-29 — Clearer loyalty rewards and progression
 
 - Expand the optional club benefits dialog with an interactive credit example, settings-backed earning activities and selectable membership services. Keep the primary signup invitation compact.
