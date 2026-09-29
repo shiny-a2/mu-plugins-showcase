@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-29 — Clear marketplace seller onboarding
+
+- Rebuild shared onboarding progress with a current-stage summary, next-step guidance and persistent compact stages across mobile and desktop. Enable direct return to earlier form sections while preserving field validation and drafts.
+- Verify responsive layouts down to 320px, full local navigation without submitting marketplace records, 310 core flow checks and 108 seller identity checks.
+
 ## 2026-09-29 — Consistent dark banner controls
 
 - Coordinate banner letterboxing, control surfaces and gold navigation indicators with the storefront dark palette. Verify theme switching on desktop and mobile.
