@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-29 — Clearer loyalty rewards and progression
+
+- Expand the optional club benefits dialog with an interactive credit example, settings-backed earning activities and selectable membership services. Keep the primary signup invitation compact.
+- Explain reward conditions and spending-credit value without promising cash payouts. Verify both themes, mobile/desktop fit and accessible dialog navigation.
+
 ## 2026-09-29 — Smoother guided watch selection
 
 - Advance automatically after selecting an option while preserving back/continue controls and manual budget entry.
