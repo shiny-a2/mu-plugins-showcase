@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-29 — Dark-mode banner controls
+
+- Match the banner navigation panel to the storefront dark palette, with clear active indicators and accessible gold controls on desktop and mobile.
+
+
 ## 2026-09-29 — Consistent desktop navigation icons
 
 - Unify header actions with matching outline artwork, accessible hit areas and restrained light/dark styling.
