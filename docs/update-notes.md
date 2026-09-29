@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-09-29 — Attribute-backed watch discovery
+
+- Synchronize bracelet-style watch and brand-origin categories across product editing and media/content integrations, preserving unrelated classifications and read-only workflows.
+- Add a responsive country navigation rail, category SEO copy and consistent photography prompts. Keep brand origin distinct from movement origin.
+- Validate classification rules, integration updates, idempotent catalog processing and desktop/mobile navigation in light and dark themes.
+
 ## 2026-09-29 — Expandable homepage editorial
 
 - Show a readable introduction and gradual fade with a clear expand/collapse action. Preserve the full editorial copy in the page and support keyboard access, responsive layouts and both themes.
