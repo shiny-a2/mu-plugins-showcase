@@ -654,3 +654,8 @@
 ## 2026-09-29 — Clearer customer club invitation
 
 Simplified the initial club popup to a concise introduction and discount request. A separate details dialog explains points, shopping credit and membership benefits using current settings. Checked mobile and desktop, light and dark themes, and keyboard navigation without submitting customer data.
+
+
+## 2026-09-29 — Visible chat handoffs and clearer support contacts
+
+The operator inbox now retains automated chat replies for human follow-up, identifies automated responses and refreshes while open. Resolved conversations return when customers send a new message. Isolated database regression checks cover these states. The storefront contact menu now uses a simple list with website chat first and the official Instagram account last; verified across mobile/desktop and both themes.
