@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-29 — Product-specific delivery and assisted purchasing
+
+- Align the delivery badge and availability text for an eligible brand’s available products without counted inventory. Keep other stock states and brands unchanged.
+- Place a concise installment contact beside the purchase controls, with readable mobile/desktop layouts in both themes. Validate stock boundaries and live rendering without modifying inventory or payment permissions.
+
 ## 2026-09-29 — Aligned desktop header controls
 
 - Remove mismatched phone and Instagram widget margins so all six desktop controls share a vertical center. Verify normal/sticky headers in both themes across four desktop widths.
