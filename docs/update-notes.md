@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-09-29 — Flexible operational report intake
+
+- Accept staff narratives independently of attendance formatting and preserve original text for contextual analysis. Recognize common numeral/time variations without inventing missing work hours.
+- Separate fresh reports from pending follow-up answers, retain authorization/idempotency boundaries, and require explicit unambiguous attendance before attendance writes.
+- Validate with 17 synthetic offline tests and a read-only historical comparison. Existing task-service and characterization suites pass; one unrelated monthly HR display assertion also fails on the unchanged baseline.
+
 ## 2026-09-29 — Reliable desktop sticky navigation
 
 - Remove a dark-theme backdrop effect that changed the positioning context of the sticky menu. Preserve the dark surface while keeping navigation attached to the viewport during scrolling.
