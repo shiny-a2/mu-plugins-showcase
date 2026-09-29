@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-29 — Catalog dark theme, stage one
+
+- Carry the shopper’s theme preference into product browsing, including cards, pricing, filters and pagination. Validate responsive layouts and dynamically populated filter panels.
+
+
 ## 2026-09-29 — Dark-mode banner controls
 
 - Match the banner navigation panel to the storefront dark palette, with clear active indicators and accessible gold controls on desktop and mobile.
