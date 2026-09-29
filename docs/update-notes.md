@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-29 — Reliable desktop sticky navigation
+
+- Remove a dark-theme backdrop effect that changed the positioning context of the sticky menu. Preserve the dark surface while keeping navigation attached to the viewport during scrolling.
+- Check light/dark desktop scrolling and mobile behavior across storefront page types.
+
 ## 2026-09-29 — Support directory and club onboarding
 
 - Turn the support launcher into a clear channel chooser and redesign chat with readable labels, consistent spacing, keyboard controls and matching light/dark surfaces.
