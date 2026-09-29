@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-29 — Cleaner product controls in dark mode
+
+- Simplify the sticky purchase bar to one surface and improve price, reward-link and secondary-action readability using the shared storefront palette.
+- Validate both themes on mobile and desktop, including the wrist-size dialog and viewport boundaries.
+
 ## 2026-09-29 — Product-specific delivery and assisted purchasing
 
 - Align the delivery badge and availability text for an eligible brand’s available products without counted inventory. Keep other stock states and brands unchanged.
