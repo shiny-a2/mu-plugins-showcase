@@ -4,6 +4,7 @@
 
 - Extend the shared light-first preference to product details, with coordinated specifications, installment panels, rewards, related items and mobile purchase controls.
 - Validate responsive views, theme persistence, gallery and sizing-dialog controls; resolve legacy mobile table styles while preserving product photography.
+- Correct gallery layering so the fixed mobile header cannot cover the full-screen close control.
 
 ## 2026-09-29 — Catalog dark theme, stage one
 
