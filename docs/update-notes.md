@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-29 — Product dark theme, stage two
+
+- Extend the shared light-first preference to product details, with coordinated specifications, installment panels, rewards, related items and mobile purchase controls.
+- Validate responsive views, theme persistence, gallery and sizing-dialog controls; resolve legacy mobile table styles while preserving product photography.
+
 ## 2026-09-29 — Catalog dark theme, stage one
 
 - Carry the shopper’s theme preference into product browsing, including cards, pricing, filters and pagination. Validate responsive layouts and dynamically populated filter panels.
