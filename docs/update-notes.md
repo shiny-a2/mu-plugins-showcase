@@ -1,5 +1,9 @@
 # Public Update Notes
 
+## 2026-09-29 — Stable responsive banner layout
+
+- Reserve a consistent banner frame for mobile and desktop so changing images no longer shifts the page. Preserve full image visibility and clarify upload dimensions in the administration guide.
+
 ## 2026-09-29 — Attribute-backed watch discovery
 
 - Synchronize bracelet-style watch and brand-origin categories across product editing and media/content integrations, preserving unrelated classifications and read-only workflows.
