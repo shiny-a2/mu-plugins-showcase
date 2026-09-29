@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-29 — Live storefront search suggestions
+
+- Share product, brand and category suggestions between homepage search and the header search. Support partial brand names, Persian text variants, keyboard navigation and direct full-results access.
+- Debounce and cancel superseded requests, reuse bounded search caching, and coordinate responsive light/dark suggestion surfaces.
+
 ## 2026-09-29 — Account access and dedicated gifts
 
 - Add account access to the mobile storefront menu and use a clear customer-facing page title. Include the new link in cached guest menus.
