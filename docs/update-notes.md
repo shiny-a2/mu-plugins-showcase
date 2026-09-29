@@ -649,3 +649,8 @@
 - Created the Phase 1 public umbrella showcase for private MU-plugin work.
 - Added privacy boundary, reviewer path, tech stack, and sample-code placeholder.
 - Kept production source, logs, security internals, and site-specific configuration private.
+
+
+## 2026-09-29 — Clearer customer club invitation
+
+Simplified the initial club popup to a concise introduction and discount request. A separate details dialog explains points, shopping credit and membership benefits using current settings. Checked mobile and desktop, light and dark themes, and keyboard navigation without submitting customer data.
