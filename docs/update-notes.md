@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-30 — Editable homepage category photography
+
+- Replace a category illustration with optimized, user-provided WebP photography. Read the image from the category editor so future changes need no homepage code edits.
+- Preserve responsive image metadata, descriptive alternative text and lazy loading; verify the category destination and mobile/desktop rendering.
+
 ## 2026-09-30 — Readable dark storefront and editorial pages
 
 - Unify product, catalog, article and information-page typography, surfaces and controls in dark mode; correct separate light overlays that obscured text.
