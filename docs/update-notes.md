@@ -8,7 +8,7 @@
 
 ## 2026-09-30 — Descriptive category-image text
 
-- Use the uploaded watch photograph’s descriptive alternative text on the homepage, with responsive WebP delivery already in place.
+- Use the uploaded watch photograph’s descriptive alternative text on the homepage, with responsive WebP delivery already in place. Give the existing site logos meaningful alternative text and refresh their rendered output.
 
 ## 2026-09-30 — Faster, clearer homepage category images
 
