@@ -1,5 +1,15 @@
 # Public Update Notes
 
+## 2026-09-30 — Verified branch availability
+
+- Reconcile a legacy store quantity against verified branch spreadsheets without double-counting it; preserve ambiguous records for manual review.
+- Show confirmed branch names on product pages in mobile and desktop layouts, including products held at both branches.
+- Validate stock transitions, repeated imports and responsive rendering.
+
+## 2026-09-30 — Descriptive category-image text
+
+- Use the uploaded watch photograph’s descriptive alternative text on the homepage, with responsive WebP delivery already in place.
+
 ## 2026-09-30 — Faster, clearer homepage category images
 
 - Replace an incorrect category thumbnail with the correct user-provided watch photograph, converted from a large PNG to a compact WebP with descriptive alternative text.
