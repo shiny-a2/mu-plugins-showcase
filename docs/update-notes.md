@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-09-30 — Clearer catalog card separation
+
+- Strengthen exterior product-card shadows in both themes, with restrained warm elevation on dark surfaces and stable hover positions.
+- Verify mobile/desktop rendering and viewport fit.
+
 ## 2026-09-30 — Editable homepage category photography
 
 - Replace a category illustration with optimized, user-provided WebP photography. Read the image from the category editor so future changes need no homepage code edits.
