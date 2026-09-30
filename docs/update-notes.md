@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-09-30 — Recoverable Product and Image Workflows
+
+- Hardened reviewed draft imports and image assignment against duplicate submissions, partial failures and concurrent processing. Preserve editorial approval and existing product images.
+- Added gallery-completeness checks and publication validation that detects intervening manual changes. Verified actual upload bytes and product ownership before assignment.
+- Executed real HTTP checks against a separate WordPress/WooCommerce database, including replay, concurrency, image SEO and publication boundaries. Connected a persistent worker to that isolated store for source-to-draft recovery verification.
+- Manual desktop photo processing and final owner acceptance remain explicitly pending. Production source, customer data, credentials and operational details stay private.
+
 ## 2026-09-30 — Clearer catalog card separation
 
 - Strengthen exterior product-card shadows in both themes, with restrained warm elevation on dark surfaces and stable hover positions.
