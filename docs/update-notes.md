@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-10-01 — Clearer desktop header branding
+
+- Replace a small desktop logo with the sharper existing mobile artwork and simplify the desktop calligraphic wordmark to the brand name.
+- Refine the wordmark crop after visual review, preserve mobile sizing, and keep both marks readable in light and dark themes.
+- Check the live header at mobile and desktop widths, including both color modes.
+
 ## 2026-09-30 — Verified branch availability
 
 - Reconcile a legacy store quantity against verified branch spreadsheets without double-counting it; preserve ambiguous records for manual review.
