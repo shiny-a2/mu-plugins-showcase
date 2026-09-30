@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-09-30 — Readable dark storefront and editorial pages
+
+- Unify product, catalog, article and information-page typography, surfaces and controls in dark mode; correct separate light overlays that obscured text.
+- Strengthen product-card elevation, theme search and navigation, and give mobile search results more room for product names and prices.
+- Validate eight representative routes across mobile/desktop and light/dark modes, including contrast samples, layout fit and visual review. Preserve existing commerce behavior and explicit theme preference.
+
 ## 2026-09-30 — Repair workflow notifications
 
 - Add an authenticated activity centre and optional device notifications so repair staff can follow marketplace intake, repair progress, publication and support activity.
