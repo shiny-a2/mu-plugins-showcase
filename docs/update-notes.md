@@ -3,7 +3,7 @@
 ## 2026-09-30 — Verified branch availability
 
 - Reconcile a legacy store quantity against verified branch spreadsheets without double-counting it; preserve ambiguous records for manual review.
-- Show confirmed branch names on product pages in mobile and desktop layouts, including products held at both branches.
+- Show confirmed branch names on product pages in mobile and desktop layouts, including products held at both branches. Hide the zero-valued legacy review field for resolved products in the editor, while retaining genuine exceptions for staff.
 - Validate stock transitions, repeated imports and responsive rendering.
 
 ## 2026-09-30 — Descriptive category-image text
