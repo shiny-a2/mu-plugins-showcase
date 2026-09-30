@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-09-30 — Clearer family-history timeline
+
+- Put dated milestones in order and align existing photographs and films with their chapters on mobile and desktop.
+- Add a user-supplied film to the relevant company chapter, with a responsive frame and accessible title. Preserve the established history and media.
+- Check chronology, responsive layout and both visual themes.
+
 ## 2026-09-30 — Recoverable Product and Image Workflows
 
 - Hardened reviewed draft imports and image assignment against duplicate submissions, partial failures and concurrent processing. Preserve editorial approval and existing product images.
