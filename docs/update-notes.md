@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-09-30 — Faster, clearer homepage category images
+
+- Replace an incorrect category thumbnail with the correct user-provided watch photograph, converted from a large PNG to a compact WebP with descriptive alternative text.
+- Serve existing 300/600/1000-pixel WebP variants for homepage category cards according to viewport size, reducing unnecessary image transfer while keeping sharp displays.
+- Check the live page at mobile and desktop widths and retain the earlier media assignment for rollback.
+
 ## 2026-09-30 — Clearer family-history timeline
 
 - Put dated milestones in order and align existing photographs and films with their chapters on mobile and desktop.
