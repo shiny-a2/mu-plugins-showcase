@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-10-01 — Clearer rewards and faster visual discovery
+
+- Simplify the club invitation, make its benefits action prominent, and show a brief one-time credit-slider demonstration that stops when a visitor interacts.
+- Show a claimed promotional code in the customer's gifts section and distinguish a used code visually using the commerce system's customer-use record.
+- Complete the support destinations across the popup, link hub and footer, and add subtle accessible motion to the support and offer controls.
+- Add responsive WebP imagery to jewelry and gift categories, reduce story-rail image weight, and optimize eligible new image uploads without replacing a file unless the result is smaller.
+
 ## 2026-10-01 — Working support choices
 
 - Connect the support popup to verified public messaging profiles and hide channels without a configured destination, so every visible choice has a real action.
