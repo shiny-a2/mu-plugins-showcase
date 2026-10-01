@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-10-01 — Customer account navigation and pending payments
+
+- Add a payment action only to orders that remain payable and belong to the signed-in customer; retain the existing checkout route and ownership checks.
+- Keep the order dialog usable on small screens with a fixed heading and independently scrolling details.
+- Complete the mobile account navigation with recently viewed items and place partner rewards alongside other gifts.
+- Verify payment eligibility boundaries with isolated tests and production health checks.
+
 ## 2026-10-01 — Configurable watch delivery choices
 
 - Add per-product delivery-price settings with readable grouped input and server-validated totals.
