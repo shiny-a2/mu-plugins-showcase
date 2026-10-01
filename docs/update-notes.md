@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-10-01 — Easier monetary entry
+
+- Add live thousands grouping to monetary fields across storefront and admin forms, including forms rendered after page load.
+- Accept Persian and Arabic digits while submitting normalized numeric values; keep phone numbers, identifiers, quantities and percentages outside monetary formatting.
+- Validate parsing and syntax, then confirm the production storefront serves the new asset.
+
 ## 2026-10-01 — Cleaner storefront footer credit
 
 - Rework the footer’s ownership line and development credit as a concise, responsive pair with readable light/dark contrast.
