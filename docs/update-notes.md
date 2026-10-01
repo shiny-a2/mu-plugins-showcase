@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-10-01 — A clearer loyalty-tier preview
+
+- Let visitors select a loyalty tier in the membership explainer and see its colored trophy, progress preview, earning rate and configured benefits without a wide comparison table.
+- Keep the short phone invitation readable while moving detailed earning guidance into its own dialog.
+- Match the tier preview to the site's light and dark palettes, with touch-sized targets and keyboard navigation.
+
 ## 2026-10-01 — A unified glass header and footer
 
 - Give the editable announcement bar a translucent surface while preserving the chosen light-theme colors and its brand accent.
