@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-10-01 — Stories in the right place
+
+- Place the story rail only on the homepage immediately above its banners; show a partial next item on phones to signal horizontal browsing.
+- Use a warm multicolor story ring without hover effects and present media in a full-screen viewer above persistent navigation.
+- Repair close, next/previous, timed image playback and muted video playback; verify the homepage and another storefront route after deployment.
+
 ## 2026-10-01 — A clearer loyalty-tier preview
 
 - Let visitors select a loyalty tier in the membership explainer and see its colored trophy, progress preview, earning rate and configured benefits without a wide comparison table.
