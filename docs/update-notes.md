@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-10-01 — Reconciled staff receipts
+
+- Include owner-bound offline receipts on in-person orders in the staff account without counting those orders again as website commission.
+- Exclude card transfers naming another recipient and make Jalali month boundaries stable across daytime and overnight report runs.
+- Rebuild the backed-up monthly snapshot and reconcile its totals against the detailed order and manual-receipt ledgers.
+
 ## 2026-10-01 — Clearer desktop header branding
 
 - Replace a small desktop logo with the sharper existing mobile artwork and simplify the desktop calligraphic wordmark to the brand name.
