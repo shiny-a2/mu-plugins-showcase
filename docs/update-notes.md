@@ -787,3 +787,7 @@ Separate invoice matching from sales attribution. Managers can search invoice de
 ## 2026-09-29 — Hanowa official trust seal
 
 Added the supplied official eNamad seal to the Hanowa footer with its verification link, accessible labels and reserved image dimensions. Verified live image loading and responsive layout on desktop and mobile.
+
+## 2026-10-01 — Faster product discovery and editorial browsing
+
+Improved the home page with a direct route to all sale products, instant brand filtering, a full brand index link, and a recent-articles rail. Rebuilt the article archive with clear topic navigation, readable cards, pagination, and responsive light/dark styling. Added a locally hosted story and highlight publishing workflow for editors, with a daily story slot that expires automatically. The story strip appears when content is published, without depending on an unofficial social-media scraper.
