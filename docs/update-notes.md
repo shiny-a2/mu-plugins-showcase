@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-10-01 — Lightweight scroll cue for the purchase guide
+
+- Replace a static guide icon with a compact vector dial whose outer ring responds to scroll direction while the centre stays readable.
+- Activate the motion only near the guide, limit rendering to one frame per paint, and respect reduced-motion preferences.
+- Check mobile and desktop placement, reverse scrolling and reduced-motion behavior on the live storefront.
+
 ## 2026-10-01 — Search suggestions grounded in the catalogue
 
 - Rank homepage brand shortcuts from cleaned search demand, showing only brands with available, priced products. Refresh the shortcuts without rebuilding the whole homepage.
