@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-10-01 — Configurable watch delivery choices
+
+- Add per-product delivery-price settings with readable grouped input and server-validated totals.
+- Carry the selected fulfilment promise into the cart and order so staff and customers see the same choice.
+- Keep restricted payment options unavailable until their eligibility is independently confirmed; validate the change with isolated tests and a production health check.
+
 ## 2026-10-01 — Reconciled staff receipts
 
 - Include owner-bound offline receipts on in-person orders in the staff account without counting those orders again as website commission.

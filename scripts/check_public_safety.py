@@ -29,6 +29,7 @@ APPROVED_PATHS = frozenset(
         "docs/cache-boundary.md",
         "docs/catalog-image-batching.md",
         "docs/loyalty-storefront.md",
+        "docs/marketplace-reviewed-edits.md",
         "docs/privacy-boundary.md",
         "docs/update-notes.md",
         "samples/README.md",
