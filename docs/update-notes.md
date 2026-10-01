@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-10-01 — A unified glass header and footer
+
+- Give the editable announcement bar a translucent surface while preserving the chosen light-theme colors and its brand accent.
+- Add a restrained warm shadow to the sticky header in dark mode and align the desktop page footer with the same light/dark materials.
+- Check scrolled and static states at phone, tablet and desktop widths for readable content and no horizontal overflow.
+
 ## 2026-10-01 — Easier monetary entry
 
 - Add live thousands grouping to monetary fields across storefront and admin forms, including forms rendered after page load.
