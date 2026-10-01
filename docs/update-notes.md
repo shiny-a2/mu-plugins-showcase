@@ -795,3 +795,7 @@ Improved the home page with a direct route to all sale products, instant brand f
 ## 2026-10-01 — Accurate brand categorization for new products
 
 Corrected a storefront configuration that gave newly imported products an unrelated brand category. The automatic categorizer now removes that stale assignment when product evidence disagrees and avoids assigning a brand from partial-name similarity. Audited existing listings, preserved genuine matches, and corrected the mismatches. Regression checks and a rollback record support future maintenance.
+
+## 2026-10-01 — Compare several brands in guided search
+
+Customers can now select several available brands on the guided results page and remove each choice independently. Results stay within the selected brands even when softer preferences need to be relaxed. The responsive results layout now gives filter choices, brand logos, product cards, and result status a clearer hierarchy in both themes. Existing single-brand links remain usable.
