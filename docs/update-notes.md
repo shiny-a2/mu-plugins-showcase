@@ -1,5 +1,9 @@
 # Public Update Notes
 
+## 2026-10-01 — Easier access to discounted watches
+
+- Move the discounted-watches browse action beside its homepage section title and match the navigation style used by other sections.
+
 ## 2026-10-01 — Clearer rewards and faster visual discovery
 
 - Simplify the club invitation, make its benefits action prominent, and show a brief one-time credit-slider demonstration that stops when a visitor interacts.
