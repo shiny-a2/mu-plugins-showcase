@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-10-01 — Working support choices
+
+- Connect the support popup to verified public messaging profiles and hide channels without a configured destination, so every visible choice has a real action.
+- Refine the popup's light and dark hover states and match its typography to the storefront font.
+- Add a safe guard around the live-chat launcher and validate the deployed asset version.
+
 ## 2026-10-01 — Stories in the right place
 
 - Place the story rail only on the homepage immediately above its banners; show a partial next item on phones to signal horizontal browsing.
