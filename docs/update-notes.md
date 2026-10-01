@@ -791,3 +791,7 @@ Added the supplied official eNamad seal to the Hanowa footer with its verificati
 ## 2026-10-01 — Faster product discovery and editorial browsing
 
 Improved the home page with a direct route to all sale products, instant brand filtering, a full brand index link, and a recent-articles rail. Rebuilt the article archive with clear topic navigation, readable cards, pagination, and responsive light/dark styling. Added a locally hosted story and highlight publishing workflow for editors, with a daily story slot that expires automatically. The story strip appears when content is published, without depending on an unofficial social-media scraper.
+
+## 2026-10-01 — Accurate brand categorization for new products
+
+Corrected a storefront configuration that gave newly imported products an unrelated brand category. The automatic categorizer now removes that stale assignment when product evidence disagrees and avoids assigning a brand from partial-name similarity. Audited existing listings, preserved genuine matches, and corrected the mismatches. Regression checks and a rollback record support future maintenance.
