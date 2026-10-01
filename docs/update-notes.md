@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-10-01 — Search suggestions grounded in the catalogue
+
+- Rank homepage brand shortcuts from cleaned search demand, showing only brands with available, priced products. Refresh the shortcuts without rebuilding the whole homepage.
+- Replace a cached archive heading on product search results with the shopper’s own query while preserving category headings. Keep the page title aligned with that query.
+- Verify multiple public search terms, the unaffected category page, and isolated query-normalization tests.
+
 ## 2026-10-01 — Customer account navigation and pending payments
 
 - Add a payment action only to orders that remain payable and belong to the signed-in customer; retain the existing checkout route and ownership checks.
