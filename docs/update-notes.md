@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-10-01 — Cleaner storefront footer credit
+
+- Rework the footer’s ownership line and development credit as a concise, responsive pair with readable light/dark contrast.
+- Preserve the dynamic local-calendar year and ensure cached page-builder widgets render the updated wording.
+- Verify the live footer in mobile and desktop widths across both visual themes.
+
 ## 2026-10-01 — Lightweight scroll cue for the purchase guide
 
 - Replace a static guide icon with a compact vector dial whose outer ring responds to scroll direction while the centre stays readable.
