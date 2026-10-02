@@ -2,7 +2,7 @@
 
 ## 2026-10-03 — Consistent storefront themes
 
-Connected marketplace, brand discovery, guided search, journal, recent-product cards and stock-notification controls to one storefront palette. Fixed light text on old white surfaces, clarified image-viewer controls and improved fixed Persian purchase instructions. Preserved the inherited site typeface, light-first preference and existing purchasing behavior. Added a permanent mobile/desktop and light/dark visual review requirement with read-only interaction checks. Extended the same theme to seller/buyer form surfaces and verified onboarding templates with synthetic data. Customer records, business internals and production source remain private.
+Connected marketplace, brand discovery, guided search, journal, recent-product cards and stock-notification controls to one storefront palette. Fixed light text on old white surfaces, clarified image-viewer controls and improved fixed Persian purchase instructions. Preserved the inherited site typeface, light-first preference and existing purchasing behavior. Added a permanent mobile/desktop and light/dark visual review requirement with read-only interaction checks. Extended the same theme to seller/buyer form surfaces and verified onboarding templates with synthetic data. Validation covered 64 public page combinations, eight synthetic onboarding combinations and a final 20-case check of the installed marketplace update. Customer records, business internals and production source remain private.
 
 ## 2026-10-03 — Date-consistent personnel accounts
 
