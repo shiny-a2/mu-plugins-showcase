@@ -1,5 +1,9 @@
 # Public Update Notes
 
+## 2026-10-03 — Date-consistent personnel accounts
+
+Personnel reports now use the same financial calculation as the commission page, applying the selected dates to balances, compensation, payment breakdowns and cash movements. Added guarded, retry-safe expense entry with a Persian calendar and readable grouped amounts. Fixed date formatting and invalid day handling on mobile and desktop. Verified synthetic financial regressions and private read-only aggregate reconciliation; account identities, figures and implementation remain private.
+
 ## 2026-10-02 — Evidence-based competitor analysis
 
 Added a management view for comparing competitor catalogues over a selected date range, with product search, brand coverage, shared-product price differences and source-quality summaries. Availability changes are presented as possible sales signals, never as confirmed transactions. Incomplete scans, ambiguous identifiers and suspicious bulk transitions are excluded from sale inference. The messaging report uses the same calculations as the dashboard to avoid conflicting figures.

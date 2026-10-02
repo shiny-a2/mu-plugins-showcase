@@ -29,6 +29,8 @@ The work is organized around several production concerns:
 
 ## What This Demonstrates
 
+- Date-consistent personnel accounts with shared financial rules, individual payment evidence and auditable expense entry.
+
 - Evidence-based competitor analysis with shared dashboard and messaging calculations, explicit uncertainty, and source-quality visibility.
 
 - Small reversible modules for production WordPress/WooCommerce systems.
