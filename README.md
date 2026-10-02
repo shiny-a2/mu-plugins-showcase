@@ -29,6 +29,8 @@ The work is organized around several production concerns:
 
 ## What This Demonstrates
 
+- Evidence-based competitor analysis with shared dashboard and messaging calculations, explicit uncertainty, and source-quality visibility.
+
 - Small reversible modules for production WordPress/WooCommerce systems.
 - Performance and operations work around cache boundaries, REST pressure, query safety, queues, transients, and admin workflows.
 - API and request-boundary thinking without publishing live guard rules.

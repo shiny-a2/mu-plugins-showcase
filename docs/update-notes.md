@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-10-02 — Evidence-based competitor analysis
+
+Added a management view for comparing competitor catalogues over a selected date range, with product search, brand coverage, shared-product price differences and source-quality summaries. Availability changes are presented as possible sales signals, never as confirmed transactions. Incomplete scans, ambiguous identifiers and suspicious bulk transitions are excluded from sale inference. The messaging report uses the same calculations as the dashboard to avoid conflicting figures.
+
+Verified reporting rules with synthetic regression tests and checked the rendered interface at mobile and desktop widths. Production records, source-specific configuration and implementation remain private.
+
+
 ## 2026-10-02 — Faster product editing and clearer order status
 
 - Open product thumbnail images in a focused preview with an explicit image-edit action.
