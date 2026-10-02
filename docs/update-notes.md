@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-10-02 — Faster product editing and clearer order status
+
+- Open product thumbnail images in a focused preview with an explicit image-edit action.
+- Reduce the bulk editor's oversized saved page size so product rows load faster, while preserving smaller operator choices.
+- Make delivered-order badges easier to distinguish in the order list.
+
 ## 2026-10-01 — Easier access to discounted watches
 
 - Move the discounted-watches browse action beside its homepage section title and match the navigation style used by other sections.
