@@ -1,5 +1,9 @@
 # Public Update Notes
 
+## 2026-10-03 — Consistent storefront themes
+
+Connected marketplace, brand discovery, guided search, journal, recent-product cards and stock-notification controls to one storefront palette. Fixed light text on old white surfaces, clarified image-viewer controls and improved fixed Persian purchase instructions. Preserved the inherited site typeface, light-first preference and existing purchasing behavior. Added a permanent mobile/desktop and light/dark visual review requirement with read-only interaction checks. Customer records, business internals and production source remain private.
+
 ## 2026-10-03 — Date-consistent personnel accounts
 
 Personnel reports now use the same financial calculation as the commission page, applying the selected dates to balances, compensation, payment breakdowns and cash movements. Added guarded, retry-safe expense entry with a Persian calendar and readable grouped amounts. Fixed date formatting and invalid day handling on mobile and desktop. Verified synthetic financial regressions and private read-only aggregate reconciliation; account identities, figures and implementation remain private.
