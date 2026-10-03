@@ -1,3 +1,7 @@
+## 2026-10-03 — Clearer competitor reporting
+
+Reorganized the management competitor report around selected-store evidence and product comparisons, with compact brand filtering and expandable trends/source quality. Exact date coverage and last-observation labels distinguish fresh empty or uncertain scans from useful evidence. Fixed pre-range observations leaking into an empty selected range. Historical records remain intact and stock changes remain possible sales signals, never confirmed revenue. Checked range regressions and interactive mobile/desktop presentation in both themes with synthetic data; no private records or implementation are published.
+
 ## 2026-10-03 — Mobile ledger search focus
 
 Improved management ledger modal inputs so typing does not trigger automatic mobile focus zoom. Preserved browser zoom accessibility, existing search behavior and financial calculations. Checked focused search, clearing, dialog close and responsive layout with synthetic records at mobile and desktop widths in both themes; physical iPhone keyboard behavior remains a device acceptance check.
