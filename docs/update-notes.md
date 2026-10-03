@@ -1,5 +1,9 @@
 # Public Update Notes
 
+## 2026-10-03 — Purchased digital gift cards
+
+Added automatic paid-order gift cards with a protected image link, Persian amount and one durable code across retries. The same card is available in customer orders, gifts and email, with a dismissible post-payment preview. Digital stock no longer runs out. Checked synthetic payment/refund boundaries, interrupted issuance and mobile/desktop presentation in both themes without creating real purchases. Codes, financial records, customer data and implementation remain private.
+
 ## 2026-10-03 — Casio guide featured artwork
 
 Created an original editorial image for a digital-watch settings guide, with the gallery logo as a restrained watermark. Delivered a 1536 × 1024 WebP of approximately 103 KiB and natural Persian media metadata. Added it as the article featured image for the journal and social/search previews; the instructions and product records remain unchanged.
