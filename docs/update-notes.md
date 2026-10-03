@@ -901,3 +901,7 @@ Customers can now select several available brands on the guided results page and
 ## 2026-10-04 — Club credit lifecycle and retained status
 
 Added a manager-only credit window through Persian year-end, with server-side authorization. Promotional credit now follows an auditable, repeat-safe annual lifecycle while customer-paid funds and refund balances remain protected. Achieved membership status survives credit expiration and supports later upgrades. Validation covered transactional synthetic ledger data, callback replay protection and interactive light/dark mobile/desktop controls. No customer data or financial records are included in this showcase.
+
+## 2026-10-04 — Customer account installation entry
+
+Restored the customer web-app entry in the mobile account drawer after navigation rebuilding. A compact install invitation appears only in the signed-in account, coordinates with other dialogs and respects a dismissal interval. Installation help, focus restoration and shared light/dark styling work across desktop and mobile layouts. Existing installation-benefit and explicit notification-permission controls remain unchanged; tests create no real rewards or notifications.
