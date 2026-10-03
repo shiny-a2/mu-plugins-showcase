@@ -897,3 +897,7 @@ Corrected a storefront configuration that gave newly imported products an unrela
 ## 2026-10-01 — Compare several brands in guided search
 
 Customers can now select several available brands on the guided results page and remove each choice independently. Results stay within the selected brands even when softer preferences need to be relaxed. The responsive results layout now gives filter choices, brand logos, product cards, and result status a clearer hierarchy in both themes. Existing single-brand links remain usable.
+
+## 2026-10-04 — Club credit lifecycle and retained status
+
+Added a manager-only credit window through Persian year-end, with server-side authorization. Promotional credit now follows an auditable, repeat-safe annual lifecycle while customer-paid funds and refund balances remain protected. Achieved membership status survives credit expiration and supports later upgrades. Validation covered transactional synthetic ledger data, callback replay protection and interactive light/dark mobile/desktop controls. No customer data or financial records are included in this showcase.
