@@ -1,3 +1,7 @@
+## 2026-10-03 — More brand source choices
+
+Expanded the existing administration form to allow five ordered source websites each for product details and images per brand. Existing entries keep their priority; empty slots are ignored. Verified the form renders and saves all five positions for both source types. This change is limited to the administration workflow and requires no catalog migration.
+
 ## 2026-10-03 — Faster storefront responses and clearer access guidance
 
 Restored reusable public page responses after final rendering, with bounded lifetime and protected account/checkout boundaries. Corrected background warming so unfinished work remains queued, with request and server-load budgets. Home discovery and directory responses refresh when price or stock changes; monitoring uses the same freshness window as serving. Staff applications retain their own authentication while remaining reachable internationally. VPN guidance follows the browser timezone and reuses the shared storefront palette in both themes; unrelated visitors receive a genuine not-found response. Each page navigation rechecks country access at the origin while keeping the internal page cache fast. Checked the final-output regression, access matrix and eight responsive theme/timezone combinations. Production timing comparisons are recorded privately; no customer records were created.
