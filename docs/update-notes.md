@@ -1,3 +1,9 @@
+## 2026-10-04 — Brand shelf valuation
+
+Added a management overview that values one unit per published model, groups shelf value by brand and separates confirmed availability from sales-change signals. Full catalogue totals are validated against their brand breakdown and remain independent from the bounded detailed evidence sample. Compact tabs and filters keep mobile and desktop reporting readable in both themes.
+
+Validation covers financial boundaries, aggregate reconciliation, date ranges and interactive report controls. No credentials, customer records or raw production data are included here.
+
 ## 2026-10-03 — Marketplace repair chronology and valuations
 
 The matching private update preserves proposed and mint valuation across the repair/marketplace boundary, reuses physical watch intakes on retries and retains branch restrictions. Waiting and decided views show registration time, publication time when applicable and chronological sorting. Read-only rejected-watch dialogs explain missing historical amounts instead of inferring prices. Tested retry and passthrough contracts plus mobile/desktop dialog interactions in both themes with synthetic records. Customer data, raw maintenance backups and implementation remain private.
