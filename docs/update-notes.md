@@ -905,3 +905,7 @@ Added a manager-only credit window through Persian year-end, with server-side au
 ## 2026-10-04 — Customer account installation entry
 
 Restored the customer web-app entry in the mobile account drawer after navigation rebuilding. A compact install invitation appears only in the signed-in account, coordinates with other dialogs and respects a dismissal interval. Installation help, focus restoration and shared light/dark styling work across desktop and mobile layouts. Existing installation-benefit and explicit notification-permission controls remain unchanged; tests create no real rewards or notifications.
+
+## 2026-10-04 — Competitor overview and comparable sales evidence
+
+Reorganized competitor intelligence around a compact overview with store and brand charts, evidence rankings and percentage comparisons against the shop's net website merchandise sales. Product-level investigation remains available through focused drilldown. Stock-out observations are explicitly distinguished from proven sales; insufficient coverage and missing denominators remain visible rather than becoming invented zeros. Refund, purchased-credit and duplicate-invoice boundaries were tested with synthetic records. Sorting, filtering, pagination and light/dark mobile/desktop interactions passed browser checks. Production code and commercial data remain private.
