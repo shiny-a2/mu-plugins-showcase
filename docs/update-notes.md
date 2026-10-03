@@ -1,3 +1,7 @@
+## 2026-10-03 — Faster storefront responses and clearer access guidance
+
+Restored reusable public page responses after final rendering, with bounded lifetime and protected account/checkout boundaries. Corrected background warming so unfinished work remains queued, with request and server-load budgets. Home discovery and directory responses refresh when price or stock changes; monitoring uses the same freshness window as serving. Staff applications retain their own authentication while remaining reachable internationally. VPN guidance follows the browser timezone and supports both themes; unrelated visitors receive a genuine not-found response. Checked the final-output regression, access matrix and eight responsive theme/timezone combinations. Production timing comparisons are recorded privately; no customer records were created.
+
 ## 2026-10-03 — Clearer repair-team app header
 
 Replaced an overflowing fixed-height header with responsive rows for app identity, staff identity, tools and branch context. Notification updates retain the bell icon and show an accessible unread badge. Touch targets, keyboard focus and measured sticky offsets make the controls easier to use on a counter phone and desktop. Shared storefront colors, typeface and theme preference keep the app visually consistent. Isolated browser checks cover narrow/normal mobile and desktop, both themes and technician/manager branch permissions without writing records. Corrected the identified staff profile and roster label; personal identifiers and rollback records remain private.
