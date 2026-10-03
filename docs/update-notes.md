@@ -1,3 +1,7 @@
+## 2026-10-03 — Marketplace repair chronology and valuations
+
+The matching private update preserves proposed and mint valuation across the repair/marketplace boundary, reuses physical watch intakes on retries and retains branch restrictions. Waiting and decided views show registration time, publication time when applicable and chronological sorting. Read-only rejected-watch dialogs explain missing historical amounts instead of inferring prices. Tested retry and passthrough contracts plus mobile/desktop dialog interactions in both themes with synthetic records. Customer data, raw maintenance backups and implementation remain private.
+
 ## 2026-10-03 — Clearer competitor reporting
 
 Reorganized the management competitor report around selected-store evidence and product comparisons, with compact brand filtering and expandable trends/source quality. Exact date coverage and last-observation labels distinguish fresh empty or uncertain scans from useful evidence. Fixed pre-range observations leaking into an empty selected range. Historical records remain intact and stock changes remain possible sales signals, never confirmed revenue. Checked range regressions and interactive mobile/desktop presentation in both themes with synthetic data; no private records or implementation are published.
