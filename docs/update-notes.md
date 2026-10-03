@@ -1,3 +1,7 @@
+## 2026-10-03 — Mobile ledger search focus
+
+Improved management ledger modal inputs so typing does not trigger automatic mobile focus zoom. Preserved browser zoom accessibility, existing search behavior and financial calculations. Checked focused search, clearing, dialog close and responsive layout with synthetic records at mobile and desktop widths in both themes; physical iPhone keyboard behavior remains a device acceptance check.
+
 ## 2026-10-03 — More brand source choices
 
 Expanded the existing administration form to allow five ordered source websites each for product details and images per brand. Existing entries keep their priority; empty slots are ignored. Verified the form renders and saves all five positions for both source types. This change is limited to the administration workflow and requires no catalog migration.
