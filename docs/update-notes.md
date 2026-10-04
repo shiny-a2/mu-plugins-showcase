@@ -1,3 +1,7 @@
+## 2026-10-04 — Seller watch records
+
+Reorganized the seller watch list into responsive records with visible review reasons, clear correction actions and expandable secondary stages. Aligned portal surfaces, status badges and controls with the shared light/dark palette. Verified synthetic mobile/desktop interactions and existing review and price-proposal safeguards. Release: `v0.158.3`.
+
 ## 2026-10-04 — Cash-only delivery pricing
 
 Simplified the collection purchase selector to immediate cash delivery and fourteen-working-day cash delivery. Removed installment promotion and prevented previous installment selections from reopening the installment gateway. Existing currency references, stock and issued order totals remain intact. Verified calculation and gateway boundaries plus mobile/desktop light/dark interactions with synthetic data. External exchange-rate synchronization remains pending source confirmation. Release: `v1.1.0-omega-cash`.
