@@ -995,3 +995,9 @@ Portable contracts cover repeated corrections and malformed pointers. Browser fi
 ## 2026-10-05 — Review history visibility
 
 Repair 2.14.2 marks resubmitted watches in the review queue and places the latest recorded bench refusal above photographs. A direct action scrolls to the full correction history. The summary uses existing records and does not infer unrecorded decisions. Four responsive/theme browser fixtures verify contrast, navigation and safe mode selection without submitting decisions.
+
+## 2026-10-05 — Final seller identity decisions
+
+Marketplace 0.158.8 connects document review actions to their seller-specific forms and synchronizes final approval with the seller's panel state. Approved documents show a read-only confirmation, and server checks prevent resubmission. Stale decisions cannot overwrite a newer result or emit duplicate approval notifications.
+
+Dedicated approval/rejection notification text and provider pattern mappings are prepared. Live SMS depends on the owner registering the two provider patterns; real customers were neither approved nor notified during validation. Mocked delivery contracts and responsive light/dark browser checks cover state changes, ownership of forms, focus, contrast and overflow.
