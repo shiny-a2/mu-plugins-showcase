@@ -1,3 +1,7 @@
+## 2026-10-04 — Cash-only delivery pricing
+
+Simplified the collection purchase selector to immediate cash delivery and fourteen-working-day cash delivery. Removed installment promotion and prevented previous installment selections from reopening the installment gateway. Existing currency references, stock and issued order totals remain intact. Verified calculation and gateway boundaries plus mobile/desktop light/dark interactions with synthetic data. External exchange-rate synchronization remains pending source confirmation. Release: `v1.1.0-omega-cash`.
+
 ## 2026-10-04 — Reviewed listing reservations
 
 Separated public listing reservation eligibility from the seller identity assurance badge. Reviewed public watches can enter the deposit and inspection journey while private, unreviewed, blocked and identity-rejected listings stay unavailable. Seller payout verification and certified-auction requirements remain intact. Verified synthetic purchase guards and responsive light/dark login states. Release: `v0.158.2`.
