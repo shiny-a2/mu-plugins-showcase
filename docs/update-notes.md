@@ -1,3 +1,7 @@
+## 2026-10-04 — Seller description and duplicate protection
+
+Seller registration now requires a usable watch description in both the form and server validation. Public-entry copy explains review before publication. Repeated uploads reuse the existing case even when its reference changes, and duplicate checks cover older records beyond the previous page limit. Verified correction and notification regressions plus mobile/desktop light/dark input states. Release: `v0.158.1`.
+
 ## 2026-10-04 — Responsive biography portrait
 
 Added a supplied portrait to its matching history chapter with responsive WebP variants, lazy loading, descriptive alternative text and a visible caption. Reviewed mobile and desktop presentation in both themes, including keyboard focus. Existing historical content and videos remain intact. Release: `v1.1.1-about-portrait`.
