@@ -977,3 +977,11 @@ Restored the customer web-app entry in the mobile account drawer after navigatio
 ## 2026-10-04 — Competitor overview and comparable sales evidence
 
 Reorganized competitor intelligence around a compact overview with store and brand charts, evidence rankings and percentage comparisons against the shop's net website merchandise sales. Product-level investigation remains available through focused drilldown. Stock-out observations are explicitly distinguished from proven sales; insufficient coverage and missing denominators remain visible rather than becoming invented zeros. Refund, purchased-credit and duplicate-invoice boundaries were tested with synthetic records. Sorting, filtering, pagination and light/dark mobile/desktop interactions passed browser checks. Production code and commercial data remain private.
+
+## 2026-10-04 — Stable marketplace photographs and repair notifications
+
+Marketplace release 0.158.6 contains photographs within shared cards, preserving image orientation and preventing conflicting motion or overlap with product text.
+
+Repair release 2.14.0 simplifies the notification centre: active-device controls sit in expandable settings, events use readable dated rows, and supported notifications open their corresponding thread or record. Device status remains scoped to the signed-in staff member.
+
+Synthetic browser fixtures cover mobile and desktop in light and dark themes, interactive settings, focus, hover, text contrast, overflow and exact thread navigation. Contract checks cover current-device ownership and notification transport. These checks do not claim real-device push delivery.
