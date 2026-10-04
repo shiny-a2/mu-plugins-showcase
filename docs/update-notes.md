@@ -1,3 +1,7 @@
+## 2026-10-04 — Mobile watch archive
+
+Reorganized watch browsing around visible search, expandable advanced filters and compact mobile records with clearer prices and authenticity states. Aligned controls and interaction colors with the shared light/dark palette while retaining native filter navigation. Verified responsive browsing states and catalogue regressions with synthetic data. Release: `v0.158.5`.
+
 ## 2026-10-04 — Bronze battery service
 
 Added purchased-watch battery replacement within two months of purchase to the Bronze tier. Shared benefit presentation keeps the customer account and loyalty introduction consistent while preserving higher-tier and custom benefits. Verified scoped configuration updates and responsive light/dark presentation. Release: `v1.2.0-bronze-battery`.
