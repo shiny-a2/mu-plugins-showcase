@@ -1,3 +1,7 @@
+## 2026-10-04 — Loyalty presentation cache refresh
+
+Refreshed customer-app and service-worker versions together while retaining network-first navigation and private-response exclusions.
+
 ## 2026-10-04 — Loyalty earning consistency
 
 Aligned payment previews, reward calculations and tier-service presentation. Added conservative historical corrections that preserve consumed value and visibly hold ambiguous records. See [release note](club-earning-policy.md).
