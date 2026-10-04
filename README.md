@@ -29,6 +29,8 @@ The work is organized around several production concerns:
 
 ## What This Demonstrates
 
+- [Consistent loyalty earning](docs/club-earning-policy.md) with safe historical review and accessible checkout choices.
+
 - [Currency and delivery pricing](docs/currency-delivery-pricing.md) with server-calculated quotes and consistent cart behavior.
 
 - [Tier-aware loyalty notifications](docs/club-notification-sms.md) with accurate reward values, configurable delivery and duplicate protection.

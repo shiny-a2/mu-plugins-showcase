@@ -1,3 +1,7 @@
+## 2026-10-04 — Loyalty earning consistency
+
+Aligned payment previews, reward calculations and tier-service presentation. Added conservative historical corrections that preserve consumed value and visibly hold ambiguous records. See [release note](club-earning-policy.md).
+
 ## 2026-10-04 — Shelf valuation coverage
 
 ## 2026-10-04 — Currency and delivery pricing
