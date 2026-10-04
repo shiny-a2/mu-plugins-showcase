@@ -1,3 +1,7 @@
+## 2026-10-04 — Shelf valuation coverage
+
+Show missing prices and unknown availability alongside each brand's shelf subtotal, preserving the distinction between values actually observed and a fully priced catalogue. Updated report/service-worker cache versions and rechecked mobile/desktop interactions in both themes.
+
 ## 2026-10-04 — Brand shelf valuation
 
 Added a management overview that values one unit per published model, groups shelf value by brand and separates confirmed availability from sales-change signals. Full catalogue totals are validated against their brand breakdown and remain independent from the bounded detailed evidence sample. Compact tabs and filters keep mobile and desktop reporting readable in both themes.
