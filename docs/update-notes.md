@@ -985,3 +985,9 @@ Marketplace release 0.158.6 contains photographs within shared cards, preserving
 Repair release 2.14.0 simplifies the notification centre: active-device controls sit in expandable settings, events use readable dated rows, and supported notifications open their corresponding thread or record. Device status remains scoped to the signed-in staff member.
 
 Synthetic browser fixtures cover mobile and desktop in light and dark themes, interactive settings, focus, hover, text contrast, overflow and exact thread navigation. Contract checks cover current-device ownership and notification transport. These checks do not claim real-device push delivery.
+
+## 2026-10-05 — Corrected marketplace watch review history
+
+Marketplace 0.158.7 and repair app 2.14.1 connect pending corrections to earlier registrations of the same watch. Review dialogs show dated decisions, refusal reasons, historical proposed prices and selected before/after watch details. Record traversal is bounded and rejects unrelated watches, cases or owners. Reading history creates no tickets or messages.
+
+Portable contracts cover repeated corrections and malformed pointers. Browser fixtures cover light/dark mobile and desktop, text contrast, scrolling, decision-mode selection and dismissal without submitting real decisions.
