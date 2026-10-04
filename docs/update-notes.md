@@ -1,3 +1,7 @@
+## 2026-10-04 — Unified service inbox
+
+Connected customer tickets and native after-sales conversations with searchable source/status filters, activity timestamps and readable message authors. Replies use durable replay protection; future automatic watch updates share one conversation without merging ambiguous cases or deleting historical records. Simplified review decisions and verified branch access plus mobile/desktop light/dark interactions using synthetic fixtures. Release: `v2.13.0-repair-service-inbox`.
+
 ## 2026-10-04 — Repair amount entry
 
 Monetary fields now group digits while typing and accept Persian and Arabic input. Editing preserves the selection and digit position; stored amounts and identifier formats remain unchanged. Verified paste, deletion and serialization with synthetic data and inspected mobile/desktop light/dark states. Release: `v2.12.3-repair-money-inputs`.
