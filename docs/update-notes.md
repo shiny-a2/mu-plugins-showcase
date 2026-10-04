@@ -1,3 +1,7 @@
+## 2026-10-04 — Repair amount entry
+
+Monetary fields now group digits while typing and accept Persian and Arabic input. Editing preserves the selection and digit position; stored amounts and identifier formats remain unchanged. Verified paste, deletion and serialization with synthetic data and inspected mobile/desktop light/dark states. Release: `v2.12.3-repair-money-inputs`.
+
 ## 2026-10-04 — Seller description and duplicate protection
 
 Seller registration now requires a usable watch description in both the form and server validation. Public-entry copy explains review before publication. Repeated uploads reuse the existing case even when its reference changes, and duplicate checks cover older records beyond the previous page limit. Verified correction and notification regressions plus mobile/desktop light/dark input states. Release: `v0.158.1`.
