@@ -991,3 +991,7 @@ Synthetic browser fixtures cover mobile and desktop in light and dark themes, in
 Marketplace 0.158.7 and repair app 2.14.1 connect pending corrections to earlier registrations of the same watch. Review dialogs show dated decisions, refusal reasons, historical proposed prices and selected before/after watch details. Record traversal is bounded and rejects unrelated watches, cases or owners. Reading history creates no tickets or messages.
 
 Portable contracts cover repeated corrections and malformed pointers. Browser fixtures cover light/dark mobile and desktop, text contrast, scrolling, decision-mode selection and dismissal without submitting real decisions.
+
+## 2026-10-05 — Review history visibility
+
+Repair 2.14.2 marks resubmitted watches in the review queue and places the latest recorded bench refusal above photographs. A direct action scrolls to the full correction history. The summary uses existing records and does not infer unrecorded decisions. Four responsive/theme browser fixtures verify contrast, navigation and safe mode selection without submitting decisions.
