@@ -1,3 +1,11 @@
+## 2026-10-05 — Open work reconciliation and connector install candidate
+
+Reconciled recent releases against private source history and selected live modules, replacing stale task assumptions with explicit completed work and remaining acceptance dependencies. Public presentation checks covered 32 route, theme and viewport combinations; non-read requests are blocked so those checks cannot submit purchases or messages.
+
+Prepared store connector 1.0.1 as a non-debuggable install candidate with credential-preserving reconnect, normalized pairing input and bounded recovery after ordinary task dismissal. Packaging and signature checks pass. No physical store device was available, and lint remained unverified because its dependency could not be retrieved. Device background restrictions and force-stop still require honest acceptance boundaries.
+
+Updated obsolete synthetic marketplace authenticity and commission receipt fixtures to the current presentation and ledger contracts. The current authenticity suite and financial regression checks pass without changing financial policy or customer balances. Matching private test tags are recorded; source, customer data, binary installers and signing material remain private. Exchange-rate source selection, provider template registration, device acceptance and evidence-dependent historical reconciliation remain explicitly open.
+
 ## 2026-10-05 — Marketplace watch detail
 
 Reorganized the public watch detail into clear photograph, information and purchase sections. Aligned gallery controls, forms and the mobile purchase bar with the shared storefront light/dark palette. Kept verification labels truthful and matched visible purchase actions to the existing eligibility rules. Checked eight synthetic guest/member, mobile/desktop and light/dark states, including zoom, keyboard tabs, focus and text contrast. No real purchase or customer message was submitted. Release: `v0.158.9`.
