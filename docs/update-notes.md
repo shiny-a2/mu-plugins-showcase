@@ -1,3 +1,7 @@
+## 2026-10-05 — Marketplace watch detail
+
+Reorganized the public watch detail into clear photograph, information and purchase sections. Aligned gallery controls, forms and the mobile purchase bar with the shared storefront light/dark palette. Kept verification labels truthful and matched visible purchase actions to the existing eligibility rules. Checked eight synthetic guest/member, mobile/desktop and light/dark states, including zoom, keyboard tabs, focus and text contrast. No real purchase or customer message was submitted. Release: `v0.158.9`.
+
 ## 2026-10-04 — Mobile watch archive
 
 Reorganized watch browsing around visible search, expandable advanced filters and compact mobile records with clearer prices and authenticity states. Aligned controls and interaction colors with the shared light/dark palette while retaining native filter navigation. Verified responsive browsing states and catalogue regressions with synthetic data. Release: `v0.158.5`.
