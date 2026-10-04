@@ -1,3 +1,7 @@
+## 2026-10-04 — Responsive biography portrait
+
+Added a supplied portrait to its matching history chapter with responsive WebP variants, lazy loading, descriptive alternative text and a visible caption. Reviewed mobile and desktop presentation in both themes, including keyboard focus. Existing historical content and videos remain intact. Release: `v1.1.1-about-portrait`.
+
 ## 2026-10-04 — Loyalty presentation cache refresh
 
 Refreshed customer-app and service-worker versions together while retaining network-first navigation and private-response exclusions.
