@@ -1,3 +1,7 @@
+## 2026-10-04 — Seller staff attribution privacy
+
+Customer-facing price proposals now identify the service department rather than the staff member. Review explanations and decision actions remain visible, while internal audit attribution is retained. Verified rejection, correction and price-proposal workflows with synthetic data, including both themes and device widths. Release: `v0.158.4`.
+
 ## 2026-10-04 — Seller watch records
 
 Reorganized the seller watch list into responsive records with visible review reasons, clear correction actions and expandable secondary stages. Aligned portal surfaces, status badges and controls with the shared light/dark palette. Verified synthetic mobile/desktop interactions and existing review and price-proposal safeguards. Release: `v0.158.3`.
