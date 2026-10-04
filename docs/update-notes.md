@@ -1,3 +1,7 @@
+## 2026-10-04 — Bronze battery service
+
+Added purchased-watch battery replacement within two months of purchase to the Bronze tier. Shared benefit presentation keeps the customer account and loyalty introduction consistent while preserving higher-tier and custom benefits. Verified scoped configuration updates and responsive light/dark presentation. Release: `v1.2.0-bronze-battery`.
+
 ## 2026-10-04 — Seller staff attribution privacy
 
 Customer-facing price proposals now identify the service department rather than the staff member. Review explanations and decision actions remain visible, while internal audit attribution is retained. Verified rejection, correction and price-proposal workflows with synthetic data, including both themes and device widths. Release: `v0.158.4`.
