@@ -1,3 +1,7 @@
+## 2026-10-04 — Reviewed listing reservations
+
+Separated public listing reservation eligibility from the seller identity assurance badge. Reviewed public watches can enter the deposit and inspection journey while private, unreviewed, blocked and identity-rejected listings stay unavailable. Seller payout verification and certified-auction requirements remain intact. Verified synthetic purchase guards and responsive light/dark login states. Release: `v0.158.2`.
+
 ## 2026-10-04 — Unified service inbox
 
 Connected customer tickets and native after-sales conversations with searchable source/status filters, activity timestamps and readable message authors. Replies use durable replay protection; future automatic watch updates share one conversation without merging ambiguous cases or deleting historical records. Simplified review decisions and verified branch access plus mobile/desktop light/dark interactions using synthetic fixtures. Release: `v2.13.0-repair-service-inbox`.
