@@ -1,5 +1,10 @@
 ## 2026-10-04 — Shelf valuation coverage
 
+## 2026-10-04 — Tier-aware club notifications
+
+Prepared tier-selected launch messages and optional point/wallet notifications, with accurate balances, highest-tier copy and duplicate protection. See [release note](club-notification-sms.md).
+
+
 Show missing prices and unknown availability alongside each brand's shelf subtotal, preserving the distinction between values actually observed and a fully priced catalogue. Updated report/service-worker cache versions and rechecked mobile/desktop interactions in both themes.
 
 ## 2026-10-04 — Brand shelf valuation
