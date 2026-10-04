@@ -1,5 +1,10 @@
 ## 2026-10-04 — Shelf valuation coverage
 
+## 2026-10-04 — Currency and delivery pricing
+
+Added grouped currency-reference pricing, separate delivery quotes and consistent installment/cart calculations. See [release note](currency-delivery-pricing.md).
+
+
 ## 2026-10-04 — Tier-aware club notifications
 
 Prepared tier-selected launch messages and optional point/wallet notifications, with accurate balances, highest-tier copy and duplicate protection. See [release note](club-notification-sms.md).
