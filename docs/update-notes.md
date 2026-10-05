@@ -1,3 +1,13 @@
+## 2026-10-05 — Reversible media maintenance and fresh Persian pages
+
+Fixed a reproduced indexed-PNG defect that produced empty WebP output in the server's GD editor. Palette expansion retains alpha, while validation rejects empty or incorrectly sized output. Preserved image-editor priority and quality/size safeguards for new uploads. Upload release: `v1.1.0-upload-webp`.
+
+Added CLI-only historical public-media migration with retained originals, attachment identity and SEO text, atomic recovery records, row locks and verified rollback. Initial live acceptance converted eight public attachments and 74 file variants, reducing their combined delivery size by approximately 16.6 MB. A single resumable background pass now checks public featured/gallery media with load, disk and runtime limits; larger or ineligible copies stay unchanged. The full bulk pass is not claimed complete. Releases: `v1.0.0-historical-webp` and `v1.1.0-public-webp-worker`.
+
+Corrected targeted cache invalidation for equivalent Persian URI encodings so normal navigation sees updated media. Literal Latin slug case, escaped route boundaries and unrelated entries are preserved. Cache admission, country checks and session isolation remain unchanged. Verified public gallery zoom, fit, text alternatives and dimensions on mobile/desktop in both themes. Release: `v1.1.3-persian-cache-invalidation`.
+
+Completed exact approved-price comparisons across the catalogue app and both storefronts without changing matched prices. Closed the earlier secondary plugin-inventory execution gap and verified its core checksums. Inventory is not a vulnerability verdict or proof of whole-server security. No customer purchase, message, reward or financial record was created for this validation; production sources and operational details remain private.
+
 ## 2026-10-05 — Open work reconciliation and connector install candidate
 
 Reconciled recent releases against private source history and selected live modules, replacing stale task assumptions with explicit completed work and remaining acceptance dependencies. Public presentation checks covered 32 route, theme and viewport combinations; non-read requests are blocked so those checks cannot submit purchases or messages.
