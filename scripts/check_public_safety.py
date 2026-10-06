@@ -26,6 +26,7 @@ APPROVED_PATHS = frozenset(
         ".gitignore",
         "README.md",
         "docs/architecture-notes.md",
+        "docs/brand-directory-ux.md",
         "docs/club-earning-policy.md",
         "docs/club-notification-sms.md",
         "docs/currency-delivery-pricing.md",
