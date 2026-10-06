@@ -1,3 +1,7 @@
+## 2026-10-06 — Brand directory usability and theme polish
+
+Redesigned the directory around visible search, optional refinements and compact logo-led cards. Shared theme colors now cover text, surfaces and interactive states; live counts and a full reset improve navigation through filtered results. Preserved catalog destinations and artwork. Verified interactive mobile/desktop behavior in both themes on the directory and a country hub. Release: `v2.5.0-brand-directory`. See [brand directory UX](brand-directory-ux.md).
+
 ## 2026-10-05 — Reversible media maintenance and fresh Persian pages
 
 Fixed a reproduced indexed-PNG defect that produced empty WebP output in the server's GD editor. Palette expansion retains alpha, while validation rejects empty or incorrectly sized output. Preserved image-editor priority and quality/size safeguards for new uploads. Upload release: `v1.1.0-upload-webp`.

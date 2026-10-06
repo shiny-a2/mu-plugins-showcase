@@ -6,6 +6,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Brand directory usability and shared themes](docs/brand-directory-ux.md): visible search, accessible refinements and readable logo-led cards across mobile/desktop.
+
 - **Problem:** production WooCommerce systems often need urgent fixes and long-term safeguards across performance, checkout, admin operations, REST traffic, storage, and diagnostic tooling without introducing large plugin dependencies.
 - **Solution:** a private MU-plugin collection of small, reversible, source-controlled modules that can be deployed independently and grouped by operational risk.
 - **Engineering focus:** request classification, cache boundaries, bounded cleanup, admin-only workflows, API pressure control, SEO/schema safety, archive pagination stability, checkout/payment boundaries, rollback-aware operations, and low-overhead diagnostics.
