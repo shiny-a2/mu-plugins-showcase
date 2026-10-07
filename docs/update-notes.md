@@ -1,3 +1,7 @@
+## 2026-10-07 — Reversible supplier-feed controls
+
+Added shared persistent reader/writer pause guards, private administrator controls and matching scheduler state. Verified disabled reads and stale-plan write prevention while preserving independent feeds. Completed an authorized catalog availability closure with a protected rollback snapshot and a second zero-availability audit. See [supplier-feed controls](supplier-feed-controls.md).
+
 ## 2026-10-06 — Batch image editing for transparent sources
 
 The catalog photo tool now recognizes already transparent source images and checks that they contain both a visible product and a clear background before placing them in the established layouts. Opaque images keep the existing background-removal workflow. This avoids repeating an unsuitable white-background operation on a prepared cutout while retaining the existing image-placement rules. All 113 host-model checks pass; visual acceptance in the production desktop editor remains pending. Release: `bulk-composite-v22.1.2`.

@@ -6,6 +6,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Reversible supplier-feed controls](docs/supplier-feed-controls.md): shared pause guards and verified catalog availability updates.
+
 - [Brand directory usability and shared themes](docs/brand-directory-ux.md): visible search, accessible refinements and readable logo-led cards across mobile/desktop.
 
 - **Problem:** production WooCommerce systems often need urgent fixes and long-term safeguards across performance, checkout, admin operations, REST traffic, storage, and diagnostic tooling without introducing large plugin dependencies.
