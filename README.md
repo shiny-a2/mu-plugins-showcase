@@ -33,6 +33,8 @@ The work is organized around several production concerns:
 
 ## What This Demonstrates
 
+- [Marketplace seller registration UX](docs/marketplace-seller-registration.md) with clear Persian guidance, explicit service consent and responsive theme validation.
+
 - [Consistent loyalty earning](docs/club-earning-policy.md) with safe historical review and accessible checkout choices.
 
 - [Currency and delivery pricing](docs/currency-delivery-pricing.md) with server-calculated quotes and consistent cart behavior.

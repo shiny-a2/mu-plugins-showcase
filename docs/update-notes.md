@@ -1035,3 +1035,11 @@ Repair 2.14.2 marks resubmitted watches in the review queue and places the lates
 Marketplace 0.158.8 connects document review actions to their seller-specific forms and synchronizes final approval with the seller's panel state. Approved documents show a read-only confirmation, and server checks prevent resubmission. Stale decisions cannot overwrite a newer result or emit duplicate approval notifications.
 
 Dedicated approval/rejection notification text and provider pattern mappings are prepared. Live SMS depends on the owner registering the two provider patterns; real customers were neither approved nor notified during validation. Mocked delivery contracts and responsive light/dark browser checks cover state changes, ownership of forms, focus, contrast and overflow.
+
+## 2026-10-07 — Marketplace seller registration polish
+
+Marketplace 0.159.0 rewrites the watch-registration journey in clear, natural Persian. Each stage now explains what the seller needs to provide and what happens next. Pre-sale service cards describe the practical benefit of battery replacement, polishing and technical review while stating that no work or payment begins before an exact quote and seller approval.
+
+The release also makes the model reference genuinely optional, moves the separate-watch choice beside the related field and replaces browser-language file controls with a consistent Persian image action. Registration panels, upload states and service choices use the shared storefront palette and inherited typeface.
+
+Automated checks cover copy and service pricing behavior. A browser fixture completes all five stages at mobile and desktop widths in light and dark themes, including selection states, file input, contrast and horizontal overflow. No real listing, payment or customer message was created during validation.
