@@ -1,3 +1,8 @@
+## 2026-10-11 — Sitemap entry and release-path review
+
+- Checked a small cross-section of submitted sitemap entries and recorded one redirect and one anonymously empty page for private follow-up. Most sampled HTML pages returned with self canonicals; this is a sample, not a sitewide indexation claim.
+- Reviewed hosting and rollback information read-only. An isolated staging target and a restore rehearsal remain to be verified before any production-facing SEO or analytics release.
+
 ## 2026-10-11 — Search reporting date alignment
 
 - Aligned the private collector's data-freshness label with Search Console's reporting day. This changes metadata interpretation only; no storefront page or search result was edited.
