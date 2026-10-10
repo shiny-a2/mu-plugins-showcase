@@ -3,6 +3,7 @@
 - Added a private, recoverable execution registry for 26 organic discovery and quality workstreams, with dated evidence, owners, dependencies, acceptance checks and rollback gates.
 - Separated historical findings from current observations and documented analytics access as unverified until each service can be tested independently.
 - Prioritized read-only baseline work and editorial review before any production SEO, catalog or tracking changes. This update is documentation only; no site behavior or search outcome is claimed.
+- Verified available analytics and hosting surfaces with read-only checks, recorded a substantial tracking discrepancy and refreshed catalog/sitemap inventory. Kept unresolved access and restore checks visible; no production settings or content were changed.
 
 ## 2026-10-07 — Reversible supplier-feed controls
 
