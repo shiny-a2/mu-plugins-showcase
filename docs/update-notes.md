@@ -1,3 +1,8 @@
+## 2026-10-11 — Search data collection safeguards
+
+- Prepared a private improvement to the local Search Console collector: it now uses the latest available final-data date, checks full daily coverage and preserves the previous snapshot when an API request fails.
+- Verified a 28-day read-only pull and restricted the local export's file permissions. Search queries and client metrics remain outside the public repository. This does not change the storefront or resolve the separate analytics collection issue.
+
 ## 2026-10-11 — Ecommerce measurement review candidate
 
 - Prepared a private, tested revision to purchase-event reporting that avoids marking an event as delivered before a browser can send it. It also aligns discounted item values with the event total and keeps tax and shipping separate.
