@@ -1,3 +1,7 @@
+## 2026-10-11 — Analytics stream rule check
+
+- A read-only check found no event creation or editing rules on the current analytics stream. The missing storefront events remain under investigation; no tag or property setting was changed.
+
 ## 2026-10-11 — Category search pilot
 
 - Compared three existing catalog category pages with the preceding Search Console period and checked their live headings and canonical output without editing them.
