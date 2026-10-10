@@ -1,3 +1,8 @@
+## 2026-10-11 — Ecommerce measurement review candidate
+
+- Prepared a private, tested revision to purchase-event reporting that avoids marking an event as delivered before a browser can send it. It also aligns discounted item values with the event total and keeps tax and shipping separate.
+- Added a focused regression check and a staged release/rollback plan. Wider analytics collection remains under investigation; no production tag, order or property setting changed.
+
 ## 2026-10-11 — Search measurement checkpoint
 
 - Restored read-only search analytics access and captured comparable, complete 28-day and 90-day baselines with clear data-freshness notes. This gives the private roadmap a measured starting point without publishing client traffic or queries.
