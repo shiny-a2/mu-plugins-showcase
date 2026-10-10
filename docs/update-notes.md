@@ -1,3 +1,7 @@
+## 2026-10-11 — Search reporting date alignment
+
+- Aligned the private collector's data-freshness label with Search Console's reporting day. This changes metadata interpretation only; no storefront page or search result was edited.
+
 ## 2026-10-11 — Analytics stream rule check
 
 - A read-only check found no event creation or editing rules on the current analytics stream. The missing storefront events remain under investigation; no tag or property setting was changed.
