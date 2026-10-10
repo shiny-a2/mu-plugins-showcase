@@ -6,6 +6,7 @@
 
 - Compared three existing catalog category pages with the preceding Search Console period and checked their live headings and canonical output without editing them.
 - Recorded a focused review queue for query intent, product availability and displayed search snippets before any editorial proposal. No ranking or conversion outcome is claimed.
+- Confirmed one pilot category's available-model count against a read-only stock aggregate and recorded that filtered search-query rows cover less than the full page total. No product or price was changed.
 
 ## 2026-10-11 — Search data collection safeguards
 
