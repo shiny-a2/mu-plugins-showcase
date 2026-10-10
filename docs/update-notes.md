@@ -1,3 +1,7 @@
+## 2026-10-11 — Sitemap review candidate
+
+- Prepared a regression-tested private sitemap correction for a redirecting catalog archive. Isolated staging validation and explicit release approval are still pending; live indexation was not changed.
+
 ## 2026-10-10 — Evidence-led organic discovery plan
 
 - Added a private, recoverable execution registry for 26 organic discovery and quality workstreams, with dated evidence, owners, dependencies, acceptance checks and rollback gates.
