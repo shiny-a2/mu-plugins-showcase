@@ -2,6 +2,7 @@
 
 - Checked a small cross-section of submitted sitemap entries and recorded one redirect and one anonymously empty page for private follow-up. Most sampled HTML pages returned with self canonicals; this is a sample, not a sitewide indexation claim.
 - Reviewed hosting and rollback information read-only. An isolated staging target and a restore rehearsal remain to be verified before any production-facing SEO or analytics release.
+- The anonymously empty sample page depends on a protected third-party template, so its intended authenticated behavior remains unverified; no access or indexation rule was changed.
 
 ## 2026-10-11 — Search reporting date alignment
 
