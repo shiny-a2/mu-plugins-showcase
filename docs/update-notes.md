@@ -1,3 +1,8 @@
+## 2026-10-11 — Category search pilot
+
+- Compared three existing catalog category pages with the preceding Search Console period and checked their live headings and canonical output without editing them.
+- Recorded a focused review queue for query intent, product availability and displayed search snippets before any editorial proposal. No ranking or conversion outcome is claimed.
+
 ## 2026-10-11 — Search data collection safeguards
 
 - Prepared a private improvement to the local Search Console collector: it now uses the latest available final-data date, checks full daily coverage and preserves the previous snapshot when an API request fails.
