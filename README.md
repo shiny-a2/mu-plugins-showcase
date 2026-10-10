@@ -37,6 +37,8 @@ The work is organized around several production concerns:
 
 - [Consistent loyalty earning](docs/club-earning-policy.md) with safe historical review and accessible checkout choices.
 
+- [Loyalty scheduler recovery](docs/loyalty-scheduler-recovery.md) with explicit channel-rate semantics, idempotent replay and a monitored server-side runner.
+
 - [Currency and delivery pricing](docs/currency-delivery-pricing.md) with server-calculated quotes and consistent cart behavior.
 
 - [Tier-aware loyalty notifications](docs/club-notification-sms.md) with accurate reward values, configurable delivery and duplicate protection.
