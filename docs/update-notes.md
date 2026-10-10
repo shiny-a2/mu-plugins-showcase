@@ -7,6 +7,7 @@
 
 - Restored read-only search analytics access and captured comparable, complete 28-day and 90-day baselines with clear data-freshness notes. This gives the private roadmap a measured starting point without publishing client traffic or queries.
 - Checked a small set of observed queries against landing-page types and flagged category/pagination overlap for review. No page content, indexing rule or tracking configuration changed.
+- Used a small set of read-only search inspections to verify a redirect and independently indexed page types before recommending any sitemap or pagination change.
 - Separated service identity access to tag management from owner-reported browser access; container review remains pending. The private release candidate remains in review.
 
 ## 2026-10-11 — Sitemap review candidate
