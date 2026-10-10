@@ -1,3 +1,9 @@
+## 2026-10-10 — Evidence-led organic discovery plan
+
+- Added a private, recoverable execution registry for 26 organic discovery and quality workstreams, with dated evidence, owners, dependencies, acceptance checks and rollback gates.
+- Separated historical findings from current observations and documented analytics access as unverified until each service can be tested independently.
+- Prioritized read-only baseline work and editorial review before any production SEO, catalog or tracking changes. This update is documentation only; no site behavior or search outcome is claimed.
+
 ## 2026-10-07 — Reversible supplier-feed controls
 
 Added shared persistent reader/writer pause guards, private administrator controls and matching scheduler state. Verified disabled reads and stale-plan write prevention while preserving independent feeds. Completed an authorized catalog availability closure with a protected rollback snapshot and a second zero-availability audit. See [supplier-feed controls](supplier-feed-controls.md).
