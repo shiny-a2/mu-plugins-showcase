@@ -39,6 +39,8 @@ The work is organized around several production concerns:
 
 - [Loyalty scheduler recovery](docs/loyalty-scheduler-recovery.md) with explicit channel-rate semantics, idempotent replay and a monitored server-side runner.
 
+- [Country-gate browser passes](docs/country-gate-browser-pass.md) for durable public viewing from trusted overseas devices without granting account or administration access.
+
 - [Currency and delivery pricing](docs/currency-delivery-pricing.md) with server-calculated quotes and consistent cart behavior.
 
 - [Tier-aware loyalty notifications](docs/club-notification-sms.md) with accurate reward values, configurable delivery and duplicate protection.

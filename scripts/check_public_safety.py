@@ -30,6 +30,7 @@ APPROVED_PATHS = frozenset(
         "docs/club-earning-policy.md",
         "docs/club-notification-sms.md",
         "docs/currency-delivery-pricing.md",
+        "docs/country-gate-browser-pass.md",
         "docs/cache-boundary.md",
         "docs/catalog-image-batching.md",
         "docs/loyalty-storefront.md",
