@@ -1,3 +1,9 @@
+## 2026-10-11 — Seller registration and expert pricing
+
+- Added an explicit expert-pricing request for sellers who do not know their watch's price. A positive technician proposal still requires seller approval before publication.
+- Clarified required watch photographs and an exception for older watches without accompanying packaging; preserved optional model references without treating all unknown references as one physical watch.
+- Unified the seller brand picker and added a missing brand. Checked the changed seller and technician views in mobile/desktop light and dark states with synthetic data.
+
 ## 2026-10-11 — Sitemap entry and release-path review
 
 - Checked a small cross-section of submitted sitemap entries and recorded one redirect and one anonymously empty page for private follow-up. Most sampled HTML pages returned with self canonicals; this is a sample, not a sitewide indexation claim.
