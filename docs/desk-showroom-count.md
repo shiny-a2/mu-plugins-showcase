@@ -6,4 +6,4 @@ A manager-only view lists in-person club customers for the manager's branch. The
 
 The interface was reviewed with synthetic data at mobile and desktop widths in light and dark themes, including the product count state and the customer detail sheet. The release also includes a branch-scope guard check. No real customer transaction or stock change was created for presentation tests.
 
-Release: `v1.1.0-desk-showroom-count`. Production code and customer data remain in the private repository.
+Releases: `v1.1.0-desk-showroom-count` and `v1.1.1-desk-count-polish`. The follow-up keeps validation feedback visible inside the active form and returns the staff member to the saved item’s brand. Production code and customer data remain in the private repository.

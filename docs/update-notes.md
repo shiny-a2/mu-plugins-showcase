@@ -1,3 +1,8 @@
+## 2026-10-12 — Counter count form polish
+
+- Kept validation feedback inside the active count form and returned staff to the correct brand after adding a catalog item from search.
+- Rechecked the mobile dark form error state with synthetic data; no real stock or financial record was created.
+
 ## 2026-10-12 — Counter operations and branch visibility
 
 - Added daily physical showroom counts by brand, with catalog lookup and manual entry when an item is absent from search. Physical observations remain separate from online stock and pricing.
