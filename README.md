@@ -6,6 +6,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Branch showroom counts and manager club view](docs/desk-showroom-count.md): daily physical checks with a branch-scoped customer history.
+
 - [Reversible supplier-feed controls](docs/supplier-feed-controls.md): shared pause guards and verified catalog availability updates.
 
 - [Brand directory usability and shared themes](docs/brand-directory-ux.md): visible search, accessible refinements and readable logo-led cards across mobile/desktop.

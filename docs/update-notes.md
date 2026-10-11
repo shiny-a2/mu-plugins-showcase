@@ -1,3 +1,9 @@
+## 2026-10-12 — Counter operations and branch visibility
+
+- Added daily physical showroom counts by brand, with catalog lookup and manual entry when an item is absent from search. Physical observations remain separate from online stock and pricing.
+- Added a branch-scoped, manager-only view of in-person club customers, invoices and reason-labelled account activity.
+- Checked responsive light/dark states with synthetic data and verified branch-access guards without creating real financial or stock records.
+
 ## 2026-10-11 — Seller registration and expert pricing
 
 - Added an explicit expert-pricing request for sellers who do not know their watch's price. A positive technician proposal still requires seller approval before publication.
