@@ -1,3 +1,8 @@
+## 2026-10-12 — Avoid double-counting paired watches
+
+- Removed paired-watch catalog items from the daily showroom count because their individual watches are counted separately. Search, saved rows and the count API follow the same rule.
+- Checked catalog samples and responsive light/dark count views without changing actual showroom records or online inventory.
+
 ## 2026-10-12 — Counter count form polish
 
 - Kept validation feedback inside the active count form and returned staff to the correct brand after adding a catalog item from search.
