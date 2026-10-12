@@ -1,3 +1,8 @@
+## 2026-10-12 — Scoped staff sign-in at the counter
+
+- Added a password option for authorized counter staff while keeping SMS-code sign-in available. Permission still follows the assigned branch and manager/seller role.
+- Limited failed password attempts and reviewed the login view at mobile and desktop widths in both themes. No credentials or employee records are included in this showcase.
+
 ## 2026-10-12 — Avoid double-counting paired watches
 
 - Removed paired-watch catalog items from the daily showroom count because their individual watches are counted separately. Search, saved rows and the count API follow the same rule.
