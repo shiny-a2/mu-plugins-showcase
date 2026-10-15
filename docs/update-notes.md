@@ -9,6 +9,7 @@
 - Added a short-lived anonymous storefront cache with explicit bypasses for carts, checkout, accounts, search and logged-in sessions. First visits still reach the application so visitor identification remains intact.
 - Removed an expensive global admin menu scan on one bulk-editor screen without changing its product data or editing actions. An authenticated read-only check brought the screen from tens of seconds to a few seconds, and its product-grid request still returned rows.
 - Updated compatible store components in stages after a private rollback backup. Checked the public catalog, cart, checkout and responsive browser views without placing an order. One licensed extension lacked an update package and remains a tracked maintenance item.
+- Moved scheduled store work off customer page views to a nonoverlapping server runner, with a private success marker and bounded cleanup of expired catalog cache entries.
 
 ## 2026-10-12 — Scoped staff sign-in at the counter
 
