@@ -1,3 +1,9 @@
+## 2026-10-15 — Isolated customer panel review preview
+
+- Built a separate staging copy of a customer panel with generated records, keeping staff operations and the live store outside the test environment.
+- Separated purchase and repair feedback, added service-specific questions, a restricted manager view, and replayable Persian onboarding tours.
+- Checked responsive light/dark states, ownership and request handling, and a restore rehearsal. The preview remains under review while delivery rules and integration parity are verified; no production release occurred.
+
 ## 2026-10-12 — Scoped staff sign-in at the counter
 
 - Added a password option for authorized counter staff while keeping SMS-code sign-in available. Permission still follows the assigned branch and manager/seller role.
