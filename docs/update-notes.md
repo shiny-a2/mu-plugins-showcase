@@ -4,6 +4,12 @@
 - Separated purchase and repair feedback, added service-specific questions, a restricted manager view, and replayable Persian onboarding tours.
 - Checked responsive light/dark states, ownership and request handling, and a restore rehearsal. The preview remains under review while delivery rules and integration parity are verified; no production release occurred.
 
+## 2026-10-15 — Faster catalog and bulk editing during store maintenance
+
+- Added a short-lived anonymous storefront cache with explicit bypasses for carts, checkout, accounts, search and logged-in sessions. First visits still reach the application so visitor identification remains intact.
+- Removed an expensive global admin menu scan on one bulk-editor screen without changing its product data or editing actions. An authenticated read-only check brought the screen from tens of seconds to a few seconds, and its product-grid request still returned rows.
+- Updated compatible store components in stages after a private rollback backup. Checked the public catalog, cart, checkout and responsive browser views without placing an order. One licensed extension lacked an update package and remains a tracked maintenance item.
+
 ## 2026-10-12 — Scoped staff sign-in at the counter
 
 - Added a password option for authorized counter staff while keeping SMS-code sign-in available. Permission still follows the assigned branch and manager/seller role.
