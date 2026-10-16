@@ -1,3 +1,9 @@
+## 2026-10-17 — Marketplace interest capture
+
+- Replaced the loyalty-club invitation on marketplace pages with a focused signup for new listings, discounts and auctions. The rest of the storefront keeps its club invitation.
+- Marketplace signups now carry a distinct source and interest tag. Operators see a clear marketplace label, while existing customer attribution and other interests remain intact.
+- Confirmed mobile and desktop presentation in both themes, invalid-input handling, a successful response without a coupon claim, and rejection of mismatched page attribution without creating a test lead.
+
 ## 2026-10-16 — Remove exposed storefront archives
 
 - Found several old export and image archives directly reachable at the storefront root. Their contents were not copied into the public repository.
