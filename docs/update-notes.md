@@ -1,3 +1,8 @@
+## 2026-10-16 — Remove exposed storefront archives
+
+- Found several old export and image archives directly reachable at the storefront root. Their contents were not copied into the public repository.
+- Preserved the originals in a private checksummed location, denied future root-level archive and export requests, and verified former links no longer served files while the storefront and checkout remained available.
+
 ## 2026-10-15 — Isolated customer panel review preview
 
 - Built a separate staging copy of a customer panel with generated records, keeping staff operations and the live store outside the test environment.
