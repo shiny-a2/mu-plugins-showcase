@@ -1,3 +1,9 @@
+## 2026-10-17 — Safer batch photo backgrounds
+
+- Prepared a batch-editing update that resolves known alternate brand spellings and avoids choosing an arbitrary template when names collide.
+- Missing or unreadable templates now stop the affected image instead of producing a photograph with another brand's background.
+- Automated host-model checks pass. Existing edited images and the owner's real Photoshop workflow still require visual review before release.
+
 ## 2026-10-17 — Restricted management workspace access
 
 - Limited a private management workspace to named accounts rather than relying on broad administrator roles or editable profile details.
