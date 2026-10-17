@@ -1,3 +1,9 @@
+## 2026-10-18 — Customer panel staging parity review
+
+- Compared the isolated customer preview with the reference account structure and documented missing integrations.
+- Matched the reference Persian typeface, added a generated-data tier-card preview, and improved Persian onboarding for desktop, tablet and phone.
+- Verified light/dark browser states and preserved the separation between purchase and repair feedback. Full loyalty, theme and sign-in parity remain open; no production release occurred.
+
 ## 2026-10-17 — Safer batch photo backgrounds
 
 - Prepared a batch-editing update that resolves known alternate brand spellings and avoids choosing an arbitrary template when names collide.
