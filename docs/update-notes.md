@@ -2,6 +2,7 @@
 
 - Prepared a batch-editing update that resolves known alternate brand spellings and avoids choosing an arbitrary template when names collide.
 - Missing or unreadable templates now stop the affected image instead of producing a photograph with another brand's background.
+- Long batches now recheck brand templates added after startup and record which template file was selected for a disputed image.
 - Automated host-model checks pass. Existing edited images and the owner's real Photoshop workflow still require visual review before release.
 
 ## 2026-10-17 — Restricted management workspace access
