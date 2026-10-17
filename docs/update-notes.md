@@ -1,3 +1,9 @@
+## 2026-10-18 — Supplier arrival order stage
+
+- Added a distinct order stage for stock received from a supplier but not yet dispatched to a customer, with bulk editing and an identifiable order-list badge.
+- Kept paid sales and operational views consistent while leaving delivery-based rewards and after-sales follow-up tied to actual customer delivery.
+- Checked status registration and paid-status behavior without changing a live order, plus mobile and desktop order badges in light and dark themes.
+
 ## 2026-10-18 — Customer panel staging parity review
 
 - Compared the isolated customer preview with the reference account structure and documented missing integrations.
