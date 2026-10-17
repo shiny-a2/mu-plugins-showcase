@@ -1,3 +1,9 @@
+## 2026-10-17 — Restricted management workspace access
+
+- Limited a private management workspace to named accounts rather than relying on broad administrator roles or editable profile details.
+- Applied the same decision to page entry and its data requests, and removed persisted offline copies of management data.
+- Verified authorized and denied account cases and the signed-out route without creating financial records.
+
 ## 2026-10-17 — Marketplace interest capture
 
 - Replaced the loyalty-club invitation on marketplace pages with a focused signup for new listings, discounts and auctions. The rest of the storefront keeps its club invitation.
