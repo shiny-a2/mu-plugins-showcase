@@ -1,3 +1,10 @@
+## 2026-10-18 — Search experience and field performance review
+
+- Compared recent real-user loading, interaction and layout-stability measurements with controlled page tests to prioritize product and category experience work. The review distinguishes rolling field measurements from one-off lab scores.
+- Found that a private diagnostic collector had reached its storage cap. Prepared a sampled, bounded rotation update with an isolated regression check so later investigations can use fresh element-level evidence.
+- Mapped search intent to existing brand and product pages, checked indexability samples and available assortment, and queued narrowly scoped editorial and navigation pilots. No ranking or sales outcome is claimed.
+- The diagnostic update is a reviewed local candidate. Production release still requires isolated validation, responsive light/dark checks and the normal approval gate.
+
 ## 2026-10-18 — Customer panel staging integration
 
 - Connected original membership and ledger readers to generated accounts representing six tiers, with a read-only benefits comparison and no value-moving controls.
