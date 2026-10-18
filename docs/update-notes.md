@@ -1,3 +1,9 @@
+## 2026-10-18 — Published brand-origin editorial correction
+
+- Replaced an unsupported origin story on an existing watch-brand category and related article with concise Persian copy grounded in the brand's own description. The article now distinguishes brand origin and movement origin from model-specific assembly information.
+- Updated the category search description to avoid fixed stock counts and starting prices that can become stale. Preserved product listings, prices, URLs and existing search canonicals.
+- Checked both live pages at mobile and desktop widths in light and dark themes. Verified readable text, keyboard focus, working editorial links, current descriptions and self canonicals. No ranking or sales outcome is claimed.
+
 ## 2026-10-18 — Brand-origin copy fact check
 
 - Matched a catalog watch reference to the manufacturer's own listing and found that a category and its related history article gave an unsupported, conflicting brand-origin story.
