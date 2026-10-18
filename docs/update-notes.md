@@ -1,3 +1,9 @@
+## 2026-10-18 — Expanded watch-brand search priorities
+
+- Added four watch brands to the private search and product-availability review, using a recent search baseline and a read-only catalog count to prioritize existing category pages.
+- Kept an origin question on its existing editorial page and flagged inconsistent brand labels, a navigation spelling issue and an empty related collection for source and merchandising review.
+- This is a planning update. No product, storefront copy, search setting or price was changed.
+
 ## 2026-10-18 — Marketplace storefront review
 
 - Prepared shorter, more accurate Persian copy for the used-watch marketplace home and catalog, explaining reservation, inspection and settlement without treating every listing as certified.
@@ -8,6 +14,7 @@
 
 - Found completely empty structured-data blocks on sampled first-page catalog categories while a paginated sample retained populated metadata.
 - Traced the empty output to a FAQ merge that discarded unrelated metadata values. Prepared a private source fix that preserves those values while removing duplicate FAQs; a narrow guard omits already-empty category blocks. Local regressions cover both cases and noncategory pages.
+- Limited a separate product-data fallback to individual product pages after finding that catalog loops could make a category appear to describe its first listed product. The local regression covers category and product request contexts.
 - This is an unreleased candidate. Search presentation, indexing and revenue effects have not been measured; release checks and approval remain.
 
 ## 2026-10-18 — Search intent and indexation review
