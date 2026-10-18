@@ -1,3 +1,9 @@
+## 2026-10-18 — Brand-origin copy fact check
+
+- Matched a catalog watch reference to the manufacturer's own listing and found that a category and its related history article gave an unsupported, conflicting brand-origin story.
+- Prepared source-backed replacement wording for those two existing pages and corrected the private one-time content source for future use. Recorded exact source locations and rollback checks.
+- This is an editorial candidate. The live pages, product data, prices and search settings have not changed.
+
 ## 2026-10-18 — Expanded watch-brand search priorities
 
 - Added four watch brands to the private search and product-availability review, using a recent search baseline and a read-only catalog count to prioritize existing category pages.
