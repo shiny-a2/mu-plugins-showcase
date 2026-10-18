@@ -1,3 +1,9 @@
+## 2026-10-18 — Marketplace storefront review
+
+- Prepared shorter, more accurate Persian copy for the used-watch marketplace home and catalog, explaining reservation, inspection and settlement without treating every listing as certified.
+- Aligned older marketplace routes with the dedicated navigation and active home/watch URLs; designed a smaller marketplace footer for buyers and sellers.
+- Checked the existing home, catalog, watch detail and menu in light and dark themes at mobile and desktop widths, then tested the new footer as a responsive component. This is a reviewed release candidate; production content and authenticated purchase flows have not been changed or exercised.
+
 ## 2026-10-18 — Category metadata cleanup candidate
 
 - Found completely empty structured-data blocks on sampled first-page catalog categories while a paginated sample retained populated metadata.
