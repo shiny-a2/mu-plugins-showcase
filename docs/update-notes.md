@@ -10,6 +10,7 @@
 - Connected country cards, brand navigation and the homepage brand rail to the same catalog origin data, with unknown origins left unassigned.
 - Kept the affected page and menu caches fresh when a brand or its origin relationship changes; validated responsive light/dark states and rail controls.
 - Corrected the rail placement for the live archive template after a post-release check showed it lacked the expected main landmark.
+- Preserved the last valid country-to-brand relationship when a refresh fails, and bounded concurrent retries so navigation does not temporarily lose country groups.
 
 ## 2026-10-18 — Confirmed analytics reporting gap
 
