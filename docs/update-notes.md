@@ -1,3 +1,9 @@
+## 2026-10-18 — Expanded watch-brand search priorities
+
+- Added four watch brands to the private search and product-availability review, using a recent search baseline and a read-only catalog count to prioritize existing category pages.
+- Kept an origin question on its existing editorial page and flagged inconsistent brand labels, a navigation spelling issue and an empty related collection for source and merchandising review.
+- This is a planning update. No product, storefront copy, search setting or price was changed.
+
 ## 2026-10-18 — Marketplace storefront review
 
 - Prepared shorter, more accurate Persian copy for the used-watch marketplace home and catalog, explaining reservation, inspection and settlement without treating every listing as certified.
