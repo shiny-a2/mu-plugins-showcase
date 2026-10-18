@@ -4,6 +4,12 @@
 - Extended the bounded queue with nine more priority-brand and query-intent checks. Aggregate analytics health is now polled on every 15-minute wake while those checks run. The collection gap remains unresolved.
 - Scheduled command-line runs record private checkpoints and local commits; they cannot post into the original chat or publish unreviewed site changes. Reviewed results were synchronized to the private repository before this public note.
 
+## 2026-10-18 — Connected country and brand discovery
+
+- Simplified country browsing on the storefront and added a logo-led brand rail on each country collection.
+- Connected country cards, brand navigation and the homepage brand rail to the same catalog origin data, with unknown origins left unassigned.
+- Kept the affected page and menu caches fresh when a brand or its origin relationship changes; validated responsive light/dark states and rail controls.
+
 ## 2026-10-18 — Confirmed analytics reporting gap
 
 - Compared the same recent date window in the store's aggregate first-party event log and the analytics reporting API. The store recorded substantial page and shopping activity while the analytics report returned no processed events.
