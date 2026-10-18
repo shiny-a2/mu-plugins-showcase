@@ -1,3 +1,9 @@
+## 2026-10-18 — Category metadata cleanup candidate
+
+- Found completely empty structured-data blocks on sampled first-page catalog categories while a paginated sample retained populated metadata.
+- Prepared a narrowly scoped private source fix that omits only wholly empty category blocks and keeps populated blocks. A local regression covers both cases and noncategory pages.
+- This is an unreleased candidate. Search presentation, indexing and revenue effects have not been measured; release checks and approval remain.
+
 ## 2026-10-18 — Search intent and indexation review
 
 - Compared commercial queries with the existing category and editorial pages that actually appeared in Search Console, then updated the private page-intent map for ten priority watch brands.
