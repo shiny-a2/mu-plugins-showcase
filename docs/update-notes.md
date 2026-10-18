@@ -1,3 +1,9 @@
+## 2026-10-18 — Confirmed analytics reporting gap
+
+- Compared the same recent date window in the store's aggregate first-party event log and the analytics reporting API. The store recorded substantial page and shopping activity while the analytics report returned no processed events.
+- Kept the two systems' different collection rules and time zones explicit. The comparison confirms a measurement gap, not its cause or an exact count of missing human visits and completed purchases.
+- Left purchase-event repair and reporting settings behind the existing validation gates until basic page-view ingestion can be demonstrated.
+
 ## 2026-10-18 — Brand findings and analytics health watch
 
 - Read-only checks confirmed that selected watch-brand categories show current purchasable models, while one narrow assortment still needs merchandising work before broader search promotion.
