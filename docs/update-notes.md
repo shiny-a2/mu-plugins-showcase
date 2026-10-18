@@ -1,3 +1,9 @@
+## 2026-10-18 — Search intent and indexation review
+
+- Compared commercial queries with the existing category and editorial pages that actually appeared in Search Console, then updated the private page-intent map for ten priority watch brands.
+- Confirmed that a strong editorial page already links to relevant catalog and product pages, avoiding redundant links. Checked one category's current indexable HTML and sitemap modification date against its older crawl record; a search-engine live test is the next diagnostic step.
+- Flagged model availability and source-backed product claims as prerequisites for publishing buyer-facing copy. No production content, indexation setting, ranking claim or customer data is included in this public update.
+
 ## 2026-10-18 — Search experience and field performance review
 
 - Compared recent real-user loading, interaction and layout-stability measurements with controlled page tests to prioritize product and category experience work. The review distinguishes rolling field measurements from one-off lab scores.
