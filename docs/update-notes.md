@@ -1,3 +1,8 @@
+## 2026-10-18 — Search review queue extended
+
+- After the analytics evidence checks, the bounded local queue now proceeds through three existing watch-brand priorities: available catalog coverage, current category presentation and pagination purchase paths.
+- Each step records a dated, reviewable proposal from current evidence. The queue does not change storefront copy, prices, stock or index settings automatically.
+
 ## 2026-10-18 — Analytics evidence and bounded follow-up
 
 - Rechecked the storefront tag, representative cached pages and the analytics property. The tag is present on sampled pages, but recent processed reporting remains empty; the cause is still under investigation.
