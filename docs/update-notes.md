@@ -1,3 +1,9 @@
+## 2026-10-18 — Analytics evidence and bounded follow-up
+
+- Rechecked the storefront tag, representative cached pages and the analytics property. The tag is present on sampled pages, but recent processed reporting remains empty; the cause is still under investigation.
+- Added a local, sequential investigation queue that wakes every 15 minutes, skips overlapping runs and stops after a fixed set of private audit tasks. It cannot publish storefront or analytics changes.
+- Kept the known purchase-tracking correction separate from the sitewide collection diagnosis. No sales or traffic recovery is claimed.
+
 ## 2026-10-18 — Search review kept current
 
 - Rechecked a previously flagged watch-authenticity sentence against the live category and its source. It was no longer present, so the proposed copy change was removed from the active work queue.
