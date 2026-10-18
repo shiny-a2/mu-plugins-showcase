@@ -1,3 +1,9 @@
+## 2026-10-18 — Customer panel staging integration
+
+- Connected original membership and ledger readers to generated accounts representing six tiers, with a read-only benefits comparison and no value-moving controls.
+- Restored the mobile account menu, refined feature-aware tours, and added local one-use sign-in codes for isolated tests.
+- Rechecked responsive light/dark states, keyboard focus, feedback ownership and duplicate protection. Licensed identity, coupon and checkout flows remain outside this review build.
+
 ## 2026-10-18 — Supplier arrival order stage
 
 - Added a distinct order stage for stock received from a supplier but not yet dispatched to a customer, with bulk editing and an identifiable order-list badge.
