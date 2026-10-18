@@ -2,6 +2,7 @@
 
 - Matched a catalog watch reference to the manufacturer's own listing and found that a category and its related history article gave an unsupported, conflicting brand-origin story.
 - Prepared source-backed replacement wording for those two existing pages and corrected the private one-time content source for future use. Recorded exact source locations and rollback checks.
+- Incorporated the owner's brand-origin and movement clarification, keeping those facts separate from each model's unverified assembly location.
 - This is an editorial candidate. The live pages, product data, prices and search settings have not changed.
 
 ## 2026-10-18 — Expanded watch-brand search priorities
