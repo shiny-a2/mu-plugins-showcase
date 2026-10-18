@@ -1,3 +1,9 @@
+## 2026-10-18 — Search growth cycle and catalog snippet accuracy
+
+- Introduced a repeatable search improvement cycle: measure current query and catalog evidence, select one issue, verify facts, release a narrow change, then check live output and later final search data.
+- Updated a watch-brand category description that hard-coded stock and starting price while naming assortments unavailable in the current purchasable selection. The new wording directs shoppers to current model-level price, availability and specifications.
+- Kept product, price and stock records unchanged. Confirmed the live category returned a self canonical, indexable response, updated description and product cards. No ranking or sales result is claimed.
+
 ## 2026-10-18 — Published brand-origin editorial correction
 
 - Replaced an unsupported origin story on an existing watch-brand category and related article with concise Persian copy grounded in the brand's own description. The article now distinguishes brand origin and movement origin from model-specific assembly information.
