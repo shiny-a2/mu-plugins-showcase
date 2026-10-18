@@ -12,4 +12,10 @@ This is a **review preview**, not a production release. The real delivery rules,
 
 A read-only comparison found that the first isolated customer preview lacked several parts of the reference account experience. The staging copy now uses the reference Persian typeface and an original tier-card renderer with clearly labelled generated data. Guided onboarding has a longer, feature-aware introduction and a separate club-card walkthrough, with mobile placement, progress, skip and replay controls.
 
-Browser checks covered desktop, tablet and phone layouts in light and dark themes, including a new synthetic customer and the tour controls. The preview remains incomplete: account activity, the full loyalty ledger, benefits, vouchers, the production theme and sign-in integrations still need isolated adapters and acceptance testing. No live customer information or production deployment was involved.
+Browser checks covered desktop, tablet and phone layouts in light and dark themes, including a new synthetic customer and the tour controls. The preview remains incomplete: account activity, the full loyalty ledger, benefits, vouchers and sign-in integrations still need isolated adapters and acceptance testing. No live customer information or production deployment was involved.
+
+## Reference theme and loyalty foundation
+
+The isolated customer installation now runs a copy of the reference parent and child theme. The original loyalty domain library and its ledger schema were added separately, with only generated test history in the staging database. The customer-facing balance and value-moving operations remain disabled while their adapters and ownership rules are verified. The earlier tier card still labels its figures as sample data.
+
+Desktop, tablet and phone browser checks in light and dark modes passed after the theme change, including the current tours. A backup and restore rehearsal preceded the update. This improves source fidelity but does not establish full visual or functional parity: authenticated reference comparisons, the full club, benefits, wallet, coupons and sandbox sign-in remain open. No live customer data or production change was involved.
