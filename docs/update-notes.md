@@ -1,3 +1,9 @@
+## 2026-10-18 — Source-backed watch-brand history correction
+
+- Checked an existing brand-history article against the fashion brand and its official watch licensee, then corrected a sentence that treated the fashion brand's founding year as the watch line's launch year.
+- Rewrote its search description in natural Persian and linked the corrected on-page sentence to the source. Kept the existing catalog callout and product grid instead of adding duplicate buying links.
+- Verified the live article, current description and source link on phone and desktop in light and dark themes, including link contrast and keyboard focus. Product, price and stock records were not changed.
+
 ## 2026-10-18 — Search growth cycle and catalog snippet accuracy
 
 - Introduced a repeatable search improvement cycle: measure current query and catalog evidence, select one issue, verify facts, release a narrow change, then check live output and later final search data.
