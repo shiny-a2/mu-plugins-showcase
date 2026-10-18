@@ -14,6 +14,12 @@ The isolated preview now reads membership tiers, points and wallet history throu
 
 A separate test sign-in uses short-lived, one-use codes delivered only to a protected local test mailbox. Browser checks covered menu navigation, benefit dialogs, keyboard focus, both themes and three viewport widths. Ownership and duplicate feedback checks were rerun with generated orders. Coupon issuance, wallet spending, licensed identity services and a side-by-side signed-in reference comparison remain open. This is still a staging review build, with no live transactions or customer data.
 
+## October 2026 customer experience update
+
+The isolated preview now brings the original membership summary, point balances, wallet balance, benefit comparison and activity history together in one club area. Its account overview shows the latest generated purchase and repair from records owned by the signed-in test account. Repair lists exclude unrelated counter sales at the data query, keeping each service in its own area.
+
+Six generated accounts cover all six membership levels. Phone, tablet and desktop browser checks covered both themes, purchase and repair feedback forms, club history filters and full guided-tour navigation. Focused checks also covered ownership, request validation, duplicate feedback, text sanitization and the local one-use sign-in. These changes make the preview easier to review and reduce cross-service confusion; they do not create spendable value. Gift and voucher redemption, licensed integrations, authenticated reference comparison and production release remain open.
+
 ## October 2026 preview update
 
 A read-only comparison found that the first isolated customer preview lacked several parts of the reference account experience. The staging copy now uses the reference Persian typeface and an original tier-card renderer with clearly labelled generated data. Guided onboarding has a longer, feature-aware introduction and a separate club-card walkthrough, with mobile placement, progress, skip and replay controls.

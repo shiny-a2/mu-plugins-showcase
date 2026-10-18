@@ -1173,3 +1173,6 @@ Marketplace 0.159.0 rewrites the watch-registration journey in clear, natural Pe
 The release also makes the model reference genuinely optional, moves the separate-watch choice beside the related field and replaces browser-language file controls with a consistent Persian image action. Registration panels, upload states and service choices use the shared storefront palette and inherited typeface.
 
 Automated checks cover copy and service pricing behavior. A browser fixture completes all five stages at mobile and desktop widths in light and dark themes, including selection states, file input, contrast and horizontal overflow. No real listing, payment or customer message was created during validation.
+# 2026-10-18 — Customer preview club and service separation
+
+Grouped the original read-only membership views in the isolated preview and added owner-scoped recent account activity. A data-level repair filter prevents unrelated sales from appearing as repairs. Synthetic browser fixtures now cover six membership levels, service-specific feedback, responsive guided tours and light/dark interaction states. Security checks exercised ownership, request validation, repeat submissions and local test sign-in. Value-changing rewards and production release remain outside this preview.
