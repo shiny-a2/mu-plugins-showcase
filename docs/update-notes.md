@@ -1,7 +1,7 @@
 ## 2026-10-18 — Category metadata cleanup candidate
 
 - Found completely empty structured-data blocks on sampled first-page catalog categories while a paginated sample retained populated metadata.
-- Prepared a narrowly scoped private source fix that omits only wholly empty category blocks and keeps populated blocks. A local regression covers both cases and noncategory pages.
+- Traced the empty output to a FAQ merge that discarded unrelated metadata values. Prepared a private source fix that preserves those values while removing duplicate FAQs; a narrow guard omits already-empty category blocks. Local regressions cover both cases and noncategory pages.
 - This is an unreleased candidate. Search presentation, indexing and revenue effects have not been measured; release checks and approval remain.
 
 ## 2026-10-18 — Search intent and indexation review
