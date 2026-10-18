@@ -1,3 +1,9 @@
+## 2026-10-18 — Scheduled search reviews continued
+
+- Confirmed that four scheduled, read-only storefront reviews completed after the interactive session ended. They checked an indexing access discrepancy, a mobile performance candidate, category availability and a navigation spelling issue. These findings are review inputs, not released storefront changes or search outcome claims.
+- Extended the bounded queue with nine more priority-brand and query-intent checks. Aggregate analytics health is now polled on every 15-minute wake while those checks run. The collection gap remains unresolved.
+- Scheduled command-line runs record private checkpoints and local commits; they cannot post into the original chat or publish unreviewed site changes. Reviewed results were synchronized to the private repository before this public note.
+
 ## 2026-10-18 — Confirmed analytics reporting gap
 
 - Compared the same recent date window in the store's aggregate first-party event log and the analytics reporting API. The store recorded substantial page and shopping activity while the analytics report returned no processed events.
@@ -8,7 +14,7 @@
 
 - Read-only checks confirmed that selected watch-brand categories show current purchasable models, while one narrow assortment still needs merchandising work before broader search promotion.
 - Found a paginated category URL that had been indexed in a dated search report but now returns a genuine 404 because the current collection has fewer pages. The team will review a useful return path without changing canonicals or redirects from this observation alone.
-- Extended the sequential review queue to additional indexing, performance and brand-navigation checks. After its fixed tasks, a lightweight 15-minute analytics check records aggregate event counts locally so collection recovery can be detected without claiming that empty reports mean no shoppers visited.
+- Extended the sequential review queue to additional indexing, performance and brand-navigation checks. Aggregate analytics checks were added to detect collection recovery without treating empty reports as proof of zero shoppers.
 
 ## 2026-10-18 — Search review queue extended
 
