@@ -1,3 +1,9 @@
+## 2026-10-19 — Loyalty launch readiness
+
+- Tightened grant activation timing so a newly earned reward cannot appear active before it was earned, while leaving older active rewards and their expiry untouched.
+- Prepared tier-by-tier customer introductions with a reviewed sample and one bounded batch per click. New customer introductions precede later reward notifications, and message links lead directly to the customer panel.
+- Verified the earning-rate distinction between a loyalty tier and a payment channel through isolated tests. No customer campaign or financial test purchase was sent as part of this update.
+
 ## 2026-10-18 — Scheduled search reviews continued
 
 - Confirmed that four scheduled, read-only storefront reviews completed after the interactive session ended. They checked an indexing access discrepancy, a mobile performance candidate, category availability and a navigation spelling issue. These findings are review inputs, not released storefront changes or search outcome claims.
