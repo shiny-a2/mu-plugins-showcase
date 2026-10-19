@@ -1,3 +1,9 @@
+## 2026-10-20 — Marketplace customer attribution
+
+- Linked verified marketplace accounts to the existing phone-keyed customer file, with a separate operator queue and source count.
+- Reconciled earlier marketplace registrations and filled missing names from details customers had already supplied, without replacing names or acquisition sources entered through other channels.
+- Kept the reconciliation reviewable with a dry run and a private rollback copy. No test purchase or customer message was created.
+
 ## 2026-10-19 — Loyalty launch readiness
 
 - Tightened grant activation timing so a newly earned reward cannot appear active before it was earned, while leaving older active rewards and their expiry untouched.
