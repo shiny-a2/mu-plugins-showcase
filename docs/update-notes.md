@@ -4,6 +4,7 @@
 - Prepared tier-by-tier customer introductions with a reviewed sample and one bounded batch per click. New customer introductions precede later reward notifications, and message links lead directly to the customer panel.
 - Accounts with unresolved in-store invoice matches are withheld from balance messages until staff review, with a clear held count in the admin view.
 - Staff can now review each held account and its specific mismatch from the in-store loyalty screen before releasing its notification.
+- Each outgoing introduction rechecks the customer's current tier, so a changed tier moves the customer to the correct campaign group without sending a mismatched message.
 - Verified the earning-rate distinction between a loyalty tier and a payment channel through isolated tests. No customer campaign or financial test purchase was sent as part of this update.
 
 ## 2026-10-18 — Scheduled search reviews continued
