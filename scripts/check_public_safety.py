@@ -176,7 +176,7 @@ def main() -> int:
 
         relative = path.relative_to(ROOT).as_posix()
 
-        if relative.startswith(".git/") or "__pycache__" in relative:
+        if relative == ".git" or relative.startswith(".git/") or "__pycache__" in relative:
             continue
 
         seen.add(relative)
