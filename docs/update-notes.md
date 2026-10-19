@@ -1,6 +1,6 @@
 ## 2026-10-20 — Marketplace customer attribution
 
-- Linked verified marketplace accounts to the existing phone-keyed customer file, with a separate operator queue and source count.
+- Linked verified marketplace accounts to the existing phone-keyed customer file, with a separate operator queue that also counts marketplace invitation leads.
 - Reconciled earlier marketplace registrations and filled missing names from details customers had already supplied, without replacing names or acquisition sources entered through other channels.
 - Kept the reconciliation reviewable with a dry run and a private rollback copy. No test purchase or customer message was created.
 
