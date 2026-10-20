@@ -1,3 +1,8 @@
+## 2026-10-20 — Isolated analytics processing check
+
+- With owner authorization, completed the analytics property's data-collection acknowledgement and sent one synthetic, noncommercial protocol event. The event appeared in Realtime, showing that the property can process a valid diagnostic event. The temporary secret was deleted and verified absent.
+- A separate browser probe still did not establish ordinary page-view reporting. Updated the scheduled aggregate monitor to show diagnostic and other event counts separately, preventing a test event from being mistaken for recovered storefront analytics. The production tag and storefront were not changed.
+
 ## 2026-10-20 — Excel draft category finalization
 
 - Finalized watch-category reconciliation after the approved spreadsheet importer has saved each draft's identity and attributes. This closes a timing gap in which a category repair could run before the draft was complete.
