@@ -39,6 +39,7 @@ APPROVED_PATHS = frozenset(
         "docs/loyalty-scheduler-recovery.md",
         "docs/marketplace-seller-registration.md",
         "docs/marketplace-reviewed-edits.md",
+        "docs/operator-feedback-labels.md",
         "docs/privacy-boundary.md",
         "docs/supplier-feed-controls.md",
         "docs/update-notes.md",
