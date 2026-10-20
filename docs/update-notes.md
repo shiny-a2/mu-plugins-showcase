@@ -1,3 +1,8 @@
+## 2026-10-20 — Reviewed catalog draft publication
+
+- Published the owner-approved, image-ready portion of a reviewed spreadsheet import after checking product identity, category, image ownership and unchanged state. Records without a featured image remained drafts for later processing.
+- Preserved a private rollback snapshot and confirmed a representative public product page in light and dark themes at mobile and desktop widths. No prices were invented or changed; purchase flow was not exercised.
+
 ## 2026-10-20 — Correlated first-party and analytics traffic
 
 - Compared a complete day of aggregate first-party page activity with the analytics property's empty processed report. The first-party events came from the canonical storefront host and mostly carried ordinary browser user-agent classes, so the gap is broader than the controlled test visits. The two systems count differently, and user-agent labels alone do not prove that every event was a person.
