@@ -1,3 +1,9 @@
+## 2026-10-20 — Birthday gift follow-through and bulk editor control
+
+- Aligned the product bulk editor's page-size picker with the store's configured 100-row view.
+- Hardened birthday gift issuance so the customer voucher record exists before any message is sent, and expired codes cannot be resent.
+- Surfaced active birthday gifts and delivery status in the operator app, with message-sharing actions and an aggregate delivery report. Synthetic flow checks and mobile/desktop light/dark previews passed; authenticated delivery was not simulated.
+
 ## 2026-10-20 — Marketplace customer attribution
 
 - Linked verified marketplace accounts to the existing phone-keyed customer file, with a separate operator queue that also counts marketplace invitation leads.
