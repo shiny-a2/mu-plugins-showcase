@@ -1,3 +1,9 @@
+## 2026-10-20 — Analytics collection diagnosis and search navigation review
+
+- Checked the analytics tag and collector from two intended-market network locations, then compared a controlled browser probe with live and daily aggregate reports. Network reachability was observed, while processed reporting remained empty; the cause is still under investigation. No customer or transaction data was used in the probe.
+- Identified a property acknowledgement that blocks a temporary server-side diagnostic method. That prerequisite does not establish why ordinary browser events are missing. The production tag and analytics filters were not changed.
+- Prepared read-only, reviewable proposals for brand-preserving gender navigation and a menu spelling correction. No storefront copy or navigation was published.
+
 ## 2026-10-20 — Scoped category copy and navigation candidates
 
 - Prepared a concise, shopper-focused Persian replacement for a watch-brand category description that currently discusses search optimization in customer-facing text. It is a private draft, with a content fingerprint and a visual acceptance gate; no live copy was changed.
