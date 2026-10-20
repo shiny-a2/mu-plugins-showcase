@@ -1,3 +1,9 @@
+## 2026-10-20 — Browser delivery and analytics filter review
+
+- Reviewed the analytics property's filters in its administrator interface: the only listed internal-traffic exclusion was in testing mode. The web stream still warned that website data had not arrived recently.
+- Loaded the actual storefront once through a verified intended-market route in a temporary browser. Its page-view request used the expected stream and site hostname, and the collector returned a transport response. The synthetic browser visit did not appear in the immediate processed report; ordinary shopper collection remains unproven. No live tag or filter was changed.
+- Added the transport-only diagnostic name to the monitor's exclusion list so controlled probes cannot be counted as recovered storefront traffic.
+
 ## 2026-10-20 — Isolated analytics processing check
 
 - With owner authorization, completed the analytics property's data-collection acknowledgement and sent one synthetic, noncommercial protocol event. The event appeared in Realtime, showing that the property can process a valid diagnostic event. The temporary secret was deleted and verified absent.
