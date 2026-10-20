@@ -6,6 +6,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Evidence-based operator feedback labels](docs/operator-feedback-labels.md): clearer customer-state labels, transparent reasons and responsive review in both themes.
+
 - [Isolated customer panel preview](docs/customer-panel-preview.md): separate staging, service-specific feedback and guided tours tested with generated records.
 
 - [Storefront performance and update notes](docs/update-notes.md): bounded anonymous caching, a scoped bulk-editor latency fix, and staged maintenance with checkout smoke checks.
