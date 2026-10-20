@@ -1,3 +1,8 @@
+## 2026-10-20 — Correlated first-party and analytics traffic
+
+- Compared a complete day of aggregate first-party page activity with the analytics property's empty processed report. The first-party events came from the canonical storefront host and mostly carried ordinary browser user-agent classes, so the gap is broader than the controlled test visits. The two systems count differently, and user-agent labels alone do not prove that every event was a person.
+- Inspected only non-identifying request fields from a bounded browser test. The page-view request carried session identifiers and no explicit consent-mode storage-choice field. This narrows the investigation without establishing a root cause or changing live tracking. Raw network logs were removed after the aggregate review.
+
 ## 2026-10-20 — Browser delivery and analytics filter review
 
 - Reviewed the analytics property's filters in its administrator interface: the only listed internal-traffic exclusion was in testing mode. The web stream still warned that website data had not arrived recently.
