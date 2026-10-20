@@ -1,3 +1,9 @@
+## 2026-10-20 — Completed priority-brand search review round
+
+- Completed nine bounded, read-only reviews of brand shopping paths, origin wording, available Seiko models and short English search terms. Existing category and product paths remain the main candidates for buyer-intent improvements; the small abbreviation samples do not justify new keyword pages.
+- Identified specific review candidates: remove self-referential search copy from one category, keep shoppers within the selected brand when following gender links, and correct a navigation spelling error. A stock recheck found that draft products must not be described as live offers.
+- No customer-visible page, catalog, index setting or analytics configuration changed in this round. The scheduled queue continues aggregate analytics health checks; its processed-event gap is unresolved.
+
 ## 2026-10-20 — Workshop pricebook released
 
 Imported the confirmed rial workshop service, battery and strap lists into the repair app. Published catalog prices drive four stable brand tiers; brands without reliable price evidence remain unassigned for review. Blank prices remain unpriced rather than becoming free services. Repair intake now supports part variants and preserves technician-entered amounts, while marketplace seller-service cards can show a starting price without implying a final quote. The live price counts and sample conversions were checked after release; synthetic financial and interactive mobile/desktop light/dark checks passed. No customer records or real orders were used for testing.
