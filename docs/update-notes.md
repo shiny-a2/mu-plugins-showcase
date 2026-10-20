@@ -1,3 +1,8 @@
+## 2026-10-20 — Excel draft category finalization
+
+- Finalized watch-category reconciliation after the approved spreadsheet importer has saved each draft's identity and attributes. This closes a timing gap in which a category repair could run before the draft was complete.
+- Rechecked the affected import batch in production: all drafts remained unpublished and no category mismatches remained. The release is backed by isolated regression checks and a reversible production backup; it does not claim a full image-to-publication test.
+
 ## 2026-10-20 — Analytics collection diagnosis and search navigation review
 
 - Checked the analytics tag and collector from two intended-market network locations, then compared a controlled browser probe with live and daily aggregate reports. Network reachability was observed, while processed reporting remained empty; the cause is still under investigation. No customer or transaction data was used in the probe.
