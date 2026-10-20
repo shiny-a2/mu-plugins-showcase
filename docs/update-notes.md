@@ -1,3 +1,7 @@
+## 2026-10-20 — Workshop pricebook prepared for rollout
+
+Prepared a guarded import path for workshop service, battery and strap lists. Published catalog prices drive four stable brand tiers; brands without reliable price evidence remain unassigned for review. Blank prices remain unpriced rather than becoming free services. Repair intake now supports part variants and preserves technician-entered amounts, while marketplace service cards can show a starting price without implying a final quote. The source sheet's currency unit is being confirmed before live prices are imported. Synthetic financial checks and interactive mobile/desktop light/dark checks passed; no customer records or real orders were used.
+
 ## 2026-10-20 — Birthday gift follow-through and bulk editor control
 
 - Aligned the product bulk editor's page-size picker with the store's configured 100-row view.
