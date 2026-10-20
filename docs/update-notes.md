@@ -1,3 +1,9 @@
+## 2026-10-20 — Scoped category copy and navigation candidates
+
+- Prepared a concise, shopper-focused Persian replacement for a watch-brand category description that currently discusses search optimization in customer-facing text. It is a private draft, with a content fingerprint and a visual acceptance gate; no live copy was changed.
+- Added three bounded, read-only follow-ups for brand-preserving gender navigation, a menu spelling correction and a contextual return path on an expired pagination page. These tasks prepare exact reviewable edits while preserving existing URLs, products and index settings.
+- Aggregate analytics monitoring continues at each scheduled wake. The tracking gap remains unresolved.
+
 ## 2026-10-20 — Completed priority-brand search review round
 
 - Completed nine bounded, read-only reviews of brand shopping paths, origin wording, available Seiko models and short English search terms. Existing category and product paths remain the main candidates for buyer-intent improvements; the small abbreviation samples do not justify new keyword pages.
