@@ -3,6 +3,7 @@
 - Compared current analytics reports with aggregate first-party page activity and a timed visit in a normal mobile browser. The analytics reports still showed no recent website events, so collection remains under investigation.
 - Confirmed that a regional storefront access rule explains a 404 from an external test route; the intended-market route served the homepage and its analytics tag. Private browsing was treated separately because it can block trackers.
 - Recorded the remaining browser-delivery check and made no storefront, analytics or access-rule changes.
+- Confirmed that the mobile browser can open the configured Google tag directly, with no content blocker reported. This establishes tag-file reachability on that route; in-page execution and event delivery still need verification before analytics collection can be considered restored.
 
 ## 2026-10-21 — More predictable commerce background work
 
