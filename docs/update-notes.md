@@ -3,6 +3,7 @@
 - Added an operator tab beside per-brand source priorities to control automatic discovery of products missing a featured image or enough gallery images.
 - Preserved human review of spreadsheet data and Photoshop output; the controls affect discovery, not publication approval.
 - Added a read-only preview and bounded batch settings, while keeping existing source priorities and scheduled processing intact.
+- Bounded the underlying gallery query after a live database time limit was reached on whole-catalogue scans.
 
 ## 2026-10-21 — Verified the analytics collection gap
 
