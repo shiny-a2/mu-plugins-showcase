@@ -1,3 +1,9 @@
+## 2026-10-21 — More predictable commerce background work
+
+- Gave scheduled commerce actions an earlier turn in the existing server cron, ahead of slower maintenance jobs.
+- Reduced the amount of stock and price work attempted per queue action so large imports can checkpoint and continue more often.
+- Kept the existing scheduler, process lock, and product-level inventory replay protection. Live completion of the imports is being verified separately.
+
 ## 2026-10-20 — Reviewed catalog draft publication
 
 - Published the owner-approved, image-ready portion of a reviewed spreadsheet import after checking product identity, category, image ownership and unchanged state. Records without a featured image remained drafts for later processing.
