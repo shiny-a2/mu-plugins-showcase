@@ -2,7 +2,7 @@
 
 - Gave scheduled commerce actions an earlier turn in the existing server cron, ahead of slower maintenance jobs.
 - Reduced the amount of stock and price work attempted per queue action so large imports can checkpoint and continue more often.
-- Kept the existing scheduler, process lock, and product-level inventory replay protection. Live completion of the imports is being verified separately.
+- Kept the existing scheduler and product-level inventory replay protection. A bounded minute runner now advances imports independently of longer general maintenance passes, and both affected imports completed with reports and sampled data checks.
 
 ## 2026-10-20 — Reviewed catalog draft publication
 
