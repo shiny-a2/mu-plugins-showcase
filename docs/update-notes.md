@@ -1,3 +1,9 @@
+## 2026-10-22 — Prepared a category search-description correction
+
+- Compared complete search-reporting windows with a current catalog check and isolated one category whose existing description was cut mid-sentence and made broad product claims.
+- Prepared concise, buyer-useful wording that fits beside a regularly refreshed availability and starting-price lead. A guarded release checks the expected source, backs up both metadata fields privately, and supports scoped rollback.
+- Passed local dry-run, apply, rollback and drift tests. The proposal remains unpublished pending source recheck, approval and storefront presentation checks; no search ranking or click improvement is claimed.
+
 ## 2026-10-22 — Workshop intake for public watch services
 
 - Added a focused queue for customer service watches that are ready for physical intake, with the handoff details staff need at the counter.
