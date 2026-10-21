@@ -1,3 +1,9 @@
+## 2026-10-22 — Workshop intake for public watch services
+
+- Added a focused queue for customer service watches that are ready for physical intake, with the handoff details staff need at the counter.
+- Connected intake to the existing repair case and photo review flow, keeping postal arrivals distinct from in-person acknowledgement and preventing repeated intake from creating a second case.
+- Checked synthetic queue and form interactions at mobile and desktop widths in light and dark themes. No live case, payment or customer message was created for testing.
+
 ## 2026-10-21 — Controllable image recovery
 
 - Added an operator tab beside per-brand source priorities to control automatic discovery of products missing a featured image or enough gallery images.
