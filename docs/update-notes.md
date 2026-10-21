@@ -2,6 +2,7 @@
 
 - Added a focused queue for customer service watches that are ready for physical intake, with the handoff details staff need at the counter.
 - Connected intake to the existing repair case and photo review flow, keeping postal arrivals distinct from in-person acknowledgement and preventing repeated intake from creating a second case.
+- Kept system-recorded receipts separate from the payment choices staff can enter manually, so counter reporting stays clear.
 - Checked synthetic queue and form interactions at mobile and desktop widths in light and dark themes. No live case, payment or customer message was created for testing.
 
 ## 2026-10-21 — Controllable image recovery
