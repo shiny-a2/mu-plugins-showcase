@@ -1,3 +1,9 @@
+## 2026-10-21 — Controllable image recovery
+
+- Added an operator tab beside per-brand source priorities to control automatic discovery of products missing a featured image or enough gallery images.
+- Preserved human review of spreadsheet data and Photoshop output; the controls affect discovery, not publication approval.
+- Added a read-only preview and bounded batch settings, while keeping existing source priorities and scheduled processing intact.
+
 ## 2026-10-21 — Verified the analytics collection gap
 
 - Compared current analytics reports with aggregate first-party page activity and a timed visit in a normal mobile browser. The analytics reports still showed no recent website events, so collection remains under investigation.
