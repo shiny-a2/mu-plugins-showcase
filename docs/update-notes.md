@@ -4,6 +4,12 @@
 - Prepared concise, buyer-useful wording that fits beside a regularly refreshed availability and starting-price lead. A guarded release checks the expected source, backs up both metadata fields privately, and supports scoped rollback.
 - Passed local dry-run, apply, rollback and drift tests. The proposal remains unpublished pending source recheck, approval and storefront presentation checks; no search ranking or click improvement is claimed.
 
+## 2026-10-22 — Seller context in workshop review
+
+- Grouped a seller's declared watch details and asking price in the workshop review, completed decision and parcel intake views, so staff can compare the declaration with the watch in hand.
+- Kept absent older fields visibly unfilled and an explicit missing-box declaration separate from an empty accessories list.
+- Checked synthetic review interactions, text contrast and overflow at mobile and desktop widths in light and dark themes. No live decision or payment was made for testing.
+
 ## 2026-10-22 — Workshop intake for public watch services
 
 - Added a focused queue for customer service watches that are ready for physical intake, with the handoff details staff need at the counter.
