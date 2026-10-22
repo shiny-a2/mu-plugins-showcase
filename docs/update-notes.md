@@ -1,3 +1,9 @@
+## 2026-10-22 — Recent visitor activity in the operator card
+
+- Added a clearly labelled recent-activity status to an open customer card and an exact local last-visit time to its viewed-product tiles.
+- Refreshes the open card every 30 seconds, using recorded website activity rather than claiming to detect an idle browser tab.
+- Corrected the UTC/local timestamp comparison and checked the interface in light and dark themes at mobile and desktop widths with synthetic data. No customer action or purchase was created for testing.
+
 ## 2026-10-22 — Prepared a category search-description correction
 
 - Compared complete search-reporting windows with a current catalog check and isolated one category whose existing description was cut mid-sentence and made broad product claims.
