@@ -1,3 +1,9 @@
+## 2026-10-22 — Accurate daily birthdays in the operator panel
+
+- Restricted the birthday queue to customers whose recorded Jalali birth month and day match the site's current date. Previously, vouchers issued early made future birthdays appear as today's.
+- Brought additional saved birthday fields into the same check, kept contacted customers visible with a follow-up label, and displayed each recorded date clearly on the row.
+- Removed the broad active-voucher scan from the daily queue and checked synthetic date and layout cases in both themes at mobile and desktop widths. No message or voucher was issued for testing.
+
 ## 2026-10-22 — Recent visitor activity in the operator card
 
 - Added a clearly labelled recent-activity status to an open customer card and an exact local last-visit time to its viewed-product tiles.
