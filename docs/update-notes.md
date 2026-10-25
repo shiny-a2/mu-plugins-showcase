@@ -1,3 +1,9 @@
+## 2026-10-25 — Prepared a lasting category search-description fix
+
+- Found that a previous one-time description edit was replaced by a scheduled refresh that still used older source wording. Prepared a scoped correction to both the saved source and current description so a later refresh retains concise, buyer-useful language.
+- Rechecked the category's available products and first-page purchase controls, then tested the proposed edit, scheduled refresh and rollback with isolated data. A separate brand's indexing gap still needs an authenticated live inspection before any access or recrawl decision.
+- The correction remains a private release candidate. No customer-visible content, indexing setting or analytics configuration changed in this update.
+
 ## 2026-10-25 — Refreshed search intent and measurement priorities
 
 - Compared complete search-reporting windows for priority watch brands and mapped observed queries to existing shopping and editorial pages. The resulting seed list marks thin or unmeasured terms for validation instead of treating them as proven demand.
