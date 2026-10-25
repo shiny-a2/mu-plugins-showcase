@@ -1,3 +1,9 @@
+## 2026-10-25 — Released structured-data and field-performance repairs
+
+- Corrected a category structured-data merge that could erase valid page and list facts, and limited product fallback markup to product pages. Representative category, product, editorial and catalog pages were checked before and after release; no search appearance result is claimed.
+- Resumed sampled, bounded field-performance attribution after a full diagnostic file had stopped collection. An isolated WordPress test preserved all concurrent reports through file rotation, and the new production file received valid rows. The report files remain inaccessible over the web.
+- Checked the affected storefront in both themes at phone and desktop widths, including gallery zoom and filter presentation. A later field-data window is needed to evaluate performance; the release itself does not establish a Core Web Vitals improvement.
+
 ## 2026-10-25 — Published the category SEO pilot
 
 - Published concise search descriptions for two watch categories after checking current catalog data, saving private rollback copies, and verifying the rendered pages in light and dark themes at phone and desktop widths. The descriptions retain a refreshed availability and starting-price lead without promising stock for a specific model.
