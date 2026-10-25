@@ -1,3 +1,9 @@
+## 2026-10-25 — Published the category SEO pilot
+
+- Published concise search descriptions for two watch categories after checking current catalog data, saving private rollback copies, and verifying the rendered pages in light and dark themes at phone and desktop widths. The descriptions retain a refreshed availability and starting-price lead without promising stock for a specific model.
+- Removed one redirected catalog archive from the product sitemap. The sitemap still returned successfully and its product entries remained present after the targeted cache refresh.
+- Kept separate structured-data and field-performance instrumentation candidates in review pending their isolated staging gates. Search appearance and rankings will be assessed from later Search Console data; this release makes no ranking claim.
+
 ## 2026-10-25 — Prepared a lasting category search-description fix
 
 - Found that a previous one-time description edit was replaced by a scheduled refresh that still used older source wording. Prepared a scoped correction to both the saved source and current description so a later refresh retains concise, buyer-useful language.
