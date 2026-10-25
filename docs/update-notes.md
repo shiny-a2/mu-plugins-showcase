@@ -145,6 +145,13 @@ Imported the confirmed rial workshop service, battery and strap lists into the r
 - Reconciled earlier marketplace registrations and filled missing names from details customers had already supplied, without replacing names or acquisition sources entered through other channels.
 - Kept the reconciliation reviewable with a dry run and a private rollback copy. No test purchase or customer message was created.
 
+## 2026-10-26 — Restricted social customer intake
+
+- Added a single-purpose staff form for social customer details with a role that cannot open unrelated operator or shop administration screens.
+- Reused phone-based matching to join a submission to one CRM record and club account, preserving existing channel attribution when the customer is already known.
+- Connected named records to the shop handset's existing contact sync and recorded optional marketing consent separately from customer identification.
+- Validated mobile numbers, dates and account conflicts before saving, with no live customer or message created for presentation testing.
+
 ## 2026-10-19 — Loyalty launch readiness
 
 - Tightened grant activation timing so a newly earned reward cannot appear active before it was earned, while leaving older active rewards and their expiry untouched.
