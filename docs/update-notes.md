@@ -1,3 +1,9 @@
+## 2026-10-25 — Prepared a source-checked watch specification correction
+
+- Compared four currently offered Seiko references with the manufacturer's exact-model specifications. Three product pages show a case diameter and weight copied from a fourth, correctly described reference.
+- Prepared a narrowly scoped correction for those three products, including their shopping-filter data, a private rollback record and a guard against unexpected catalog changes. A read-only live preflight and isolated apply/rollback checks passed.
+- Reviewed the affected category and a representative product specification in light and dark themes at phone and desktop widths. The product records have **not** been changed; the correction awaits a separate authorized publication step. No search ranking or AI visibility outcome is claimed.
+
 ## 2026-10-25 — Released structured-data and field-performance repairs
 
 - Corrected a category structured-data merge that could erase valid page and list facts, and limited product fallback markup to product pages. Representative category, product, editorial and catalog pages were checked before and after release; no search appearance result is claimed.
