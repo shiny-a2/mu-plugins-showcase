@@ -1,3 +1,8 @@
+## 2026-10-25 — Pair-watch price consistency in the stock API
+
+- Added an explicit option to clear an old sale price when a two-watch set receives a new regular price from the authenticated bulk update. The option is limited to set products; other price writes keep their existing behavior.
+- Matched the private API change with the scheduled catalog sync, which computes a set only from two available, priced watches. Syntax checks and a guarded readback after reconciliation passed; no customer purchase or message was created.
+
 ## 2026-10-22 — Accurate daily birthdays in the operator panel
 
 - Restricted the birthday queue to customers whose recorded Jalali birth month and day match the site's current date. Previously, vouchers issued early made future birthdays appear as today's.
