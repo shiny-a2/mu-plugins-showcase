@@ -1,3 +1,9 @@
+## 2026-10-25 — Refreshed search intent and measurement priorities
+
+- Compared complete search-reporting windows for priority watch brands and mapped observed queries to existing shopping and editorial pages. The resulting seed list marks thin or unmeasured terms for validation instead of treating them as proven demand.
+- Rechecked current catalog availability and search indexing before setting the next work order. A formerly reported pagination error is resolved, while one brand category still needs a focused indexing diagnosis. No search ranking outcome is claimed.
+- Rechecked processed analytics: recent storefront events remain absent, so organic sales and conversion rates are not presented as measured results. Added a plan to inspect the dedicated generative-search report alongside a repeatable citation sample. This update changed documentation only.
+
 ## 2026-10-25 — Pair-watch price consistency in the stock API
 
 - Added an explicit option to clear an old sale price when a two-watch set receives a new regular price from the authenticated bulk update. The option is limited to set products; other price writes keep their existing behavior.
