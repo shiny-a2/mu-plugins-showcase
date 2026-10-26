@@ -1,3 +1,10 @@
+## 2026-10-27 — Physical branch inventory export
+
+- Added a one-click Excel download on the product list and a dedicated export screen for store staff with commerce-management permission.
+- The right-to-left workbook contains product reference, numeric price, numeric quantity, branch and a blue clickable product link. A product held by two branches gets independent rows; supplier availability and unassigned stock are not presented as physical branch inventory. Watch sets are excluded by default, with an explicit include option.
+- References come from product attributes rather than generated SKU identifiers. Missing catalog fields remain visible as missing instead of receiving guessed values. Headers stay frozen and columns can be filtered.
+- Checked authorization and nonce rejection, currency conversion, independent branch counts and an actual generated workbook using a separate spreadsheet reader. The export reads inventory without changing catalog data. No customer records, messages or financial transactions were created for validation. Microsoft Excel desktop and an authenticated browser download were not exercised.
+
 ## 2026-10-26 — Refined the live mobile discount dock
 
 - Sent the visible mobile discount shortcut directly to the current sale-filtered watch catalog and kept its active state aligned with that view.
