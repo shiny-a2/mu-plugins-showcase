@@ -1,3 +1,10 @@
+## 2026-10-27 — Carrier operations and customer shipment tracking
+
+- Prepared a WooCommerce shipping workspace for staff to review paid orders, submit single parcels or small batches, follow carrier events, request cancellation, manage pickup origins and request collection. Batch results stay attached to their own orders, including partial failures.
+- Added a compact shipment card to customer order details, with a tracking reference, current status and expandable history. It uses the storefront's existing typeface and shared light/dark colors. A dated delivery offer can also appear at checkout and among club benefits after commissioning.
+- Kept the new carrier connection and free-delivery campaign inactive for installation. Shipping updates do not alter payment status or loyalty balances. Uncertain registrations require review before another attempt.
+- Validation included 108 deterministic mocked checks, six admin-render checks, and inspection of the actual customer renderer at phone and desktop widths in both themes with keyboard expansion, focus and hover. The dormant module loaded with the live commerce system, and public page smoke checks passed. Real carrier dispatch, authenticated checkout and pickup acceptance still require provider credentials and commissioning; no real purchases, messages or carrier jobs were created for tests.
+
 ## 2026-10-27 — Physical branch inventory export
 
 - Added a one-click Excel download on the product list and a dedicated export screen for store staff with commerce-management permission.
