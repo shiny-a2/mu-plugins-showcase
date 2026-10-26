@@ -1,3 +1,9 @@
+## 2026-10-26 — Improved storefront footer navigation
+
+- Reorganized the footer's watch shortcuts around current shopping categories and selected brand archives, so common browsing paths are easier to find.
+- Corrected mobile shop and account destinations, connected the discount and profile labels to their icons, and replaced a time-sensitive discount caption with a durable one.
+- Checked live link destinations and reviewed the footer in light and dark themes at phone and desktop widths. These are navigation improvements; no search ranking or conversion gain is claimed.
+
 ## 2026-10-26 — Clarified Hugo Boss watch origin information
 
 - Updated the Hugo Boss category's brand-origin guidance using the watch licensee's official information. The category now avoids applying one movement or manufacturing country to every model and directs shoppers to the specifications of the watch they are considering.
