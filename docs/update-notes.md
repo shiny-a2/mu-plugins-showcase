@@ -1,3 +1,9 @@
+## 2026-10-27 — Watch brand search descriptions
+
+- Audited six public watch-brand categories against a finalized search-reporting window, rendered category pages and current published stock. Some category snippets used fixed model counts or implied immediate availability after stock had changed.
+- Updated five descriptions to direct shoppers to each model's current price and availability while keeping established page titles and editorial content stable. Deferred new used-watch brand pages because the public marketplace had no matching listings at the time of review.
+- Verified the guarded release in dry-run mode, checked the metadata write, and fetched all five public pages to confirm the rendered descriptions. Search rankings and click changes were not inferred from this immediate check.
+
 ## 2026-10-27 — Carrier operations and customer shipment tracking
 
 - Prepared a WooCommerce shipping workspace for staff to review paid orders, submit single parcels or small batches, follow carrier events, request cancellation, manage pickup origins and request collection. Batch results stay attached to their own orders, including partial failures.
