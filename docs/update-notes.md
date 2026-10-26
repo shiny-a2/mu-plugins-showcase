@@ -1,3 +1,9 @@
+## 2026-10-27 — Brand-aware physical inventory workbooks
+
+- Added a Brand column beside each product reference in the branch inventory workbook. Brand data comes from recorded catalog attributes, including parent inheritance for variations; missing information is labeled explicitly.
+- Made watch-set exclusion unconditional, including legacy requests, to avoid counting a pair alongside its individual watches.
+- Verified synthetic brand priority, duplicates, missing values, variation inheritance and set exclusion. An independent spreadsheet reader checked the six-column layout, numeric prices and quantities, text safety, frozen header, filter and clickable product links. Inventory and product records remain unchanged.
+
 ## 2026-10-27 — Clearer shopping links on watch articles
 
 - Corrected a shared introduction that described every eligible brand article as a brand history, including product and setup guides. The link now invites readers to browse available models, current specifications and prices in the relevant watch category.
