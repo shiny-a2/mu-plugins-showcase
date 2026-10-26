@@ -1,3 +1,9 @@
+## 2026-10-27 — More useful Seiko article guidance
+
+- Replaced a broad, unsupported sales claim in a Seiko watch article with practical guidance on comparing a model's movement, case size, crystal, water resistance, price, availability and warranty terms.
+- Preserved the article title, canonical address, photographs and shopping links. Readers now get a clearer checklist for evaluating an individual watch without a blanket claim about every brand sold by the store.
+- Verified the published paragraph in the page source and inspected the article in light and dark themes at phone and desktop widths. The earlier claim is absent from the public HTML; search performance effects have not yet been measured.
+
 ## 2026-10-27 — Brand-aware physical inventory workbooks
 
 - Added a Brand column beside each product reference in the branch inventory workbook. Brand data comes from recorded catalog attributes, including parent inheritance for variations; missing information is labeled explicitly.
