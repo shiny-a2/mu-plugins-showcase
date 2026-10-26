@@ -1,3 +1,9 @@
+## 2026-10-27 — Commission periods in staff account reports
+
+- Split a product group's historical and current commission rates into separate management detail rows, using amounts supplied by the authoritative financial engine.
+- Keep mixed-period totals readable without applying one rate to the whole interval. Refunds retain the original sale rate, and refreshed summaries use the revised rules.
+- Checked financial regression cases and reconciled existing report rows before and after deployment. No customer-facing layout or real sale, receipt or expense record was changed for testing. Business-specific rates and financial figures remain private.
+
 ## 2026-10-27 — Watch brand search descriptions
 
 - Audited six public watch-brand categories against a finalized search-reporting window, rendered category pages and current published stock. Some category snippets used fixed model counts or implied immediate availability after stock had changed.
