@@ -175,6 +175,12 @@ Imported the confirmed rial workshop service, battery and strap lists into the r
 - Connected named records to the shop handset's existing contact sync and recorded optional marketing consent separately from customer identification.
 - Validated mobile numbers, dates and account conflicts before saving, with no live customer or message created for presentation testing.
 
+## 2026-10-26 — Shared storefront and marketplace colors
+
+- Brought small marketplace links, home-page labels and catalog prices into the same light and dark color system, improving readability while keeping product imagery and navigation intact.
+- Corrected a secondary marketplace action that lost contrast on hover or keyboard focus.
+- Checked representative public shop and marketplace routes at phone and desktop widths in both themes, including search and finder interactions. Signed-in and purchase flows were outside this visual pass.
+
 ## 2026-10-19 — Loyalty launch readiness
 
 - Tightened grant activation timing so a newly earned reward cannot appear active before it was earned, while leaving older active rewards and their expiry untouched.
