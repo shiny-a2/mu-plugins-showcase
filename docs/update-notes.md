@@ -1,3 +1,9 @@
+## 2026-10-26 — Clarified Hugo Boss watch origin information
+
+- Updated the Hugo Boss category's brand-origin guidance using the watch licensee's official information. The category now avoids applying one movement or manufacturing country to every model and directs shoppers to the specifications of the watch they are considering.
+- Aligned the visible FAQ answer and structured FAQ data, with a link to the official source. Checked the category in light and dark themes at phone and desktop widths, including the open answer and keyboard focus.
+- Kept the existing category address and shopping behavior. Search Console indexing and ranking effects have not yet been established.
+
 ## 2026-10-26 — Published the Seiko specification correction
 
 - Corrected case diameter and weight for three exact Seiko watch references using the manufacturer's specifications. The fourth checked reference retained its already correct values.
