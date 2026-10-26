@@ -1,3 +1,8 @@
+## 2026-10-26 — Refined the live mobile discount dock
+
+- Sent the visible mobile discount shortcut directly to the current sale-filtered watch catalog and kept its active state aligned with that view.
+- Checked the tap target and destination in the real phone layout, in both light and dark themes. The change removes a navigation hop; it does not claim a search or sales outcome.
+
 ## 2026-10-26 — Improved storefront footer navigation
 
 - Reorganized the footer's watch shortcuts around current shopping categories and selected brand archives, so common browsing paths are easier to find.
