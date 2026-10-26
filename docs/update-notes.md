@@ -1,8 +1,14 @@
+## 2026-10-26 — Published the Seiko specification correction
+
+- Corrected case diameter and weight for three exact Seiko watch references using the manufacturer's specifications. The fourth checked reference retained its already correct values.
+- Checked the shopping attributes and their filter lookup rows, visible specification tables, product FAQ text and structured product data after publication. Each corrected page now shows the same 32mm/78g values; the control remains 34mm/93g.
+- Reviewed representative product and control pages in the site's light and dark themes at phone and desktop widths, including gallery images and the expanded FAQ. Corrected a dark-theme contrast issue in the FAQ found during that review. No search ranking, AI citation or completed purchase outcome is claimed.
+
 ## 2026-10-25 — Prepared a source-checked watch specification correction
 
 - Compared four currently offered Seiko references with the manufacturer's exact-model specifications. Three product pages show a case diameter and weight copied from a fourth, correctly described reference.
 - Prepared a narrowly scoped correction for those three products, including their shopping-filter data, a private rollback record and a guard against unexpected catalog changes. A read-only live preflight and isolated apply/rollback checks passed.
-- Reviewed the affected category and a representative product specification in light and dark themes at phone and desktop widths. The product records have **not** been changed; the correction awaits a separate authorized publication step. No search ranking or AI visibility outcome is claimed.
+- Reviewed the affected category and a representative product specification in light and dark themes at phone and desktop widths. At this preparation checkpoint the product records were unchanged; the correction was published on 2026-10-26. No search ranking or AI visibility outcome is claimed.
 
 ## 2026-10-25 — Released structured-data and field-performance repairs
 
