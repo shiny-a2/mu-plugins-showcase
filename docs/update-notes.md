@@ -1,3 +1,9 @@
+## 2026-10-27 — Clearer shopping links on watch articles
+
+- Corrected a shared introduction that described every eligible brand article as a brand history, including product and setup guides. The link now invites readers to browse available models, current specifications and prices in the relevant watch category.
+- Aligned the introduction, product rail and shopping action with the storefront's light and dark color system. Corrected the light-theme price color after a live browser check exposed insufficient contrast.
+- Checked published Seiko and Casio articles at phone and desktop widths in both themes, including link destinations, text and action contrast, hover and keyboard focus. These checks confirm the rendered change; search traffic and sales effects need a later measurement window.
+
 ## 2026-10-27 — Commission periods in staff account reports
 
 - Split a product group's historical and current commission rates into separate management detail rows, using amounts supplied by the authoritative financial engine.
