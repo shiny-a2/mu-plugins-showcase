@@ -1,3 +1,9 @@
+## 2026-10-27 — Clearer Casio A178W setup guide
+
+- Corrected an ambiguous first step that made the C button look like the way to enter time settings. The guide now separates returning to the normal clock display from entering settings with A.
+- Added a link to Casio's official module 3234 guide and updated the search description to match the actual button sequence. Readers can check their watch module before following the steps.
+- Verified the published instructions and search metadata, then reviewed the link and article at phone and desktop widths in both themes, including keyboard focus and horizontal overflow. Search performance has not yet been measured after this change.
+
 ## 2026-10-27 — More useful Seiko article guidance
 
 - Replaced a broad, unsupported sales claim in a Seiko watch article with practical guidance on comparing a model's movement, case size, crystal, water resistance, price, availability and warranty terms.
