@@ -1,3 +1,9 @@
+## 2026-10-27 — Lighter scheduled admin warming
+
+- Timed two natural scheduled runs and found that the management dashboard's warming task took about 17 and 14 seconds. The staff view performs financial calculations and uses a short server cache, so a rotating background pass has limited value for that view.
+- Published a narrow change that skips the staff view during scheduled warming. Opening the view directly still follows its existing path; other dashboard tabs remain in the rotation.
+- Checked PHP syntax, the exact production file revision, and live cached storefront responses. The storefront cache remained warm after installation. A later scheduled sample and an authenticated staff-view check are still needed before claiming a measured speed improvement.
+
 ## 2026-10-27 — Timing for scheduled store work
 
 - A read-only server check found one scheduled loyalty pass still active after two minutes during a period of elevated load. That snapshot alone does not identify the source of all server load.
