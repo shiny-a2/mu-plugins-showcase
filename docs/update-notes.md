@@ -1,8 +1,9 @@
-## 2026-10-27 — Lighter scheduled admin warming
+## 2026-10-27 — Measuring scheduled admin warming
 
 - Timed two natural scheduled runs and found that the management dashboard's warming task took about 17 and 14 seconds. The staff view performs financial calculations and uses a short server cache, so a rotating background pass has limited value for that view.
 - Published a narrow change that skips the staff view during scheduled warming. Opening the view directly still follows its existing path; other dashboard tabs remain in the rotation.
-- Checked PHP syntax, the exact production file revision, and live cached storefront responses. The storefront cache remained warm after installation. A later scheduled sample and an authenticated staff-view check are still needed before claiming a measured speed improvement.
+- Checked PHP syntax, the exact production file revision, and live cached storefront responses. The storefront cache remained warm after installation.
+- The first scheduled run after the change still took 15.3 seconds. This shows the earlier aggregate timings did not identify the staff view as the only slow work. Added timing for individual dashboard tabs above half a second so a later natural run can locate the remaining cost without recording business data. A measured speed improvement and the authenticated staff view remain unverified.
 
 ## 2026-10-27 — Timing for scheduled store work
 
