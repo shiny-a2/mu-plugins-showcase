@@ -1,3 +1,11 @@
+## 2026-10-27 — Clearer shipping connection setup
+
+A saved shipping-service credential could look missing because its field was intentionally left blank, while connection verification was a separate step. The admin panel now combines saving and checking, explains the stored-key state, and shows the last connection result. Failed network checks retain the saved key.
+
+Connection, destination coverage and delivery settings have separate forms, so changing one does not silently reset another. The interface uses shorter Persian instructions and responsive light/dark layouts. Unique exact-name province suggestions reduce repetitive setup without guessing ambiguous destinations.
+
+Validation covered 108 transport/domain assertions, 29 settings assertions, six renderer checks and 16 browser cases, including keyboard controls and a synthetic form submission. A live read-only check confirmed that the existing credential could retrieve the province catalogue. Shipment creation, customer notifications and financial records were not used for testing; carrier-write commissioning remains separate.
+
 ## 2026-10-27 — Clearer Hanowa watch buying guidance
 
 The Hanowa category had a fixed stock and starting-price claim in its search description and broad statements about official representation, warranty, materials and discounts. Its copy also treated Hanowa and Swiss Military Hanowa as the same catalog line. The published page now distinguishes those names and directs shoppers to compare each watch by its reference, case size, strap, movement, water-resistance rating, price and warranty terms. Manufacturer and brand-source links support the historical and naming details.
