@@ -1,3 +1,16 @@
+## 2026-10-27 — Clear ownership for module source and release notes
+
+The storefront's individual module repositories had drifted behind the maintained application, while some local folders contained older edits that would undo newer fixes. This review reconciled 57 module snapshots with a pinned source baseline, described what each module actually does, and kept shared dependencies visible. Thirty-four snapshots needed source changes; the others received documentation updates. The maintained application remains the release source.
+
+Four tools also gained private source repositories and separate public overviews:
+
+- [Bank-transfer payment review](https://github.com/shiny-a2/a2-card-transfer-showcase): account validation, private receipt handling and staff confirmation, with 539 local assertions passing.
+- [Catalog attribute maintenance](https://github.com/shiny-a2/woo-attribute-cleaner-showcase): an audit-first workflow for controlled taxonomy cleanup; syntax checked without running a live migration.
+- [Catalog SEO maintenance](https://github.com/shiny-a2/a2-seo-tools-showcase): reviewed PHP and Python tools, with operational exports kept outside the published source baseline.
+- [Sales proxy service](https://github.com/shiny-a2/sale-brain-v2-showcase): a preserved local implementation with runtime client data and credentials excluded; server deployment was not verified by this source publication.
+
+The review checked staged changes for secrets, validated syntax where source changed and verified pushed commits on their intended remotes. Older local edits and conflicting work were not allowed to overwrite newer releases. This was repository maintenance, not a production deployment or a new end-to-end test of every module. Public material remains limited to reviewed explanations and existing sanitized examples.
+
 ## 2026-10-27 — Measuring scheduled admin warming
 
 - Timed two natural scheduled runs and found that the management dashboard's warming task took about 17 and 14 seconds. The staff view performs financial calculations and uses a short server cache, so a rotating background pass has limited value for that view.
