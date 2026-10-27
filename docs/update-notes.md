@@ -2,6 +2,7 @@
 
 - An audit found that several frequently visited watch categories were missing from the warmer's priority list. After a recent cache invalidation, sampled category pages took roughly two to three seconds to generate once, then responded from the HTML cache in about 50 ms at the origin.
 - Prioritized the observed category routes and selected popular product pages. Added a one-page-per-run allowance for the priority list during moderate server load, with a memory floor; the broad catalog walk still pauses. Tightened the separate queue worker so it requests only this storefront over verified HTTPS and treats redirects as incomplete warms.
+- A scheduled run confirmed that the guarded allowance warmed one priority page while keeping the wider walk paused. At that checkpoint, 12 of 16 priority routes had valid HTML. The hourly watcher now records priority coverage separately from the total cache count, so a large disk cache cannot hide cold popular pages.
 - Verified the warmer tests, live cache responses and the exclusion of cart, checkout and management routes from public HTML caching. The work continues with cache coverage, customer-visible rendering and authenticated admin measurements; this release does not claim every page or network loads in under a second.
 
 ## 2026-10-27 — Clearer Casio A178W setup guide
