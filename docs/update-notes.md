@@ -1,3 +1,9 @@
+## 2026-10-27 — Timing for scheduled store work
+
+- A read-only server check found one scheduled loyalty pass still active after two minutes during a period of elevated load. That snapshot alone does not identify the source of all server load.
+- Updated the existing scheduled runner to record the duration and exit status of its three stages without recording customer or order data. Stage order and the loyalty calculations stay the same. A simulated first-stage failure confirmed later scheduled work still runs.
+- Installed the reviewed runner while preserving the existing storefront HTML cache. These timings will guide a later, narrowly scoped speed fix; no faster page load is claimed from measurement alone.
+
 ## 2026-10-27 — Product image loading priority release
 
 - Found a product page where the header wordmark held the browser's highest image priority while the visible product image was deferred.
