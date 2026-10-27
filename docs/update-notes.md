@@ -4,6 +4,7 @@
 - Updated the existing scheduled runner to record the duration and exit status of its three stages without recording customer or order data. Stage order and the loyalty calculations stay the same. A simulated first-stage failure confirmed later scheduled work still runs.
 - Installed the reviewed runner while preserving the existing storefront HTML cache. These timings will guide a later, narrowly scoped speed fix; no faster page load is claimed from measurement alone.
 - Its first natural run recorded 4 seconds for the queue, 4 seconds for the separate loyalty stage and 40 seconds for the remaining due work, with successful exits. This is one sample of a combined stage, not proof that a particular task caused the sustained load.
+- Extended the same runner to retain only the existing per-event timings above half a second from the final stage. The event command still runs once in its original order, and customer data is not written to the timing log. Repeated natural runs will identify a callback before any business logic is changed.
 
 ## 2026-10-27 — Product image loading priority release
 
