@@ -1,3 +1,9 @@
+## 2026-10-27 — More accurate Lucien Rochat watch guidance
+
+The Lucien Rochat category and history article contained an unsupported early timeline, exclusive seller claims, fixed stock figures and blanket promises about discounts and warranties. The published pages now use the brand’s official history for the 1925 atelier, 1972 brand name and 2006 ownership change. Shoppers are directed to check each watch’s reference, case size, movement, materials, water resistance, price and warranty terms on its own product page.
+
+The category’s search description no longer embeds a fixed stock count or starting price. The article text now follows the storefront’s light and dark color palette. The live pages were checked at mobile and desktop widths, including theme switching, linked source, image loading and horizontal overflow.
+
 ## 2026-10-27 — Clearer Tornado origin and durable watch descriptions
 
 The Tornado category and buying guide described the brand as American, although the brand's own introduction supports the narrower facts that its watches are designed in the United States and use Japanese movements. The published copy now makes those distinctions and asks shoppers to check the individual model for assembly and other specifications. The category's search description no longer uses a fixed stock count or starting price.
