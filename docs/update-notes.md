@@ -1,3 +1,9 @@
+## 2026-10-27 — More accurate machine-readable store map (source prepared)
+
+- Reviewed the store's public context map and found that its shop link led through a redirect and its brand-group headings could be mistaken for country-of-origin claims.
+- Prepared a source update that links directly to the watch archive, names groups as storefront categories, and points readers to each product for model-specific details. The summary no longer makes blanket representation or warranty claims without page-level evidence.
+- Checked the live redirect and destination and validated the edited PHP syntax. The source change is under private review; it has not been deployed, and no search or AI citation outcome is claimed.
+
 ## 2026-10-27 — Faster access to popular watch pages
 
 - An audit found that several frequently visited watch categories were missing from the warmer's priority list. After a recent cache invalidation, sampled category pages took roughly two to three seconds to generate once, then responded from the HTML cache in about 50 ms at the origin.
