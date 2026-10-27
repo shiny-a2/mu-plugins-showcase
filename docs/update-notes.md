@@ -1,3 +1,9 @@
+## 2026-10-27 — Product image loading priority review
+
+- Found a product page where the header wordmark held the browser's highest image priority while the visible product image was deferred.
+- Prepared a product-page-specific correction for both freshly rendered and cached HTML. A focused regression and responsive light/dark preview confirmed the product image receives the priority hint without changing other page types.
+- The source is reviewed and available for release. Production rollout and field speed measurement are pending a lower-load window; no speed gain is claimed yet.
+
 ## 2026-10-27 — More accurate machine-readable store map
 
 - Reviewed the store's public context map and found that its shop link led through a redirect and its brand-group headings could be mistaken for country-of-origin claims.
