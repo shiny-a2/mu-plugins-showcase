@@ -17,6 +17,7 @@ The review checked staged changes for secrets, validated syntax where source cha
 - Published a narrow change that skips the staff view during scheduled warming. Opening the view directly still follows its existing path; other dashboard tabs remain in the rotation.
 - Checked PHP syntax, the exact production file revision, and live cached storefront responses. The storefront cache remained warm after installation.
 - The first scheduled run after the change still took 15.3 seconds. This shows the earlier aggregate timings did not identify the staff view as the only slow work. Added timing for individual dashboard tabs above half a second so a later natural run can locate the remaining cost without recording business data. A measured speed improvement and the authenticated staff view remain unverified.
+- A subsequent natural pass measured about 9.1 seconds for Products and 10.9 seconds for Traffic. Added timing within their existing background calculations to distinguish product lists and deeper traffic analysis from the rest of each tab. This diagnostic update is live; it does not change customer pages or prove a faster dashboard. The next pass will identify the component to optimize.
 
 ## 2026-10-27 — Timing for scheduled store work
 
