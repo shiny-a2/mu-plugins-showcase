@@ -1,3 +1,9 @@
+## 2026-10-27 — Clearer Hanowa watch buying guidance
+
+The Hanowa category had a fixed stock and starting-price claim in its search description and broad statements about official representation, warranty, materials and discounts. Its copy also treated Hanowa and Swiss Military Hanowa as the same catalog line. The published page now distinguishes those names and directs shoppers to compare each watch by its reference, case size, strap, movement, water-resistance rating, price and warranty terms. Manufacturer and brand-source links support the historical and naming details.
+
+Live checks found the revised search description, self-canonical category, and FAQ answers that match the page's structured data. The page was reviewed at phone and desktop widths in light and dark themes, including keyboard focus and horizontal overflow; no page errors appeared. This improves the accuracy of the buying guidance. Search ranking, traffic and sales effects have not been measured.
+
 ## 2026-10-27 — More accurate Tissot buying guidance
 
 The Tissot category and its related buying guide made broad claims about official representation, import and warranty coverage, while a fixed stock and price count could become outdated. The published pages now direct readers to check the seller's authorization and each model's warranty terms against Tissot's own guidance. They distinguish a model reference from a watch's serial number and keep the existing path between the category and guide.
