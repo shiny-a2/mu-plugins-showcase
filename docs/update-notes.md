@@ -1,3 +1,9 @@
+## 2026-10-27 — More accurate Tissot buying guidance
+
+The Tissot category and its related buying guide made broad claims about official representation, import and warranty coverage, while a fixed stock and price count could become outdated. The published pages now direct readers to check the seller's authorization and each model's warranty terms against Tissot's own guidance. They distinguish a model reference from a watch's serial number and keep the existing path between the category and guide.
+
+Live checks confirmed the revised guide title and page copy, links to the manufacturer's guidance, self-canonical indexable pages, and matching visible answers and structured FAQ data. Phone and desktop checks in both color themes found readable copy, visible keyboard focus and no horizontal overflow or page errors. The correction improves clarity for shoppers; search position, traffic and sales changes have not been measured.
+
 ## 2026-10-27 — Clear ownership for module source and release notes
 
 The storefront's individual module repositories had drifted behind the maintained application, while some local folders contained older edits that would undo newer fixes. This review reconciled 57 module snapshots with a pinned source baseline, described what each module actually does, and kept shared dependencies visible. Thirty-four snapshots needed source changes; the others received documentation updates. The maintained application remains the release source.
