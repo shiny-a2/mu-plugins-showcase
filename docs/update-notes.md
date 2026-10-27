@@ -1,3 +1,11 @@
+## 2026-10-27 — Clearer Tornado origin and durable watch descriptions
+
+The Tornado category and buying guide described the brand as American, although the brand's own introduction supports the narrower facts that its watches are designed in the United States and use Japanese movements. The published copy now makes those distinctions and asks shoppers to check the individual model for assembly and other specifications. The category's search description no longer uses a fixed stock count or starting price.
+
+A daily price-lead refresh had restored older wording in the Hanowa search description. The two corrected categories are now outside that refresh's existing opt-in, while their live product listings still reflect current inventory. The Tornado guide's search description was aligned with its visible answer, and an obsolete FAQ schema block for answers absent from the page was removed. Its article and breadcrumb markup remain.
+
+Production dry runs, protected backups and scoped cache purges preceded live HTML checks. The category and guide returned HTTP 200 with indexable, self-canonical metadata; the old origin wording and nonvisible FAQ markup were absent. Both pages were inspected in light and dark themes at phone and desktop widths, including keyboard focus, page errors and horizontal overflow. These checks establish published accuracy and rendering, not an increase in search traffic or sales.
+
 ## 2026-10-27 — Clearer Hanowa watch buying guidance
 
 The Hanowa category had a fixed stock and starting-price claim in its search description and broad statements about official representation, warranty, materials and discounts. Its copy also treated Hanowa and Swiss Military Hanowa as the same catalog line. The published page now distinguishes those names and directs shoppers to compare each watch by its reference, case size, strap, movement, water-resistance rating, price and warranty terms. Manufacturer and brand-source links support the historical and naming details.
