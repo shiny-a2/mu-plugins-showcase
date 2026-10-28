@@ -1,16 +1,18 @@
-## 2026-10-28 — Gift-card purchase terms prepared
+## 2026-10-28 — Gift-card purchase terms published
 
-Prepared the owner's policy that gift cards can be used for purchases from the issuing retailer and cannot be exchanged for cash or returned. The addition belongs to the existing purchase-rules section, with the rest of the policy preserved.
+Published the owner's policy that gift cards can be used for purchases from the issuing retailer and cannot be exchanged for cash or returned. The addition belongs to the existing purchase-rules section, with the rest of the policy preserved.
 
-The touched card now follows the shared light/dark palette. Four in-browser candidate previews checked the text at mobile and desktop widths; a local exercise verified applying and rolling back the content update without changing other stored content. Production publication is pending the owner's approval, and the final live page still needs verification after publication.
+The touched card follows the shared light/dark palette. After owner approval, a guarded update with a protected backup published the clause to the existing terms page. Readback confirmed a single addition in both stored representations, and four live browser checks verified readable text and no horizontal overflow at phone and desktop widths in both themes. A local exercise also verified content rollback; unrelated rules were preserved.
 
 ## 2026-10-27 — Clearer shipping connection setup
+
+The revised panel was installed with protected backups after the owner approved the production update. A live connection check accepted the existing stored credential; shipping activation and the free-delivery campaign remained unchanged and disabled.
 
 A saved shipping-service credential could look missing because its field was intentionally left blank, while connection verification was a separate step. The admin panel now combines saving and checking, explains the stored-key state, and shows the last connection result. Failed network checks retain the saved key.
 
 Connection, destination coverage and delivery settings have separate forms, so changing one does not silently reset another. The interface uses shorter Persian instructions and responsive light/dark layouts. Unique exact-name province suggestions reduce repetitive setup without guessing ambiguous destinations.
 
-Validation covered 108 transport/domain assertions, 29 settings assertions, six renderer checks and 16 browser cases, including keyboard controls and a synthetic form submission. A live read-only check confirmed that the existing credential could retrieve the province catalogue. Shipment creation, customer notifications and financial records were not used for testing; carrier-write commissioning remains separate.
+Validation covered 108 transport/domain assertions, 29 settings assertions, six renderer checks and 16 browser cases, including keyboard controls and a synthetic form submission. Live read-only checks retrieved the province catalogue and two city catalogues. The deployed settings renderer showed the verified connection without disclosing the key; the stored credential and delivery settings were unchanged. Shipment creation, customer notifications and financial records were not used for testing; carrier-write commissioning remains separate.
 
 ## 2026-10-28 — More accurate Fossil watch guidance
 
