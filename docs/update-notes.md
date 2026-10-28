@@ -1,3 +1,9 @@
+## 2026-10-28 — More accurate Fossil watch guidance
+
+The Fossil watch category had repeated keyword lists and broad claims about official dealership, warranty, materials, authenticity and pricing. The published page now helps shoppers compare each model's reference, case size, strap, movement, glass and current price. Its brand history is tied to Fossil Group's own account of its 1984 beginnings, without treating the brand's American origin as the manufacturing country of every watch. The existing category URL and product listing remain in place.
+
+Live checks confirmed the revised title and copy, three matching FAQ structured answers, and working FAQ controls. At phone and desktop widths, light and dark themes showed readable copy with no horizontal overflow or page errors. Search ranking and traffic effects have not been measured.
+
 ## 2026-10-28 — Clearer Movado watch guidance
 
 The Movado category repeated buying copy and made broad claims about official dealership, warranty, materials, stock count and a starting price. Its published guidance now explains the Museum dial using Movado's own collection history and asks shoppers to compare the specific model's case size, strap, glass, movement and current price. Search text now describes the category without a fixed count or price floor. The stale price-lead source was removed so it cannot restore the old search description.
