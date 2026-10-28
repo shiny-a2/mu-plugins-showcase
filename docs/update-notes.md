@@ -1,3 +1,9 @@
+## 2026-10-28 — More useful Trussardi watch guidance
+
+The Trussardi watch category included unsupported claims of exclusive dealership, uniform Swiss engineering, suitability for swimming and diving, and universal authenticity and warranty terms. Its search description also used a fixed stock count and starting price. The published page now helps shoppers compare the reference, case size, strap, movement, water-resistance rating, current price and product-specific terms. The brand context links to Trussardi’s official history and watch collection without treating Italian heritage as proof of an individual watch’s specifications.
+
+The visible FAQ and its structured answers now match. The stale daily price-lead source was removed from this category so it cannot restore the old search wording. The category URL, product listing and existing taxonomy remain in place. These changes improve the accuracy of the published guidance; rankings and search traffic require later measurement.
+
 ## 2026-10-28 — Clearer Emporio Armani watch information
 
 The Emporio Armani category and brand history had unsupported claims about dealership status, warranties, authenticity checks, watch movements, stock and prices. The published guidance now uses the brand's official history for its 1981 launch and 1997 watch line. It directs shoppers to each model's product page for specifications, availability, price and warranty terms, and links the category to the fuller history article.
