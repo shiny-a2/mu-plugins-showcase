@@ -8,8 +8,9 @@ more source before a missing-reference job needs manual review.
 Local validation covered saving all six rows, rejecting an extra row, and
 rendering the existing recovery controls. The deployed panel reports six slots,
 and the connected catalog worker retrieved a matching sample reference from a
-new sixth source. Browser inspection of the authenticated admin page and the
-sample's completed review workbook are still pending. No product was published
+new sixth source. A review workbook was created and its Telegram delivery
+returned success. Browser inspection of the authenticated admin page and
+operator approval of that workbook remain pending. No product was published
 by this change.
 
 ## 2026-10-28 — Gift-card purchase terms prepared
