@@ -1,3 +1,9 @@
+## 2026-10-28 — Clearer Emporio Armani watch information
+
+The Emporio Armani category and brand history had unsupported claims about dealership status, warranties, authenticity checks, watch movements, stock and prices. The published guidance now uses the brand's official history for its 1981 launch and 1997 watch line. It directs shoppers to each model's product page for specifications, availability, price and warranty terms, and links the category to the fuller history article.
+
+The category and article search descriptions were aligned with the visible guidance. The category's recurring price text is no longer regenerated from an old fixed claim. Live pages were checked for successful responses, self-referencing canonical URLs and the revised copy. Mobile and desktop layouts were inspected in light and dark themes, including the article link and horizontal overflow. This release establishes content accuracy and rendering checks; search visibility outcomes require later measurement.
+
 ## 2026-10-27 — More accurate Lucien Rochat watch guidance
 
 The Lucien Rochat category and history article contained an unsupported early timeline, exclusive seller claims, fixed stock figures and blanket promises about discounts and warranties. The published pages now use the brand’s official history for the 1925 atelier, 1972 brand name and 2006 ownership change. Shoppers are directed to check each watch’s reference, case size, movement, materials, water resistance, price and warranty terms on its own product page.
