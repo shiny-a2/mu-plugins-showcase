@@ -1,6 +1,6 @@
 ## 2026-10-28 — Gift-card purchase terms prepared
 
-Prepared the owner's policy that gift cards can be used for purchases from Javaherian and cannot be exchanged for cash or returned. The addition belongs to the existing purchase-rules section, with the rest of the policy preserved.
+Prepared the owner's policy that gift cards can be used for purchases from the issuing retailer and cannot be exchanged for cash or returned. The addition belongs to the existing purchase-rules section, with the rest of the policy preserved.
 
 The touched card now follows the shared light/dark palette. Four in-browser candidate previews checked the text at mobile and desktop widths; a local exercise verified applying and rolling back the content update without changing other stored content. Production publication is pending the owner's approval, and the final live page still needs verification after publication.
 
