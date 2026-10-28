@@ -1,3 +1,9 @@
+## 2026-10-28 — Clearer Movado watch guidance
+
+The Movado category repeated buying copy and made broad claims about official dealership, warranty, materials, stock count and a starting price. Its published guidance now explains the Museum dial using Movado's own collection history and asks shoppers to compare the specific model's case size, strap, glass, movement and current price. Search text now describes the category without a fixed count or price floor. The stale price-lead source was removed so it cannot restore the old search description.
+
+The category URL and product listing remain in place. Live checks confirmed the updated title and copy, matching FAQ structured data, readable text in both color themes at phone and desktop widths, working FAQ controls, no horizontal overflow and no page errors. Search ranking and traffic effects have not been measured.
+
 ## 2026-10-28 — More useful Trussardi watch guidance
 
 The Trussardi watch category included unsupported claims of exclusive dealership, uniform Swiss engineering, suitability for swimming and diving, and universal authenticity and warranty terms. Its search description also used a fixed stock count and starting price. The published page now helps shoppers compare the reference, case size, strap, movement, water-resistance rating, current price and product-specific terms. The brand context links to Trussardi’s official history and watch collection without treating Italian heritage as proof of an individual watch’s specifications.
