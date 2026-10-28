@@ -1,3 +1,17 @@
+## 2026-10-29 — Six ordered catalog sources per brand
+
+The existing product-source admin panel now accepts a sixth ordered site for
+both images and specifications. Earlier entries retain their priority and the
+separate image-recovery controls remain available. This lets a brand use one
+more source before a missing-reference job needs manual review.
+
+Local validation covered saving all six rows, rejecting an extra row, and
+rendering the existing recovery controls. The deployed panel reports six slots,
+and the connected catalog worker retrieved a matching sample reference from a
+new sixth source. Browser inspection of the authenticated admin page and the
+sample's completed review workbook are still pending. No product was published
+by this change.
+
 ## 2026-10-28 — Gift-card purchase terms prepared
 
 Prepared the owner's policy that gift cards can be used for purchases from the issuing retailer and cannot be exchanged for cash or returned. The addition belongs to the existing purchase-rules section, with the rest of the policy preserved.
