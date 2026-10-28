@@ -6,6 +6,36 @@ Connection, destination coverage and delivery settings have separate forms, so c
 
 Validation covered 108 transport/domain assertions, 29 settings assertions, six renderer checks and 16 browser cases, including keyboard controls and a synthetic form submission. A live read-only check confirmed that the existing credential could retrieve the province catalogue. Shipment creation, customer notifications and financial records were not used for testing; carrier-write commissioning remains separate.
 
+## 2026-10-28 — More accurate Fossil watch guidance
+
+The Fossil watch category had repeated keyword lists and broad claims about official dealership, warranty, materials, authenticity and pricing. The published page now helps shoppers compare each model's reference, case size, strap, movement, glass and current price. Its brand history is tied to Fossil Group's own account of its 1984 beginnings, without treating the brand's American origin as the manufacturing country of every watch. The existing category URL and product listing remain in place.
+
+Live checks confirmed the revised title and copy, three matching FAQ structured answers, and working FAQ controls. At phone and desktop widths, light and dark themes showed readable copy with no horizontal overflow or page errors. Search ranking and traffic effects have not been measured.
+
+## 2026-10-28 — Clearer Movado watch guidance
+
+The Movado category repeated buying copy and made broad claims about official dealership, warranty, materials, stock count and a starting price. Its published guidance now explains the Museum dial using Movado's own collection history and asks shoppers to compare the specific model's case size, strap, glass, movement and current price. Search text now describes the category without a fixed count or price floor. The stale price-lead source was removed so it cannot restore the old search description.
+
+The category URL and product listing remain in place. Live checks confirmed the updated title and copy, matching FAQ structured data, readable text in both color themes at phone and desktop widths, working FAQ controls, no horizontal overflow and no page errors. Search ranking and traffic effects have not been measured.
+
+## 2026-10-28 — More useful Trussardi watch guidance
+
+The Trussardi watch category included unsupported claims of exclusive dealership, uniform Swiss engineering, suitability for swimming and diving, and universal authenticity and warranty terms. Its search description also used a fixed stock count and starting price. The published page now helps shoppers compare the reference, case size, strap, movement, water-resistance rating, current price and product-specific terms. The brand context links to Trussardi’s official history and watch collection without treating Italian heritage as proof of an individual watch’s specifications.
+
+The visible FAQ and its structured answers now match. The stale daily price-lead source was removed from this category so it cannot restore the old search wording. The category URL, product listing and existing taxonomy remain in place. These changes improve the accuracy of the published guidance; rankings and search traffic require later measurement.
+
+## 2026-10-28 — Clearer Emporio Armani watch information
+
+The Emporio Armani category and brand history had unsupported claims about dealership status, warranties, authenticity checks, watch movements, stock and prices. The published guidance now uses the brand's official history for its 1981 launch and 1997 watch line. It directs shoppers to each model's product page for specifications, availability, price and warranty terms, and links the category to the fuller history article.
+
+The category and article search descriptions were aligned with the visible guidance. The category's recurring price text is no longer regenerated from an old fixed claim. Live pages were checked for successful responses, self-referencing canonical URLs and the revised copy. Mobile and desktop layouts were inspected in light and dark themes, including the article link and horizontal overflow. This release establishes content accuracy and rendering checks; search visibility outcomes require later measurement.
+
+## 2026-10-27 — More accurate Lucien Rochat watch guidance
+
+The Lucien Rochat category and history article contained an unsupported early timeline, exclusive seller claims, fixed stock figures and blanket promises about discounts and warranties. The published pages now use the brand’s official history for the 1925 atelier, 1972 brand name and 2006 ownership change. Shoppers are directed to check each watch’s reference, case size, movement, materials, water resistance, price and warranty terms on its own product page.
+
+The category’s search description no longer embeds a fixed stock count or starting price. The article text now follows the storefront’s light and dark color palette. The live pages were checked at mobile and desktop widths, including theme switching, linked source, image loading and horizontal overflow.
+
 ## 2026-10-27 — Clearer Tornado origin and durable watch descriptions
 
 The Tornado category and buying guide described the brand as American, although the brand's own introduction supports the narrower facts that its watches are designed in the United States and use Japanese movements. The published copy now makes those distinctions and asks shoppers to check the individual model for assembly and other specifications. The category's search description no longer uses a fixed stock count or starting price.
