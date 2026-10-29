@@ -1,3 +1,9 @@
+## 2026-10-29 — Jewelry sources and reviewed draft intake
+
+The product-source admin panel now has a separate ordered list for jewelry. A typed bracelet and necklace import route checks the reference, brand and category before creating a draft. It keeps the existing spreadsheet approval step and prevents jewelry from entering the watch-source workflow.
+
+Production checks confirmed that the connected worker could retrieve exact source pages, deliver one review workbook, and transfer validated raw images to the existing desktop agent under the same persistent jobs. A source image below the established resolution rule remained in review. Isolated plugin checks and a live read-only draft request passed. No jewelry product was created or published during deployment; editing, approval and final media attachment remain separate steps.
+
 ## 2026-10-29 — Six ordered catalog sources per brand
 
 The existing product-source admin panel now accepts a sixth ordered site for
