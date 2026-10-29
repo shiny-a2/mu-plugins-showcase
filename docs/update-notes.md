@@ -1,3 +1,11 @@
+## 2026-10-29 — Shipping connection works under admin protection
+
+The shipping test worked from a command-line check but failed from the admin panel because the site's speed protection stopped the request before transport. A narrow compatibility fix now recognizes only the carrier's documented HTTPS endpoints and retains their bounded timeouts. Unrelated destinations keep their existing protection.
+
+The connection panel also uses the latest test result instead of presenting an older success beside a new failure. Useful failure codes are retained without recording credentials or request bodies.
+
+The correction was published and a live read-only save-and-check test succeeded under the previously failing administrator context with protection active. Local validation included 45 guard assertions, 34 settings assertions, seven renderer checks, 108 domain assertions and 16 responsive/theme/interaction browser cases. No shipment, pickup request, customer notification or financial record was created; delivery activation remains separate.
+
 ## 2026-10-28 — Gift-card purchase terms published
 
 Published the owner's policy that gift cards can be used for purchases from the issuing retailer and cannot be exchanged for cash or returned. The addition belongs to the existing purchase-rules section, with the rest of the policy preserved.
