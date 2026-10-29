@@ -1,3 +1,18 @@
+## 2026-10-29 — Six ordered catalog sources per brand
+
+The existing product-source admin panel now accepts a sixth ordered site for
+both images and specifications. Earlier entries retain their priority and the
+separate image-recovery controls remain available. This lets a brand use one
+more source before a missing-reference job needs manual review.
+
+Local validation covered saving all six rows, rejecting an extra row, and
+rendering the existing recovery controls. The deployed panel reports six slots,
+and the connected catalog worker retrieved a matching sample reference from a
+new sixth source. A review workbook was created and its Telegram delivery
+returned success. Browser inspection of the authenticated admin page and
+operator approval of that workbook remain pending. No product was published
+by this change.
+
 ## 2026-10-29 — Shipping connection works under admin protection
 
 The shipping test worked from a command-line check but failed from the admin panel because the site's speed protection stopped the request before transport. A narrow compatibility fix now recognizes only the carrier's documented HTTPS endpoints and retains their bounded timeouts. Unrelated destinations keep their existing protection.
