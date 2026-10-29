@@ -136,3 +136,7 @@ Read the full boundary in `docs/privacy-boundary.md`.
 - Portfolio: <https://amiraliyaghouti.com>
 - GitHub profile: <https://github.com/shiny-a2>
 - Private source umbrella: `shiny-a2/mu-plugins` (not public)
+
+## Latest update
+
+[October 30, 2026 release notes](docs/releases/2026-10-30.md).
