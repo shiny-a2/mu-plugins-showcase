@@ -1,3 +1,9 @@
+## 2026-11-01 — Reference-specific Tissot and Seiko descriptions
+
+Two product pages had empty descriptions. They now contain concise Persian introductions, specification tables, model-specific questions and direct manufacturer sources. The copy distinguishes two-hand quartz operation, case dimensions, battery estimates and documented dial materials without inventing warranty coverage or treating nominal water-resistance depth as a diving promise.
+
+The guarded release preserves prices, stock, attributes, existing search metadata and addresses, with private recovery records. Contract checks cover both the original correction workflow and the new copy-only workflow, including wrong references, concurrent edits and partial-save recovery. Production readback confirms the exact copy; complete responses retain valid product offers and repeat cache hits. Both pages were reviewed at phone and desktop widths in light and dark themes, with accordion keyboard interaction, visible focus and no horizontal overflow. Older warranty paragraphs were classified for later correction and remain unchanged. Search visibility, AI citations, sales and checkout behavior were not measured by this release.
+
 ## 2026-11-01 — Product-specific warranty guidance
 
 A shared product paragraph promised a two-year international warranty even when the catalog specified a different duration. The published update replaces that blanket claim with Persian guidance to compare the model's specifications, warranty card and invoice, and ask the store to resolve missing or conflicting information. It also explains that matching model or serial numbers alone do not prove authenticity. Product records and purchasing behavior remain unchanged.
