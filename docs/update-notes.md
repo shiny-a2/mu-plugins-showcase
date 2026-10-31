@@ -1,3 +1,9 @@
+## 2026-11-01 — Casio vintage guidance and digital feature accuracy
+
+Two Casio vintage pages had empty descriptions. They now include concise Persian model guidance, readable specifications, practical questions and links to Casio. The A168 page no longer lists unsupported countdown and dual-time functions; both pages use the existing digital stopwatch label. Model-specific search snippets replace generic copy, and the A168 search title uses its complete recorded reference.
+
+The existing guarded release workflow preserved prices, inventory, URLs and unrelated metadata. Independent readback checked the intended text, search fields and feature assignments. Both page responses and repeated cache hits retain canonical/indexing settings and product offers. Regression tests cover concurrent edits, protected metadata and partial-failure recovery; phone/desktop and light/dark browser checks exercise keyboard accordion controls and focus. Regional model suffixes are distinguished from manufacturer base references. Assembly-country markings and other legacy catalog labels still require a separate review. Ranking, AI citations and sales effects were not measured.
+
 ## 2026-11-01 — Reference-specific PR 100 and SUR581 product guidance
 
 Two priority-brand watch pages had empty product descriptions and generic search snippets. Published Persian copy now explains the exact Tissot PR 100 and Seiko SUR581 references with specification tables, practical questions and links to manufacturer sources. Search descriptions now summarize the actual models. No warranty entitlement, diamond count or remaining battery life is inferred.
