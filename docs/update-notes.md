@@ -1,3 +1,9 @@
+## 2026-11-01 — Clearer Hugo Boss buying guidance
+
+The Hugo Boss category used generic fit and service claims and treated visual details as strong evidence of authenticity. Its published guidance now distinguishes BOSS and HUGO using the licensee's official information, explains how to compare exact references, and asks shoppers to verify each model's functions and purchase terms. Eight concise Persian FAQs cover price, fit, brand origin, authenticity checks and water use. The category address, search metadata, existing internal destinations and product listing remain in place.
+
+Guarded publication tests cover source drift, rejected or concurrent writes, protected recovery and exact rollback. Production readback and complete HTML responses confirm the intended copy, matching visible FAQ data, page-two behavior and refreshed server cache. Phone and desktop checks in both themes exercise keyboard FAQ controls, link focus and the filter shell. Final review found that the existing FAQ renderer discarded the title's inline alignment; the follow-up adjusts its container while retaining justified answer paragraphs. Automatic pagination was held for stable editorial captures; full pagination, filter results and checkout remain outside these checks. The separate Google indexing investigation remains open, and no ranking, AI citation or sales improvement is claimed.
+
 ## 2026-10-31 — More accurate Citizen buying guidance
 
 The Citizen category treated Eco-Drive as battery-free, oversimplified charging, and suggested that seconds-hand movement or matching codes could prove authenticity. Its published guidance now explains rechargeable cells, reference versus caliber numbers, and the differences between radio control and GPS, with links to Citizen documentation. Twelve FAQ answers cover common buying and maintenance questions. All existing internal destinations and the category's title, address and product listing are preserved.
