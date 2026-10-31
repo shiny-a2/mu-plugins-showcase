@@ -1,3 +1,9 @@
+## 2026-11-01 — Consistent product offers across cached responses
+
+Normal and early-cache responses handled unavailable products with placeholder zero prices differently. Both paths now share a narrow policy that removes those placeholder offers, preserves real reviews and ratings, and leaves positive-price offers intact. Products without an offer or review/rating use the existing conservative fallback. Catalog prices, inventory and visible product copy are unchanged; existing image-performance fixes are retained.
+
+Regression checks cover both actual repair paths, mixed offers, malformed JSON and repeated processing. Production checks confirmed matching cold and cached product entities for four samples, unchanged stored product records, and preserved homepage/category metadata. All 28 previously repaired eyewear pages were checked on cache hits. A representative product passed phone/desktop and light/dark browser checks with keyboard accordion controls, visible focus and no horizontal overflow. The release has private recovery records. Google rich-result acceptance, rankings, AI citations and sales effects have not been measured.
+
 ## 2026-11-01 — Correct eyewear identity and buying guidance
 
 Twenty-eight legacy sunglasses pages incorrectly described watches and used a price band as the brand. The published repair identifies the recorded eyewear brand and exact model, adds readable frame specifications, and replaces unsupported warranty wording with guidance to check purchase documents. Product excerpts and three search fields now agree with that identity. Addresses, product names, attributes, inventory, prices and unrelated search settings are preserved.
