@@ -1,3 +1,9 @@
+## 2026-11-01 — More accurate product copy generation
+
+The manual copy generator used watch keywords for other products, missed dedicated eyewear brand attributes and inserted unsupported authenticity and maintenance claims. Its updated output uses the product type and recorded maker, includes frame details for eyewear, and directs model-specific care questions to the appropriate manual. Unknown product types are skipped for editorial review. Dry previews no longer flush the global cache at batch boundaries.
+
+The actual server-side utility was updated with a recoverable backup; existing catalog pages were not regenerated. Synthetic runner tests cover dry and write behavior, brand selection, keyword consistency, escaping and preservation of substantial editorial copy. Watch, eyewear and jewellery candidates passed 12 browser cases across phone/desktop widths and light/dark themes, including keyboard controls and focus. Read-only production previews confirmed two watch and two eyewear identities, with unchanged stored-record snapshots. Future page edits still require scoped editorial review and guarded publication; ranking, AI citation and sales effects were not measured.
+
 ## 2026-11-01 — Consistent product offers across cached responses
 
 Normal and early-cache responses handled unavailable products with placeholder zero prices differently. Both paths now share a narrow policy that removes those placeholder offers, preserves real reviews and ratings, and leaves positive-price offers intact. Products without an offer or review/rating use the existing conservative fallback. Catalog prices, inventory and visible product copy are unchanged; existing image-performance fixes are retained.
