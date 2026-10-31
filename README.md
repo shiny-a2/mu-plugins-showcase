@@ -140,3 +140,5 @@ Read the full boundary in `docs/privacy-boundary.md`.
 ## Latest update
 
 [October 30, 2026 release notes](docs/releases/2026-10-30.md).
+
+[Bulk-editor compatibility update — October 31, 2026](docs/releases/2026-10-31-bulk-editor.md).
