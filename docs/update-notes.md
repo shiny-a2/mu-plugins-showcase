@@ -1,3 +1,9 @@
+## 2026-10-31 — Clearer MoonSwatch prices and model guidance
+
+The Omega Swatch category repeated an outdated stock count and price range, alongside claims that price or matching model codes proved authenticity. Its published guidance now points shoppers to each model’s current offer, distinguishes MoonSwatch from the mechanical Moonwatch, and links technical examples to Swatch’s documentation. Seven concise FAQ answers explain model differences, fit, materials and purchase checks. The existing category address, search title and product listing remain in place.
+
+A production check caught WordPress normalizing the stored category description. The previous content was recovered, the release was adjusted to the storage rules, and the final values were verified. Focused tests cover source drift, failed-write recovery and rollback. Production HTML checks confirmed the new copy and matching FAQ data; captured production responses were inspected at phone and desktop widths in both themes, including keyboard FAQ controls, link focus and filter open/reset/close. No purchase or customer message was used. Search and AI visibility effects require later measurement.
+
 ## 2026-10-31 — More accurate Casio buying guidance
 
 The Casio category mixed buying advice with universal setting instructions and unsupported claims about warranty coverage and independent watch motors. Its published copy now directs shoppers to the correct model or module manual, separates watch families, and explains which specifications and warranty terms to compare. Six concise answers link to manufacturer documentation. The existing category URL and product listing remain in place.
