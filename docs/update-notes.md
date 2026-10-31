@@ -1,3 +1,11 @@
+## 2026-10-31 — More accurate Casio buying guidance
+
+The Casio category mixed buying advice with universal setting instructions and unsupported claims about warranty coverage and independent watch motors. Its published copy now directs shoppers to the correct model or module manual, separates watch families, and explains which specifications and warranty terms to compare. Six concise answers link to manufacturer documentation. The existing category URL and product listing remain in place.
+
+Production HTML checks confirmed the revised search text, one main heading, the intended canonical URLs and six structured answers matching the visible FAQ. Browser checks rendered the captured production response without substituting copy at phone and desktop widths in both themes. They covered readable text and links, keyboard focus, FAQ toggling, filter open/reset/close, and horizontal overflow. A focused-link contrast issue found during verification was corrected using the shared text palette.
+
+Guarded source checks, protected backups and local recovery tests support the release. Search and AI visibility effects have not yet been measured; no purchase or customer message was used for validation.
+
 ## 2026-10-29 — Jewelry sources and reviewed draft intake
 
 The product-source admin panel now has a separate ordered list for jewelry. A typed bracelet and necklace import route checks the reference, brand and category before creating a draft. It keeps the existing spreadsheet approval step and prevents jewelry from entering the watch-source workflow.
