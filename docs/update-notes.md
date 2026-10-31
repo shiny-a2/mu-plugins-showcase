@@ -1,3 +1,9 @@
+## 2026-11-01 — Product-specific warranty guidance
+
+A shared product paragraph promised a two-year international warranty even when the catalog specified a different duration. The published update replaces that blanket claim with Persian guidance to compare the model's specifications, warranty card and invoice, and ask the store to resolve missing or conflicting information. It also explains that matching model or serial numbers alone do not prove authenticity. Product records and purchasing behavior remain unchanged.
+
+Six complete product responses retained their metadata and stored records, with repeat cache hits verified. Four received the revised shared paragraph; two products without descriptions remained unchanged. The updated component passed mobile and desktop review in both themes, including accordion interaction and keyboard focus. Older stored warranty sections still need individual review, and cached pages outside the reviewed sample refresh through normal expiry. This release does not verify warranty coverage or establish search or sales gains.
+
 ## 2026-11-01 — Correct Citizen specifications and category price floors
 
 Three Citizen product pages now agree with exact-reference manufacturer documentation: two crystal specifications are corrected, and an incorrectly listed chronograph/stopwatch is identified as a dual-time model with an alarm. The product text and filter attributes agree. Prices, stock, addresses and existing search fields are preserved. Category search descriptions now use the exact minimum price in toman instead of rounding down to whole millions; 104 descriptions were refreshed within the existing set of 113 configured categories. Low-stock fallback also clears the relevant page cache.
