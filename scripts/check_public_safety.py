@@ -43,6 +43,8 @@ APPROVED_PATHS = frozenset(
         "docs/privacy-boundary.md",
         "docs/supplier-feed-controls.md",
         "docs/update-notes.md",
+        "docs/releases/2026-10-30.md",
+        "docs/releases/2026-10-31-bulk-editor.md",
         "samples/README.md",
         "samples/php/admin-action-policy.php",
         "samples/php/bounded-cleanup-loop.php",
