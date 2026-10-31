@@ -1,3 +1,9 @@
+## 2026-11-01 — Published GA-2200 specification corrections
+
+The Casio GA-2200 product page mixed incorrect dimensions, weight and colors with unsupported Bluetooth and tachymeter claims. Its published description, summary, search snippet and nine attributes now agree with the reviewed manufacturer reference. Readable Persian guidance explains battery operation, documented functions and nominal water resistance, with a direct manufacturer link. Exact new thickness and water-resistance labels were added without renaming shared catalog terms.
+
+Independent readback confirmed the intended changes and preserved prices, inventory, addresses and unrelated fields. Final HTML retained its canonical/indexing settings and product offers, and a repeat request returned a cache hit. Four final browser cases covered mobile/desktop widths and light/dark themes, keyboard accordions, visible focus and no horizontal overflow or page errors. Recovery and regression tests passed. Assembly-country and warranty labels still require unit-specific documentation; ranking, AI citations, sales effects and checkout behavior were not measured.
+
 ## 2026-11-01 — Safer corrections for related product specifications
 
 Catalog review found that a single watch can have several related specification errors. The release utility now supports correcting multiple existing attributes in one reviewed product update. It checks all intended attribute values before writing, preserves unrelated product data and supports recovery when only some changes were saved. Existing single-attribute release files remain supported.
