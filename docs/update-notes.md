@@ -1,3 +1,9 @@
+## 2026-11-01 — Citizen NY0120-01E crystal and diver guidance
+
+The NY0120-01E page incorrectly listed sapphire glass and used generic water-use wording that conflicted with the manufacturer's diver classification. Its published crystal attribute, description, summary and search snippet now identify mineral glass and explain the automatic movement, approximate reserve and documented ISO 6425 classification. Two manufacturer sources support the model-specific Persian guidance.
+
+Independent readback confirmed the intended changes while preserving prices, inventory, addresses and unrelated fields. Final HTML retained canonical/indexing settings and product offers; the repeated response was a cache hit. Four browser cases checked mobile/desktop widths, light/dark themes, keyboard accordion controls, visible focus and no horizontal overflow or page errors. Recovery tests passed. Existing assembly-country, calendar-label and warranty records remain separate verification work; ranking, AI citations and sales effects were not measured.
+
 ## 2026-11-01 — Published GA-2200 specification corrections
 
 The Casio GA-2200 product page mixed incorrect dimensions, weight and colors with unsupported Bluetooth and tachymeter claims. Its published description, summary, search snippet and nine attributes now agree with the reviewed manufacturer reference. Readable Persian guidance explains battery operation, documented functions and nominal water resistance, with a direct manufacturer link. Exact new thickness and water-resistance labels were added without renaming shared catalog terms.
