@@ -1,3 +1,9 @@
+## 2026-11-01 — Safer corrections for related product specifications
+
+Catalog review found that a single watch can have several related specification errors. The release utility now supports correcting multiple existing attributes in one reviewed product update. It checks all intended attribute values before writing, preserves unrelated product data and supports recovery when only some changes were saved. Existing single-attribute release files remain supported.
+
+Local regression checks passed for malformed input, cross-taxonomy terms, concurrent edits, protected attributes, search metadata and partial-save recovery. This is a tooling update: the newly identified watch correction has not been published, and production execution and storefront presentation remain pending. No ranking, AI-citation or sales improvement is claimed.
+
 ## 2026-11-01 — Casio vintage guidance and digital feature accuracy
 
 Two Casio vintage pages had empty descriptions. They now include concise Persian model guidance, readable specifications, practical questions and links to Casio. The A168 page no longer lists unsupported countdown and dual-time functions; both pages use the existing digital stopwatch label. Model-specific search snippets replace generic copy, and the A168 search title uses its complete recorded reference.
