@@ -1,3 +1,9 @@
+## 2026-10-31 — More accurate Citizen buying guidance
+
+The Citizen category treated Eco-Drive as battery-free, oversimplified charging, and suggested that seconds-hand movement or matching codes could prove authenticity. Its published guidance now explains rechargeable cells, reference versus caliber numbers, and the differences between radio control and GPS, with links to Citizen documentation. Twelve FAQ answers cover common buying and maintenance questions. All existing internal destinations and the category's title, address and product listing are preserved.
+
+Focused release tests covered source drift, rejected or concurrent writes, private backup and exact rollback. Production readback and complete HTML responses confirmed the intended changes, matching FAQ data and the existing page-two behavior. Phone and desktop rendering in both themes covered link focus, keyboard FAQ controls, filter open/reset/close and horizontal overflow. Automatic pagination was held for stable editorial captures; full pagination, filter results and checkout were outside these checks. Search, AI visibility and sales effects require later measurement.
+
 ## 2026-10-31 — Clearer MoonSwatch prices and model guidance
 
 The Omega Swatch category repeated an outdated stock count and price range, alongside claims that price or matching model codes proved authenticity. Its published guidance now points shoppers to each model’s current offer, distinguishes MoonSwatch from the mechanical Moonwatch, and links technical examples to Swatch’s documentation. Seven concise FAQ answers explain model differences, fit, materials and purchase checks. The existing category address, search title and product listing remain in place.
