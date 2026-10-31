@@ -1,3 +1,9 @@
+## 2026-11-01 — Reference-specific PR 100 and SUR581 product guidance
+
+Two priority-brand watch pages had empty product descriptions and generic search snippets. Published Persian copy now explains the exact Tissot PR 100 and Seiko SUR581 references with specification tables, practical questions and links to manufacturer sources. Search descriptions now summarize the actual models. No warranty entitlement, diamond count or remaining battery life is inferred.
+
+Guarded publication and independent record readback confirmed that only the two bodies, excerpts and search descriptions changed. Prices, inventory, attributes and other search settings were preserved. Both pages returned complete successful responses and repeat cache hits, with unchanged canonical addresses and product offers. Local tests cover concurrent edits, metadata protection and partial-failure recovery. Preview and final browser checks cover phone/desktop widths, light/dark themes and keyboard accordion controls. Ranking, AI citations and sales effects were not measured.
+
 ## 2026-11-01 — More accurate product copy generation
 
 The manual copy generator used watch keywords for other products, missed dedicated eyewear brand attributes and inserted unsupported authenticity and maintenance claims. Its updated output uses the product type and recorded maker, includes frame details for eyewear, and directs model-specific care questions to the appropriate manual. Unknown product types are skipped for editorial review. Dry previews no longer flush the global cache at batch boundaries.
