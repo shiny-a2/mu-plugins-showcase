@@ -1,3 +1,9 @@
+## 2026-11-01 — Correct eyewear identity and buying guidance
+
+Twenty-eight legacy sunglasses pages incorrectly described watches and used a price band as the brand. The published repair identifies the recorded eyewear brand and exact model, adds readable frame specifications, and replaces unsupported warranty wording with guidance to check purchase documents. Product excerpts and three search fields now agree with that identity. Addresses, product names, attributes, inventory, prices and unrelated search settings are preserved.
+
+The guarded release checks every record before writing, retains private recovery data and verifies the intended saved values. Independent readback covered all 28 records; complete page responses retained their canonical and indexing settings, and corrected structured-data names and descriptions. Repeat cache hits were checked for all 28 pages. Validation also exposed an existing difference between initial and cached zero-price schema: the cache changes Product and Offer types to Thing. That inconsistency remains a separate follow-up; catalog prices and stock did not change. Four representative products passed 16 phone/desktop and light/dark browser cases with keyboard accordion controls, visible focus and no horizontal overflow. This is not a physical-device, checkout or ranking test. Remaining legacy generator and offer-schema policies require separate review; search, AI-citation and sales effects have not been measured.
+
 ## 2026-11-01 — Reference-specific Tissot and Seiko descriptions
 
 Two product pages had empty descriptions. They now contain concise Persian introductions, specification tables, model-specific questions and direct manufacturer sources. The copy distinguishes two-hand quartz operation, case dimensions, battery estimates and documented dial materials without inventing warranty coverage or treating nominal water-resistance depth as a diving promise.
