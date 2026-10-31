@@ -1,3 +1,9 @@
+## 2026-11-01 — Correct Citizen specifications and category price floors
+
+Three Citizen product pages now agree with exact-reference manufacturer documentation: two crystal specifications are corrected, and an incorrectly listed chronograph/stopwatch is identified as a dual-time model with an alarm. The product text and filter attributes agree. Prices, stock, addresses and existing search fields are preserved. Category search descriptions now use the exact minimum price in toman instead of rounding down to whole millions; 104 descriptions were refreshed within the existing set of 113 configured categories. Low-stock fallback also clears the relevant page cache.
+
+Save verification caught a partial attribute update, which was recovered before the corrected release completed. Tests cover source drift, protected fields, partial-save recovery, price precision and cache invalidation. Complete responses from 116 pages matched their stored descriptions, with repeated cache hits checked for the products and seven brand categories. All three product pages were checked at phone and desktop widths in both themes. The visual review also found and fixed a missing keyboard-focus indicator on product accordions; the deployed control passed all four display cases. Checkout, every catalog specification, indexing and search or sales gains are outside this verification.
+
 ## 2026-11-01 — Clearer Hugo Boss buying guidance
 
 The Hugo Boss category used generic fit and service claims and treated visual details as strong evidence of authenticity. Its published guidance now distinguishes BOSS and HUGO using the licensee's official information, explains how to compare exact references, and asks shoppers to verify each model's functions and purchase terms. Eight concise Persian FAQs cover price, fit, brand origin, authenticity checks and water use. The category address, search metadata, existing internal destinations and product listing remain in place.
