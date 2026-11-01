@@ -1,3 +1,9 @@
+## 2026-11-01 — Product image preload investigation
+
+A representative product downloads both a fixed 600px preload and the 1024px image selected by a high-density mobile display. A captured-page experiment matching the preload to the image's responsive attributes removes the extra 65,277-byte download while preserving the displayed 1024px image. Standard-density selection stays unchanged.
+
+This is a verified request-demand finding, not a deployed fix or measured field LCP improvement. Existing cached pages also require the correction, so the next implementation must cover fresh and cached output together. Gallery controls and the complete visual gate remain prerequisites for release. Production code, settings and caches were unchanged in this investigation.
+
 ## 2026-11-01 — More reliable interaction diagnostics
 
 Performance attribution 1.5.2 fixes a reporting error where an inexpensive pointer event could hide an equally long click with expensive processing. Tied maximum-duration events now retain the one with the longest processing, with its target and timing phases kept together. Queued entries are checked before the final beacon, and quantization cannot create a negative presentation phase.
