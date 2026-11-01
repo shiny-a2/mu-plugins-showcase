@@ -1,3 +1,9 @@
+## 2026-11-01 — Citizen category links to practical model comparisons
+
+The Citizen buying guide now links directly to three reviewed product pages, comparing a men's Eco-Drive chronograph, a compact Citizen L and an automatic Promaster. Concise Persian examples explain movement and case-size differences and direct readers to each product for current price and availability. The comparison sits before the existing FAQ and uses the shared theme colors and inherited typography.
+
+Guarded release tests cover scope, concurrent edits, failed writes and exact recovery. Independent source readback confirms only the intended editorial addition. Complete category and pagination responses retain indexing settings; twelve FAQ answers match their visible disclosures, existing destinations remain intact and the repeated category response is a server cache hit. Four browser cases cover mobile/desktop widths and light/dark themes, keyboard FAQ controls, link focus/hover, filter reset/close and no horizontal overflow or page errors. Checks use captured production HTML with real assets and hold infinite scrolling for stable editorial inspection. Physical devices and checkout flows were not tested. Ranking, AI citations and sales effects were not measured.
+
 ## 2026-11-01 — Citizen Eco-Drive guidance and clearer water ratings
 
 The CA4507-84X page incorrectly assigned a month-display calendar. It now identifies the date display while preserving the 24-hour indicator. The EM0928-84D page replaces a shower-use attribute with a neutral five-bar rating, without renaming a shared term. Both pages now explain light charging, manufacturer-rated reserve and reference-specific features in Persian, with compact tables, practical questions, official citations and refreshed search descriptions.
