@@ -1,3 +1,9 @@
+## 2026-11-02 — Couple-watch materials and warranty clarity
+
+A category buying-guide section now distinguishes dial, glass, case and band specifications and directs shoppers to the warranty terms of each reference. Blanket lifetime warranty and appearance-only authenticity claims were removed. Misleading category destinations were replaced with the watch collection and contact page.
+
+The change uses the shared storefront palette and a readable text width. Guarded-release tests cover source drift, failed writes, private recovery and preservation of unrelated content. Production readback confirms a single editorial-field change with SEO metadata and product presentation preserved; the repeated page request is served from cache. Four viewport/theme checks cover link focus, hover, contrast and horizontal overflow. Other category copy and legacy FAQ reconciliation remain separate follow-up work. No ranking or sales improvement is claimed.
+
 ## 2026-11-02 — Clearer informational article and consistent answers
 
 A high-visibility informational article now distinguishes symbolic beliefs from predictions and explains a possible attention mechanism with an authoritative source. Its lookup table and explicit shopping path remain intact. Nine visible FAQ answers match the existing structured-data output; the legacy content source is synchronized to avoid contradictory fallback text.
