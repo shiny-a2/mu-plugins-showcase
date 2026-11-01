@@ -1,3 +1,9 @@
+## 2026-11-02 — Clearer informational article and consistent answers
+
+A high-visibility informational article now distinguishes symbolic beliefs from predictions and explains a possible attention mechanism with an authoritative source. Its lookup table and explicit shopping path remain intact. Nine visible FAQ answers match the existing structured-data output; the legacy content source is synchronized to avoid contradictory fallback text.
+
+The guarded migration backs up both sources privately and updates them in one verified transaction. Tests cover failed writes, concurrent source changes, rollback and preservation of unrelated widgets. Post-publication checks confirm the intended content, canonical and indexing directives, plus a cache hit on the repeated request. Mobile and desktop viewport checks in both themes pass keyboard FAQ interaction, focus, text contrast and horizontal overflow checks. No ranking, AI-visibility or sales improvement is claimed from this release.
+
 ## 2026-11-01 — Google AI baseline and live indexability checkpoint
 
 An authenticated Generative AI report export now provides a dated, complete 28-day impressions baseline and exact priority-category rows. Missing rows in the capped page export are recorded as unavailable, not zero. The baseline does not establish clicks, sales, visibility in other AI services or improvement caused by recent releases.
