@@ -1,3 +1,9 @@
+## 2026-11-01 — Cache warming and retention audit
+
+The cache warmer is running, but successful repeated page requests do not establish catalogue-wide coverage. A read-only audit found that a full scheduled catalogue pass takes longer than the serving cache lifetime, while storage limits also evict entries. Increasing crawl pressure alone would not resolve both constraints.
+
+Nine isolated tests of the deployed walker pass cursor preservation on failures, partial runs and load pauses, plus bounded priority behavior. No forced crawl, cache purge, retention change or production patch was performed. The next step is a demand-aware retention design that preserves price and stock freshness, followed by controlled verification. Slow background-job stages require separate profiling; no administrator or visitor speed gain is claimed.
+
 ## 2026-11-01 — Priority-brand product loading coverage
 
 One product from each of 15 priority brands was checked twice. All 30 responses preserve one responsive main-image preload, eager/high image priority, a matching canonical and no noindex directive. All repeated requests are cache hits; three initial requests were misses. These are sampled responses, not proof that the entire catalogue stays warm.
