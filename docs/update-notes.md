@@ -1,3 +1,9 @@
+## 2026-11-01 — Mobile interaction investigation; release pending
+
+A prepared drawer change batches geometry reads before style updates. Three mobile Chrome laboratory runs with CPU throttling reduced opening from 304–320 ms to 128 ms; these are not field INP results. Reduced-motion previews also exposed a transparent-menu readability defect, addressed with shared theme colors.
+
+This change is **not deployed**. Responsive light/dark reduced-motion checks passed, but a normal-motion dark preview intermittently allowed underlying page content to intercept the menu button. Publication remains pending reproduction and resolution of that hit-testing gate. Production behavior and caches are unchanged by this investigation.
+
 ## 2026-11-01 — Homepage banners load when needed
 
 Banner slider 1.0.8 loads only the first responsive image initially and requests later images when their slides are selected. Autoplay waits for the first image to decode. Slow or failed downloads retain the current banner, and a newer selection or pause takes precedence over a pending transition.
