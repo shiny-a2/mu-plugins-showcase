@@ -1,3 +1,9 @@
+## 2026-11-02 — Durable category descriptions and clearer brand navigation
+
+A shopping category's description contained escaped text characters and a truncated sentence. Both the visible metadata and the existing scheduled-refresh source now use concise natural copy, so a later inventory refresh does not restore the broken wording. The title distinguishes the shopping category from a similarly named informational topic. The observed numeric price/stock lead already matched inventory; it was not falsely reported as stale.
+
+Brand navigation keeps its destinations while removing unsupported availability and sales claims, with larger touch targets and shared theme colors. A guarded transaction protects the editorial field and three metadata values. Tests cover inventory changes, empty-stock fallback, failed writes, source drift and rollback. Production readback verifies the intended title/description and preserves nine FAQ answers, canonical and indexing directives. Responsive light/dark checks cover focus, hover, contrast and overflow; the repeated request reaches cache. No ranking, citation or sales improvement is claimed.
+
 ## 2026-11-02 — One visible source for couple-watch FAQs
 
 The couple-watch category now answers nine practical questions about sizing, authenticity checks, gifts, packaging, bracelet adjustment, customization, installment eligibility and warranty scope. A separate legacy FAQ producer was retired for this category, so structured answers come from the visible editorial source. Fixed stock/price snapshots and unsupported universal service promises were removed from the edited sections; both photographs remain.
