@@ -1,3 +1,9 @@
+## 2026-11-01 — Consistent product structured data
+
+Product eligibility policy 1.1.0 fixes a late fallback that could emit a Product without offers or reviews on the first response while cached responses behaved differently. It also removes embedded review markup lacking author attribution, retaining existing named reviews, ratings, genuine prices and product identity. No commercial records or visible product copy are changed.
+
+Regression tests reproduce the earlier failures and cover both normal and cached output, mixed reviews, graph references and repeated processing. Twelve production sample/control pages pass first and repeated HTTP checks with identical relevant schema entities; all repeated responses are cache hits. Seven product record snapshots remain unchanged. Four responsive light/dark browser cases exercise product accordions and focus, and separate rendered product/category checks confirm the defects do not return after JavaScript. Google recrawl and Search Console acceptance remain pending; this release does not claim ranking or sales gains.
+
 ## 2026-11-01 — Citizen NY0120-01E calendar consistency
 
 The NY0120-01E specification table still advertised a month display while the reviewed product description and official Citizen reference describe weekday and date. The incorrect month-display assignment has been removed, retaining the existing date label and the description's weekday explanation. Shared catalog terms were not renamed.
