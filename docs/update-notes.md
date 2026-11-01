@@ -1,8 +1,10 @@
-## 2026-11-01 — Mobile interaction investigation; release pending
+## 2026-11-01 — Mobile menu responsiveness and reliable first taps
 
-A prepared drawer change batches geometry reads before style updates. Three mobile Chrome laboratory runs with CPU throttling reduced opening from 304–320 ms to 128 ms; these are not field INP results. Reduced-motion previews also exposed a transparent-menu readability defect, addressed with shared theme colors.
+Menu 1.4.2 batches geometry reads before style updates. Header 1.1.8 fixes an initialization race that could select an incomplete wrapper and let page content intercept a visible menu button. Reduced-motion menus use an opaque shared-theme background, and titles and arrows follow shared text colors.
 
-This change is **not deployed**. Responsive light/dark reduced-motion checks passed, but a normal-motion dark preview intermittently allowed underlying page content to intercept the menu button. Publication remains pending reproduction and resolution of that hit-testing gate. Production behavior and caches are unchanged by this investigation.
+Both changes are deployed with recoverable backups. Eight live homepage checks cover mobile/desktop, light/dark and normal/reduced motion; four additional mobile product/category checks cover submenu controls, keyboard focus, closing and scroll restoration. Source readback and fresh/cached responses pass. A delayed-parser regression test fails on the previous header and passes the repair, including its fallback layout.
+
+Three controlled mobile Chrome runs reduced menu opening from 304–320 ms to 128 ms. These are laboratory observations, not real-traffic INP, ranking or sales gains. Physical-device and authenticated checkout flows were not tested. Interaction attribution, broader cache-warmer coverage and administrator performance remain separate follow-ups.
 
 ## 2026-11-01 — Homepage banners load when needed
 
