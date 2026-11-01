@@ -1,3 +1,9 @@
+## 2026-11-01 — Responsive product image preloads released
+
+Product preloads now follow the gallery image's responsive size selection in both fresh and cached pages. On the verified high-density mobile sample, Mission to Venus requests one 1024px main image instead of also downloading an unused 600px image, avoiding 65,277 bytes without reducing displayed resolution. Standard-density selection is preserved.
+
+The release has a recoverable backup. Twenty-one policy checks pass locally and against deployed files; existing homepage and output-buffer regressions pass. Four preview and four live mobile/desktop light/dark cases pass image selection, gallery navigation, keyboard lightbox operation and overflow/error checks, with screenshots inspected. Source readback and fresh/cached home, product and category responses pass. The result establishes reduced request demand on the sampled product; catalog-wide impact, physical-device behavior, field LCP, ranking and sales effects remain unmeasured.
+
 ## 2026-11-01 — Product image preload investigation
 
 A representative product downloads both a fixed 600px preload and the 1024px image selected by a high-density mobile display. A captured-page experiment matching the preload to the image's responsive attributes removes the extra 65,277-byte download while preserving the displayed 1024px image. Standard-density selection stays unchanged.
