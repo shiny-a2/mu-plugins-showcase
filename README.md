@@ -6,6 +6,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Repair marketplace queue clarity](docs/releases/repair-marketplace-counts-2.14.8.md): consistent waiting counts and a clear distinction between review decisions and listing status.
+
 - [Evidence-based operator feedback labels](docs/operator-feedback-labels.md): clearer customer-state labels, transparent reasons and responsive review in both themes.
 
 - [Isolated customer panel preview](docs/customer-panel-preview.md): separate staging, service-specific feedback and guided tours tested with generated records.
