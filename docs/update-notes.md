@@ -1,3 +1,9 @@
+## 2026-11-01 — Citizen Eco-Drive guidance and clearer water ratings
+
+The CA4507-84X page incorrectly assigned a month-display calendar. It now identifies the date display while preserving the 24-hour indicator. The EM0928-84D page replaces a shower-use attribute with a neutral five-bar rating, without renaming a shared term. Both pages now explain light charging, manufacturer-rated reserve and reference-specific features in Persian, with compact tables, practical questions, official citations and refreshed search descriptions.
+
+Guarded release tests cover preflight, protected metadata, concurrent edits and partial-save recovery. Independent readback confirms the intended changes while preserving prices, stock, addresses and unrelated fields. Final HTML retains canonical/indexing settings and Product offers, and repeated responses are cache hits. Eight browser cases cover mobile/desktop widths, light/dark themes, keyboard accordions, visible focus and no overflow or page errors. These use captured production HTML with real assets; physical-device and checkout flows were not tested. Assembly-country and warranty records remain document-dependent. Ranking, AI citations and sales effects were not measured.
+
 ## 2026-11-01 — Citizen Promaster pair: case, band and calendar clarity
 
 The NY0129-07L and NY0120-01Z pages listed only rubber as their construction and incorrectly described a month-display calendar. Both now include steel in the material field and use the existing date-display label. Model-specific Persian descriptions distinguish the steel case from the polyurethane band and explain weekday plus date. Concise specification tables, practical questions, official manufacturer citations and links between the blue and orange options support comparison.
