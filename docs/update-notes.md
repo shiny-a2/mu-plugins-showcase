@@ -1,3 +1,9 @@
+## 2026-11-01 — Google AI baseline and live indexability checkpoint
+
+An authenticated Generative AI report export now provides a dated, complete 28-day impressions baseline and exact priority-category rows. Missing rows in the capped page export are recorded as unavailable, not zero. The baseline does not establish clicks, sales, visibility in other AI services or improvement caused by recent releases.
+
+A priority category passed Google's actual smartphone live inspection: fetching and indexing are allowed, the declared canonical matches, and the tested HTML and rendered screenshot contain the intended storefront content. Product and breadcrumb enhancements were recognized; non-critical product warnings remain. One indexing request was accepted into the crawl queue. Index inclusion remains unverified, and the request will not be repeated without new evidence. No production source or storefront content was changed in this checkpoint.
+
 ## 2026-11-01 — Consistent crawler exclusions released
 
 Named crawler rules now apply the same duplicate-listing and cart-action exclusions as the general policy. Action URLs are covered when their parameter appears later in the query string too. Public category, product, article and rendering-resource access remains available; existing search, user-fetch and training-agent membership is unchanged.
