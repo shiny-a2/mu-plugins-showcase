@@ -1,3 +1,9 @@
+## 2026-11-01 — Consistent crawler exclusions released
+
+Named crawler rules now apply the same duplicate-listing and cart-action exclusions as the general policy. Action URLs are covered when their parameter appears later in the query string too. Public category, product, article and rendering-resource access remains available; existing search, user-fetch and training-agent membership is unchanged.
+
+A recoverable atomic update was checked against the prior file. All 574 offline crawler/URL decisions and sitemap preservation pass against the downloaded live policy, including all 15 priority-brand destinations. Two controlled crawler user-agent responses match the published file. No real cart or checkout action was executed. These checks establish policy behavior, not actual provider adoption, ranking, AI citations or sales growth.
+
 ## 2026-11-01 — Cache warming and retention audit
 
 The cache warmer is running, but successful repeated page requests do not establish catalogue-wide coverage. A read-only audit found that a full scheduled catalogue pass takes longer than the serving cache lifetime, while storage limits also evict entries. Increasing crawl pressure alone would not resolve both constraints.
