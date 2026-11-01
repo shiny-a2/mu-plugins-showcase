@@ -1,3 +1,9 @@
+## 2026-11-01 — Citizen Promaster pair: case, band and calendar clarity
+
+The NY0129-07L and NY0120-01Z pages listed only rubber as their construction and incorrectly described a month-display calendar. Both now include steel in the material field and use the existing date-display label. Model-specific Persian descriptions distinguish the steel case from the polyurethane band and explain weekday plus date. Concise specification tables, practical questions, official manufacturer citations and links between the blue and orange options support comparison.
+
+Independent readback confirmed the intended attributes, descriptions, summaries and search snippets while preserving prices, stock, addresses and unrelated fields. Both complete page responses retained canonical/indexing settings and Product offers; repeated responses were cache hits. Recovery tests and eight browser cases cover both products at mobile/desktop widths in light/dark themes, keyboard accordions, visible focus and no horizontal overflow or page errors. These checks use captured production HTML with real assets, not physical devices or checkout transactions. Assembly-country and warranty fields still require unit-specific documents. Ranking, AI citations and sales effects were not measured.
+
 ## 2026-11-01 — Citizen NY0120-01E crystal and diver guidance
 
 The NY0120-01E page incorrectly listed sapphire glass and used generic water-use wording that conflicted with the manufacturer's diver classification. Its published crystal attribute, description, summary and search snippet now identify mineral glass and explain the automatic movement, approximate reserve and documented ISO 6425 classification. Two manufacturer sources support the model-specific Persian guidance.
