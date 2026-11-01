@@ -1,3 +1,11 @@
+## 2026-11-01 — More reliable interaction diagnostics
+
+Performance attribution 1.5.2 fixes a reporting error where an inexpensive pointer event could hide an equally long click with expensive processing. Tied maximum-duration events now retain the one with the longest processing, with its target and timing phases kept together. Queued entries are checked before the final beacon, and quantization cannot create a negative presentation phase.
+
+Old and new clients remain compatible. Reports identify the measurement method, and the summary tool separates legacy data and calls this a maximum-event diagnostic, not official INP. Link targets are treated as hints rather than proven navigation. Sampling and bounded log retention are unchanged.
+
+The change is deployed with a recoverable backup. Regression tests reproduce the old failure and verify event ordering, queued delivery, receiver compatibility and summary separation. Eight preview/post-deployment browser cases use mobile/desktop light/dark pages; post-deployment cases replay freshly fetched production responses with real assets and locally forced sampling. Synthetic beacons are intercepted. Server checks, source readback, protected log access and three targeted fresh/cached page checks pass. New organic reports, physical devices and authenticated flows remain unverified; no speed, ranking or sales gain is claimed.
+
 ## 2026-11-01 — Mobile menu responsiveness and reliable first taps
 
 Menu 1.4.2 batches geometry reads before style updates. Header 1.1.8 fixes an initialization race that could select an incomplete wrapper and let page content intercept a visible menu button. Reduced-motion menus use an opaque shared-theme background, and titles and arrows follow shared text colors.
