@@ -1,3 +1,9 @@
+## 2026-11-01 — Priority-brand product loading coverage
+
+One product from each of 15 priority brands was checked twice. All 30 responses preserve one responsive main-image preload, eager/high image priority, a matching canonical and no noindex directive. All repeated requests are cache hits; three initial requests were misses. These are sampled responses, not proof that the entire catalogue stays warm.
+
+Six fresh high-density mobile Chrome contexts for Tissot, Seiko, Citizen, Casio, Fossil and Versace each request the selected main image once, with successful image loading and no observed JavaScript errors or horizontal overflow. No additional production patch or explicit cache purge was needed. Search Console indexing, field performance and physical-device behavior were not measured in this pass. The next investigation is cache-warmer scheduling, progress and coverage.
+
 ## 2026-11-01 — Responsive product image preloads released
 
 Product preloads now follow the gallery image's responsive size selection in both fresh and cached pages. On the verified high-density mobile sample, Mission to Venus requests one 1024px main image instead of also downloading an unused 600px image, avoiding 65,277 bytes without reducing displayed resolution. Standard-density selection is preserved.
