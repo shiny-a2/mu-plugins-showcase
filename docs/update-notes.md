@@ -1,3 +1,9 @@
+## 2026-11-01 — Consistent homepage banner loading priority
+
+The first homepage banner now retains image-loading priority through both fresh rendering and cached responses. Mobile and desktop browsers preload their matching banner image, while obsolete header-image hints no longer compete. Banner artwork, destinations, controls and structured data are preserved.
+
+Twenty-two regression checks passed locally and on the server. Production verification covered existing cache, cold and repeated responses, plus product/category controls. Mobile/desktop light/dark browser checks passed before and after release, including carousel navigation, pause/resume, reduced-motion startup and visible keyboard focus. Real-traffic LCP/INP improvement remains to be measured; this release does not claim ranking, sales or site-wide performance gains.
+
 ## 2026-11-01 — Consistent product structured data
 
 Product eligibility policy 1.1.0 fixes a late fallback that could emit a Product without offers or reviews on the first response while cached responses behaved differently. It also removes embedded review markup lacking author attribution, retaining existing named reviews, ratings, genuine prices and product identity. No commercial records or visible product copy are changed.
