@@ -1,3 +1,9 @@
+## 2026-11-02 — One visible source for couple-watch FAQs
+
+The couple-watch category now answers nine practical questions about sizing, authenticity checks, gifts, packaging, bracelet adjustment, customization, installment eligibility and warranty scope. A separate legacy FAQ producer was retired for this category, so structured answers come from the visible editorial source. Fixed stock/price snapshots and unsupported universal service promises were removed from the edited sections; both photographs remain.
+
+An atomic migration and private recovery snapshot protect the two affected data owners. Tests exercise failed writes/commit, source drift and rollback; production readback confirms only four editors and the intended legacy FAQ key changed. Nine visible answers exactly match structured output. Canonical/indexing directives and other metadata are preserved, and the repeated request reaches cache. Responsive light/dark checks cover FAQ keyboard interaction, link focus, contrast and overflow. No purchase was made, and no ranking or sales lift is claimed.
+
 ## 2026-11-02 — Couple-watch materials and warranty clarity
 
 A category buying-guide section now distinguishes dial, glass, case and band specifications and directs shoppers to the warranty terms of each reference. Blanket lifetime warranty and appearance-only authenticity claims were removed. Misleading category destinations were replaced with the watch collection and contact page.
