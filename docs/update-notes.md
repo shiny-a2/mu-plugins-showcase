@@ -1,3 +1,9 @@
+## 2026-11-01 — Citizen NY0120-01E calendar consistency
+
+The NY0120-01E specification table still advertised a month display while the reviewed product description and official Citizen reference describe weekday and date. The incorrect month-display assignment has been removed, retaining the existing date label and the description's weekday explanation. Shared catalog terms were not renamed.
+
+The existing guarded release runner passed regression and production preflight checks. Independent readback confirms that only the intended calendar options changed; descriptions, search metadata and commercial fields remain intact. Final HTTP checks preserve the canonical, indexing settings and Product offers, and the repeated response is a server cache hit. Four browser cases cover mobile/desktop widths in light/dark themes, keyboard accordion operation and a visible calendar row without horizontal overflow or page errors. These checks use captured production HTML with real assets, not physical devices or checkout transactions. Ranking and sales effects were not measured.
+
 ## 2026-11-01 — Citizen category links to practical model comparisons
 
 The Citizen buying guide now links directly to three reviewed product pages, comparing a men's Eco-Drive chronograph, a compact Citizen L and an automatic Promaster. Concise Persian examples explain movement and case-size differences and direct readers to each product for current price and availability. The comparison sits before the existing FAQ and uses the shared theme colors and inherited typography.
