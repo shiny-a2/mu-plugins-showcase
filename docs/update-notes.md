@@ -1,3 +1,9 @@
+## 2026-11-01 — Homepage banners load when needed
+
+Banner slider 1.0.8 loads only the first responsive image initially and requests later images when their slides are selected. Autoplay waits for the first image to decode. Slow or failed downloads retain the current banner, and a newer selection or pause takes precedence over a pending transition.
+
+Controlled replay previously requested all eight carousel images; four live mobile/desktop light/dark checks now request one initially. Browser regression checks cover keyboard controls, reduced motion, no JavaScript, failed images, concurrent selections and pausing during loading. Fresh and cached homepage responses pass, and live visuals were inspected. Real-traffic LCP/INP and ranking effects remain unmeasured.
+
 ## 2026-11-01 — Consistent homepage banner loading priority
 
 The first homepage banner now retains image-loading priority through both fresh rendering and cached responses. Mobile and desktop browsers preload their matching banner image, while obsolete header-image hints no longer compete. Banner artwork, destinations, controls and structured data are preserved.
