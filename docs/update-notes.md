@@ -1,3 +1,9 @@
+## 2026-11-02 — Twenty Hanowa and Tissot product guides
+
+Thirteen available Hanowa watches and seven available Tissot watches now have individual Persian descriptions, concise summaries and factual search descriptions tied to exact model references. The review corrected thirteen Hanowa crystal fields from sapphire to sapphire-coated mineral glass. Four colour fields across three products were also aligned with exact-reference evidence. A fourth proposed colour correction was removed when production preflight showed that the catalogue was already correct.
+
+Guarded publication preserved prices, stock, purchase state, titles, URLs, unrelated attributes and unrelated SEO data. Independent readback, repeated cache responses and all product sitemaps verify the published result. Eighty live mobile/desktop light/dark states passed contrast, keyboard panels, focus, overflow, corrected attribute text and Product/InStock checks. Recovery snapshots remain available. No checkout or customer record was created, and no ranking, AI citation or sales improvement is claimed.
+
 ## 2026-11-02 — Twenty additional Tissot product guides
 
 Twenty available Tissot watches now have individual Persian descriptions, concise summaries and factual search descriptions tied to exact model references. Most specifications use exact manufacturer pages; four discontinued references use clearly identified exact-reference retailer evidence. Two conflicting catalogue attributes were corrected from primary evidence: one movement is now identified as Swiss quartz, and one water-resistance value is 30 metres rather than 100 metres. Shared taxonomy labels were not renamed.
