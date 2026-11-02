@@ -6,6 +6,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Prepared branch operations and messaging](docs/releases/branch-desk-1.3.0-prepared.md): repair reports, customer groups, auditable expenses and reviewed SMS campaigns; deployment remains pending.
+
 - [Repair marketplace queue clarity](docs/releases/repair-marketplace-counts-2.14.8.md): consistent waiting counts and a clear distinction between review decisions and listing status.
 
 - [Evidence-based operator feedback labels](docs/operator-feedback-labels.md): clearer customer-state labels, transparent reasons and responsive review in both themes.
