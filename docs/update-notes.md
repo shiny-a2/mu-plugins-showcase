@@ -1,3 +1,9 @@
+## 2026-11-02 — Clearer buying guidance across five watch brands
+
+Omega Swatch, Hanowa, Tissot, Seiko and Citizen category pages now offer more practical reference-based buying guidance. Tissot and Seiko copy removes blanket price, warranty and appearance-based authenticity claims; official manufacturer references support model and care information. Existing useful category navigation and reviewed technical content are retained.
+
+Publication uses guarded writes and individual recovery snapshots. Production readback confirms the intended editorial changes, preserved SEO metadata and matching visible FAQ answers. Repeated category requests reach cache. Responsive light/dark checks cover text contrast, overflow, link focus and keyboard-operated FAQ controls; a scoped palette correction fixes the reviewed FAQ headings in dark mode. Products, prices and purchase flows were not modified. This is a category-page release, not a claim of improved rankings, sales or AI citations.
+
 ## 2026-11-02 — Durable category descriptions and clearer brand navigation
 
 A shopping category's description contained escaped text characters and a truncated sentence. Both the visible metadata and the existing scheduled-refresh source now use concise natural copy, so a later inventory refresh does not restore the broken wording. The title distinguishes the shopping category from a similarly named informational topic. The observed numeric price/stock lead already matched inventory; it was not falsely reported as stale.
