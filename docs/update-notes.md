@@ -1,3 +1,9 @@
+## 2026-11-02 — Twenty additional Tissot product guides
+
+Twenty available Tissot watches now have individual Persian descriptions, concise summaries and factual search descriptions tied to exact model references. Most specifications use exact manufacturer pages; four discontinued references use clearly identified exact-reference retailer evidence. Two conflicting catalogue attributes were corrected from primary evidence: one movement is now identified as Swiss quartz, and one water-resistance value is 30 metres rather than 100 metres. Shared taxonomy labels were not renamed.
+
+Guarded publication preserved prices, stock, purchase state, titles, URLs, unrelated attributes and unrelated SEO data. Independent readback, repeated cache responses and all product sitemaps verify the published result. Eighty mobile/desktop light/dark states passed contrast, keyboard panels, focus, overflow and Product/InStock checks; a single transient browser storage error did not recur in a separate four-state rerun. Recovery snapshots remain available. No checkout or customer record was created, and no ranking, AI citation or sales improvement is claimed.
+
 ## 2026-11-02 — Twenty more reference-specific watch pages
 
 Seven available Seiko watches and thirteen available Louis Frrier watches now have individual Persian descriptions, concise summaries and factual search descriptions tied to exact references. Seiko facts use exact manufacturer pages; Louis Frrier copy distinguishes locally registered specifications from broader catalogue claims. The water-use guidance remains conservative, and two models without sufficiently exact primary evidence were excluded rather than guessed.
