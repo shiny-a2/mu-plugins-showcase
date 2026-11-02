@@ -1,3 +1,9 @@
+## 2026-11-02 — Reference-specific copy for two available watches
+
+Tissot PRX T137.410.11.091.00 and Seiko SUR601P1 now have useful Persian descriptions and concise excerpts, supported by official manufacturer references. The copy explains model differences, sizing and care, links to the source and brand collection, and avoids fixed price or stock promises.
+
+Guarded publication preserves commerce fields, attributes, URLs and existing SEO metadata. Exact production readback, responsive light/dark rendering, keyboard tabs, text contrast and structured Product/Offer checks pass; repeated requests reach cache. Recovery snapshots are retained. This completes two products from a prioritized available-product queue, not the entire catalog; no ranking, sales or AI citation improvement is claimed.
+
 ## 2026-11-02 — Clearer buying guidance across five watch brands
 
 Omega Swatch, Hanowa, Tissot, Seiko and Citizen category pages now offer more practical reference-based buying guidance. Tissot and Seiko copy removes blanket price, warranty and appearance-based authenticity claims; official manufacturer references support model and care information. Existing useful category navigation and reviewed technical content are retained.
