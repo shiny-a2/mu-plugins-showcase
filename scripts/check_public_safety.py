@@ -46,6 +46,8 @@ APPROVED_PATHS = frozenset(
         "docs/releases/2026-10-30.md",
         "docs/releases/2026-10-31-bulk-editor.md",
         "docs/releases/branch-desk-1.3.0-prepared.md",
+        "docs/releases/branch-desk-1.3.1.md",
+        "docs/releases/wrist-studio-2.0.2.md",
         "docs/releases/repair-marketplace-counts-2.14.8.md",
         "samples/README.md",
         "samples/php/admin-action-policy.php",

@@ -1,5 +1,7 @@
 # Branch Desk 1.3.0 — prepared release
 
+Historical preparation note. Superseded by the [released version 1.3.1](branch-desk-1.3.1.md).
+
 Branch managers can review repair activity and club customer groups, manage additional operating expenses, and prepare targeted customer messages in the same desk application. Repair activity, recorded receipts and delivered-work costs retain their own date bases. Manual expenses support correction and cancellation with history.
 
 Group messaging has a recipient preview and a separate send confirmation. It respects customer preferences, checks branch access during processing, distinguishes service acceptance from delivery, and avoids automatically resending uncertain requests. Existing club and repair message templates are available for review.
