@@ -17,3 +17,11 @@ Production source, customer records, credentials and operational evidence remain
 Some reports showed a shortened legacy invoice label even though the import retained the customer's complete name. The correction uses that recorded full name in invoice lists, branch customer search, customer details and club groups, with a fallback for older records. It changes display resolution without rewriting customer or financial records.
 
 Verification covered 145 isolated checks, report/dialog rendering with a long synthetic name in both themes and viewport sizes, and a bounded check of the reported case against the live database. Branch scope remains enforced.
+
+## Restricted branch workspaces
+
+Branch staff can now use a focused workspace with the panels assigned to their role. Sellers retain customer lookup and counter services without access to management reports. Branch managers see their own branch reports, while shared club lookup remains available when a customer visits a different store.
+
+Repair access follows the same branch ownership for restricted accounts, including case links, tickets and activity notices. General technician transfer workflows remain available to their existing users. The central service-intake queue is not exposed to branch-restricted accounts.
+
+Validation includes isolated permission checks and repair/Desk regressions, plus mobile and desktop interaction checks in both themes. Credentials and account-specific evidence remain private. A real SMS login is verified separately with the account holder; automated checks do not establish SMS delivery.
