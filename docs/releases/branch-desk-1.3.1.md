@@ -11,3 +11,9 @@ The approved release was deployed with a source backup and recovery point. Verif
 Performance checks used bounded report samples and query plans, not a stress test. Security verification covered the changed application boundaries, not a full-site penetration test. No customer message, payment, wallet credit or expense was created for these tests. A real message-delivery pilot and purchase-cost-based profit reporting remain outside the verified scope.
 
 Production source, customer records, credentials and operational evidence remain private.
+
+## Complete-name correction — 1.3.2
+
+Some reports showed a shortened legacy invoice label even though the import retained the customer's complete name. The correction uses that recorded full name in invoice lists, branch customer search, customer details and club groups, with a fallback for older records. It changes display resolution without rewriting customer or financial records.
+
+Verification covered 145 isolated checks, report/dialog rendering with a long synthetic name in both themes and viewport sizes, and a bounded check of the reported case against the live database. Branch scope remains enforced.
