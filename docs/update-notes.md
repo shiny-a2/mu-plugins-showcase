@@ -1,3 +1,11 @@
+## 2026-11-03 — Responsive archive LCP preload released
+
+A reviewed storefront performance update gives product archives one responsive preload owner. It removes a competing fixed-size hint, keeps the first product card as the intended high-priority content image and prevents header or delivery artwork from taking that slot. Catalogue content, prices, stock, checkout behavior and page layout are unchanged.
+
+Fresh/cache regressions, live-markup checks and light/dark mobile/desktop browser checks pass. In a three-run throttled mobile comparison, the proposed output removed one duplicate product-image request and changed median lab LCP from 1,928 ms to 1,740 ms, with one proposed run slower than its counterpart.
+
+The recoverable production release passed exact-source readback, server-side syntax checks and anonymous verification across representative parent, pagination and child archives. Existing cached pages were repaired at read time without a global purge, service restart, database change or commerce mutation. Live browser checks confirmed the expected responsive resource in all four viewport/theme combinations. Rolling field Core Web Vitals, ranking, conversion and sales improvement are not claimed.
+
 ## 2026-11-03 — Persistent cache coverage for a priority archive family
 
 A high-traffic archive family and its live pagination are now part of the persistent cache warmer's priority segment. The change retains sequential fetching, cache-freshness checks, load and memory backpressure, a bounded run budget and cursor recovery; it does not alter page content, cache lifetime or checkout behavior.
