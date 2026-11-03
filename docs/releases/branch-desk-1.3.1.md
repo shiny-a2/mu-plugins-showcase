@@ -37,3 +37,13 @@ Reports use a scrollable section bar, clearer date filters and restrained metric
 Validation includes 124 synthetic browser states across light/dark themes and mobile/desktop widths, 145 operations checks, 55 restricted staff checks, and branch/cache isolation checks. Critical text contrast was checked against a 4.5:1 threshold. No real financial entry or customer message was created by these tests. Physical-device OTP delivery and push notifications are outside this release.
 
 The release is live. Twenty-eight authenticated browser states passed for representative seller and branch-manager roles at mobile and desktop widths, including theme changes, customer details and dialog presentation. No JavaScript errors or horizontal page overflow were observed, and the test sessions were signed out afterward.
+
+## Customer welcome intake — 1.5.0
+
+Sellers and branch managers can register a visitor from the customer-search workspace with a mobile number and optional name. The form previews a fixed welcome message linking to the customer account entry page. Existing CRM records keep their identity and source; new records identify the registering branch.
+
+The welcome is sent once per normalized number across branches. Registration and message outcomes are shown separately, including delivery uncertainty. Retrying a form cannot resend an already attempted welcome. Delivery and cost history use the existing branch messaging ledger, without creating customer credit or changing marketing consent.
+
+Thirty-two isolated intake checks and 32 browser form states passed, covering roles, branches, repeated submissions, phone formats, storage failures and uncertain provider responses. Existing operations and access regression checks also passed. Provider responses were synthetic; no real customer communication was sent for testing.
+
+The feature is live. All four staff accounts passed read-only form checks across both themes and viewport sizes. Anonymous, invalid-session, malformed-input and cross-branch requests were denied. Test sessions were revoked after verification; no live customer records or SMS messages were created.
