@@ -25,3 +25,5 @@ Branch staff can now use a focused workspace with the panels assigned to their r
 Repair access follows the same branch ownership for restricted accounts, including case links, tickets and activity notices. General technician transfer workflows remain available to their existing users. The central service-intake queue is not exposed to branch-restricted accounts.
 
 Validation includes isolated permission checks and repair/Desk regressions, plus mobile and desktop interaction checks in both themes. Credentials and account-specific evidence remain private. A real SMS login is verified separately with the account holder; automated checks do not establish SMS delivery.
+
+Live checks subsequently confirmed the assigned panel access for four staff accounts, cross-branch denial and shared club lookup. Twenty-four authenticated viewport/theme states were exercised, and test sessions were signed out afterward. Repair navigation now revalidates access with the server instead of serving cached session HTML. An owner-assisted OTP request was accepted; completed OTP login remains pending the code received by the account holder.
