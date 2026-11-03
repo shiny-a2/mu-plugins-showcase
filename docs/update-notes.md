@@ -1,3 +1,9 @@
+## 2026-11-03 — Stable responsive homepage banner loading
+
+The homepage carousel now serves viewport-appropriate responsive image candidates and matching preloads. Hidden slides remain network-inert until requested. Automatic rotation waits for pointer or keyboard input, while an idle page or scrolling alone keeps the initial largest-content candidate stable. Manual navigation, pause controls and reduced-motion behavior remain available.
+
+The recoverable release passed syntax, cache-output and browser regressions plus live mobile/desktop checks in light and dark themes. Production readback matched the reviewed source, the repeated homepage request reached cache, and no new script or PHP errors were observed. In three mobile lab runs the same initial high-priority banner remained the LCP element, measuring 3.72–4.18 seconds. Remaining layout-shift variability is a separate follow-up; rolling field Core Web Vitals, ranking, conversion and sales improvement are not claimed.
+
 ## 2026-11-03 — Priority watch summaries and thin product guides
 
 Seventeen available Omega × Swatch, Hanowa and Seiko products now have model-specific Persian summaries and factual search descriptions. Eight pages that previously contained only a brand-name placeholder also gained sourced product guidance, useful specifications, practical answers and relevant collection navigation; nine established long-form guides were deliberately retained. Exact-model review corrected a Hanowa dial colour, five Hanowa date displays and a Seiko crystal/calendar classification without changing shared catalogue labels.
