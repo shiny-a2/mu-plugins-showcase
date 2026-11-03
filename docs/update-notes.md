@@ -1,3 +1,35 @@
+## 2026-11-03 — Responsive archive LCP preload released
+
+A reviewed storefront performance update gives product archives one responsive preload owner. It removes a competing fixed-size hint, keeps the first product card as the intended high-priority content image and prevents header or delivery artwork from taking that slot. Catalogue content, prices, stock, checkout behavior and page layout are unchanged.
+
+Fresh/cache regressions, live-markup checks and light/dark mobile/desktop browser checks pass. In a three-run throttled mobile comparison, the proposed output removed one duplicate product-image request and changed median lab LCP from 1,928 ms to 1,740 ms, with one proposed run slower than its counterpart.
+
+The recoverable production release passed exact-source readback, server-side syntax checks and anonymous verification across representative parent, pagination and child archives. Existing cached pages were repaired at read time without a global purge, service restart, database change or commerce mutation. Live browser checks confirmed the expected responsive resource in all four viewport/theme combinations. Rolling field Core Web Vitals, ranking, conversion and sales improvement are not claimed.
+
+## 2026-11-03 — Persistent cache coverage for a priority archive family
+
+A high-traffic archive family and its live pagination are now part of the persistent cache warmer's priority segment. The change retains sequential fetching, cache-freshness checks, load and memory backpressure, a bounded run budget and cursor recovery; it does not alter page content, cache lifetime or checkout behavior.
+
+Isolated contracts verify the complete priority set and preserve overload, low-memory, failed-fetch and recovery behavior. Guarded production readback confirms representative parent, pagination and child pages are served from cache with no matching new application errors. Rolling field Core Web Vitals remain pending; this release does not claim ranking, conversion or sales improvement.
+
+## 2026-11-03 — Stable mobile header reservation
+
+The mobile storefront now reserves the settled height of its fixed header and persistent payment announcement before first paint. An early measurement can no longer reduce that floor and move the main page down when the announcement arrives. Safe-area handling, later genuine growth, keyboard focus and the off-canvas menu remain intact; desktop geometry is unchanged.
+
+Enabled and disabled announcement regressions passed. Width checks from 320 through 767 pixels and live light/dark mobile/desktop interaction checks passed without horizontal overflow or page errors. Five throttled production traces each reported a layout-shift score of 0.0015 with no main-content geometry change. The repeated homepage response reached cache. Rolling field Core Web Vitals, ranking, conversion and sales improvement are not claimed.
+
+## 2026-11-03 — Stable first-frame customer-club invitation
+
+The customer-club invitation now has its complete layout before it can first appear, rather than painting a compact state and then expanding and recentering. The invitation, details, tier selection, keyboard dismissal and close/reopen behavior remain available.
+
+The recoverable release passed syntax and first-frame regressions plus live mobile/desktop checks in light and dark themes. Five throttled production traces reported total layout-shift scores between 0.039 and 0.070, with no shift attributed to the invitation. The remaining mobile header shift is tracked separately. Rolling field Core Web Vitals, ranking, conversion and sales improvement are not claimed.
+
+## 2026-11-03 — Stable responsive homepage banner loading
+
+The homepage carousel now serves viewport-appropriate responsive image candidates and matching preloads. Hidden slides remain network-inert until requested. Automatic rotation waits for pointer or keyboard input, while an idle page or scrolling alone keeps the initial largest-content candidate stable. Manual navigation, pause controls and reduced-motion behavior remain available.
+
+The recoverable release passed syntax, cache-output and browser regressions plus live mobile/desktop checks in light and dark themes. Production readback matched the reviewed source, the repeated homepage request reached cache, and no new script or PHP errors were observed. In three mobile lab runs the same initial high-priority banner remained the LCP element, measuring 3.72–4.18 seconds. Remaining layout-shift variability is a separate follow-up; rolling field Core Web Vitals, ranking, conversion and sales improvement are not claimed.
+
 ## 2026-11-03 — Priority watch summaries and thin product guides
 
 Seventeen available Omega × Swatch, Hanowa and Seiko products now have model-specific Persian summaries and factual search descriptions. Eight pages that previously contained only a brand-name placeholder also gained sourced product guidance, useful specifications, practical answers and relevant collection navigation; nine established long-form guides were deliberately retained. Exact-model review corrected a Hanowa dial colour, five Hanowa date displays and a Seiko crystal/calendar classification without changing shared catalogue labels.
