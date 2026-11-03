@@ -1,3 +1,13 @@
+## 2026-11-04 — Product images match their mobile display space
+
+The product gallery's mobile image hint included space occupied by padding and borders. On a representative phone-sized viewport at double pixel density, that made the browser select a larger image than the display needed. The shared simple-product template now declares the actual main-image space, and the existing responsive preload policy uses the same value.
+
+The representative image transfer falls from about 121 KB to 81 KB in the affected profile, roughly 33%, using an existing image file without recompression. Full-resolution zoom, other photographs, custom layouts and variation galleries retain their existing behavior. Scope and markup checks, seven viewport/density combinations, and light/dark mobile/desktop gallery interactions pass. Each tested profile requests one main-image candidate with a matching preload.
+
+Publication readback confirms matching attributes in rebuilt and cached responses, and the seven-profile request check passes against the published HTML. Anonymous storefront, cart and empty-checkout health checks retain their expected responses. The release has an exact recovery copy and renews only the representative page cache; other pages use the existing cache renewal process.
+
+The diagnostic timing comparison did not establish an LCP improvement. This is a verified reduction in image demand for the affected profile, not a sitewide savings percentage or all-green Core Web Vitals claim.
+
 ## 2026-11-04 — Product gallery follows viewport changes
 
 A stricter responsive check found that the gallery's temporary layout reservation could keep its old width after the screen size changed. The photo could remain too small or become clipped inside its resized container. The reservation now ends when the installed slider assigns its height, allowing the slider to resize the photograph normally while preserving the stable first frame.
