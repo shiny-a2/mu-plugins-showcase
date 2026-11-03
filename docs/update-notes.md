@@ -1,3 +1,9 @@
+## 2026-11-03 — Explicit regional access and crawler policy
+
+The storefront's documented access policy now matches its intended operating model: the regional wall for foreign human visitors remains in place, while recognised search-engine and AI crawlers retain the normal indexable storefront. Focused regressions cover Caterpillar pages, recognised crawler classes and the plain-text crawler policy without changing category content, product data, cache behavior or indexing settings.
+
+The bounded production publication changed only policy comments and a stale tracking note. Exact-source readback, syntax checks, storefront health checks and crawler-response checks passed. The existing runtime behavior and customer-visible interface are unchanged; no ranking, AI citation, conversion or sales improvement is claimed.
+
 ## 2026-11-03 — Responsive archive LCP preload released
 
 A reviewed storefront performance update gives product archives one responsive preload owner. It removes a competing fixed-size hint, keeps the first product card as the intended high-priority content image and prevents header or delivery artwork from taking that slot. Catalogue content, prices, stock, checkout behavior and page layout are unchanged.
