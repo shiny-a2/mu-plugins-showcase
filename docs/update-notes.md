@@ -1,3 +1,11 @@
+## 2026-11-04 — Reuse the early navigation stylesheet
+
+The navigation stylesheet was downloaded twice on a cold visit because its early head link and later widget link used different version parameters. They now share the same URL for the standard build, while the early render-blocking stylesheet stays in place to protect header layout.
+
+Seven isolated checks and four light/dark mobile/desktop browser comparisons pass. The representative stylesheet transfer falls from two requests totaling 6.5 KB to one request of 3.25 KB. Header geometry, gallery width and interactive menus remain intact. Published home, category and product responses confirm matching URLs in both rebuilt and cached pages.
+
+This recoverable release changes no stylesheet rules, fonts or commerce records. Custom generated builds retain the previous fallback and are not included in the deduplication claim. The verified saving is modest; it does not establish a faster LCP or all-green field Core Web Vitals.
+
 ## 2026-11-04 — Product images match their mobile display space
 
 The product gallery's mobile image hint included space occupied by padding and borders. On a representative phone-sized viewport at double pixel density, that made the browser select a larger image than the display needed. The shared simple-product template now declares the actual main-image space, and the existing responsive preload policy uses the same value.
