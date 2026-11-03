@@ -199,6 +199,24 @@ class PublicSafetyTests(unittest.TestCase):
             "binary content is refused, since it cannot be reviewed by reading",
         )
 
+    def test_update_note_size_exception_is_narrow(self) -> None:
+        content = b"x" * (CHECKER.MAX_FILE_BYTES + 1)
+        self.assertEqual(
+            [],
+            CHECKER.content_failures("docs/update-notes.md", content),
+            "only the cumulative update note may exceed the generic ceiling",
+        )
+        self.assertEqual(
+            ["file-too-large"],
+            CHECKER.content_failures("README.md", content),
+            "the generic ceiling remains closed for every ordinary document",
+        )
+        self.assertLessEqual(
+            CHECKER.FILE_SIZE_LIMITS["docs/update-notes.md"],
+            264 * 1024,
+            "the exception itself remains bounded",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
