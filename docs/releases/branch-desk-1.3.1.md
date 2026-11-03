@@ -27,3 +27,13 @@ Repair access follows the same branch ownership for restricted accounts, includi
 Validation includes isolated permission checks and repair/Desk regressions, plus mobile and desktop interaction checks in both themes. Credentials and account-specific evidence remain private. A real SMS login is verified separately with the account holder; automated checks do not establish SMS delivery.
 
 Live checks subsequently confirmed the assigned panel access for four staff accounts, cross-branch denial and shared club lookup. Twenty-four authenticated viewport/theme states were exercised, and test sessions were signed out afterward. Repair navigation now revalidates access with the server instead of serving cached session HTML. An owner-assisted OTP request was accepted; completed OTP login remains pending the code received by the account holder.
+
+## Counter workspace redesign — 1.4.0
+
+The counter now keeps customer search and the selected customer's account side by side on desktop. A dedicated navigation rail separates everyday counter work from branch management. On phones, bottom navigation and a single task view keep the workspace usable without squeezing desktop columns onto a narrow screen.
+
+Reports use a scrollable section bar, clearer date filters and restrained metrics around the existing sales chart. Inventory cards, dialogs and login follow the same light and dark theme. Full names wrap, keyboard navigation has visible focus, and fields retain readable mobile sizing. Customer selection remains available when the viewport changes; delayed customer responses cannot overwrite another workspace section.
+
+Validation includes 124 synthetic browser states across light/dark themes and mobile/desktop widths, 145 operations checks, 55 restricted staff checks, and branch/cache isolation checks. Critical text contrast was checked against a 4.5:1 threshold. No real financial entry or customer message was created by these tests. Physical-device OTP delivery and push notifications are outside this release.
+
+The release is live. Twenty-eight authenticated browser states passed for representative seller and branch-manager roles at mobile and desktop widths, including theme changes, customer details and dialog presentation. No JavaScript errors or horizontal page overflow were observed, and the test sessions were signed out afterward.
