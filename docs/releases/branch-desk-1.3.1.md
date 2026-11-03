@@ -47,3 +47,13 @@ The welcome is sent once per normalized number across branches. Registration and
 Thirty-two isolated intake checks and 32 browser form states passed, covering roles, branches, repeated submissions, phone formats, storage failures and uncertain provider responses. Existing operations and access regression checks also passed. Provider responses were synthetic; no real customer communication was sent for testing.
 
 The feature is live. All four staff accounts passed read-only form checks across both themes and viewport sizes. Anonymous, invalid-session, malformed-input and cross-branch requests were denied. Test sessions were revoked after verification; no live customer records or SMS messages were created.
+
+## Branch imports and staff notifications — 1.6.0 prepared
+
+Branch managers can preview and confirm an accounting workbook from the counter workspace. The existing sales importer remains responsible for invoice identity, product matching and club calculations. Branch restrictions apply on the server, repeated confirmation cannot start a second job, and interrupted imports require review instead of an automatic replay.
+
+The staff inbox brings together branch operations, import outcomes, message delivery issues and authorized repair activity. Read status and device subscriptions belong to the signed-in employee. Optional phone notifications contain a generic alert; customer details remain inside the authenticated workspace. Repair permissions continue to control which cases an employee can see.
+
+Validation includes 50 isolated import/notification checks, the existing import and loyalty regressions, actual workbook parsing and branch-linking checks, 78 interactive import/inbox/device-control states, and 56 workspace regression states. Browser fixtures cover permission refusal, opt-in, opt-out, theme changes and narrow screens. No real customer import, payment or message was created for presentation tests.
+
+Implementation is prepared; production deployment and physical-device receipt are still pending. Browser simulations do not establish delivery to an employee's phone.
