@@ -1,3 +1,11 @@
+## 2026-11-04 — Product image preload follows media changes
+
+A bounded image-format pilot exposed an old fixed JPEG preload that continued downloading after the gallery switched to WebP. The targeted early hint now follows the product's current featured image and shares the gallery's responsive candidates. Missing images have no stale fallback, while unrelated article and category hints keep their existing behavior.
+
+The pilot was rolled back while the fix was prepared, then reapplied after publication. Three warm browser checks now download one main-image candidate without the extra legacy JPEG. The selected high-density mobile file is about 7.4% smaller. Original files, image dimensions, zoom source and commerce data are preserved; this is transfer reduction, not a disk-space claim or a proven page-speed gain.
+
+Regression checks cover JPEG, WebP, replacement images, missing images and route exclusions. Mobile/desktop checks in light and dark themes cover gallery selection, zoom, resizing, touch swipe and no-JavaScript links. A headed-browser check confirms the dark zoom photograph after an intermittent black headless screenshot. Publication retains recovery copies and uses scoped cache renewal, with no global flush or restart. Field LCP, INP and all-green Search Console acceptance remain open.
+
 ## 2026-11-04 — Product gallery initialization stability
 
 A product gallery briefly expanded into a tall image stack while its slider initialized, then collapsed to the intended image height. The simple-product gallery now reserves the featured image's dimensions before that transition. The installed slider retains control of later image heights, resizing, swipe navigation and zoom. Gallery pagination also has clearer shared-palette states and larger touch targets.
