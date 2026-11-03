@@ -1,3 +1,9 @@
+## 2026-11-04 — Product gallery follows viewport changes
+
+A stricter responsive check found that the gallery's temporary layout reservation could keep its old width after the screen size changed. The photo could remain too small or become clipped inside its resized container. The reservation now ends when the installed slider assigns its height, allowing the slider to resize the photograph normally while preserving the stable first frame.
+
+The regression reproduces the old mismatch and now compares container, viewport and photo dimensions across mobile, tablet and desktop transitions. Four light/dark mobile/desktop checks cover keyboard slide selection, decoded zoom images, explicit image heights, touch swipe and no-JavaScript photo links. Published-source readback, rebuilt and cached responses, and the same interaction suite against production HTML pass. Anonymous storefront and empty-cart checks retain their expected responses. The recoverable release changes one presentation rule and preserves original images and commerce data; only the representative page cache was renewed. It does not establish a faster LCP or all-green field Core Web Vitals.
+
 ## 2026-11-04 — Product image preload follows media changes
 
 A bounded image-format pilot exposed an old fixed JPEG preload that continued downloading after the gallery switched to WebP. The targeted early hint now follows the product's current featured image and shares the gallery's responsive candidates. Missing images have no stale fallback, while unrelated article and category hints keep their existing behavior.
