@@ -1,3 +1,11 @@
+## 2026-11-04 — Product fit guide first-frame stability
+
+A shared product template rendered its fit guide before the component's layout stylesheet arrived. Asset discovery now recognises that template during page-head rendering, so the card receives its final layout before painting. The existing product-photo wrist preview remains intact. A faded input placeholder also now uses the shared muted-text palette with full opacity.
+
+The late-style regression reproduces the original geometry change; the fixed fixture records zero component layout shift. Mobile/desktop checks in light and dark themes cover keyboard focus, modal open/close behavior, reduced motion, overflow and AA placeholder contrast. Guarded production readback and live interaction checks confirm the first-frame fix. Three controlled mobile runs recorded initial CLS below 0.002, but LCP remained high; external response delay, image delivery and gallery initialization remain follow-up work. These results do not establish field INP or all-green Search Console status.
+
+The release preserves existing commerce behavior and camera assets, with a private recovery copy and a scoped representative cache refresh. No global purge or service restart was needed.
+
 ## 2026-11-03 — Explicit regional access and crawler policy
 
 The storefront's documented access policy now matches its intended operating model: the regional wall for foreign human visitors remains in place, while recognised search-engine and AI crawlers retain the normal indexable storefront. Focused regressions cover Caterpillar pages, recognised crawler classes and the plain-text crawler policy without changing category content, product data, cache behavior or indexing settings.
