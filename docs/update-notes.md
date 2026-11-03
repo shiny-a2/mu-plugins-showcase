@@ -1,3 +1,11 @@
+## 2026-11-04 — Product gallery initialization stability
+
+A product gallery briefly expanded into a tall image stack while its slider initialized, then collapsed to the intended image height. The simple-product gallery now reserves the featured image's dimensions before that transition. The installed slider retains control of later image heights, resizing, swipe navigation and zoom. Gallery pagination also has clearer shared-palette states and larger touch targets.
+
+Filtered-image and exclusion checks cover unsupported product types, disabled sliders and missing image metadata. Mobile/desktop checks in light and dark themes exercise keyboard navigation, zoom, resizing, touch swipe and no-JavaScript photo links. Direct production traces retain a constant representative gallery height, with the large unprompted initialization shift removed. Production HTML readback includes the fix before the end of the document head and confirms a rebuilt response followed by a cache hit.
+
+The recoverable release changes one presentation module. It preserves product data and commerce behavior, with no global cache purge or restart. Variable-product galleries and remaining LCP work are separate follow-ups. These scoped lab and release checks do not establish that every URL passes field Core Web Vitals.
+
 ## 2026-11-04 — Product fit guide first-frame stability
 
 A shared product template rendered its fit guide before the component's layout stylesheet arrived. Asset discovery now recognises that template during page-head rendering, so the card receives its final layout before painting. The existing product-photo wrist preview remains intact. A faded input placeholder also now uses the shared muted-text palette with full opacity.
