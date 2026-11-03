@@ -1,3 +1,9 @@
+## 2026-11-03 — Stable first-frame customer-club invitation
+
+The customer-club invitation now has its complete layout before it can first appear, rather than painting a compact state and then expanding and recentering. The invitation, details, tier selection, keyboard dismissal and close/reopen behavior remain available.
+
+The recoverable release passed syntax and first-frame regressions plus live mobile/desktop checks in light and dark themes. Five throttled production traces reported total layout-shift scores between 0.039 and 0.070, with no shift attributed to the invitation. The remaining mobile header shift is tracked separately. Rolling field Core Web Vitals, ranking, conversion and sales improvement are not claimed.
+
 ## 2026-11-03 — Stable responsive homepage banner loading
 
 The homepage carousel now serves viewport-appropriate responsive image candidates and matching preloads. Hidden slides remain network-inert until requested. Automatic rotation waits for pointer or keyboard input, while an idle page or scrolling alone keeps the initial largest-content candidate stable. Manual navigation, pause controls and reduced-motion behavior remain available.
