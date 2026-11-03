@@ -1,3 +1,9 @@
+## 2026-11-03 — Persistent cache coverage for a priority archive family
+
+A high-traffic archive family and its live pagination are now part of the persistent cache warmer's priority segment. The change retains sequential fetching, cache-freshness checks, load and memory backpressure, a bounded run budget and cursor recovery; it does not alter page content, cache lifetime or checkout behavior.
+
+Isolated contracts verify the complete priority set and preserve overload, low-memory, failed-fetch and recovery behavior. Guarded production readback confirms representative parent, pagination and child pages are served from cache with no matching new application errors. Rolling field Core Web Vitals remain pending; this release does not claim ranking, conversion or sales improvement.
+
 ## 2026-11-03 — Stable mobile header reservation
 
 The mobile storefront now reserves the settled height of its fixed header and persistent payment announcement before first paint. An early measurement can no longer reduce that floor and move the main page down when the announcement arrives. Safe-area handling, later genuine growth, keyboard focus and the off-canvas menu remain intact; desktop geometry is unchanged.
