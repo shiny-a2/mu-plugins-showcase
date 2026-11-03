@@ -1,3 +1,9 @@
+## 2026-11-03 — Stable mobile header reservation
+
+The mobile storefront now reserves the settled height of its fixed header and persistent payment announcement before first paint. An early measurement can no longer reduce that floor and move the main page down when the announcement arrives. Safe-area handling, later genuine growth, keyboard focus and the off-canvas menu remain intact; desktop geometry is unchanged.
+
+Enabled and disabled announcement regressions passed. Width checks from 320 through 767 pixels and live light/dark mobile/desktop interaction checks passed without horizontal overflow or page errors. Five throttled production traces each reported a layout-shift score of 0.0015 with no main-content geometry change. The repeated homepage response reached cache. Rolling field Core Web Vitals, ranking, conversion and sales improvement are not claimed.
+
 ## 2026-11-03 — Stable first-frame customer-club invitation
 
 The customer-club invitation now has its complete layout before it can first appear, rather than painting a compact state and then expanding and recentering. The invitation, details, tier selection, keyboard dismissal and close/reopen behavior remain available.
