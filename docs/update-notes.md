@@ -1968,3 +1968,10 @@ Automated checks cover copy and service pricing behavior. A browser fixture comp
 # 2026-10-18 — Customer preview club and service separation
 
 Grouped the original read-only membership views in the isolated preview and added owner-scoped recent account activity. A data-level repair filter prevents unrelated sales from appearing as repairs. Synthetic browser fixtures now cover six membership levels, service-specific feedback, responsive guided tours and light/dark interaction states. Security checks exercised ownership, request validation, repeat submissions and local test sign-in. Value-changing rewards and production release remain outside this preview.
+
+
+## 2026-11-04 — Competitor workspace prepared for review
+
+Prepared a focused management workspace with store rankings, store-to-brand-to-reference navigation, and brand-specific price comparisons across rivals. Available products can be filtered by price position and source, with sortable differences and expandable offers. Daily rates use valid observation coverage; monthly equivalents are explicitly normalized rates. Uncertain stock changes remain sales signals, not confirmed revenue.
+
+Fixed report cache reuse and reduced unnecessary catalogue processing. Local checks cover financial boundaries, matching ambiguity, freshness, sorting, pagination, cache behavior, access denial and errors. Browser checks passed at mobile and desktop widths in both themes, including keyboard focus and expanded offers. Production deployment and authenticated live verification remain pending approval. Private source and commercial records are not included here.
