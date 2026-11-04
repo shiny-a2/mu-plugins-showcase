@@ -6,6 +6,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Shipping commissioning preparation](docs/releases/unbox-commissioning-1.2.0.md): clearer readiness, opt-in dispatch and tested tracking behavior, with live activation still pending.
+
 - [Measured wrist preview pilot](docs/releases/wrist-studio-2.0.2.md): the selected watch image, explicit scale calibration and a limited live rollout with device-testing limits.
 
 - [Branch management dashboard release](docs/releases/branch-desk-1.3.1.md): full-range sales charts, customer tiers, repairs, recorded costs and reviewed messaging, with live scope and interface checks.
