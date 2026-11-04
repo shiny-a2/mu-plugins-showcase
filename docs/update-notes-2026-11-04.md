@@ -118,3 +118,28 @@ offer cards and shared styles; five representative routes return successful
 responses with subsequent cache hits. No global purge, restart or commerce
 record was needed. Uncached rendering still takes several seconds, and no
 all-green field Core Web Vitals result is claimed.
+
+## 2026-11-05 — Skip an unused home widget before it runs
+
+The original page-builder offers widget was still querying products before the
+current homepage replaced its output. A narrowly scoped guard now avoids
+constructing that discarded widget. It requires a matching page and component
+owner; editing, signed-in visits, special requests and unknown inputs keep the
+normal rendering path.
+
+Sixty-five new boundary assertions pass alongside twenty-nine existing ownership
+checks. Six alternating application renders preserve main content, shared styles
+and external asset URLs while eliminating the original widget call. Diagnostic
+samples put that unused call at roughly 0.7–0.8 seconds; this is not a measured
+whole-page or field-performance improvement.
+
+The single-module release is published with a recovery copy and exact source
+verification. Mobile and desktop reviews in both themes cover the carousel and
+relevant controls. After cache regeneration changed the selected recommendations,
+a fresh previous-version/live comparison with the same cache confirmed identical
+output. Published-page reload and carousel movement pass. Five representative
+routes return successful responses, with cache hits on repeated requests.
+
+Uncached rendering still needs further work. No purchase, server restart or
+broad cache purge was required, and Search Console field acceptance remains
+unverified.
