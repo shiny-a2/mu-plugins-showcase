@@ -65,4 +65,3 @@ A shared product template rendered its fit guide before the component's layout s
 The late-style regression reproduces the original geometry change; the fixed fixture records zero component layout shift. Mobile/desktop checks in light and dark themes cover keyboard focus, modal open/close behavior, reduced motion, overflow and AA placeholder contrast. Guarded production readback and live interaction checks confirm the first-frame fix. Three controlled mobile runs recorded initial CLS below 0.002, but LCP remained high; external response delay, image delivery and gallery initialization remain follow-up work. These results do not establish field INP or all-green Search Console status.
 
 The release preserves existing commerce behavior and camera assets, with a private recovery copy and a scoped representative cache refresh. No global purge or service restart was needed.
-
