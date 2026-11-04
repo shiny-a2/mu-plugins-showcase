@@ -143,3 +143,25 @@ routes return successful responses, with cache hits on repeated requests.
 Uncached rendering still needs further work. No purchase, server restart or
 broad cache purge was required, and Search Console field acceptance remains
 unverified.
+
+## 2026-11-05 — Count catalogue price bands together
+
+The homepage and products directory repeated the same catalogue joins for five
+budget bands. They now obtain those counts in one query, retaining distinct
+products, inclusive price boundaries, stock and category rules, currency
+conversion and filter links. Missing aggregate results retain the previous
+per-band fallback.
+
+Thirty relational and consumer assertions pass. Alternating database comparisons
+preserve every card's data; normalized markup and styles also match. Component
+samples decrease from roughly 1.8–2.2 seconds to 0.5–0.6 seconds. These describe
+the counting method, not whole-page loading or field Core Web Vitals.
+
+The recoverable single-module release is published with production syntax and
+exact source checks. Mobile and desktop reviews in both themes cover the cards,
+theme switching, scrolling, filter navigation and desktop keyboard focus.
+Post-publication application readback confirms the new query and unchanged
+results. Five representative routes return successful responses; repeated
+requests hit the existing cache with initial response times of 218–302 ms.
+Uncached responses still take several seconds. No broad purge, restart or
+commerce record was required, and Search Console field acceptance remains open.
