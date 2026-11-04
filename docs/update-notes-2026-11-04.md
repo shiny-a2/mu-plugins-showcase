@@ -97,3 +97,21 @@ Products assigned to several descendant categories were generating repeated inte
 Seventy-seven membership and exclusion checks pass alongside ninety stock-order checks. Twelve bounded database comparison cases preserve ordered results and totals. Three alternating samples show roughly 54% lower median time for the targeted large-category query; that figure does not describe the complete page. Isolated application renders preserve the first two pages and confirm that a small-category control remains unchanged. Mobile and desktop inspection in both themes covers listing presentation and relevant controls.
 
 The single-module release is published with a recovery copy, production syntax checks and exact source readback. Live query results match the tested candidate, and five representative routes return successful responses followed by cache hits. Uncached responses still take several seconds, so startup and rendering remain follow-up work. No database migration, broad cache purge, restart or commerce record was needed. Search Console field acceptance remains unverified.
+
+## 2026-11-05 — Home render duplication, prepared and not deployed
+
+A legacy home component was building offer cards that the current home renderer
+subsequently discarded. A prepared optimization lets the current renderer own
+that work while retaining the legacy fallback when its replacement is disabled
+or unavailable. It preserves product selection and presentation source.
+
+Twenty-nine callback and fallback assertions pass. A paired isolated application
+render comparison produces identical main content and shared styles. The
+redundant callback previously took roughly half a second in diagnostic samples;
+cache variability prevents treating whole-page timing differences as a measured
+speed gain.
+
+This change is **not deployed**. The required interactive mobile/desktop review
+in light and dark themes is incomplete because browser control was unreliable.
+Source and test evidence are retained for that gate and a recoverable release.
+No all-green field Core Web Vitals result is claimed.
