@@ -1,3 +1,11 @@
+## 2026-11-04 — Clearer product search after live journey checks
+
+Product search in the light theme allowed background photography to show through its result panel, making pale gold prices harder to read. The panel now uses the shared solid surface and readable text colors. Currency labels and the input placeholder are clearer, while the existing dark appearance and search behavior remain intact.
+
+Mobile and desktop checks in both themes cover populated and empty results, hover, keyboard close and overflow. Regular-price contrast against the panel measures 5.43:1 in light mode and 9.15:1 in dark mode. Separate live journeys exercise navigation, in-stock filtering, product galleries and fit dialogs, anonymous cart additions/removal, and checkout entry. No order, payment or authentication message was submitted; authenticated checkout and physical-device coverage remain unverified.
+
+Published-source readback and all four live search profiles pass, including decoded result photos. The scoped release preserves newer production theme changes, retains recovery copies and avoids a global cache purge or restart. These checks establish the named interactions, not sitewide defect-free operation or all-green field Core Web Vitals.
+
 ## 2026-11-04 — Reuse the early navigation stylesheet
 
 The navigation stylesheet was downloaded twice on a cold visit because its early head link and later widget link used different version parameters. They now share the same URL for the standard build, while the early render-blocking stylesheet stays in place to protect header layout.
