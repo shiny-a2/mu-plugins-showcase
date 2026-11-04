@@ -89,3 +89,11 @@ Two catalogue callbacks were reading the same stock lookup separately while sort
 Ninety isolated checks cover the real callbacks, sorting, page boundaries and excluded request types. Bounded database comparisons preserve result order and totals across early and late pages. Three alternating samples show a modest reduction in the executed listing query; this is not a claim about whole-page speed. Mobile and desktop inspection in both themes covers catalogue presentation and relevant controls.
 
 The source-controlled release retains an exact recovery copy. Live query readback matches the approved change, representative pages return successful responses, and repeated requests hit the existing cache. Uncached rendering remains slow enough to require further work. No database migration, broad cache purge or restart was needed, and field Core Web Vitals acceptance remains open.
+
+## 2026-11-04 — Less duplication in large category listings
+
+Products assigned to several descendant categories were generating repeated intermediate rows before the catalogue grouped them. A bounded anonymous-listing pilot now checks category membership without multiplying those rows. Existing visibility, stock ordering and pagination totals remain intact; small categories, alternate request types and unfamiliar query shapes retain their previous behavior.
+
+Seventy-seven membership and exclusion checks pass alongside ninety stock-order checks. Twelve bounded database comparison cases preserve ordered results and totals. Three alternating samples show roughly 54% lower median time for the targeted large-category query; that figure does not describe the complete page. Isolated application renders preserve the first two pages and confirm that a small-category control remains unchanged. Mobile and desktop inspection in both themes covers listing presentation and relevant controls.
+
+The single-module release is published with a recovery copy, production syntax checks and exact source readback. Live query results match the tested candidate, and five representative routes return successful responses followed by cache hits. Uncached responses still take several seconds, so startup and rendering remain follow-up work. No database migration, broad cache purge, restart or commerce record was needed. Search Console field acceptance remains unverified.
