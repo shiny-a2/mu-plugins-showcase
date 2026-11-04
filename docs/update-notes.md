@@ -1,3 +1,11 @@
+## 2026-11-04 — Fair cache warming during busy periods
+
+Frequent content updates could repeatedly invalidate early entries in the cache warmer's priority list. When the existing load guard allowed only one request, later priority pages could keep waiting. The worker now remembers the next priority slot during busy runs, while ordinary runs retain their original order.
+
+Fourteen isolated behavioral checks pass on macOS and Linux, including repeated invalidation, HTTP and network failures, cache hits, cursor recovery and resource limits. The previous worker fails the fairness regression. Existing catalogue-cursor and category-coverage checks also pass. The change preserves request, memory, load and time limits, and introduces no additional concurrency or customer-facing markup.
+
+The recoverable worker update is published and its source readback matches the committed release. Public home, category and product checks return successful cached responses. No cache purge or service restart was needed. This is a maintenance fairness correction, not proof of universal cache coverage, a measured page-speed gain or all-green Core Web Vitals.
+
 ## 2026-11-04 — Clearer product search after live journey checks
 
 Product search in the light theme allowed background photography to show through its result panel, making pale gold prices harder to read. The panel now uses the shared solid surface and readable text colors. Currency labels and the input placeholder are clearer, while the existing dark appearance and search behavior remain intact.
