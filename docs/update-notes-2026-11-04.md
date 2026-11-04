@@ -165,3 +165,27 @@ results. Five representative routes return successful responses; repeated
 requests hit the existing cache with initial response times of 218–302 ms.
 Uncached responses still take several seconds. No broad purge, restart or
 commerce record was required, and Search Console field acceptance remains open.
+
+## 2026-11-05 — Make deployment cache invalidation deliberate
+
+A follow-up found that deployment could make unrelated pages cold by renewing
+the global cache version, even when a backend optimization preserved rendered
+output. Earlier notes saying no broad purge meant no physical file deletion;
+they did not establish that existing HTML stayed valid.
+
+The deployment helper now requires an explicit cache policy before doing work.
+Reviewed output-equivalent changes can retain valid pages, while changes that
+require global invalidation must choose it deliberately. Existing page expiry
+and product-update invalidation are unchanged. The release procedure applies
+the same decision to individually guarded deployment scripts.
+
+Five behavioral tests covering nine cases pass with fake transports, alongside
+shell syntax and static analysis. They cover refusal of an omitted policy,
+both explicit policies and lint-failure recovery. These are tooling tests, not
+proof of a production deployment. The helper still requires the surrounding
+identity, source and recovery checks documented by the project.
+
+No storefront code or live cache was changed in this step. Current field data
+still identifies interaction latency and initial rendering as remaining work;
+its reporting window predates the latest releases. Field acceptance remains
+open, and no new Search Console validation was started.
