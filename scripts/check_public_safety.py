@@ -44,6 +44,7 @@ APPROVED_PATHS = frozenset(
         "docs/privacy-boundary.md",
         "docs/supplier-feed-controls.md",
         "docs/update-notes.md",
+        "docs/update-notes-2026-11-04.md",
         "docs/releases/2026-10-30.md",
         "docs/releases/2026-10-31-bulk-editor.md",
         "docs/releases/branch-desk-1.3.0-prepared.md",
