@@ -98,10 +98,10 @@ Seventy-seven membership and exclusion checks pass alongside ninety stock-order 
 
 The single-module release is published with a recovery copy, production syntax checks and exact source readback. Live query results match the tested candidate, and five representative routes return successful responses followed by cache hits. Uncached responses still take several seconds, so startup and rendering remain follow-up work. No database migration, broad cache purge, restart or commerce record was needed. Search Console field acceptance remains unverified.
 
-## 2026-11-05 — Home render duplication, prepared and not deployed
+## 2026-11-05 — Less duplicate work on the home page
 
 A legacy home component was building offer cards that the current home renderer
-subsequently discarded. A prepared optimization lets the current renderer own
+subsequently discarded. The optimization lets the current renderer own
 that work while retaining the legacy fallback when its replacement is disabled
 or unavailable. It preserves product selection and presentation source.
 
@@ -111,7 +111,10 @@ redundant callback previously took roughly half a second in diagnostic samples;
 cache variability prevents treating whole-page timing differences as a measured
 speed gain.
 
-This change is **not deployed**. The required interactive mobile/desktop review
-in light and dark themes is incomplete because browser control was unreliable.
-Source and test evidence are retained for that gate and a recoverable release.
-No all-green field Core Web Vitals result is claimed.
+The recoverable single-module release is published after mobile and desktop
+reviews in light and dark themes, including carousel interaction and keyboard
+focus. Production syntax and source readback pass. The live render retains the
+offer cards and shared styles; five representative routes return successful
+responses with subsequent cache hits. No global purge, restart or commerce
+record was needed. Uncached rendering still takes several seconds, and no
+all-green field Core Web Vitals result is claimed.
