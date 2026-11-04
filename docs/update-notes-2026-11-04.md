@@ -81,3 +81,11 @@ Category availability checks counted every matching product when they only neede
 Thirty-five isolated SQL and consumer checks pass. A bounded comparison on the production database returns identical decisions for three representative categories; the large category's median lookup falls from roughly 611 ms to 1.7 ms. After publication, the corresponding category callback takes about 2.4 ms in the diagnostic render. These measurements describe one lookup and callback, not the complete page or field Core Web Vitals.
 
 The recoverable single-module release is published with syntax and exact source readback checks. Representative storefront responses return success and subsequent cache hits. The main category is reviewed at mobile and desktop widths in both themes, with filter and sorting interaction checks. No layout assets, commerce records, schema or server settings changed. Uncached page delivery still takes several seconds, and further archive-query and startup work remains.
+
+## 2026-11-04 — Less repeated work in catalogue ordering
+
+Two catalogue callbacks were reading the same stock lookup separately while sorting products. The final ordering callback now reuses the existing lookup when its shape is known to be compatible. Custom or constrained lookups keep the independent path. Available, price-on-request and sold-out products retain their ordering, including stable pagination and products with missing lookup rows.
+
+Ninety isolated checks cover the real callbacks, sorting, page boundaries and excluded request types. Bounded database comparisons preserve result order and totals across early and late pages. Three alternating samples show a modest reduction in the executed listing query; this is not a claim about whole-page speed. Mobile and desktop inspection in both themes covers catalogue presentation and relevant controls.
+
+The source-controlled release retains an exact recovery copy. Live query readback matches the approved change, representative pages return successful responses, and repeated requests hit the existing cache. Uncached rendering remains slow enough to require further work. No database migration, broad cache purge or restart was needed, and field Core Web Vitals acceptance remains open.
