@@ -65,3 +65,11 @@ A shared product template rendered its fit guide before the component's layout s
 The late-style regression reproduces the original geometry change; the fixed fixture records zero component layout shift. Mobile/desktop checks in light and dark themes cover keyboard focus, modal open/close behavior, reduced motion, overflow and AA placeholder contrast. Guarded production readback and live interaction checks confirm the first-frame fix. Three controlled mobile runs recorded initial CLS below 0.002, but LCP remained high; external response delay, image delivery and gallery initialization remain follow-up work. These results do not establish field INP or all-green Search Console status.
 
 The release preserves existing commerce behavior and camera assets, with a private recovery copy and a scoped representative cache refresh. No global purge or service restart was needed.
+
+## 2026-11-04 — Archive filter cache ownership
+
+Concurrent cache misses could start duplicate filter-option builds, and a slow former owner could clear a newer build's lock. Ownership now stays with the request that acquired it, and a fresh cache check avoids rebuilding work another request has just completed. Existing filter responses, stock and price decisions remain intact. A faint stock icon also now follows the shared light/dark palette while preserving the delivery image.
+
+Twenty-six isolated checks pass, including concurrent workers and failure paths. Nine additional database checks pass against synthetic values in a temporary table. Mobile and desktop reviews in both themes cover modal interaction, selection, reset, scrolling and visible input focus.
+
+The recoverable single-module release is published. Source readback and syntax checks pass; representative home, category and product responses return success and subsequent cache hits. The options endpoint returns a successful response with populated groups. No global cache purge, service restart or purchase was needed. The existing lock lifetime remains bounded, and this change does not establish a measured latency gain or all-green field Core Web Vitals.
