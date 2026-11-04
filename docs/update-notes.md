@@ -1980,3 +1980,13 @@ Fixed report cache reuse and reduced unnecessary catalogue processing. Local che
 ## 2026-11-04 — Consistent application copyright prepared
 
 Prepared a shared English A2 copyright for the management, counter, repair and operator applications. The year updates automatically, the text inherits each application's theme and typeface, and the link stays clear of mobile navigation. Component checks passed in light/dark themes at mobile and desktop widths, including text contrast and keyboard focus. Deployment is pending approval; no access rules or business workflows changed.
+
+## Staff workspace design — prepared
+
+Manage, Desk, Repair and OP now have a shared workspace presentation inspired by A2 Beauty's studio layout. Desktop navigation has a distinct rail, work surfaces have consistent spacing, full customer names remain readable, and intermediate desktop widths retain a usable list/detail split. Mobile controls and fields are sized for touch. The existing site typeface and gold identity remain in place.
+
+The four apps use the A2 sun/moon switch. Manage charts update their labels, grid lines and tooltips when the theme changes. The shared copyright footer is included. Existing branch permissions and financial workflows are outside this presentation change.
+
+Local browser validation covered component interactions and actual shell/client scripts with synthetic responses in light/dark mobile and desktop states. Checks included search, navigation, a date selector, theme switching, chart updates, notification views, branch controls, selected text contrast and page overflow. No real customer messages or financial records were created.
+
+This is prepared source, not a live release. Current deployed app versions still need reconciliation before an approved deployment. Authenticated production workflows, every nested panel and physical-device acceptance are not claimed.
