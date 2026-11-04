@@ -73,3 +73,11 @@ Concurrent cache misses could start duplicate filter-option builds, and a slow f
 Twenty-six isolated checks pass, including concurrent workers and failure paths. Nine additional database checks pass against synthetic values in a temporary table. Mobile and desktop reviews in both themes cover modal interaction, selection, reset, scrolling and visible input focus.
 
 The recoverable single-module release is published. Source readback and syntax checks pass; representative home, category and product responses return success and subsequent cache hits. The options endpoint returns a successful response with populated groups. No global cache purge, service restart or purchase was needed. The existing lock lifetime remains bounded, and this change does not establish a measured latency gain or all-green field Core Web Vitals.
+
+## 2026-11-04 — Faster category availability checks
+
+Category availability checks counted every matching product when they only needed to know whether one published product existed. The lookup now stops at the first match. Empty-category handling and temporary product redirects retain their existing destinations and visibility rules, including published products that are out of stock.
+
+Thirty-five isolated SQL and consumer checks pass. A bounded comparison on the production database returns identical decisions for three representative categories; the large category's median lookup falls from roughly 611 ms to 1.7 ms. After publication, the corresponding category callback takes about 2.4 ms in the diagnostic render. These measurements describe one lookup and callback, not the complete page or field Core Web Vitals.
+
+The recoverable single-module release is published with syntax and exact source readback checks. Representative storefront responses return success and subsequent cache hits. The main category is reviewed at mobile and desktop widths in both themes, with filter and sorting interaction checks. No layout assets, commerce records, schema or server settings changed. Uncached page delivery still takes several seconds, and further archive-query and startup work remains.
