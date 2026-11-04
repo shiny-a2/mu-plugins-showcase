@@ -1975,3 +1975,8 @@ Grouped the original read-only membership views in the isolated preview and adde
 Prepared a focused management workspace with store rankings, store-to-brand-to-reference navigation, and brand-specific price comparisons across rivals. Available products can be filtered by price position and source, with sortable differences and expandable offers. Daily rates use valid observation coverage; monthly equivalents are explicitly normalized rates. Uncertain stock changes remain sales signals, not confirmed revenue.
 
 Fixed report cache reuse and reduced unnecessary catalogue processing. Local checks cover financial boundaries, matching ambiguity, freshness, sorting, pagination, cache behavior, access denial and errors. Browser checks passed at mobile and desktop widths in both themes, including keyboard focus and expanded offers. Production deployment and authenticated live verification remain pending approval. Private source and commercial records are not included here.
+
+
+## 2026-11-04 — Consistent application copyright prepared
+
+Prepared a shared English A2 copyright for the management, counter, repair and operator applications. The year updates automatically, the text inherits each application's theme and typeface, and the link stays clear of mobile navigation. Component checks passed in light/dark themes at mobile and desktop widths, including text contrast and keyboard focus. Deployment is pending approval; no access rules or business workflows changed.
