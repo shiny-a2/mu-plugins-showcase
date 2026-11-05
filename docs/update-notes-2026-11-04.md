@@ -224,3 +224,20 @@ instability. HTTP, asset integrity and PageSpeed checks passed, while live
 authenticated flows and field Core Web Vitals acceptance remain unverified.
 Search Console detail loading prevented a fresh full URL export or validation
 request. No all-green status is claimed.
+
+## November 5 follow-up: field reports recovered and header candidate
+
+Search Console detail access is now working. Both device summaries and selected
+interaction/layout-shift groups were exported. The report predates today's
+changes and still contains failing groups; representative URL samples are not a
+complete list of all affected pages. No new fix-validation request was submitted.
+
+A small mobile header candidate reads both fixed components before writing page
+offsets, removing an intervening write that can force additional layout. Existing
+spacing rules and desktop behavior are preserved. It passes 78 deterministic
+assertions and 32 native-browser fixture checks; the previous source fails the
+targeted ordering check in both test approaches.
+
+This candidate is **not deployed**. The fixture uses local menu/template stubs;
+the actual-template interactive visual gate remains pending before publication.
+No field-speed improvement or complete Core Web Vitals recovery is claimed.
