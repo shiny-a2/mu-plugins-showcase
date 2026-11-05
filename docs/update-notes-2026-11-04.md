@@ -249,3 +249,21 @@ and source readback match the release. A complete repeat of the four-mode check
 on the live site was interrupted by browser-control instability. Authenticated
 commerce, field-speed improvement and complete Core Web Vitals recovery are not
 claimed.
+
+## November 5 follow-up: mobile dock and support panel released
+
+The mobile navigation bar now has a solid surface in both storefront themes, so
+page content no longer shows through it. The separate marketplace navigation and
+product purchase bar keep their established appearance. The support panel stays
+within the viewport above the purchase bar, and the chat widget defers its first
+position measurement until after the initial paint.
+
+The five-file release has a recoverable backup and source tags. Public-page
+checks after deployment covered home, category, product, marketplace and guest
+account routes at narrow mobile, standard mobile and desktop widths in light and
+dark themes. The dock had no horizontal overflow; keyboard focus and cart-open
+hiding worked. The support menu and chat panel opened and closed in all six
+responsive/theme combinations, with their form action reachable by scrolling.
+Representative routes returned HTTP 200. Authenticated account and real checkout
+flows were not exercised, and this work does not establish field Core Web Vitals
+acceptance or an all-green Search Console report.
