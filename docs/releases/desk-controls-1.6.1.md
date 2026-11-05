@@ -7,3 +7,7 @@ Branch staff can choose Persian dates from a calendar, including direct month an
 Choice menus now match the application, with clear selections, keyboard support and search in longer lists. The controls follow the existing light/dark theme and remain usable inside scrollable forms on narrow screens.
 
 Validation includes 36 dedicated interactive control states and 214 existing reporting, operations, workspace and import/inbox browser states, with synthetic data. Checks cover leap days, date-format conversion, future-date restrictions, empty search, disabled fields, keyboard navigation and nested forms. Staff-access, branch-scope, syntax and service-worker isolation checks also pass. Mobile/desktop screenshots were inspected in both themes. Physical-device and screen-reader acceptance remain pending. No real customer transaction or message was created for visual testing.
+
+## Deployment update — 5 November 2026
+
+Published with the combined staff workspace release. Live source and version checks passed; see [release verification](apps-integration-2026-11-05.md).

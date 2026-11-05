@@ -50,6 +50,7 @@ APPROVED_PATHS = frozenset(
         "docs/releases/branch-desk-1.3.0-prepared.md",
         "docs/releases/branch-desk-1.3.1.md",
         "docs/releases/desk-controls-1.6.1.md",
+        "docs/releases/apps-integration-2026-11-05.md",
         "docs/releases/unbox-commissioning-1.2.0.md",
         "docs/releases/wrist-studio-2.0.2.md",
         "docs/releases/mobile-buybar-1.0.2-prepared.md",
