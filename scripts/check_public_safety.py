@@ -55,6 +55,7 @@ APPROVED_PATHS = frozenset(
         "docs/releases/wrist-studio-2.0.2.md",
         "docs/releases/mobile-buybar-1.0.2-prepared.md",
         "docs/releases/repair-marketplace-counts-2.14.8.md",
+        "docs/releases/repair-marketplace-scope-2026-11-05.md",
         "samples/README.md",
         "samples/php/admin-action-policy.php",
         "samples/php/bounded-cleanup-loop.php",
