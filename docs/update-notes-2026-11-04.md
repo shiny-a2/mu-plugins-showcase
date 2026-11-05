@@ -225,19 +225,27 @@ authenticated flows and field Core Web Vitals acceptance remain unverified.
 Search Console detail loading prevented a fresh full URL export or validation
 request. No all-green status is claimed.
 
-## November 5 follow-up: field reports recovered and header candidate
+## November 5 follow-up: field reports recovered and mobile header released
 
-Search Console detail access is now working. Both device summaries and selected
-interaction/layout-shift groups were exported. The report predates today's
-changes and still contains failing groups; representative URL samples are not a
-complete list of all affected pages. No new fix-validation request was submitted.
+Search Console detail access is now working. Both device summaries and all eight
+issue drilldowns were exported. The summary and some newer issue charts reflect
+different data dates, so their counts cannot be compared as a release result.
+The reports still contain failing groups; representative URL samples are not a
+complete list of affected pages. A newer detailed snapshot shows the severe
+desktop layout-shift group at zero affected URLs, while the broader layout-shift
+issue remains open. No new fix-validation request was submitted.
 
-A small mobile header candidate reads both fixed components before writing page
+A small mobile header update reads both fixed components before writing page
 offsets, removing an intervening write that can force additional layout. Existing
 spacing rules and desktop behavior are preserved. It passes 78 deterministic
 assertions and 32 native-browser fixture checks; the previous source fails the
-targeted ordering check in both test approaches.
+targeted ordering check in both test approaches. The actual homepage markup was
+reviewed in light and dark themes at mobile and desktop widths, including menu
+and theme interactions, before publication.
 
-This candidate is **not deployed**. The fixture uses local menu/template stubs;
-the actual-template interactive visual gate remains pending before publication.
-No field-speed improvement or complete Core Web Vitals recovery is claimed.
+The reviewed update is deployed with a recoverable backup. Three representative
+cached pages were refreshed without a global cache reset; anonymous live HTML
+and source readback match the release. A complete repeat of the four-mode check
+on the live site was interrupted by browser-control instability. Authenticated
+commerce, field-speed improvement and complete Core Web Vitals recovery are not
+claimed.
