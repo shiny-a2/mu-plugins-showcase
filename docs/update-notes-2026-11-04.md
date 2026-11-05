@@ -197,3 +197,30 @@ A legacy carousel could repeatedly rewrite an unchanged discount badge and wake 
 A native-browser fixture passes twelve checks covering localized prices, hidden discounts, updates, inserted cards, notification bursts and return to idle. The previous version fails four scheduling checks. Mobile and desktop inspection in both themes includes manual price changes and keyboard focus. The fixture adapts slider events; it does not verify the real carousel library or authenticated commerce.
 
 This candidate has not been deployed. The priority pages checked during the investigation did not contain the legacy slider elements, so the reproduced bug does not establish the cause of their current interaction delay. Existing page caches and live source were left intact. The next investigation remains focused on the browser work occurring on those actual pages; no field-performance gain or all-green Core Web Vitals status is claimed.
+
+## 2026-11-05 — Inherit storefront fonts without startup layout reads
+
+The support menu and club invitation previously requested computed body styles
+while inserting their interface. They now inherit the storefront font directly,
+including across the invitation's shadow-root reset. Enhancement still completes
+before the first rendering frame, preserving the layout-shift protection.
+
+The recoverable two-file release is published with matching source readback.
+A native-browser fixture passes 130 assertions across mobile and desktop light
+and dark themes, fallback markup and the marketplace. Checks include changing
+fonts, first-frame enhancement, menu opening, keyboard focus, localized invalid
+input and viewport bounds. The previous version fails the targeted regression
+checks. No customer submission or purchase was created.
+
+Fresh mobile PageSpeed samples no longer attribute forced reflow to this script
+on either checked page. Homepage TBT changed from 522 to 164 ms, while article
+TBT increased from 666 to 875 ms; these individual lab runs do not prove a
+whole-page gain. Other page-builder and document work remains to investigate.
+Only the two verification pages' HTML caches were refreshed; other pages roll
+forward through normal expiry without global invalidation.
+
+Post-release native interaction inspection was interrupted by browser-control
+instability. HTTP, asset integrity and PageSpeed checks passed, while live
+authenticated flows and field Core Web Vitals acceptance remain unverified.
+Search Console detail loading prevented a fresh full URL export or validation
+request. No all-green status is claimed.
