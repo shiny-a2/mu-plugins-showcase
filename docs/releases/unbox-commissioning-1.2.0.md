@@ -7,3 +7,7 @@ The prepared release adds opt-in dispatch for new eligible orders, keeps excepti
 Validation includes 267 deterministic checks across configuration, permissions, carrier-response handling and dispatch behavior. Twenty browser cases cover mobile and desktop layouts in both themes, including keyboard interaction and synthetic form submission. Read-only carrier checks and an in-memory payload review were also completed without creating shipments or customer charges.
 
 This is a prepared release, not a deployment announcement. Carrier-write commissioning and activation remain pending confirmation of the contract settings and an approved real shipment. No full live delivery-cycle verification is claimed.
+
+## Deployment update — 5 November 2026
+
+The code update is now published. Registration remains disabled pending contractual settlement confirmation; no real shipment or delivery cycle is claimed. See the [combined release](apps-integration-2026-11-05.md).
