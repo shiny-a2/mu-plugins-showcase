@@ -6,6 +6,7 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Desk calendars and choice menus](docs/releases/desk-controls-1.6.1.md): selectable Persian dates and consistent searchable menus, tested locally and awaiting deployment.
 - [Shipping commissioning preparation](docs/releases/unbox-commissioning-1.2.0.md): clearer readiness, opt-in dispatch and tested tracking behavior, with live activation still pending.
 
 - [Measured wrist preview pilot](docs/releases/wrist-studio-2.0.2.md): the selected watch image, explicit scale calibration and a limited live rollout with device-testing limits.
