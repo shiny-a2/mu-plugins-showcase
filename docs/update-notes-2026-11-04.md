@@ -2,6 +2,12 @@
 
 [Back to update history](update-notes.md)
 
+## 2026-11-06 — Steadier desktop product header
+
+A late announcement row moved the product page after its first paint. A responsive desktop reservation now holds that row's space until the link appears; the narrower desktop layout also accounts for a navigation row that can wrap after font loading. The reservation follows the announcement's enabled setting and leaves mobile behavior and commerce controls intact.
+
+Throttled browser comparisons reduced the representative product page's lab layout shift from about 0.32 to 0.024 at a narrow desktop width, and from about 0.07 to 0.02 at a wide width. Light and dark checks at phone and desktop widths covered the link, keyboard focus, hover and horizontal overflow. The single-file release has an exact recovery copy; live home, product and category pages returned successful responses, and the published page contained the revised rule. Product-card shifts and mobile loading and interaction work remain open. These lab results do not establish that every Search Console URL is green.
+
 ## 2026-11-04 — Fair cache warming during busy periods
 
 Frequent content updates could repeatedly invalidate early entries in the cache warmer's priority list. When the existing load guard allowed only one request, later priority pages could keep waiting. The worker now remembers the next priority slot during busy runs, while ordinary runs retain their original order.
