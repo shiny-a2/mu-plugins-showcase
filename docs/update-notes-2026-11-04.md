@@ -189,3 +189,11 @@ No storefront code or live cache was changed in this step. Current field data
 still identifies interaction latency and initial rendering as remaining work;
 its reporting window predates the latest releases. Field acceptance remains
 open, and no new Search Console validation was started.
+
+## 2026-11-05 — Legacy slider correction tested, deployment deferred
+
+A legacy carousel could repeatedly rewrite an unchanged discount badge and wake its own DOM observer. The candidate now updates only changed state and combines pending slider notifications into one frame. Price and badge colors use the shared storefront palette, with a solid badge surface for readable contrast.
+
+A native-browser fixture passes twelve checks covering localized prices, hidden discounts, updates, inserted cards, notification bursts and return to idle. The previous version fails four scheduling checks. Mobile and desktop inspection in both themes includes manual price changes and keyboard focus. The fixture adapts slider events; it does not verify the real carousel library or authenticated commerce.
+
+This candidate has not been deployed. The priority pages checked during the investigation did not contain the legacy slider elements, so the reproduced bug does not establish the cause of their current interaction delay. Existing page caches and live source were left intact. The next investigation remains focused on the browser work occurring on those actual pages; no field-performance gain or all-green Core Web Vitals status is claimed.
