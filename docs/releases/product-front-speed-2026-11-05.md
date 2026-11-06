@@ -21,3 +21,11 @@ A single product with several photos now uses a lighter gallery presentation. A 
 The first live canary exposed a low-resolution secondary photo and was rolled back. A corrected release preserved the normal image size; the live page then passed light and dark checks at phone and desktop widths, including photo selection, swiping, full-screen viewing and horizontal fit. The home page, category and another product continued to respond normally, and the regenerated product page was served from cache.
 
 Throttled local desktop comparisons suggest a faster final LCP for this example. Mobile comparisons varied and did not establish an improvement. Search Console field results have not yet reflected this release, so a site-wide green Core Web Vitals result is not claimed.
+
+## November 6 follow-up: selected product galleries
+
+The lighter gallery now covers eleven selected simple products with five to ten photos each. Image selectors scroll within the available width and remain usable on narrow phones. When a customer selects a photo that has not loaded yet, the current image stays visible until the next one is ready; a failed load leaves the current image in place. Products outside the selected group keep their existing gallery.
+
+Seventeen live browser checks passed across the selected products. The five-photo and ten-photo examples were checked in light and dark themes at phone and desktop widths; the remaining products were checked at phone width. The checks covered the last photo, full-screen image position, selector visibility, horizontal fit and page errors. A comparison product kept its original gallery, and the home page, category and sampled product pages returned HTTP 200 from the existing internal cache.
+
+Three throttled desktop replay pairs showed lower final LCP for the ten-photo example than the previous slider. Mobile results were inconclusive. Search Console field data still needs time and fresh measurement before any broader Core Web Vitals conclusion.
