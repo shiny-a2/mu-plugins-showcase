@@ -13,3 +13,11 @@ A fresh PageSpeed API measurement was unavailable because the daily quota was ex
 The public storefront now receives only the shared day/night switch styling. Customer dashboard styling stays on the dashboard route. This removes about 16 KB of raw inline CSS from a representative public product response while preserving the dashboard's generated stylesheet byte for byte.
 
 Before release, browser replay at phone and desktop widths in both themes matched the current product's key colors and layout, and the switch changed state. After release, the live home, watch category and product pages returned HTTP 200 with the smaller stylesheet. The live product passed the same four viewport and theme checks, with no script error or horizontal overflow. The change is a bounded reduction in initial HTML; field LCP and Core Web Vitals results still require fresh measurement.
+
+## November 6 follow-up: one-product gallery pilot
+
+A single product with several photos now uses a lighter gallery presentation. A browser trace showed that the previous slider rebuilt the already visible main image, delaying the final desktop LCP observation. The new presentation keeps image selection, touch swiping, keyboard controls and full-screen viewing while avoiding that rebuild. Other products retain their existing galleries.
+
+The first live canary exposed a low-resolution secondary photo and was rolled back. A corrected release preserved the normal image size; the live page then passed light and dark checks at phone and desktop widths, including photo selection, swiping, full-screen viewing and horizontal fit. The home page, category and another product continued to respond normally, and the regenerated product page was served from cache.
+
+Throttled local desktop comparisons suggest a faster final LCP for this example. Mobile comparisons varied and did not establish an improvement. Search Console field results have not yet reflected this release, so a site-wide green Core Web Vitals result is not claimed.
