@@ -3,6 +3,12 @@
 - [November 4, 2026 updates](update-notes-2026-11-04.md)
 - [Product buy bar correction — released](releases/mobile-buybar-1.0.2-prepared.md)
 
+## 2026-11-07 — Locating slow interactions during page loading
+
+The existing anonymous browser performance diagnostic now records when its slowest observed event began relative to page readiness. This helps distinguish startup delays from interactions that remain slow after loading. Older reports remain compatible; no visitor identity or new data destination was added.
+
+The guarded release passed PHP and JavaScript contract checks. The affected page and two representative storefront routes served the updated diagnostic, and FAQ controls worked at phone and desktop widths in light and dark themes without script errors or horizontal overflow. The first check had no new field reports yet. This release measures a suspected cause; it does not establish a faster site or all-green Core Web Vitals.
+
 ## 2026-11-06 — Stable first frame for selected product galleries
 
 On a small, controlled group of multi-image products, secondary photos briefly occupied space beneath the main photo before the gallery controls initialized. The gallery now holds its first-frame layout until those controls are ready. Image selection, swipe, keyboard access, full-screen viewing and a fallback for unavailable JavaScript remain available.
