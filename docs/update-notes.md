@@ -3,6 +3,12 @@
 - [November 4, 2026 updates](update-notes-2026-11-04.md)
 - [Product buy bar correction — released](releases/mobile-buybar-1.0.2-prepared.md)
 
+## 2026-11-06 — Stable first frame for selected product galleries
+
+On a small, controlled group of multi-image products, secondary photos briefly occupied space beneath the main photo before the gallery controls initialized. The gallery now holds its first-frame layout until those controls are ready. Image selection, swipe, keyboard access, full-screen viewing and a fallback for unavailable JavaScript remain available.
+
+In three controlled phone-sized replay pairs, the gallery setup shift fell from about 0.03 to below 0.001 with an unrelated promotional popup held constant. The published pages passed light and dark checks on phone and desktop, including image selection and viewing, without horizontal overflow or browser errors. This is a scoped layout correction; intermittent promotional-popup movement and rolling Search Console field results still need separate review. No site-wide green Core Web Vitals result is claimed.
+
 ## 2026-11-06 — Steady reading below product lists
 
 When a category's next product batch arrived after a visitor had scrolled into the description or footer, the list could expand above the reading position and move the visible page. The archive now holds that batch until the visitor returns to the product list or chooses a visible continue button. Filter changes discard a pending batch.
