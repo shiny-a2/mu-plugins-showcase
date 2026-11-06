@@ -3,6 +3,12 @@
 - [November 4, 2026 updates](update-notes-2026-11-04.md)
 - [Product buy bar correction — released](releases/mobile-buybar-1.0.2-prepared.md)
 
+## 2026-11-06 — Stable first paint for product archives
+
+Long product categories could briefly paint a one-column product grid before the responsive styles arrived, moving the first row after visitors had already seen it. The archive now requests the existing product-grid styles in the page head. Later widget links reuse those downloads, and other page types retain their existing loading path.
+
+A repeated browser comparison on an affected archive reduced sampled desktop layout shift from about 0.42 to 0.03–0.04. Mobile and desktop checks in light and dark themes covered product cards, the advanced filter, and horizontal overflow. The source passed PHP syntax checks and was published with a recoverable server copy. Rolling field Core Web Vitals and Search Console validation remain pending.
+
 ## 2026-11-06 — Stable archive filter while options load
 
 The product archive filter now opens at its settled height while options load, with an internal scroll area and a steady mobile action bar when the result count appears. This prevents the dialog from growing across the page during the sampled interaction.
