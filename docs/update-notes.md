@@ -3,6 +3,12 @@
 - [November 4, 2026 updates](update-notes-2026-11-04.md)
 - [Product buy bar correction — released](releases/mobile-buybar-1.0.2-prepared.md)
 
+## 2026-11-06 — Steady reading below product lists
+
+When a category's next product batch arrived after a visitor had scrolled into the description or footer, the list could expand above the reading position and move the visible page. The archive now holds that batch until the visitor returns to the product list or chooses a visible continue button. Filter changes discard a pending batch.
+
+Delayed-response browser checks covered the button, keyboard activation, automatic continuation on scrolling back, and mobile and desktop layouts in light and dark themes. The affected desktop scenario's largest sampled late shift fell from about 0.83 to below 0.02. Live checks confirmed the new behavior and no horizontal overflow. Other early page shifts and rolling field Core Web Vitals remain under review; Search Console has not yet marked every URL good.
+
 ## 2026-11-06 — Stable first paint for product archives
 
 Long product categories could briefly paint a one-column product grid before the responsive styles arrived, moving the first row after visitors had already seen it. The archive now requests the existing product-grid styles in the page head. Later widget links reuse those downloads, and other page types retain their existing loading path.
