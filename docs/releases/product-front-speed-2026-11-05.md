@@ -29,3 +29,11 @@ The lighter gallery now covers eleven selected simple products with five to ten 
 Seventeen live browser checks passed across the selected products. The five-photo and ten-photo examples were checked in light and dark themes at phone and desktop widths; the remaining products were checked at phone width. The checks covered the last photo, full-screen image position, selector visibility, horizontal fit and page errors. A comparison product kept its original gallery, and the home page, category and sampled product pages returned HTTP 200 from the existing internal cache.
 
 Three throttled desktop replay pairs showed lower final LCP for the ten-photo example than the previous slider. Mobile results were inconclusive. Search Console field data still needs time and fresh measurement before any broader Core Web Vitals conclusion.
+
+## November 6 follow-up: four-photo watch galleries
+
+The lighter gallery now covers twelve more selected simple watches with four photos each. A live browser trace of one watch showed its main photo becoming the largest painted element twice as the previous slider started. The updated gallery keeps the normal image size and the same selection, swipe, keyboard and full-screen controls.
+
+Fifteen live browser checks passed across the new selection. A representative watch was checked in light and dark themes at phone and desktop widths, including visual inspection of the initial and selected image. The other watches passed phone-width selection and full-screen checks. A product outside the selection retained its original gallery; sampled pages returned HTTP 200 and warmed responses used the existing internal cache.
+
+Three throttled desktop comparison pairs showed lower final LCP for the representative watch with the lighter gallery. One fresh live browser run recorded a single final paint of its main image. These observations do not establish a mobile or Search Console field improvement; broader Core Web Vitals status remains pending field data.
