@@ -3,6 +3,12 @@
 - [November 4, 2026 updates](update-notes-2026-11-04.md)
 - [Product buy bar correction — released](releases/mobile-buybar-1.0.2-prepared.md)
 
+## 2026-11-06 — Stable archive filter while options load
+
+The product archive filter now opens at its settled height while options load, with an internal scroll area and a steady mobile action bar when the result count appears. This prevents the dialog from growing across the page during the sampled interaction.
+
+The live release passed five phone and desktop browser checks in light and dark themes, including loading options, expanding a section, selecting a filter, closing with Escape and checking for overflow and page errors. The sampled dialog had no attributed layout shift in those checks. Sitewide field Core Web Vitals and Search Console validation remain pending.
+
 ## 2026-11-03 — Explicit regional access and crawler policy
 
 The storefront's documented access policy now matches its intended operating model: the regional wall for foreign human visitors remains in place, while recognised search-engine and AI crawlers retain the normal indexable storefront. Focused regressions cover Caterpillar pages, recognised crawler classes and the plain-text crawler policy without changing category content, product data, cache behavior or indexing settings.
