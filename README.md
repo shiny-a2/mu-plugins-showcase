@@ -6,6 +6,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Repair workspace polish and invoice release](docs/releases/repair-workspace-2.15.1.md): clearer customer-first intake, consistent staff screens and a refined customer invoice view, with messaging provider validation pending.
+
 - [Complete GO browsing and clearer gift-card terms](docs/releases/go-giftcard-2026-11-11.md): later category products load, and gift-card restrictions appear before checkout.
 
 - [Repair intake clarity](docs/releases/repair-intake-2.15.0.md): customer lookup, clearer intake and estimates, branch-specific notices, and a staged final-invoice path.
