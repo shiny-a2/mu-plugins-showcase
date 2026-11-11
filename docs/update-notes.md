@@ -3,6 +3,14 @@
 - [November 4, 2026 updates](update-notes-2026-11-04.md)
 - [Product buy bar correction — released](releases/mobile-buybar-1.0.2-prepared.md)
 
+## 2026-11-11 — Separate repair records and staff app access
+
+Repair searches now follow the same branch boundary as record details. A repair transferred between branches remains visible to the people handling it at both locations, while an unrelated branch's file stays out of search results. Branch managers' finance summaries and repair exports use the owning branch's records.
+
+Newly created accounts need a separate grant for each internal staff app, even when their WordPress role has broad permissions. Existing staff access is preserved, and authorized owners can assign or revoke app access from a user profile. This keeps a new account from seeing repair, counter desk or operator data before it is assigned.
+
+Focused synthetic authorization checks passed. Published source and syntax checks passed, anonymous app assets responded, and read-only live searches denied a foreign-only repair in each branch. There was no live transferred file available for a corresponding read-only check; that case passed the synthetic tests. Authenticated staff acceptance remains pending.
+
 ## 2026-11-07 — Locating slow interactions during page loading
 
 The existing anonymous browser performance diagnostic now records when its slowest observed event began relative to page readiness. This helps distinguish startup delays from interactions that remain slow after loading. Older reports remain compatible; no visitor identity or new data destination was added.
