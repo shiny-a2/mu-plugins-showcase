@@ -21,6 +21,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 - [Measured wrist preview pilot](docs/releases/wrist-studio-2.0.2.md): the selected watch image, explicit scale calibration and a limited live rollout with device-testing limits.
 
+- [Exact-watch wrist preview preparation](docs/releases/wrist-studio-2.0.8-preparation.md): bounded image preparation, an optional wrist-size estimate and local interface checks, with catalogue approval and deployment still pending.
+
 - [Branch management dashboard release](docs/releases/branch-desk-1.3.1.md): full-range sales charts, customer tiers, repairs, recorded costs and reviewed messaging, with live scope and interface checks.
 
 - [Repair marketplace queue clarity](docs/releases/repair-marketplace-counts-2.14.8.md): consistent waiting counts and a clear distinction between review decisions and listing status.

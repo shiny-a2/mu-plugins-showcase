@@ -54,6 +54,7 @@ APPROVED_PATHS = frozenset(
         "docs/releases/unbox-commissioning-1.2.0.md",
         "docs/releases/wrist-studio-2.0.2.md",
         "docs/releases/wrist-studio-2.0.6-preparation.md",
+        "docs/releases/wrist-studio-2.0.8-preparation.md",
         "docs/releases/mobile-buybar-1.0.2-prepared.md",
         "docs/releases/product-front-speed-2026-11-05.md",
         "docs/releases/repair-marketplace-counts-2.14.8.md",
