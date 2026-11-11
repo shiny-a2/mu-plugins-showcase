@@ -60,6 +60,7 @@ APPROVED_PATHS = frozenset(
         "docs/releases/repair-intake-2.15.0.md",
         "docs/releases/repair-workspace-2.15.1.md",
         "docs/releases/go-giftcard-2026-11-11.md",
+        "docs/releases/bulk-editor-save-speed-2026-11-11.md",
         "docs/releases/repair-marketplace-scope-2026-11-05.md",
         "samples/README.md",
         "samples/php/admin-action-policy.php",
