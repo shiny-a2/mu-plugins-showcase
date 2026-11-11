@@ -3,6 +3,14 @@
 - [November 4, 2026 updates](update-notes-2026-11-04.md)
 - [Product buy bar correction — released](releases/mobile-buybar-1.0.2-prepared.md)
 
+## 2026-11-11 — Faster repair intake and organized customer contacts
+
+The repair app now displays its first working screen sooner by loading its main script as a static asset and delaying secondary queue counts until the screen is ready. Its service inbox reads linked repair locations together, preserving branch visibility for watches transferred between counters while reducing repeated database work.
+
+Staff enter a new repair customer's first and last names separately. After a repair is recorded, customers with a mobile number are added to the existing contact book with the repair branch label; earlier contact details and labels remain intact. The intake search can find these customers before they have a repair history.
+
+Focused authorization and contact checks passed. Synthetic browser flows covered mobile and desktop layouts in light and dark themes. Published source and asset checks passed, and a read-only server sample showed fewer inbox queries and a shorter response. Authenticated staff interaction and new customer records were not created for presentation testing.
+
 ## 2026-11-11 — Separate repair records and staff app access
 
 Repair searches now follow the same branch boundary as record details. A repair transferred between branches remains visible to the people handling it at both locations, while an unrelated branch's file stays out of search results. Branch managers' finance summaries and repair exports use the owning branch's records.
