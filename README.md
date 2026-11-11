@@ -6,6 +6,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Repair payment and customer-panel review](docs/releases/repair-payment-review-2.15.2.md): clearer receipt decisions, current invoice status and responsive service feedback.
+
 - [Faster product bulk editing and visible save failures](docs/releases/bulk-editor-save-speed-2026-11-11.md): smaller editor pages, less broad refresh work and clear failure feedback.
 
 - [Repair workspace polish and invoice release](docs/releases/repair-workspace-2.15.1.md): clearer customer-first intake, consistent staff screens and a refined customer invoice view, with messaging provider validation pending.
