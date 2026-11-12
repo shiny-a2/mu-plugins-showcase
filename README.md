@@ -6,6 +6,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Original brand artwork in the storefront header](docs/releases/brand-header-2026-11-12.md): a responsive light/dark logo update checked on the live home page.
+
 - [Repair payment and customer-panel review](docs/releases/repair-payment-review-2.15.2.md): clearer receipt decisions, current invoice status and responsive service feedback.
 
 - [Faster product bulk editing and visible save failures](docs/releases/bulk-editor-save-speed-2026-11-11.md): smaller editor pages, less broad refresh work and clear failure feedback.
