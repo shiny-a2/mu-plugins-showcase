@@ -1,5 +1,7 @@
 # MU Plugins Showcase
 
+Latest operations update: [consistent branch-level order locations](docs/releases/order-stock-location-2026-11-14.md).
+
 Public-safe umbrella showcase for private WordPress MU-plugin work across WooCommerce performance, operations, API controls, diagnostics, admin safety, and frontend workflow improvements.
 
 This repository is documentation and sanitized portfolio proof only. It is not a source mirror. Production MU-plugin source, logs, defensive implementation details, customer/order data, store identifiers, payment workflow details, and site-specific configuration stay private.

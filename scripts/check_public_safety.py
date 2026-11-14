@@ -64,6 +64,7 @@ APPROVED_PATHS = frozenset(
         "docs/releases/go-giftcard-2026-11-11.md",
         "docs/releases/bulk-editor-save-speed-2026-11-11.md",
         "docs/releases/brand-header-2026-11-12.md",
+        "docs/releases/order-stock-location-2026-11-14.md",
         "docs/releases/repair-marketplace-scope-2026-11-05.md",
         "samples/README.md",
         "samples/php/admin-action-policy.php",
