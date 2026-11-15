@@ -33,7 +33,7 @@ existing inventory owner remain pending. This is preview deployment evidence, no
 price, stock, supplier-order or financial operations.
 
 
-## Prepared cache recovery correction
+## Installed cache recovery correction
 
 Adapter 1.0.1 refreshes WooCommerce's per-product metadata and optional product
 instance caches before checking a saved result. A disposable integration test
@@ -49,6 +49,10 @@ used, outbound HTTP was blocked and product-instance caching was enabled. Test
 PHP was 8.3.35; production PHP, the production cache drop-in and the complete
 plugin stack remain outside this verification.
 
-This update is prepared and awaits installation approval. The currently installed
-preview has writes disabled. The API contract is unchanged, uncertain operations
-are not automatically resent, and existing branch inventory remains protected.
+The owner-approved update is now installed. Production syntax, matching source
+hashes, backups, route registration and read-only API checks passed. Company
+policy is unchanged and writes remain disabled. Authenticated snapshots continued
+to hold existing inventory; missing credentials and unconfigured companies were
+denied. The API contract is unchanged, uncertain operations are not automatically
+resent, and existing branch inventory remains protected. Genuine company-file
+acceptance and inventory-owner agreement are still pending.
