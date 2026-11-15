@@ -1,6 +1,6 @@
 # MU Plugins Showcase
 
-Latest operations update: [consistent branch-level order locations](docs/releases/order-stock-location-2026-11-14.md).
+Latest operations update: [automatic supplier locations from warranty providers](docs/releases/supplier-warranty-location-2026-11-15.md).
 
 Public-safe umbrella showcase for private WordPress MU-plugin work across WooCommerce performance, operations, API controls, diagnostics, admin safety, and frontend workflow improvements.
 
