@@ -1,6 +1,6 @@
 # MU Plugins Showcase
 
-Latest repair workflow update: [consistent marketplace counts and notifications](docs/releases/repair-marketplace-counts-2026-11-15.md).
+Latest repair workflow update: [authenticity payment review](docs/releases/repair-authenticity-payment-review-2.16.3.md).
 Latest operations update: [automatic supplier locations from warranty providers](docs/releases/supplier-warranty-location-2026-11-15.md).
 
 Public-safe umbrella showcase for private WordPress MU-plugin work across WooCommerce performance, operations, API controls, diagnostics, admin safety, and frontend workflow improvements.
@@ -8,6 +8,8 @@ Public-safe umbrella showcase for private WordPress MU-plugin work across WooCom
 This repository is documentation and sanitized portfolio proof only. It is not a source mirror. Production MU-plugin source, logs, defensive implementation details, customer/order data, store identifiers, payment workflow details, and site-specific configuration stay private.
 
 ## Review Summary
+
+- [Authenticity payment review in the repair desk](docs/releases/repair-authenticity-payment-review-2.16.3.md): a clear hold on further assessment and card issuance while physical receipt and a recorded return remain available.
 
 - [Original brand artwork in the storefront header](docs/releases/brand-header-2026-11-12.md): a responsive light/dark logo update checked on the live home page.
 
