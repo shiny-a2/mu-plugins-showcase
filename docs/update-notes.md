@@ -1,5 +1,6 @@
 # Update history
 
+- [Brand decisions and faster management reports — released](releases/manage-competitor-decisions-1.6.1.md)
 - [November 4, 2026 updates](update-notes-2026-11-04.md)
 - [Product buy bar correction — released](releases/mobile-buybar-1.0.2-prepared.md)
 
