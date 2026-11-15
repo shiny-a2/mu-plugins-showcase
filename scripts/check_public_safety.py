@@ -61,6 +61,7 @@ APPROVED_PATHS = frozenset(
         "docs/releases/repair-intake-2.15.0.md",
         "docs/releases/repair-workspace-2.15.1.md",
         "docs/releases/repair-payment-review-2.15.2.md",
+        "docs/releases/repair-authenticity-payment-review-2.16.3.md",
         "docs/releases/go-giftcard-2026-11-11.md",
         "docs/releases/bulk-editor-save-speed-2026-11-11.md",
         "docs/releases/brand-header-2026-11-12.md",
