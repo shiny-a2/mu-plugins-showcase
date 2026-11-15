@@ -28,6 +28,27 @@ read-only snapshots respected existing inventory ownership; requests without
 credentials or a configured company were refused. Private/public command menus
 were cleared and management commands were scoped to authorized administrators.
 
-Company-group binding, a genuine file exercise and real database failure tests
-remain pending. This is preview deployment evidence, not acceptance of automatic
+The company group is now bound. A genuine file exercise and agreement with the
+existing inventory owner remain pending. This is preview deployment evidence, not acceptance of automatic
 price, stock, supplier-order or financial operations.
+
+
+## Prepared cache recovery correction
+
+Adapter 1.0.1 refreshes WooCommerce's per-product metadata and optional product
+instance caches before checking a saved result. A disposable integration test
+reproduced an earlier error: a separate worker committed successfully, but the
+receipt reader retained older metadata and could not confirm that result. The
+same refresh also clears values left in memory after a rolled-back save.
+
+The correction passed 63 isolated assertions and 34 real database assertions
+with WordPress 6.9.4, WooCommerce 10.9.4 and MariaDB 10.11.16. Checks include
+concurrent locking, termination before and after commit, receipt recovery,
+exception rollback and lookup-table integrity. Only synthetic products were
+used, outbound HTTP was blocked and product-instance caching was enabled. Test
+PHP was 8.3.35; production PHP, the production cache drop-in and the complete
+plugin stack remain outside this verification.
+
+This update is prepared and awaits installation approval. The currently installed
+preview has writes disabled. The API contract is unchanged, uncertain operations
+are not automatically resent, and existing branch inventory remains protected.
