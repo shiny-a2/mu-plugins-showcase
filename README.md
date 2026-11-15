@@ -1,5 +1,6 @@
 # MU Plugins Showcase
 
+Latest repair workflow update: [consistent marketplace counts and notifications](docs/releases/repair-marketplace-counts-2026-11-15.md).
 Latest operations update: [automatic supplier locations from warranty providers](docs/releases/supplier-warranty-location-2026-11-15.md).
 
 Public-safe umbrella showcase for private WordPress MU-plugin work across WooCommerce performance, operations, API controls, diagnostics, admin safety, and frontend workflow improvements.
