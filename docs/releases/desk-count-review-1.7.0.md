@@ -24,6 +24,9 @@ light/dark mobile and desktop layouts, keyboard focus, conflict recovery,
 aggregate visibility and invalid numeric input. No real transaction, message or
 catalogue update was created for testing.
 
-Status: implemented and tested; production installation and owner acceptance
-are pending. Live compatibility and the first authorized count approval remain
-separate verification steps.
+Installed after owner approval. Live checks confirmed the committed source,
+upgraded count schema, scoped permissions and removal of aggregate values from
+unauthorized inventory responses. Versioned app assets were served correctly,
+and unauthenticated review requests were rejected. Existing observations were
+preserved without automatic approval. The first real manager count approval
+remains a separate acceptance step.
