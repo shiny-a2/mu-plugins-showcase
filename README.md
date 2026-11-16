@@ -12,6 +12,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Clearer purchase and return policies](docs/releases/purchase-policy-1.3.0.md): installed fulfillment choices, shipping responsibilities and linked marketplace terms, with scoped backups and live verification.
+
 - [Birthday and anniversary gifts](docs/releases/occasion-gifts-1.1.0.md): installed gift terms, one reminder, responsive gift pages and verified conversion; new messaging templates await provider confirmation.
 
 - [Market advisor and Google visibility](docs/releases/manage-market-advisor-1.9.0.md): evidence-linked priorities, explicit analysis and separately labelled search measurements.
