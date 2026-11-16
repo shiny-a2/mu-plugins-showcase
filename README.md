@@ -12,6 +12,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Birthday and anniversary gift preparation](docs/releases/occasion-gifts-1.1.0.md): clear gift terms, one reminder, a responsive gift page and tested conversion recovery; installation pending.
+
 - [Market advisor and Google visibility](docs/releases/manage-market-advisor-1.9.0.md): evidence-linked priorities, explicit analysis and separately labelled search measurements.
 
 - [Authenticity payment review in the repair desk](docs/releases/repair-authenticity-payment-review-2.16.3.md): a clear hold on further assessment and card issuance while physical receipt and a recorded return remain available.
