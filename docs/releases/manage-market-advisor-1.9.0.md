@@ -54,3 +54,12 @@ Some sources still deny collection or need a successful fresh full capture, and 
 Released on November 16, 2026. Managers can now read shorter headings, everyday explanations and clearer next steps throughout competitor analysis. Price position, available-model comparisons, probable competitor sales, incomplete collection, Google results and failure messages use consistent wording. The calculation guide is split into short points, and paid checks remain clearly identified before a request.
 
 Future explicitly requested advisor reports are instructed to use plain Persian, short sentences and concrete actions. Existing saved reports retain their original evidence. Calculations, thresholds, historical observations, privacy exclusions and authorization remain unchanged. Focused data, advisor, search, cache and access checks passed, alongside interactive mobile/desktop light/dark inspection, text contrast, failure retention, focus and a local rendering of actual imported observations. The installed version, served wording and authorized/unauthorized boundaries were verified. Real external analysis and full authenticated owner browser acceptance remain unverified.
+
+
+### Observation integrity and broader catalogues
+
+Bulk changes to one brand are now held for review rather than added to estimated competitor sales. Ordinary changes in unrelated brands can remain usable. Possible tenfold price/currency changes receive a separate review label, and uncertain historical amounts remain inspectable without becoming chart trends. These checks identify uncertainty; they do not prove supplier cancellation or actual sales.
+
+The source readers now cover the public Ganjine catalogue beyond its earlier brand sample and include another verified watch retailer. Price checks use the explicit currency and primary product amount, with sample coverage stated clearly. Partial retries retain a previous complete daily observation, and stale or older-schema results cannot replace newer evidence. Saved analyses made before these checks request a fresh review before action.
+
+The released changes passed focused data, access, cache, replay and ingestion checks, plus interactive mobile/desktop light/dark quality, manager and advisor checks. Deployment files and ingested public captures were read back at their intended destination. Some sources remain blocked or incomplete, and cold report loading still needs further work. No paid provider analysis, customer message or financial test record was created.
