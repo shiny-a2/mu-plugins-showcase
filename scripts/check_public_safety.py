@@ -67,6 +67,7 @@ APPROVED_PATHS = frozenset(
         "docs/releases/2026-11-16-confirmed-reference-correction.md",
         "docs/releases/2026-11-16-supplier-import-automation.md",
         "docs/releases/desk-count-review-1.7.0.md",
+        "docs/releases/occasion-gifts-1.1.0.md",
         "docs/releases/repair-authenticity-payment-review-2.16.3.md",
         "docs/releases/go-giftcard-2026-11-11.md",
         "docs/releases/bulk-editor-save-speed-2026-11-11.md",
