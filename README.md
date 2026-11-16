@@ -1,6 +1,6 @@
 # MU Plugins Showcase
 
-Prepared update: [supplier import follow-up and branch stock recovery](docs/releases/2026-11-16-supplier-import-automation.md). Production installation remains pending.
+Installed update: [supplier import follow-up and branch stock recovery](docs/releases/2026-11-16-supplier-import-automation.md), with live workflow observation still pending.
 
 Latest repair workflow update: [authenticity payment review](docs/releases/repair-authenticity-payment-review-2.16.3.md).
 Latest operations update: [automatic supplier locations from warranty providers](docs/releases/supplier-warranty-location-2026-11-15.md).
