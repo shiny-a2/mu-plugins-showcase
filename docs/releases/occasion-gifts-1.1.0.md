@@ -10,8 +10,8 @@ Validation uses isolated WordPress, WooCommerce and MariaDB records. Checks cove
 
 Installed after owner approval. Source, settings and the approved unused-code conversion were verified, including preservation of existing code strings. Live HTTP checks confirmed the updated terms and private gift-page caching headers. New messaging patterns remain disabled until provider registration and confirmation. Provider delivery and owner-operated checkout remain separate acceptance steps.
 
-## Messaging follow-up — prepared
+## Messaging follow-up — installed
 
-Readiness checks found that the annual reminder omitted a required field and would be rejected by the shared sending adapter. The prepared correction includes the reminder year in both the payload and registration text, and aligns the administration catalog with the copy supplied for registration. The annual route remains disabled pending registration and activation.
+Readiness checks found that the annual reminder omitted a required field and would be rejected by the shared sending adapter. The correction includes the reminder year in both the payload and registration text, and aligns the administration catalog with the copy supplied for registration. The annual route remains disabled pending registration and activation.
 
-Tests now exercise the actual shared adapter with an intercepted HTTP transport, rather than replacing the adapter itself. Checks cover acceptance, rejection, timeout, visible review state and duplicate suppression. The expanded notification suite passes 52 assertions; the isolated commerce suite passes 68. No real message was sent. This follow-up is prepared and has not yet been installed.
+Tests now exercise the actual shared adapter with an intercepted HTTP transport, rather than replacing the adapter itself. Checks cover acceptance, rejection, timeout, visible review state and duplicate suppression. The expanded notification suite passes 52 assertions; the isolated commerce suite passes 68. No real message was sent. Installed after owner approval. Exact source and registration text were verified, message settings remained unchanged, and a scoped recovery snapshot was retained.
