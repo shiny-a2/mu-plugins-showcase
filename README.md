@@ -12,7 +12,7 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
-- [Birthday and anniversary gift preparation](docs/releases/occasion-gifts-1.1.0.md): clear gift terms, one reminder, a responsive gift page and tested conversion recovery; installation pending.
+- [Birthday and anniversary gifts](docs/releases/occasion-gifts-1.1.0.md): installed gift terms, one reminder, responsive gift pages and verified conversion; new messaging templates await provider confirmation.
 
 - [Market advisor and Google visibility](docs/releases/manage-market-advisor-1.9.0.md): evidence-linked priorities, explicit analysis and separately labelled search measurements.
 
