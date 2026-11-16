@@ -12,6 +12,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Rules and contact page design](docs/releases/rules-link-design-20261117.md): prepared responsive navigation and layout, with original branding and approved terms preserved; installation pending.
+
 - [Clearer purchase and return policies](docs/releases/purchase-policy-1.3.0.md): installed fulfillment choices, shipping responsibilities and linked marketplace terms, with scoped backups and live verification.
 
 - [Birthday and anniversary gifts](docs/releases/occasion-gifts-1.1.0.md): installed gift terms, one reminder, responsive gift pages and verified conversion; new messaging templates await provider confirmation.
