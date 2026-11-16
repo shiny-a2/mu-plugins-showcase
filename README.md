@@ -10,6 +10,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Market advisor and Google visibility](docs/releases/manage-market-advisor-1.9.0.md): evidence-linked priorities, explicit analysis and separately labelled search measurements.
+
 - [Authenticity payment review in the repair desk](docs/releases/repair-authenticity-payment-review-2.16.3.md): a clear hold on further assessment and card issuance while physical receipt and a recorded return remain available.
 
 - [Original brand artwork in the storefront header](docs/releases/brand-header-2026-11-12.md): a responsive light/dark logo update checked on the live home page.
