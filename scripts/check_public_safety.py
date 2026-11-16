@@ -63,6 +63,7 @@ APPROVED_PATHS = frozenset(
         "docs/releases/repair-payment-review-2.15.2.md",
         "docs/releases/manage-competitor-decisions-1.6.1.md",
         "docs/releases/manage-market-advisor-1.9.0.md",
+        "docs/releases/operations-data-review-2026-11-16.md",
         "docs/releases/2026-11-16-confirmed-reference-correction.md",
         "docs/releases/2026-11-16-supplier-import-automation.md",
         "docs/releases/desk-count-review-1.7.0.md",
