@@ -12,7 +12,7 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
-- [Rules and contact page design](docs/releases/rules-link-design-20261117.md): prepared responsive navigation and layout, with original branding and approved terms preserved; installation pending.
+- [Rules and contact page design](docs/releases/rules-link-design-20261117.md): installed responsive navigation and layout, with original branding and approved terms preserved; live mobile/desktop light/dark checks passed.
 
 - [Clearer purchase and return policies](docs/releases/purchase-policy-1.3.0.md): installed fulfillment choices, shipping responsibilities and linked marketplace terms, with scoped backups and live verification.
 
