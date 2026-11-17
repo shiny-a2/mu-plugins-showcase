@@ -13,6 +13,7 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 ## Review Summary
 
 - [Repair case editing and saved drafts](docs/releases/repair-case-drafts-2.17.0.md): capture a phone number during a busy intake, finish the same case later and review who changed its information.
+- [Reviewed counter invoices](docs/releases/reviewed-counter-invoices-2026-11-18.md): a tested candidate for clear retained duplicates, consistent customer standing and protected accounting re-imports; activation awaits approval.
 
 - Customers can return to a verified private chat for order, loyalty and marketplace information. After installation, the store rejected unverified requests for both account information and purchase history. [Verified sales context](docs/releases/verified-sales-context-2026-11-17.md)
 
