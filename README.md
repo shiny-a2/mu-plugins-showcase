@@ -20,6 +20,7 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 - [Rules and contact page design](docs/releases/rules-link-design-20261117.md): installed responsive navigation and layout, with original branding and approved terms preserved; live mobile/desktop light/dark checks passed.
 
+- **Purchase tracking, 18 November 2026.** The order confirmation page now emits a purchase for paid orders and confirmed card transfers. Reloading the page can retry a missed browser event using the same transaction ID. Item revenue reflects discounts, with shipping and tax reported separately. Tests covered unpaid orders, confirmed transfers and repeat visits. The callback was verified on the live store. Receipt in Analytics remains under investigation.
 - [Clearer purchase and return policies](docs/releases/purchase-policy-1.3.0.md): installed fulfillment choices, shipping responsibilities and linked marketplace terms, with scoped backups and live verification.
 
 - [Birthday and anniversary gifts](docs/releases/occasion-gifts-1.1.0.md): installed gift terms, one reminder, responsive gift pages and verified conversion; new messaging templates await provider confirmation.
