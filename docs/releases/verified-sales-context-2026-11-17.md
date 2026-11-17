@@ -11,10 +11,10 @@ Forty integration checks passed in isolated commerce and database fixtures with 
 Production installation and feature activation were approved and completed. Installed file hashes, the additive verification store and indexes, configured cleanup with a successful invocation, service health and live authentication boundaries were verified. Real customer message delivery and each external channel's complete flow remain unverified. Recovery keeps personal access closed when verification is unavailable.
 
 
-## Prepared customer-recognition correction
+## Installed customer-recognition correction
 
-An eligibility check incorrectly excluded ordinary marketplace buyers and sellers from conversation verification. The prepared fix accepts those customer roles while keeping staff, elevated permissions and ambiguous accounts blocked.
+An eligibility check incorrectly excluded ordinary marketplace buyers and sellers from conversation verification. The installed fix accepts those customer roles while keeping staff, elevated permissions and ambiguous accounts blocked.
 
 Verified context now includes the account name and the actual products, brands and references in that customer's orders. Older orders use bounded pagination, and incomplete results are distinguished from an absent purchase. Seller photography guidance covers a clean background, soft light, focus, reflections and detailed condition photos.
 
-The paired assistant update connects the affected Telegram integration to verification and stops treating saved contact labels as confirmed identity. Validation passed 62 isolated commerce checks and 55 assistant tests, plus eight media/handoff checks. Installation is pending approval. No live SMS, customer message or purchase was created for these tests; real delivery and customer acceptance remain unverified.
+The paired assistant update connects the affected Telegram integration to verification and stops treating saved contact labels as confirmed identity. Validation passed 62 isolated commerce checks and 55 assistant tests, plus eight media/handoff checks. The approved update is installed, with matching source files and verified service/access boundaries. No live SMS, customer message or purchase was created for these tests; real delivery and customer acceptance remain unverified. Accounts with additional staff capabilities retain the existing restriction; a separate per-account customer-context opt-in remains disabled pending approval.
