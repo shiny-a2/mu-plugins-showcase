@@ -28,6 +28,7 @@ APPROVED_PATHS = frozenset(
         "docs/releases/purchase-policy-1.3.0.md",
         ".gitignore",
         "README.md",
+        "docs/releases/sms-template-contracts-2026-11-17.md",
         "docs/architecture-notes.md",
         "docs/brand-directory-ux.md",
         "docs/club-earning-policy.md",
