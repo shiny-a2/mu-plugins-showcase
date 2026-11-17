@@ -1,5 +1,15 @@
 # Released collection handoff and CRM invoice review
 
+## Prepared customer standing repair — 2026-11-17
+
+Customers with an existing invoice could appear as unclassified or new because the first club tier was not saved, older accounts used a named login, or maintenance skipped missing records. The prepared repair addresses those causes and keeps account conflicts and accounting questions visible with a clear reason.
+
+Branch managers can filter customers needing follow-up and open the same branch's invoices, including recorded header and item amounts. Trusted invoice links support older accounts; an editable billing phone cannot borrow somebody else's standing. Existing earned status and point history remain intact, and unresolved invoices cannot establish new reward entitlement.
+
+Isolated SQL checks cover identity resolution, purchase eligibility, concurrent-update guards, failed persistence, duplicate-award prevention and maintenance progress. Mobile/desktop fixtures in both themes cover the report, filters, invoice comparisons, empty/error states, keyboard focus, contrast and overflow. Current-record classification was also checked read only with aggregate output. No real financial record or customer message was created for testing.
+
+Production activation and a bounded refresh of trusted customer-tier metadata remain pending approval. Ambiguous source amounts and identities require supporting evidence; this update does not invent a price or silently transfer invoice ownership.
+
 ## Released monthly CRM supervision 1.0.1 — 2026-11-17
 
 A released follow-up lets an explicitly assigned application-wide administrator inspect CRM invoice reviews by operator and sales month. The view starts with all invoice candidates, shows confirmed website/store totals and review-status counts, and identifies the last reviewer, decision time, rationale and invoice evidence. Approval authority remains separate; ordinary branch accounts and administrators without application access cannot inherit the supervisory view. Existing guarded review controls remain available to authorized reviewers.
