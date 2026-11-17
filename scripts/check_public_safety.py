@@ -69,6 +69,7 @@ APPROVED_PATHS = frozenset(
         "docs/releases/repair-workspace-2.15.1.md",
         "docs/releases/repair-payment-review-2.15.2.md",
         "docs/releases/manage-competitor-decisions-1.6.1.md",
+        "docs/releases/competitor-brand-evidence-2026-11-18.md",
         "docs/releases/manage-small-brand-activity-1.12.7.md",
         "docs/releases/manage-market-advisor-1.9.0.md",
         "docs/releases/operations-data-review-2026-11-16.md",
