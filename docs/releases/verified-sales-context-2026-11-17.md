@@ -24,3 +24,8 @@ Validation passed 69 isolated commerce checks and 59 assistant tests, plus eight
 The installed adapter revision separates confirmed purchases from failed or cancelled online attempts and adds counter invoices already linked to the customer's account. It reuses the established invoice ledger, repeated-line correction and paired-sale authority. Returns, internal notes and other customers' records are excluded. Explicit history requests retain failed-order status tracking without presenting those attempts as purchases.
 
 Pagination carries source completeness, and storage failure is distinguished from an empty history. The correction passed 81 isolated commerce checks, with 62 assistant tests and eight media checks for the paired response flow. A read-only candidate evaluation confirmed the intended sources and existing customer-index use. Approved installation is complete. Installed file hashes, confirmed source selection, paired service health and private-access denial were verified. Complete real-customer acceptance remains untested; no financial record or customer message was created or changed for testing.
+
+
+## Returning customers in private chat
+
+The November 18 update preserves a verified customer's connection during a temporary account-service interruption. A returning customer can retry in the same private conversation. The installed store integration rejected unverified requests for both personal account information and orders. The isolated commerce suite passed 84 checks, including service interruption and recovery.
