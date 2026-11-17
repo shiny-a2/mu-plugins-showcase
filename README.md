@@ -14,7 +14,7 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 - [Repair case editing and saved drafts](docs/releases/repair-case-drafts-2.17.0.md): capture a phone number during a busy intake, finish the same case later and review who changed its information.
 
-- [Verified sales context](docs/releases/verified-sales-context-2026-11-17.md): installed marketplace and loyalty reads with mobile verification, scoped customer access and reliable profile synchronization; real customer delivery remains unverified.
+- Customers can return to a verified private chat for order, loyalty and marketplace information. After installation, the store rejected unverified requests for both account information and purchase history. [Verified sales context](docs/releases/verified-sales-context-2026-11-17.md)
 
 - [Focused brand navigation](docs/releases/brand-menu-2026-11-17.md): priority and established best-selling brands appear directly, while complete alphabetical and country directories remain available.
 
