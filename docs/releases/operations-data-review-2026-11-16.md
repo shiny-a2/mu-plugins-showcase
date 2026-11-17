@@ -1,14 +1,14 @@
 # Released collection handoff and CRM invoice review
 
-## Prepared customer standing repair — 2026-11-17
+## Released customer standing repair — 2026-11-17
 
-Customers with an existing invoice could appear as unclassified or new because the first club tier was not saved, older accounts used a named login, or maintenance skipped missing records. The prepared repair addresses those causes and keeps account conflicts and accounting questions visible with a clear reason.
+Customers with an existing invoice could appear as unclassified or new because the first club tier was not saved, older accounts used a named login, or maintenance skipped missing records. The released repair addresses those causes and keeps account conflicts and accounting questions visible with a clear reason.
 
 Branch managers can filter customers needing follow-up and open the same branch's invoices, including recorded header and item amounts. Trusted invoice links support older accounts; an editable billing phone cannot borrow somebody else's standing. Existing earned status and point history remain intact, and unresolved invoices cannot establish new reward entitlement.
 
 Isolated SQL checks cover identity resolution, purchase eligibility, concurrent-update guards, failed persistence, duplicate-award prevention and maintenance progress. Mobile/desktop fixtures in both themes cover the report, filters, invoice comparisons, empty/error states, keyboard focus, contrast and overflow. Current-record classification was also checked read only with aggregate output. No real financial record or customer message was created for testing.
 
-Production activation and a bounded refresh of trusted customer-tier metadata remain pending approval. Ambiguous source amounts and identities require supporting evidence; this update does not invent a price or silently transfer invoice ownership.
+The approved update is active, with protected backups and matching source, served script and worker readbacks. A bounded refresh of trusted customer-tier metadata completed, and independent read-only verification confirmed the saved values and original snapshot. Previously missing or empty tiers were populated, and the checked branch report now has no pending calculations. Account conflicts and invoice questions remain explicitly reviewable with supporting evidence required. No new point award, invoice reassignment, financial adjustment or customer message was part of the refresh. Existing reviewer authority and access denials were checked through real-account backend reads; natural authenticated owner-browser acceptance remains separate.
 
 ## Released monthly CRM supervision 1.0.1 — 2026-11-17
 
