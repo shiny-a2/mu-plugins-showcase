@@ -12,6 +12,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Verified sales context](docs/releases/verified-sales-context-2026-11-17.md): prepared marketplace and loyalty reads with mobile verification, scoped customer access and reliable profile synchronization; production activation pending.
+
 - [Focused brand navigation](docs/releases/brand-menu-2026-11-17.md): priority and established best-selling brands appear directly, while complete alphabetical and country directories remain available.
 
 - [Rules and contact page design](docs/releases/rules-link-design-20261117.md): installed responsive navigation and layout, with original branding and approved terms preserved; live mobile/desktop light/dark checks passed.

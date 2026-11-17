@@ -23,6 +23,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 # something that arrives by accident with a git add -A.
 APPROVED_PATHS = frozenset(
     {
+        "docs/releases/verified-sales-context-2026-11-17.md",
         "docs/releases/rules-link-design-20261117.md",
         "docs/releases/purchase-policy-1.3.0.md",
         ".gitignore",
