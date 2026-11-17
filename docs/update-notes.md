@@ -6,11 +6,11 @@
 - [November 4, 2026 updates](update-notes-2026-11-04.md)
 - [Product buy bar correction — released](releases/mobile-buybar-1.0.2-prepared.md)
 
-## 2026-11-17 — Clearer competitor decisions (candidate)
+## 2026-11-17 — Clearer competitor decisions
 
 The management report now opens with a short, sortable competitor ranking. It separates confirmed website orders from rival activity estimated through product availability changes. Selecting a retailer reveals its brands, and selecting a brand reveals reference-level evidence and its observation trend. Price comparison has brand search and focused filters; source quality and secondary tools remain one step away.
 
-The presentation uses existing calculations and report data. Synthetic mobile and desktop checks passed in light and dark themes, including sorting, filtering, drilldown and keyboard focus. Authenticated production review and release are still pending. The estimates do not establish actual competitor sales or market share.
+The presentation uses existing calculations and report data. Synthetic mobile and desktop checks passed in light and dark themes, including sorting, filtering, drilldown and keyboard focus. The approved interface asset was installed with a protected backup and matching file check. Authenticated manager review remains pending. The estimates do not establish actual competitor sales or market share.
 
 ## 2026-11-11 — Faster repair intake and organized customer contacts
 
