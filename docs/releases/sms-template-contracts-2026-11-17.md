@@ -16,6 +16,9 @@ The checks cover pending approval, operator overrides, duplicate deferred jobs,
 malformed responses and stock rechecks. They create no real customer messages or
 commercial records. Handset delivery is outside this verification scope.
 
-The release is prepared for installation. Provider approval, installed settings
-and actual delivery are separate states; an approved catalog entry alone does
-not prove that every business event has a connected sender.
+The release was installed and its runtime file hashes and settings were read
+back independently. Existing approved notification paths remain enabled. The
+replacement stock template is awaiting provider review; its exact-copy approval
+plan is queued and subscriptions remain pending. Provider approval, installed
+settings and actual delivery are separate states; an approved catalog entry
+alone does not prove that every business event has a connected sender.
