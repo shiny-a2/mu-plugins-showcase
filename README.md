@@ -100,7 +100,7 @@ The work is organized around several production concerns:
 
 - Date-consistent personnel accounts with shared financial rules, individual payment evidence and auditable expense entry.
 
-- Evidence-based competitor analysis with shared dashboard and messaging calculations, explicit uncertainty, and source-quality visibility.
+- Evidence-based competitor analysis with shared dashboard and messaging calculations, explicit uncertainty, source-quality visibility, and [cautious grouped stock-change review](docs/releases/manage-small-brand-activity-1.12.7.md).
 
 - Small reversible modules for production WordPress/WooCommerce systems.
 - Performance and operations work around cache boundaries, REST pressure, query safety, queues, transients, and admin workflows.
