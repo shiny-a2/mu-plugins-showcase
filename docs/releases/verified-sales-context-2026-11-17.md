@@ -2,7 +2,7 @@
 
 The installed update lets a sales assistant explain marketplace and loyalty rules from existing store producers, then read a customer's own submissions, tier progress and recent account-linked orders after mobile verification. A supplied phone number or user identifier alone grants no personal access.
 
-An optional identity component owns verification and expiry. The store adapter provides transactional persistence and the established messaging transport. Account ambiguity and privileged accounts are rejected. Verification creates no customer account, login session, order, reward or automatic profile merge; the existing website login flow remains separate.
+An optional identity component owns verification and expiry. The store adapter provides transactional persistence and the established messaging transport. Account ambiguity is rejected. Operational roles do not change the customer-only scope described below. Verification creates no customer account, login session, order, reward or automatic profile merge; the existing website login flow remains separate.
 
 Customer responses distinguish drafts from submitted reviews, publication from physical authenticity, and points from wallet value and qualifying purchases. Internal notes and other sellers' records are excluded. The shared message transport now requires a valid provider acknowledgement. Profile synchronization also reports failed writes accurately so an incomplete batch can be retried.
 
@@ -11,10 +11,10 @@ Forty integration checks passed in isolated commerce and database fixtures with 
 Production installation and feature activation were approved and completed. Installed file hashes, the additive verification store and indexes, configured cleanup with a successful invocation, service health and live authentication boundaries were verified. Real customer message delivery and each external channel's complete flow remain unverified. Recovery keeps personal access closed when verification is unavailable.
 
 
-## Installed customer-recognition correction
+## Customer recognition and contact verification
 
-An eligibility check incorrectly excluded ordinary marketplace buyers and sellers from conversation verification. The installed fix accepts those customer roles while keeping staff, elevated permissions and ambiguous accounts blocked.
+The installed correction lets every uniquely matched customer verify their own account, including customers who also operate internal tools. Operational permissions remain unchanged. Personal responses still require a conversation-bound proof and cannot select another account through a supplied number or user identifier. Verification creates no administrative login.
 
-Verified context now includes the account name and the actual products, brands and references in that customer's orders. Older orders use bounded pagination, and incomplete results are distinguished from an absent purchase. Seller photography guidance covers a clean background, soft light, focus, reflections and detailed condition photos.
+The paired assistant saves a new visitor's number as an unverified contact for that conversation. It requests a code when personal information is requested, while public advice remains available without a number. Saved labels are not treated as confirmed names. Verified context includes account names and actual order products, brands and references; older orders use bounded pagination. Photography guidance covers a clean background, soft light, focus, reflections and condition details.
 
-The paired assistant update connects the affected Telegram integration to verification and stops treating saved contact labels as confirmed identity. Validation passed 62 isolated commerce checks and 55 assistant tests, plus eight media/handoff checks. The approved update is installed, with matching source files and verified service/access boundaries. No live SMS, customer message or purchase was created for these tests; real delivery and customer acceptance remain unverified. Accounts with additional staff capabilities retain the existing restriction; a separate per-account customer-context opt-in remains disabled pending approval.
+Validation passed 69 isolated commerce checks and 59 assistant tests, plus eight media/handoff checks. Tests include synthetic staff-customer verification, unchanged capabilities and login sessions, cross-account denial, persistent contact claims and no message on contact capture. The correction is installed with matching source files and verified service health. No live SMS, customer message or purchase was created for testing; real delivery and complete customer acceptance remain unverified.
