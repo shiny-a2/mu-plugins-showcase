@@ -2,7 +2,7 @@
 
 Installed update: [supplier import follow-up and branch stock recovery](docs/releases/2026-11-16-supplier-import-automation.md), with live workflow observation still pending.
 
-Latest repair workflow update: [authenticity payment review](docs/releases/repair-authenticity-payment-review-2.16.3.md).
+Latest repair workflow update: [editable cases and saved intake drafts](docs/releases/repair-case-drafts-2.17.0.md), released with installation and read-only access checks.
 Latest operations update: [automatic supplier locations from warranty providers](docs/releases/supplier-warranty-location-2026-11-15.md).
 Supplier preview installed: [reviewed catalog updates and traceable outcomes](docs/releases/supplier-catalog-workflow-2026-11-16.md); live writes and company acceptance remain pending.
 
@@ -11,6 +11,8 @@ Public-safe umbrella showcase for private WordPress MU-plugin work across WooCom
 This repository is documentation and sanitized portfolio proof only. It is not a source mirror. Production MU-plugin source, logs, defensive implementation details, customer/order data, store identifiers, payment workflow details, and site-specific configuration stay private.
 
 ## Review Summary
+
+- [Repair case editing and saved drafts](docs/releases/repair-case-drafts-2.17.0.md): capture a phone number during a busy intake, finish the same case later and review who changed its information.
 
 - [Verified sales context](docs/releases/verified-sales-context-2026-11-17.md): installed marketplace and loyalty reads with mobile verification, scoped customer access and reliable profile synchronization; real customer delivery remains unverified.
 
