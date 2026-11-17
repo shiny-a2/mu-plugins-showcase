@@ -74,6 +74,7 @@ APPROVED_PATHS = frozenset(
         "docs/releases/go-giftcard-2026-11-11.md",
         "docs/releases/bulk-editor-save-speed-2026-11-11.md",
         "docs/releases/brand-header-2026-11-12.md",
+        "docs/releases/brand-menu-2026-11-17.md",
         "docs/releases/order-stock-location-2026-11-14.md",
         "docs/releases/supplier-warranty-location-2026-11-15.md",
         "docs/releases/supplier-catalog-workflow-2026-11-16.md",

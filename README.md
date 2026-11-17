@@ -12,6 +12,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Focused brand navigation](docs/releases/brand-menu-2026-11-17.md): priority and established best-selling brands appear directly, while complete alphabetical and country directories remain available.
+
 - [Rules and contact page design](docs/releases/rules-link-design-20261117.md): installed responsive navigation and layout, with original branding and approved terms preserved; live mobile/desktop light/dark checks passed.
 
 - [Clearer purchase and return policies](docs/releases/purchase-policy-1.3.0.md): installed fulfillment choices, shipping responsibilities and linked marketplace terms, with scoped backups and live verification.
