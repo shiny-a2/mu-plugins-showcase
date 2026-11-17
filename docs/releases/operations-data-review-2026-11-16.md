@@ -1,10 +1,12 @@
 # Released collection handoff and CRM invoice review
 
-## Released monthly CRM supervision 1.0.1 — 2026-11-17
+## Prepared monthly CRM decisions 1.0.2 — 2026-11-17
 
-A released follow-up lets an explicitly assigned application-wide administrator inspect CRM invoice reviews by operator and sales month. The view starts with all invoice candidates, shows confirmed website/store totals and review-status counts, and identifies the last reviewer, decision time, rationale and invoice evidence. Approval authority remains separate; ordinary branch accounts and administrators without application access cannot inherit the supervisory view. Existing guarded review controls remain available to authorized reviewers.
+An assigned application administrator can approve, reject or revoke CRM invoice decisions by operator and sales month. Other branch accounts still require an explicit review grant. A valid invoice without a prior contact record can receive a clearly identified manager attestation with a recorded reason; existing invoice validity and attribution boundaries remain enforced. Rejection and revocation also retain the reason, reviewer and earlier decision.
 
-Seventy isolated access/accounting checks and the existing permission/privacy regressions pass. Mobile/desktop light/dark fixtures cover supervisory reads and existing reviewer workflows, including month changes, permission changes, focus, contrast and invoice controls below the sticky header. The approved update is active: source and served assets match, real-account backend checks confirm supervisory reads and separate reviewer authority, branch-only access is denied, and anonymous HTTP access returns 401. No real decision, customer message or financial record was created. The live monthly sample contained no saved review decisions; reviewed-state presentation is covered by isolated fixtures. Natural authenticated owner-browser acceptance remains separate. The released work below retains its original verification scope.
+Confirmed website/store totals update after each decision. Pending invoices and unmatched claims keep the monthly review open; completion describes the current invoice review. The shared workspace keeps newer decisions away from the old editor, and compatible readers preserve recorded attestations during interface recovery.
+
+Ninety-six isolated SQL/access/accounting checks, legacy consumer/writer checks and existing privacy regressions pass. Interactive mobile/desktop light/dark fixtures cover approval, rejection, cancellation, manual review without contact history, reason validation, monthly totals and unresolved claims. No real decision, message or financial record was created for presentation tests. Activation of this expanded update is pending approval.
 
 Two related operational improvements were released after explicit owner approval. Deployed source, scoped recovery material and separate account permissions were read back. The checks below establish the stated release boundaries; authenticated owner-browser acceptance remains separate.
 
