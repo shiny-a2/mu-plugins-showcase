@@ -38,6 +38,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 - [Complete GO browsing and clearer gift-card terms](docs/releases/go-giftcard-2026-11-11.md): later category products load, and gift-card restrictions appear before checkout.
 
+- [Accurate category update dates in sitemaps](docs/releases/category-sitemap-lastmod-2026-11-17.md): category edits can advance sitemap dates without changing customer-facing pages or product URLs.
+
 - [Repair intake clarity](docs/releases/repair-intake-2.15.0.md): customer lookup, clearer intake and estimates, branch-specific notices, and a staged final-invoice path.
 
 - [Desk calendars and choice menus](docs/releases/desk-controls-1.6.1.md): selectable Persian dates and consistent searchable menus, tested locally and awaiting deployment.
@@ -100,7 +102,7 @@ The work is organized around several production concerns:
 
 - Date-consistent personnel accounts with shared financial rules, individual payment evidence and auditable expense entry.
 
-- Evidence-based competitor analysis with shared dashboard and messaging calculations, explicit uncertainty, and source-quality visibility.
+- Evidence-based competitor analysis with shared dashboard and messaging calculations, explicit uncertainty, source-quality visibility, and [cautious grouped stock-change review](docs/releases/manage-small-brand-activity-1.12.7.md).
 
 - Small reversible modules for production WordPress/WooCommerce systems.
 - Performance and operations work around cache boundaries, REST pressure, query safety, queues, transients, and admin workflows.
