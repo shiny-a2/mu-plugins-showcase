@@ -25,6 +25,7 @@ APPROVED_PATHS = frozenset(
     {
         "docs/releases/repair-case-drafts-2.17.0.md",
         "docs/releases/verified-sales-context-2026-11-17.md",
+        "docs/releases/2026-11-18-counter-sale-announcements.md",
         "docs/releases/category-sitemap-lastmod-2026-11-17.md",
         "docs/releases/rules-link-design-20261117.md",
         "docs/releases/purchase-policy-1.3.0.md",

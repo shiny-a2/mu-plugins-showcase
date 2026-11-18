@@ -65,6 +65,7 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 - [Storefront performance and update notes](docs/update-notes.md): bounded anonymous caching, a scoped bulk-editor latency fix, and staged maintenance with checkout smoke checks.
 
 - [Branch showroom counts and manager club view](docs/desk-showroom-count.md): daily physical checks with a branch-scoped customer history.
+- [Branch-specific showroom totals](docs/desk-showroom-count.md): separate model and unit counts, with one-action brand confirmation for manager review.
 
 - [Reversible supplier-feed controls](docs/supplier-feed-controls.md): shared pause guards and verified catalog availability updates.
 
