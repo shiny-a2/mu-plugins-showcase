@@ -14,6 +14,10 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Customer invoice clarity and club launch controls](docs/releases/club-launch-invoice-clarity-20261118.md): installed accounting references, explicit review states and clearer messaging counts, with native access checks.
+
+- [Reviewed purchase sources and club balances](docs/releases/club-source-reconciliation-20261118.md): installed duplicate-source safeguards and a verified bounded reconciliation, with wallet history and unresolved evidence preserved.
+
 - [Timed sale preview and brand discovery](docs/releases/timed-sale-preview-2026-11-18.md): a compact campaign countdown, temporary home introduction and automatically populated discounted-brand rail.
 
 - [Repair case editing and saved drafts](docs/releases/repair-case-drafts-2.17.0.md): capture a phone number during a busy intake, finish the same case later and review who changed its information.
