@@ -1,5 +1,7 @@
 # MU Plugins Showcase
 
+Prepared feature: [per-photo background review](docs/releases/repair-photo-review-2026-11-18.md). Production activation and natural-photo quality remain pending.
+
 Installed update: [supplier import follow-up and branch stock recovery](docs/releases/2026-11-16-supplier-import-automation.md), with live workflow observation still pending.
 
 Latest repair workflow update: [editable cases and saved intake drafts](docs/releases/repair-case-drafts-2.17.0.md), released with installation and read-only access checks.
