@@ -1,5 +1,7 @@
 # MU Plugins Showcase
 
+Installed operations update: [leaner month comparison in a private dashboard](docs/releases/manage-metric-comparison-2026-11-19.md); authenticated response-time measurement remains pending.
+
 Installed update: [supplier import follow-up and branch stock recovery](docs/releases/2026-11-16-supplier-import-automation.md), with live workflow observation still pending.
 
 Installed repair update: [registration and publication notifications](docs/releases/repair-market-notifications-2.17.2.md); physical-device receipt remains unverified.
