@@ -24,6 +24,9 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 APPROVED_PATHS = frozenset(
     {
         "docs/releases/repair-case-drafts-2.17.0.md",
+        "docs/releases/timed-sale-preview-2026-11-18.md",
+        "docs/releases/2026-11-18-purchase-standing.md",
+        "docs/releases/2026-11-18-reviewed-counter-corrections.md",
         "docs/releases/verified-sales-context-2026-11-17.md",
         "docs/releases/2026-11-18-counter-sale-announcements.md",
         "docs/releases/category-sitemap-lastmod-2026-11-17.md",

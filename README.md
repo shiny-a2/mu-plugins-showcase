@@ -12,6 +12,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Timed sale preview and brand discovery](docs/releases/timed-sale-preview-2026-11-18.md): a compact campaign countdown, temporary home introduction and automatically populated discounted-brand rail.
+
 - [Repair case editing and saved drafts](docs/releases/repair-case-drafts-2.17.0.md): capture a phone number during a busy intake, finish the same case later and review who changed its information.
 
 - Customers can return to a verified private chat for order, loyalty and marketplace information. After installation, the store rejected unverified requests for both account information and purchase history. [Verified sales context](docs/releases/verified-sales-context-2026-11-17.md)
