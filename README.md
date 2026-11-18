@@ -14,6 +14,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Preserved error logs with bounded rotation](docs/releases/php-error-log-retention-2026-11-19.md): the installed operations update keeps prior diagnostics available and limits future log growth; the next scheduled rotation still needs observation.
+
 - [Administrative access recovery check](docs/releases/administrative-access-2026-11-19.md): a scoped production access change with an independent reconnection test and timed recovery path.
 
 - [Reliable archive filter counts](docs/releases/archive-filter-counts-2026-11-19.md): large category filters now complete bounded count work without showing partial options; cold response time remains a follow-up.

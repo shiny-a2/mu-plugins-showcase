@@ -79,6 +79,7 @@ APPROVED_PATHS = frozenset(
         "docs/releases/repair-payment-review-2.15.2.md",
         "docs/releases/archive-filter-counts-2026-11-19.md",
         "docs/releases/administrative-access-2026-11-19.md",
+        "docs/releases/php-error-log-retention-2026-11-19.md",
         "docs/releases/manage-competitor-decisions-1.6.1.md",
         "docs/releases/competitor-brand-evidence-2026-11-18.md",
         "docs/releases/manage-small-brand-activity-1.12.7.md",
