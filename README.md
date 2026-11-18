@@ -2,7 +2,7 @@
 
 Installed update: [supplier import follow-up and branch stock recovery](docs/releases/2026-11-16-supplier-import-automation.md), with live workflow observation still pending.
 
-Prepared repair update: [registration and publication notifications](docs/releases/repair-market-notifications-2.17.2.md); installation and physical-device delivery remain pending.
+Installed repair update: [registration and publication notifications](docs/releases/repair-market-notifications-2.17.2.md); physical-device receipt remains unverified.
 
 Latest repair workflow update: [editable cases and saved intake drafts](docs/releases/repair-case-drafts-2.17.0.md), released with installation and read-only access checks.
 Latest operations update: [automatic supplier locations from warranty providers](docs/releases/supplier-warranty-location-2026-11-15.md).
