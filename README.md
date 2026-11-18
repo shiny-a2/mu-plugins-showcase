@@ -14,6 +14,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Reliable archive filter counts](docs/releases/archive-filter-counts-2026-11-19.md): large category filters now complete bounded count work without showing partial options; cold response time remains a follow-up.
+
 - [Customer invoice clarity and club launch controls](docs/releases/club-launch-invoice-clarity-20261118.md): installed accounting references, explicit review states and clearer messaging counts, with native access checks.
 
 - [Reviewed purchase sources and club balances](docs/releases/club-source-reconciliation-20261118.md): installed duplicate-source safeguards and a verified bounded reconciliation, with wallet history and unresolved evidence preserved.
