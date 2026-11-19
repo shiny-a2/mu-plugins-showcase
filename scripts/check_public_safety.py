@@ -23,6 +23,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 # something that arrives by accident with a git add -A.
 APPROVED_PATHS = frozenset(
     {
+        "docs/releases/club-exact-tier-labels-20261119.md",
         "docs/releases/club-approved-launch-tokens-20261119.md",
         "docs/releases/club-source-reconciliation-20261118.md",
         "docs/releases/club-launch-invoice-clarity-20261118.md",
