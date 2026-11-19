@@ -16,6 +16,8 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
+- [Full level names in club messages](docs/releases/club-exact-tier-labels-20261119.md): exact message names and a dedicated silver text slot, with provider approval kept explicit.
+
 - [Correct club introduction level names](docs/releases/club-approved-launch-tokens-20261119.md): installed alignment with approved message positions, with previous send protection retained.
 
 - [Preserved error logs with bounded rotation](docs/releases/php-error-log-retention-2026-11-19.md): the installed operations update keeps prior diagnostics available and limits future log growth; the next scheduled rotation still needs observation.
