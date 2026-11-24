@@ -1,5 +1,7 @@
 # MU Plugins Showcase
 
+The [Repair photo and confirmation update](docs/releases/repair-photo-framing-confirmations-2026-11-25.md) makes watch decisions deliberate and photo replacement easier to review.
+
 The [competitor coverage update](docs/releases/competitor-report-reuse-2026-11-25.md) clarifies catalogue and analysis scope while reducing repeated report work.
 
 The [repair queue update](docs/releases/repair-branch-queue-2026-11-24.md) keeps branch views separate and opens case details on demand.
