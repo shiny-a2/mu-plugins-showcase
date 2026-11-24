@@ -1,5 +1,7 @@
 # MU Plugins Showcase
 
+Released [per-photo background review](docs/releases/repair-photo-review-2026-11-18.md). The installed workflow returned a catalogue-photo preview for review.
+
 Installed operations update: [leaner month comparison in a private dashboard](docs/releases/manage-metric-comparison-2026-11-19.md); authenticated response-time measurement remains pending.
 
 Installed update: [supplier import follow-up and branch stock recovery](docs/releases/2026-11-16-supplier-import-automation.md), with live workflow observation still pending.
