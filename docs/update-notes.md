@@ -1,5 +1,11 @@
 # Update history
 
+## 2026-11-24 — Individual operator queues and reviewed monthly sales
+
+Operators can hand an open case to a colleague. New lead alerts and follow-up reminders use the assigned account, and access is checked again before a pending notification is read. A returning customer can complete a later sale with another operator under that operator’s own account.
+
+Supervisors can see each operator’s open cases, untouched leads and due follow-ups beside the selected month’s approved invoice total. Synthetic accounting and permissions checks covered eligibility, evidence and exclusive invoice credit. Interactive browser fixtures exercised handoff and review in light and dark themes at phone and desktop widths. The production review returned a workload and monthly summary for an active operator.
+
 - [Evidence-based market advisor and search visibility — released](releases/manage-market-advisor-1.9.0.md)
 
 - [Brand decisions and faster management reports — released](releases/manage-competitor-decisions-1.6.1.md)
