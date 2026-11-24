@@ -1,6 +1,10 @@
 # Tier-aware loyalty notifications
 
-Release: 1.2.0 — November 17, 2026
+## Silver introductions · November 24, 2026
+
+New silver members receive the standard introduction with their current level, the next level (gold) and the value of their points. The message uses the short Persian name for silver in the field that accepts one word. Seasonal offers have their own wording. Local checks used an intercepted SMS transport to verify field order, credit values and duplicate handling.
+
+## November 17, 2026
 
 Club introductions now describe progress through future purchases, matching the configured qualification rules. They show the current tier and usable reward value without a numeric upgrade gap. The highest tier receives separate copy without an upgrade promise. Staff can select several tiers in one campaign; each explicit batch remains bounded and checks membership again before sending.
 

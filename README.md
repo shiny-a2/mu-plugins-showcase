@@ -16,7 +16,7 @@ This repository is documentation and sanitized portfolio proof only. It is not a
 
 ## Review Summary
 
-- [Full level names in club messages](docs/releases/club-exact-tier-labels-20261119.md): exact message names and a dedicated silver text slot, with provider approval kept explicit.
+- [Club introduction messages](docs/club-notification-sms.md): current level, next level and usable credit, including the regular silver introduction.
 
 - [Correct club introduction level names](docs/releases/club-approved-launch-tokens-20261119.md): installed alignment with approved message positions, with previous send protection retained.
 
