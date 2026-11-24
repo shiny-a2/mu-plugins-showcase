@@ -13,9 +13,3 @@ Release: `v1.0.0-cat-sync-control`, with availability closure recorded as `v1.0.
 A supplier list can mark a watch unavailable while a shop still has one on the shelf. The catalog preview now shows the supplier’s own availability for enrolled brands. Staff can reconcile a new list without taking those shop units off sale.
 
 In a WooCommerce integration test, a supplier withdrawal left three physical units available at their existing sale price. The same file could be replayed, and an older inventory report could not reverse the withdrawal.
-
-- [Evidence-based market advisor and search visibility — released](releases/manage-market-advisor-1.9.0.md)
-
-- [Brand decisions and faster management reports — released](releases/manage-competitor-decisions-1.6.1.md)
-- [November 4, 2026 updates](update-notes-2026-11-04.md)
-- [Product buy bar correction — released](releases/mobile-buybar-1.0.2-prepared.md)
