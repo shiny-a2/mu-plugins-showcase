@@ -13,3 +13,9 @@ Release: `v2.5.0-brand-directory`. Production source remains private; this note 
 The storefront now uses concise country guidance and a scrollable country collection. Each country collection offers a logo-led path to its related watch brands before the product list. The homepage brand collection, country collection and brand navigation use the same catalog relationships, so a newly cataloged brand can appear across those paths without a separate editorial list. An unknown origin is left ungrouped rather than guessed.
 
 The update preserves the existing category destinations and uses the shared storefront light/dark palette. Responsive checks covered logo fallback, new-brand inclusion, rail controls and cache invalidation boundaries. Live checks caught an archive template without a main landmark and dark logos with low contrast; both were corrected. A transient origin-map refresh failure also exposed a need to preserve the last valid catalog relationship during retries. Release: `v1.0.4-brand-country-discovery`.
+
+## Brand logos in dark mode
+
+Dark lettering on transparent logos was hard to read on the Black Friday carousel. In dark mode, each logo now sits on a small white background while the rest of its card keeps the storefront theme. The original artwork and brand colors are preserved. The same treatment applies to brand discovery on the homepage, in the brand directory and in country collections.
+
+After release, browser checks covered all four locations at 390 and 1440 pixels in both themes, including pointer hover and keyboard focus on brand links.
