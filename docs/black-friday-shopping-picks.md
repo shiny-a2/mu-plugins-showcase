@@ -25,3 +25,5 @@ The brand rail includes every eligible brand with a visible, in-stock sale produ
 The campaign now has a pool of twelve women’s references and twelve men’s references from seven brands. It alternates between the two groups while both have eligible watches. Only the first photograph loads initially. The first visit to another slide loads that watch’s WebP. The seven original WebP files together went from 190,324 to 136,194 bytes.
 
 The home banner combines the watch offer, cart action and link to the sale page in one place. Visitors can go back, advance or pause and see their position in the rotation. Browser checks exercised all 24 offers on the home and campaign layouts at three widths in light and dark mode.
+
+The Tissot PRX ice-blue reference now shows the full bracelet in its carousel photograph. The revised image has its own cache version so returning shoppers receive the corrected cutout.
