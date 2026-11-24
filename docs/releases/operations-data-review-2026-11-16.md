@@ -1,5 +1,13 @@
 # Released collection handoff and CRM invoice review
 
+## Monthly CRM decisions 1.0.3 — 2026-11-24
+
+An assigned application administrator can approve, reject or revoke CRM invoice decisions by operator and sales month. Other branch accounts still require an explicit review grant. A valid invoice without a prior contact record can receive a clearly identified manager attestation with a recorded reason; existing invoice validity and attribution boundaries remain enforced. Rejection and revocation also retain the reason, reviewer and earlier decision.
+
+Confirmed website/store totals update after each decision. Pending invoices and unmatched claims keep the monthly review open; completion describes the current invoice review. The shared workspace keeps newer decisions away from the old editor, and compatible readers preserve recorded attestations during interface recovery.
+
+Ninety-seven isolated SQL/access/accounting checks, legacy consumer/writer checks and existing privacy regressions pass. Interactive mobile/desktop light/dark fixtures cover approval, rejection, cancellation, manual review without contact history, reason validation, monthly totals and unresolved claims. No real decision, message or financial record was created for presentation tests. The expanded workflow is live. Read-only checks verified monthly totals, invoice detail, manager and assigned reviewer access, and guest and branch restrictions.
+
 ## Released customer standing repair — 2026-11-17
 
 Customers with an existing invoice could appear as unclassified or new because the first club tier was not saved, older accounts used a named login, or maintenance skipped missing records. The released repair addresses those causes and keeps account conflicts and accounting questions visible with a clear reason.
