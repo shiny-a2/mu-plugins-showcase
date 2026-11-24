@@ -1,5 +1,7 @@
 # MU Plugins Showcase
 
+Operators can dictate Persian text directly into a customer message, edit the draft and save it with a title using a single button. Phone and desktop browser checks exercised simulated speech input and template selection in both themes.
+
 The operator card now shows why a case closed and summarizes its latest recorded order, including the item, status and date when available. A missing browsing timestamp no longer appears as a claim that the customer never visited. Browser tests covered a closed sale with an order and no browsing history on phone and desktop in both themes.
 
 Operators can now save a reusable message while writing to a customer and carry the selected text into the SMS or chat workflow. Product sharing sits beside messaging in the card header, and operators can record the requested brand when a product is unavailable. Browser tests checked the message text and intended recipient using simulated requests at phone and desktop widths.
