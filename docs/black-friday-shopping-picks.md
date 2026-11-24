@@ -27,3 +27,9 @@ The campaign now has a pool of twelve women’s references and twelve men’s re
 The home banner combines the watch offer, cart action and link to the sale page in one place. Visitors can go back, advance or pause and see their position in the rotation. Browser checks exercised all 24 offers on the home and campaign layouts at three widths in light and dark mode.
 
 The Tissot PRX ice-blue reference now shows the full bracelet in its carousel photograph. The revised image has its own cache version so returning shoppers receive the corrected cutout.
+
+### Velvet carousel and ranked offers
+
+The home carousel places each watch against burgundy velvet and opens with the largest discount in its available photo selection. Shoppers can swipe or use the arrow keys to compare models. On a change, the watch photographs briefly crossfade while the price and cart action switch together. A separate rail displays high-discount watches from the wider catalog, with their product photographs and prices.
+
+Browser checks cycled through the 24 reference photographs at four widths in both themes. The checks also covered reduced motion, rapid navigation and the link between each displayed model and its cart action.
