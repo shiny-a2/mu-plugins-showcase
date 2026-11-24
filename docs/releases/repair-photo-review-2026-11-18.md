@@ -1,5 +1,5 @@
-# Marketplace photo review in Repair — prepared
+# Marketplace photo review in Repair
 
-A permitted reviewer can open a white-background proposal beside an individual marketplace watch photo in Repair. The shared editor compares both images and requires approval before replacing that photo. The thumbnail and enlarged view then use the approved version, while the previous photograph remains recoverable. Ordinary repair photos and read-only users retain their existing behavior.
+A reviewer can request a white-background proposal for a single watch photograph and compare it with the original. The processor keeps the watch pixels from the source, and replacing the image requires a separate reviewer decision.
 
-The implementation reuses the marketplace photo workflow rather than duplicating costs or decisions in Repair. Local checks cover the actual app shell and photo controls across 12 reviewer, reader and unavailable-integration states in both themes and phone/desktop widths. The existing 133 SQL checks for editable cases and saved drafts also passed. No real case, payment or message was created. Activation and natural-image quality remain pending.
+The workflow went live on 24 November 2026. A published catalogue image was processed through the production worker, returned for review, and retained its original attachment. Mobile and desktop checks covered the comparison, approval, rejection and recovery controls using synthetic records.
