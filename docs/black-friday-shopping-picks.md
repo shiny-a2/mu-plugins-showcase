@@ -13,3 +13,9 @@ During the sale, eligible postal destinations offer free standard post and paid 
 The countdown and free shipping end together at midnight Tehran time after 10 Azar. The home page then returns to its regular banners. WooCommerce schedules discounted products to return to their regular prices at the same time. Tests checked simple product and variation prices before and after the deadline, including the interval before the scheduled worker completes.
 
 The storefront uses the campaign name **بلک فرایدی جواهریان** in the countdown, home and landing headings, and banner captions. The landing page title also appears in search and social sharing metadata. The countdown’s accessible label includes the campaign name.
+
+### Shop a watch from the banner
+
+The home and sale banners rotate through seven watch references. Each offer pairs a cutout from that model’s catalog photograph with its current WooCommerce price, percentage discount and add-to-cart button. Shoppers can pause the rotation or advance to another watch. Reduced-motion preferences keep automatic playback off by default.
+
+The brand rail includes every eligible brand with a visible, in-stock sale product. Desktop and mobile checks covered the correspondence between each photograph, product link and cart form, as well as image loading and manual navigation in both themes.
