@@ -1,5 +1,11 @@
 # Tier-aware loyalty notifications
 
+## Birthday greetings and wallet credit · November 24, 2026
+
+Customers who paid with their birthday voucher before their birthday receive a greeting on the day itself. The greeting contains their name and the shop’s signature. A repeat run checks the previous attempt before contacting the provider.
+
+Wallet credit notifications resume for new eligible credits. Earlier entries remain available for staff review. Tests in an isolated WooCommerce shop covered unpaid orders, payment on the birthday, and repeated runs with outbound messaging intercepted.
+
 ## Silver introductions · November 24, 2026
 
 New silver members receive the standard introduction with their current level, the next level (gold) and the value of their points. The message uses the short Persian name for silver in the field that accepts one word. Seasonal offers have their own wording. Local checks used an intercepted SMS transport to verify field order, credit values and duplicate handling.
