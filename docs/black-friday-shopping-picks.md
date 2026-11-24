@@ -11,3 +11,5 @@ When a sale price, relevant availability or publication status changes, the camp
 During the sale, eligible postal destinations offer free standard post and paid express post. Selecting standard post explains the dispatch delay before the shopper confirms the order.
 
 The countdown and free shipping end together at midnight Tehran time after 10 Azar. The home page then returns to its regular banners. WooCommerce schedules discounted products to return to their regular prices at the same time. Tests checked simple product and variation prices before and after the deadline, including the interval before the scheduled worker completes.
+
+The storefront uses the campaign name **بلک فرایدی جواهریان** in the countdown, home and landing headings, and banner captions. The landing page title also appears in search and social sharing metadata. The countdown’s accessible label includes the campaign name.
