@@ -19,3 +19,9 @@ The storefront uses the campaign name **بلک فرایدی جواهریان** i
 The home and sale banners rotate through seven watch references. Each offer pairs a cutout from that model’s catalog photograph with its current WooCommerce price, percentage discount and add-to-cart button. Shoppers can pause the rotation or advance to another watch. Reduced-motion preferences keep automatic playback off by default.
 
 The brand rail includes every eligible brand with a visible, in-stock sale product. Desktop and mobile checks covered the correspondence between each photograph, product link and cart form, as well as image loading and manual navigation in both themes.
+
+### A larger rotation for the home page
+
+The campaign now has a pool of twelve women’s references and twelve men’s references from seven brands. It alternates between the two groups while both have eligible watches. Only the first photograph loads initially. The first visit to another slide loads that watch’s WebP. The seven original WebP files together went from 190,324 to 136,194 bytes.
+
+The home banner combines the watch offer, cart action and link to the sale page in one place. Visitors can go back, advance or pause and see their position in the rotation. Browser checks exercised all 24 offers on the home and campaign layouts at three widths in light and dark mode.
