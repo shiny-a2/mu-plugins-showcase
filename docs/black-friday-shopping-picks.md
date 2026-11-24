@@ -5,3 +5,9 @@ The campaign landing page gives shoppers a starting point for two different budg
 Candidate selection uses the store catalog. The page checks stock, visibility, the active discount and the product image before rendering. The landing page was checked on phones and desktops in both themes, including keyboard focus, card links and image loading.
 
 When a sale price, relevant availability or publication status changes, the campaign clears the ranked candidates and its cached landing page at the end of the request. Multiple updates in one request share a single refresh. Campaign tests cover the grouped refresh and its page scope.
+
+## Shipping and the end of the campaign
+
+During the sale, eligible postal destinations offer free standard post and paid express post. Selecting standard post explains the dispatch delay before the shopper confirms the order.
+
+The countdown and free shipping end together at midnight Tehran time after 10 Azar. The home page then returns to its regular banners. WooCommerce schedules discounted products to return to their regular prices at the same time. Tests checked simple product and variation prices before and after the deadline, including the interval before the scheduled worker completes.
