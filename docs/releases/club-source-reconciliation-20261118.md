@@ -1,0 +1,9 @@
+# Reviewed purchase sources and reliable club balances
+
+Retained accounting copies can make one purchase appear more than once in customer reports or purchase totals. The installed update keeps verified copies traceable while counting the original purchase once. An unchanged import preserves its reviewed amounts; a financial change still follows the existing manager review. Linked exchanges, payment allocations, receipt details and later stock counts retain their established behavior.
+
+A separately approved, bounded correction reconciled documented records and removed duplicate active rewards. Existing grants kept their identifiers and earning, activation and expiry dates. Wallet entries and prior debt were preserved. The same accounts' club levels were refreshed using the existing calculation, and the results were checked against invoices, rewards and recorded accounting decisions. Cases with unresolved evidence remain held for follow-up.
+
+Validation included actual SQL re-import and conditional-write checks, immutable-ledger checks, report and permission regressions, and twelve interactive states across mobile and desktop in both themes. The isolated WordPress, WooCommerce and MariaDB suite passed 191 integration assertions covering receipts, linked exchanges, stock, rollback and repeated imports. A native temporary-table fixture then passed fifteen adapter checks before installation and the approved correction. Independent readback confirmed the scoped invoice and grant outcomes, unchanged wallets and debt, and completed audit entries before and after level refresh.
+
+The four-file runtime release and bounded correction are installed. Protected backups and a scoped recovery journal were retained. This work did not create real purchases or send customer messages for testing. Authenticated customer acceptance and campaign delivery remain separate checks.

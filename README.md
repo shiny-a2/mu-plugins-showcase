@@ -2,7 +2,11 @@
 
 Released [per-photo background review](docs/releases/repair-photo-review-2026-11-18.md). The installed workflow returned a catalogue-photo preview for review.
 
+Installed operations update: [leaner month comparison in a private dashboard](docs/releases/manage-metric-comparison-2026-11-19.md); authenticated response-time measurement remains pending.
+
 Installed update: [supplier import follow-up and branch stock recovery](docs/releases/2026-11-16-supplier-import-automation.md), with live workflow observation still pending.
+
+Installed repair update: [registration and publication notifications](docs/releases/repair-market-notifications-2.17.2.md); physical-device receipt remains unverified.
 
 Latest repair workflow update: [editable cases and saved intake drafts](docs/releases/repair-case-drafts-2.17.0.md), released with installation and read-only access checks.
 Latest operations update: [automatic supplier locations from warranty providers](docs/releases/supplier-warranty-location-2026-11-15.md).
@@ -13,6 +17,22 @@ Public-safe umbrella showcase for private WordPress MU-plugin work across WooCom
 This repository is documentation and sanitized portfolio proof only. It is not a source mirror. Production MU-plugin source, logs, defensive implementation details, customer/order data, store identifiers, payment workflow details, and site-specific configuration stay private.
 
 ## Review Summary
+
+- [Club introduction messages](docs/club-notification-sms.md): current level, next level and usable credit, including the regular silver introduction.
+
+- [Correct club introduction level names](docs/releases/club-approved-launch-tokens-20261119.md): installed alignment with approved message positions, with previous send protection retained.
+
+- [Preserved error logs with bounded rotation](docs/releases/php-error-log-retention-2026-11-19.md): the installed operations update keeps prior diagnostics available and limits future log growth; the next scheduled rotation still needs observation.
+
+- [Administrative access recovery check](docs/releases/administrative-access-2026-11-19.md): a scoped production access change with an independent reconnection test and timed recovery path.
+
+- [Reliable archive filter counts](docs/releases/archive-filter-counts-2026-11-19.md): large category filters now complete bounded count work without showing partial options; cold response time remains a follow-up.
+
+- [Customer invoice clarity and club launch controls](docs/releases/club-launch-invoice-clarity-20261118.md): installed accounting references, explicit review states and clearer messaging counts, with native access checks.
+
+- [Reviewed purchase sources and club balances](docs/releases/club-source-reconciliation-20261118.md): installed duplicate-source safeguards and a verified bounded reconciliation, with wallet history and unresolved evidence preserved.
+
+- [Timed sale preview and brand discovery](docs/releases/timed-sale-preview-2026-11-18.md): a compact campaign countdown, temporary home introduction and automatically populated discounted-brand rail.
 
 - [Repair case editing and saved drafts](docs/releases/repair-case-drafts-2.17.0.md): capture a phone number during a busy intake, finish the same case later and review who changed its information.
 
