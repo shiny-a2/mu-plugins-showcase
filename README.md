@@ -1,5 +1,7 @@
 # MU Plugins Showcase
 
+Operators can now save a reusable message while writing to a customer and carry the selected text into the SMS or chat workflow. Product sharing sits beside messaging in the card header, and operators can record the requested brand when a product is unavailable. Browser tests checked the message text and intended recipient using simulated requests at phone and desktop widths.
+
 The operator customer card brings recent product views, cart additions and stock requests into the opening summary. It explains when the next contact is due and keeps branch selection beside the invitation that requires it. Browser tests covered choosing and changing an outcome on phone and desktop in light and dark themes.
 
 The [technician photo update](docs/releases/technician-photo-gallery-2026-11-24.md) adds per-photo review tools and navigation through enlarged watch images.
