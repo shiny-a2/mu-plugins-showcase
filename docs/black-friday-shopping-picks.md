@@ -33,3 +33,5 @@ The Tissot PRX ice-blue reference now shows the full bracelet in its carousel ph
 The home carousel places each watch against burgundy velvet and opens with the largest discount in its available photo selection. Shoppers can swipe or use the arrow keys to compare models. On a change, the watch photographs briefly crossfade while the price and cart action switch together. A separate rail displays high-discount watches from the wider catalog, with their product photographs and prices.
 
 Browser checks cycled through the 24 reference photographs at four widths in both themes. The checks also covered reduced motion, rapid navigation and the link between each displayed model and its cart action.
+
+The mobile layout keeps the watch, price and purchase button on the same fabric. Autoplay advances every three seconds while the carousel is visible and idle. Alongside percentage discounts, shoppers can browse two randomized collections: savings above ten million toman and sale prices between twenty and fifty million toman. Each collection opens at its matching section on the sale landing.
