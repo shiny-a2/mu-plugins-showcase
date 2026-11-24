@@ -1,5 +1,7 @@
 # MU Plugins Showcase
 
+The [verified profile update](docs/releases/verified-account-signin-2026-11-24.md) keeps named staff sign-in and customer history together.
+
 Operators can dictate Persian text directly into a customer message, edit the draft and save it with a title using a single button. Phone and desktop browser checks exercised simulated speech input and template selection in both themes.
 
 The operator card now shows why a case closed and summarizes its latest recorded order, including the item, status and date when available. A missing browsing timestamp no longer appears as a claim that the customer never visited. Browser tests covered a closed sale with an order and no browsing history on phone and desktop in both themes.
