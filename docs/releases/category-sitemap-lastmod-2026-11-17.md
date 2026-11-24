@@ -1,0 +1,5 @@
+# Accurate category update dates in sitemaps
+
+A shopping category could gain useful buying guidance or updated search metadata while its sitemap still showed the date of an older product edit. The site now records both category edits and changes to the page design selected for that category. The sitemap uses the later of the category and product dates. Ten documented brand-category updates also received conservative date-only records for their earlier editorial work. Product URLs and buying behavior were not changed.
+
+An uncached sitemap-index rebuild exposed a callback error and an older cache entry during release verification. The callback was corrected and both XML documents were regenerated. Focused PHP and sitemap behavior checks passed. The live index and category sitemap returned HTTP 200, all ten reviewed category entries showed dates no earlier than their documented edits, and sampled storefront pages still loaded with canonical links. Google indexing and ranking changes are not claimed.
