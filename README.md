@@ -1,5 +1,7 @@
 # MU Plugins Showcase
 
+The operator card shows the customer’s club tier, lead source and lead number beneath the contact details. Phone and lead numbers use Persian digits. Browser checks covered known and missing values at phone and desktop widths in both themes.
+
 The [verified profile update](docs/releases/verified-account-signin-2026-11-24.md) keeps named staff sign-in and customer history together.
 
 Operators can dictate Persian text directly into a customer message, edit the draft and save it with a title using a single button. Phone and desktop browser checks exercised simulated speech input and template selection in both themes.
