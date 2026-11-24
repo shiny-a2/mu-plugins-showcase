@@ -1,5 +1,7 @@
 # MU Plugins Showcase
 
+Operators can filter their personal notification center by lead, follow-up, chat and ticket. Opening a notice takes them to the assigned record and saves its read status across devices. Browser checks covered filtering, opening a ticket and refreshing the list in light and dark themes at phone and desktop widths.
+
 Released [per-photo background review](docs/releases/repair-photo-review-2026-11-18.md). The installed workflow returned a catalogue-photo preview for review.
 
 Installed operations update: [leaner month comparison in a private dashboard](docs/releases/manage-metric-comparison-2026-11-19.md); authenticated response-time measurement remains pending.
