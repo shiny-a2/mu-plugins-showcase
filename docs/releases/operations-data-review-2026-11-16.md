@@ -1,12 +1,12 @@
 # Released collection handoff and CRM invoice review
 
-## Prepared monthly CRM decisions 1.0.2 — 2026-11-17
+## Monthly CRM decisions 1.0.3 — 2026-11-24
 
 An assigned application administrator can approve, reject or revoke CRM invoice decisions by operator and sales month. Other branch accounts still require an explicit review grant. A valid invoice without a prior contact record can receive a clearly identified manager attestation with a recorded reason; existing invoice validity and attribution boundaries remain enforced. Rejection and revocation also retain the reason, reviewer and earlier decision.
 
 Confirmed website/store totals update after each decision. Pending invoices and unmatched claims keep the monthly review open; completion describes the current invoice review. The shared workspace keeps newer decisions away from the old editor, and compatible readers preserve recorded attestations during interface recovery.
 
-Ninety-six isolated SQL/access/accounting checks, legacy consumer/writer checks and existing privacy regressions pass. Interactive mobile/desktop light/dark fixtures cover approval, rejection, cancellation, manual review without contact history, reason validation, monthly totals and unresolved claims. No real decision, message or financial record was created for presentation tests. Activation of this expanded update is pending approval.
+Ninety-seven isolated SQL/access/accounting checks, legacy consumer/writer checks and existing privacy regressions pass. Interactive mobile/desktop light/dark fixtures cover approval, rejection, cancellation, manual review without contact history, reason validation, monthly totals and unresolved claims. No real decision, message or financial record was created for presentation tests. The expanded workflow is live. Read-only checks verified monthly totals, invoice detail, manager and assigned reviewer access, and guest and branch restrictions.
 
 Two related operational improvements were released after explicit owner approval. Deployed source, scoped recovery material and separate account permissions were read back. The checks below establish the stated release boundaries; authenticated owner-browser acceptance remains separate.
 
