@@ -2,6 +2,10 @@
 
 Customers can see how much an occasion gift is worth, when it expires and how to use it on one simple page. Birthday and wedding gifts follow the same purchase-based discount tiers, become available a week before the event and expire at the end of the following day. One reminder replaces the earlier sequence of messages.
 
+Released follow-up: a safe birthday-page preview displays the experience without a working voucher or personal data. Eligible gift visitors see a short balloon celebration on the invitation and one subsequent store page, with a gentler reduced-motion presentation. Existing signed customer links and coupon rules remain unchanged. Local light/dark phone and desktop checks passed; the published preview returned private, no-store and noindex headers. No real message delivery or coupon issuance was tested.
+
+The mobile celebration uses a lighter overlay to keep the invitation text easy to read.
+
 New gift codes are short and traceable internally. Existing unused codes can retain their original text while moving to the new terms. Coupons remain tied to the intended customer, and conversion has a guarded recovery path. The gift page includes a countdown, code copying, concise instructions and a route back to the store. The account panel links to the same explanation.
 
 The contact hub has corrected branch telephone attribution, a gold branch shortcut and a rules tile. Its original unframed wordmark and dark first-visit appearance are retained, while a saved light/dark choice is respected. The three main destinations share a consistent gold treatment. Gift and service terms are aligned across the relevant pages. Annual credit reminders move to ten days before year-end, with paid funds kept separate from promotional expiry. Earned-points messages remain paused.
