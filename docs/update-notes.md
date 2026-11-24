@@ -6,6 +6,8 @@ Operators can hand an open case to a colleague. New lead alerts and follow-up re
 
 Supervisors can see each operator’s open cases, untouched leads and due follow-ups beside the selected month’s approved invoice total. Synthetic accounting and permissions checks covered eligibility, evidence and exclusive invoice credit. Interactive browser fixtures exercised handoff and review in light and dark themes at phone and desktop widths. The production review returned a workload and monthly summary for an active operator.
 
+Restricted branch sellers can browse the catalog and product pages while their internal panels retain their existing scope. Both branch policies passed production read checks. Public catalog and product HTML returned by the shop was inspected in four browser layouts, including filters and gallery navigation. A direct browser request from the external test network returned a 404, so that check does not establish a signed-in seller journey.
+
 - [Evidence-based market advisor and search visibility — released](releases/manage-market-advisor-1.9.0.md)
 
 - [Brand decisions and faster management reports — released](releases/manage-competitor-decisions-1.6.1.md)
