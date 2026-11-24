@@ -1,5 +1,7 @@
 # MU Plugins Showcase
 
+The [repair queue update](docs/releases/repair-branch-queue-2026-11-24.md) keeps branch views separate and opens case details on demand.
+
 An open case with a missed first-response deadline can now pass to another eligible sales operator. The case note names both operators and records the missed deadline. A manual transfer button is available in the case header. Tests covered repeated checks, excluded cases and rollback when the note could not be saved.
 
 The operator card shows the customer’s club tier, lead source and lead number beneath the contact details. Phone and lead numbers use Persian digits. Browser checks covered known and missing values at phone and desktop widths in both themes.
