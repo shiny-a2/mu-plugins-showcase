@@ -1,5 +1,7 @@
 # MU Plugins Showcase
 
+The operator customer card brings recent product views, cart additions and stock requests into the opening summary. It explains when the next contact is due and keeps branch selection beside the invitation that requires it. Browser tests covered choosing and changing an outcome on phone and desktop in light and dark themes.
+
 The [technician photo update](docs/releases/technician-photo-gallery-2026-11-24.md) adds per-photo review tools and navigation through enlarged watch images.
 
 Operators can filter their personal notification center by lead, follow-up, chat and ticket. Opening a notice takes them to the assigned record and saves its read status across devices. Browser checks covered filtering, opening a ticket and refreshing the list in light and dark themes at phone and desktop widths.
