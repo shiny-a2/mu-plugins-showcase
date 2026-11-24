@@ -17,3 +17,5 @@ In a WooCommerce integration test, a supplier withdrawal left three physical uni
 ### Comparing a complete brand inventory
 
 A supplier's complete inventory can now be compared with the watches that supplier has available for the named brand. The store checks the brand, supplier, model and product identity. This lets staff act on a missing model while keeping stock from other suppliers and physical shops separate. An integration test checked brand isolation and confirmed that a watch stocked only at a shop was excluded from the supplier list.
+
+An operator can link an alternate model number to an individual existing product. The shop checks its title, brand, reference and competing catalogue matches again before applying a later file. Similar names alone do not qualify a product for a price change.
