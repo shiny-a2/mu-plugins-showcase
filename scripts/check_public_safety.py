@@ -31,6 +31,7 @@ APPROVED_PATHS = frozenset(
         "docs/releases/repair-market-notifications-2.17.2.md",
         "docs/releases/repair-photo-review-2026-11-18.md",
         "docs/releases/technician-photo-gallery-2026-11-24.md",
+        "docs/releases/verified-account-signin-2026-11-24.md",
         "docs/releases/repair-case-drafts-2.17.0.md",
         "docs/releases/timed-sale-preview-2026-11-18.md",
         "docs/releases/branch-exchange-review-2026-11-18.md",
