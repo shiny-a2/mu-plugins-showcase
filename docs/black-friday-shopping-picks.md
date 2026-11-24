@@ -35,3 +35,5 @@ The home carousel places each watch against burgundy velvet and opens with the l
 Browser checks cycled through the 24 reference photographs at four widths in both themes. The checks also covered reduced motion, rapid navigation and the link between each displayed model and its cart action.
 
 The mobile layout keeps the watch, price and purchase button on the same fabric. Autoplay advances every three seconds while the carousel is visible and idle. Alongside percentage discounts, shoppers can browse two randomized collections: savings above ten million toman and sale prices between twenty and fifty million toman. Each collection opens at its matching section on the sale landing.
+
+The carousel now shows the discount percentage on a solid ticket against the velvet. The digits stay together as the watch changes. Browser checks covered all 24 slides at four widths in light and dark themes.
