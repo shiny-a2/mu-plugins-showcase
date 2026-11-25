@@ -1,5 +1,9 @@
 # Update history
 
+## 2026-11-25 — Resume cache warming after load pauses
+
+- [Return unstarted warm requests to the queue](releases/cache-warmer-load-deferral-2026-11-25.md) — released with preserved cached pages and bounded lifecycle regression coverage.
+
 ## 2026-11-25 — Preserve transformed homepage output
 
 - [Avoid repeated homepage rendering](releases/home-render-once-2026-11-25.md) — released and checked on the live storefront; uncached rendering remains open.
