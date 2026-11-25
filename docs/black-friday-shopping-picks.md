@@ -45,3 +45,9 @@ The homepage rotates through up to 100 available sale watches. Featured brands t
 Automatic rotation advances every 1.5 seconds while the carousel is on screen. A slow photograph keeps the current watch visible until the next one is ready. Shoppers can pause, use the arrows, or follow their device’s reduced-motion setting. Mobile and desktop checks covered both themes, and a full rotation verified the photograph and purchase target for all 100 watches.
 
 The carousel also includes one or two references per additional brand with a current sale price between 15 and 25 million toman. These watches appear throughout the rotation. The store checks availability and price before rendering each offer. The updated selection was tested across a full rotation with 34 new photographs from 20 brands.
+
+### One turn for every brand
+
+The homepage now shows one watch from each represented brand before showing a second model from any brand. It favors sale prices between 15 and 25 million toman. Brands with sale watches only at other prices still appear. The order varies across visits, and the sale price and discount are easier to read beside the watch on smaller screens.
+
+A launch preview cycled through 133 distinct watches from 69 brands and sub-brands. Mobile and desktop checks covered the centered playback controls, keyboard navigation, light and dark themes, and the link between each photograph and its product.
