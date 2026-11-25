@@ -1,5 +1,7 @@
 # MU Plugins Showcase
 
+The [cold competitor report update](docs/releases/competitor-cold-report-2026-11-25.md) records the released equal-result performance improvement with original evidence retained.
+
 The [source availability update](docs/releases/competitor-source-availability-2026-11-25.md) separates complete inventory, sampled analysis and upstream collection failures.
 
 The [daily competitor-evidence update](docs/releases/competitor-activity-reuse-2026-11-25.md) removes repeated processing while retaining the same management report.

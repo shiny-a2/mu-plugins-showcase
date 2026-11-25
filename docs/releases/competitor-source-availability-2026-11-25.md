@@ -6,4 +6,4 @@ A complete store inventory can use a smaller reference sample for detailed analy
 
 The collector preserves previous observations when a source is unavailable. A hosting error returned with HTTP 200 cannot become an empty catalogue or a sales signal. A new native attempt reached the site's authenticated status receiver, while the original snapshots remained unchanged. No access restrictions were bypassed.
 
-Validation covered 162 collector checks, the paired PHP receiver and interactive mobile/desktop light and dark layouts. Native manager access, guest denial and deployed source hashes were checked. The separate durable-summary improvement for cold reports passed local database tests but still awaits production migration approval; a production speedup is not claimed here.
+Validation covered 162 collector checks, the paired PHP receiver and interactive mobile/desktop light and dark layouts. Native manager access, guest denial and deployed source hashes were checked. The separately approved [durable-summary update](competitor-cold-report-2026-11-25.md) is now installed, with its native equal-result comparison recorded there.
