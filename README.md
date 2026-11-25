@@ -251,3 +251,5 @@ Read the full boundary in `docs/privacy-boundary.md`.
 [Bulk-editor compatibility update — October 31, 2026](docs/releases/2026-10-31-bulk-editor.md).
 
 Latest repair update: [assigned marketplace access and reliable upload retries](docs/releases/repair-marketplace-scope-2026-11-05.md).
+
+[Order correction wallet refunds](docs/releases/order-exchange-wallet-1.8.0.md) covers the new payout option for exchange differences.
