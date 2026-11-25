@@ -1,5 +1,7 @@
 # MU Plugins Showcase
 
+The [source availability update](docs/releases/competitor-source-availability-2026-11-25.md) separates complete inventory, sampled analysis and upstream collection failures.
+
 The [daily competitor-evidence update](docs/releases/competitor-activity-reuse-2026-11-25.md) removes repeated processing while retaining the same management report.
 
 The [Repair photo and confirmation update](docs/releases/repair-photo-framing-confirmations-2026-11-25.md) makes watch decisions deliberate and photo replacement easier to review.

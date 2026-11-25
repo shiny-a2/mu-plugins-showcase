@@ -1,5 +1,7 @@
 # Update history
 
+- [Competitor collection status and retained evidence](releases/competitor-source-availability-2026-11-25.md) — released; cold-summary activation remains pending.
+
 ## 2026-11-24 — Call alerts after refreshing the operator panel
 
 Refreshing the panel used to interrupt operators by opening a customer file for a call they had already seen. The panel now takes account of calls already in progress when it opens or reconnects. A new call can open its customer file once, and an operator can dismiss it or continue editing a draft. Local browser tests covered refresh, reconnection and dismissal in light and dark themes on mobile and desktop.
