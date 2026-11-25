@@ -37,3 +37,9 @@ Browser checks cycled through the 24 reference photographs at four widths in bot
 The mobile layout keeps the watch, price and purchase button on the same fabric. Autoplay advances every three seconds while the carousel is visible and idle. Alongside percentage discounts, shoppers can browse two randomized collections: savings above ten million toman and sale prices between twenty and fifty million toman. Each collection opens at its matching section on the sale landing.
 
 The carousel now shows the discount percentage on a solid ticket against the velvet. The digits stay together as the watch changes. Browser checks covered all 24 slides at four widths in light and dark themes.
+
+### A hundred watches on the homepage
+
+The homepage can now rotate through up to 100 available sale watches from seven brands. It selects the largest percentage discounts first and shares the remaining places among brands with equally strong offers. Each watch uses a cutout from its own photograph, and its price and purchase button follow the same reference.
+
+Automatic rotation advances every 1.5 seconds while the carousel is on screen. A slow photograph keeps the current watch visible until the next one is ready. Shoppers can pause, use the arrows, or follow their device’s reduced-motion setting. Mobile and desktop checks covered both themes, and a full rotation verified the photograph and purchase target for all 100 watches.
