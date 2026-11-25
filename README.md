@@ -1,6 +1,6 @@
 # MU Plugins Showcase
 
-Prepared: [supplier source-price verification](docs/releases/supplier-price-evidence-2026-11-25.md), tested locally; deployment and production acceptance remain pending.
+Prepared: [supplier source-price verification](docs/supplier-feed-controls.md), tested locally; deployment and production acceptance remain pending.
 
 Installed: [approved image publication compatibility](docs/releases/approved-image-publication-2026-11-25.md), checked in a disposable store and on two live product pages.
 
