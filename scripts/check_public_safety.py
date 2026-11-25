@@ -25,6 +25,7 @@ APPROVED_PATHS = frozenset(
     {
         "docs/releases/approved-image-publication-2026-11-25.md",
         "docs/releases/competitor-cold-report-2026-11-25.md",
+        "docs/releases/order-exchange-wallet-1.8.0.md",
         "docs/releases/competitor-source-availability-2026-11-25.md",
         "docs/releases/competitor-activity-reuse-2026-11-25.md",
         "docs/releases/repair-photo-framing-confirmations-2026-11-25.md",
