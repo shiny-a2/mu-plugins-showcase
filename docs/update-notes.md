@@ -1,5 +1,9 @@
 # Update history
 
+## 2026-11-25 — Installment partners in the footer
+
+Shoppers can find the installment partners above the copyright line on phones and desktops. Every entry has a Persian label. Ten entries use locally hosted logos on a light background so the marks remain legible in either theme. Novin appears by name pending confirmation of the partner’s logo.
+
 - [Less repeated homepage work](releases/home-render-performance-2026-11-25.md) — released with anonymous storefront verification; uncached rendering remains a follow-up.
 
 ## 2026-11-25 — Mobile product footer
