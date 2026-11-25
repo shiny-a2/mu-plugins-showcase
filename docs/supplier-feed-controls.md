@@ -15,6 +15,8 @@ and desktop fragments. No real orders or financial changes were created. This
 candidate is not deployed; production theme/cache acceptance and a reviewed
 supplier coverage manifest remain required before activation.
 
+## Existing feed controls (v1.0.0)
+
 A shared supplier channel now has persistent administrator-only on/off/status controls. Reader and writer checks use the same state, stop disabled reads without replacing valid snapshots and prevent stale plans from updating the catalog. Invalid state fails closed. Independent feeds retain their existing behavior.
 
 The administrative control is available in private messaging, with authorization rechecked for each action. Scheduling follows the same switch. Live read-only checks confirm paused reader/writer behavior and enabled primary services; eight offline checks cover recovery, authorization boundaries and disabled-write protection.
