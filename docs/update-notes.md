@@ -1,5 +1,9 @@
 # Update history
 
+## 2026-11-25 — Earlier carousel image discovery
+
+- [Responsive background discovery](releases/carousel-background-discovery-2026-11-25.md) — tested and prepared; production verification pending.
+
 ## 2026-11-25 — Resume cache warming after load pauses
 
 - [Return unstarted warm requests to the queue](releases/cache-warmer-load-deferral-2026-11-25.md) — released with preserved cached pages and bounded lifecycle regression coverage.
