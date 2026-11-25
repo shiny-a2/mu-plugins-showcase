@@ -1,5 +1,7 @@
 # MU Plugins Showcase
 
+Prepared: [supplier source-price verification](docs/supplier-feed-controls.md), tested locally; deployment and production acceptance remain pending.
+
 Installed: [approved image publication compatibility](docs/releases/approved-image-publication-2026-11-25.md), checked in a disposable store and on two live product pages.
 
 The [cold competitor report update](docs/releases/competitor-cold-report-2026-11-25.md) records the released equal-result performance improvement with original evidence retained.
