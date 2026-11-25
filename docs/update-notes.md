@@ -1,6 +1,6 @@
 # Update history
 
-- [Less repeated homepage work](releases/home-render-performance-2026-11-25.md) — prepared for staged release.
+- [Less repeated homepage work](releases/home-render-performance-2026-11-25.md) — released with anonymous storefront verification; uncached rendering remains a follow-up.
 
 ## 2026-11-25 — Mobile product footer
 
