@@ -1,5 +1,7 @@
 # Update history
 
+- [Faster cold competitor reports](releases/competitor-cold-report-2026-11-25.md) — released with native equal-result verification.
+
 - [Competitor collection status and retained evidence](releases/competitor-source-availability-2026-11-25.md) — released; cold-summary activation remains pending.
 
 ## 2026-11-24 — Call alerts after refreshing the operator panel
