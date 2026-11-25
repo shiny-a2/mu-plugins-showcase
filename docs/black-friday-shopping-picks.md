@@ -30,7 +30,7 @@ The Tissot PRX ice-blue reference now shows the full bracelet in its carousel ph
 
 ### Velvet carousel and ranked offers
 
-The home carousel places each watch against burgundy velvet and opens with the largest discount in its available photo selection. Shoppers can swipe or use the arrow keys to compare models. On a change, the watch photographs briefly crossfade while the price and cart action switch together. A separate rail displays high-discount watches from the wider catalog, with their product photographs and prices.
+The home carousel places each watch against burgundy velvet and prioritizes stronger discounts within each featured brand. Shoppers can swipe or use the arrow keys to compare models. On a change, the watch photographs briefly crossfade while the price and cart action switch together. A separate rail displays high-discount watches from the wider catalog, with their product photographs and prices.
 
 Browser checks cycled through the 24 reference photographs at four widths in both themes. The checks also covered reduced motion, rapid navigation and the link between each displayed model and its cart action.
 
@@ -40,6 +40,8 @@ The carousel now shows the discount percentage on a solid ticket against the vel
 
 ### A hundred watches on the homepage
 
-The homepage can now rotate through up to 100 available sale watches from seven brands. It selects the largest percentage discounts first and shares the remaining places among brands with equally strong offers. Each watch uses a cutout from its own photograph, and its price and purchase button follow the same reference.
+The homepage rotates through up to 100 available sale watches. Featured brands take turns, with the largest discounts earlier in each brand’s selection. Each watch uses a cutout from its own photograph, and its price and purchase button follow the same reference.
 
 Automatic rotation advances every 1.5 seconds while the carousel is on screen. A slow photograph keeps the current watch visible until the next one is ready. Shoppers can pause, use the arrows, or follow their device’s reduced-motion setting. Mobile and desktop checks covered both themes, and a full rotation verified the photograph and purchase target for all 100 watches.
+
+The carousel also includes one or two references per additional brand with a current sale price between 15 and 25 million toman. These watches appear throughout the rotation. The store checks availability and price before rendering each offer. The updated selection was tested across a full rotation with 34 new photographs from 20 brands.
