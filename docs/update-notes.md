@@ -1,5 +1,7 @@
 # Update history
 
+- [Less repeated homepage work](releases/home-render-performance-2026-11-25.md) — prepared for staged release.
+
 ## 2026-11-25 — Mobile product footer
 
 On a sold-out watch, the stock alert now sits in the middle of the footer, including when a checkout link is present. An opaque surface and higher-contrast buttons and icons make the footer easier to read in the dark theme. Browser checks covered the alert dialog, keyboard focus and footer layout in both themes.
