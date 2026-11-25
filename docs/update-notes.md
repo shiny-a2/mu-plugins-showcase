@@ -2036,3 +2036,7 @@ Automated checks cover copy and service pricing behavior. A browser fixture comp
 # 2026-10-18 — Customer preview club and service separation
 
 Grouped the original read-only membership views in the isolated preview and added owner-scoped recent account activity. A data-level repair filter prevents unrelated sales from appearing as repairs. Synthetic browser fixtures now cover six membership levels, service-specific feedback, responsive guided tours and light/dark interaction states. Security checks exercised ownership, request validation, repeat submissions and local test sign-in. Value-changing rewards and production release remain outside this preview.
+
+### Order correction refunds — November 25, 2026
+
+Version 1.7.2 keeps the calculated refund separate from the amount an operator records as paid. Two operators trying to undo the same correction can now restore the order only once. In a WooCommerce test, simultaneous requests restored one product line, one shipping line and one stock adjustment. The deployed plugin and its undo handler were verified on the store.
