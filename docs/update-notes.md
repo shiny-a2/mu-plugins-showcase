@@ -1,5 +1,9 @@
 # Update history
 
+## 2026-11-28 — Reconcile a sold-out catalog listing
+
+- Corrected one listing that still showed supplier availability after its last counted unit sold. Preserved price and inventory history, and confirmed the public listing and share metadata now agree on availability. The correction used an exact pre-change check and a recoverable record. A broader importer change remains in staging review.
+
 ## 2026-11-25 — Earlier carousel image discovery
 
 - [Responsive background discovery](releases/carousel-background-discovery-2026-11-25.md) — tested and prepared; production verification pending.
