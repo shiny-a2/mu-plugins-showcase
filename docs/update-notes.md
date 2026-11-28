@@ -2,6 +2,7 @@
 
 ## 2026-11-28 — Reconcile a sold-out catalog listing
 
+- Prepared two existing inventory import paths to record exact input evidence. Fifteen focused staging checks covered receipt renewal, a concurrent branch writer, an active WooCommerce reservation and preservation of valid availability after an interrupted write. Production activation of the import changes remains pending source verification.
 - Corrected one listing that still showed supplier availability after its last counted unit sold. Preserved price and inventory history, and confirmed the public listing and share metadata now agree on availability. The correction used an exact pre-change check and a recoverable record. A broader importer change remains in staging review.
 
 ## 2026-11-25 — Earlier carousel image discovery
